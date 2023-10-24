@@ -26,6 +26,7 @@ export default function Home() {
             Get started by editing&nbsp;
             <code className={styles.code}>10月総合課題</code>
           </p>
+          <p className='text-3xl font-bold underline'>Tailwind test</p>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

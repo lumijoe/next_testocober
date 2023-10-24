@@ -1,3 +1,7 @@
+/* globals.cssをtailwind.cssとしての使い方で書き換え */
+/* tailwindのカスタマイズを設定 */
+/* デフォルト設定はtailwind.config.jsファイルを参照 */
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

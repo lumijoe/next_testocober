@@ -13,6 +13,7 @@ export default function test () {
             <Layout>
                 <div>
                     <h2>Layout children</h2>
+                    <p>Latyout </p>
                 </div>
             </Layout>
 
