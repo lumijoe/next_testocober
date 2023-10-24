@@ -5,6 +5,7 @@ import Head from 'next/head'                     // Headを使用する時に必
 import Image from 'next/image'                   // Imageを使用する時に必要
 import { Inter } from 'next/font/google'         // font
 import styles from '@/styles/Home.module.css'    // css
+import Link from 'next/link'                     // link
 
 // コンポーネントのimport
 import Layout from '../components/Layout'        // Layout
@@ -55,6 +56,12 @@ export default function Home() {
             height={37}
             priority
           />
+        </div>
+
+        <div>
+          <Link href="/test">
+             テストページに遷移 →
+          </Link>
         </div>
 
         <div className={styles.grid}>
