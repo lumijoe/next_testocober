@@ -7,6 +7,8 @@ import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import BtnMore from '../components/Button/BtnMore'
 import BtnCategories from '../components/Button/BtnCategories'
+import Card from '../components/Card'
+
 
 export default function test () {
     return (
@@ -19,6 +21,7 @@ export default function test () {
                     <h2>Layout children</h2>
                     <BtnMore />
                 </div>
+                <Card />
                 <div>
                     <BtnCategories />
                 </div>
