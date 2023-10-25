@@ -18,16 +18,15 @@ export default function Hero() {
     const scrollWidth = content.offsetWidth - container.offsetWidth;
 
     gsap.to(content, {
-      x: -800,        // アニメーション速度
-      duration: 5,    // アニメーションの完了までの時間
+      x: -1500,        // アニメーション速度
+      duration: 10,    // アニメーションの完了までの時間
       repeat: -1,     // 無限に繰り返す
       ease: "linear", // 線形のアニメーション
     });
   }, []);
 
   return (
-    <div>
-      <h1 className='bg-sky-700'>HERO AREA TOP</h1>
+    <div className='static'>
       <div
         ref={containerRef}
         className="overflow-hidden relative"
@@ -49,7 +48,7 @@ export default function Hero() {
             priority
           />
           <Image
-            src="/image03.jpg"
+            src="/img03.jpg"
             alt="Image"
             width={600}
             height={400}
@@ -57,13 +56,6 @@ export default function Hero() {
           />
           <Image
             src="/img04.jpg"
-            alt="Image"
-            width={600}
-            height={400}
-            priority
-          />
-          <Image
-            src="/img05.jpg"
             alt="Image"
             width={600}
             height={400}
@@ -91,7 +83,7 @@ export default function Hero() {
             priority
           />
           <Image
-            src="/image03.jpg"
+            src="/img03.jpg"
             alt="Image"
             width={600}
             height={400}
@@ -119,9 +111,9 @@ export default function Hero() {
             priority
           />
         </div>
-        <div className='absolute inset-0 bg-black opacity-70' />
-        <div className='absolute relative inset-0'>
-          <p className='absolute text-white text-8xl -left-1/2 rotate-90'>PORTFOLIO</p>
+        <div className='absolute inset-0 bg-gray-950 opacity-50' />
+        <div>
+          <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ top: "42vh", left: "-125px" }}>PORTFOLIO</p>
         </div>
 
       </div>

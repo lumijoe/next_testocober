@@ -5,7 +5,7 @@ import React from 'react';
 export default function Header2() {
     return(
         <div>
-            <header className=' relative bg-stone-950 h-0.8px'> 
+            <header className=' relative bg-stone-950' style={{ height: "52px" }}> 
                  {/* グローバルナビゲーション */}
                 <div className="header-inner fixed">
                     <button className="navmenu" type="button" tabindex="0" onfocus="toggleFocus(this)" onblur="toggleFocus(this)">

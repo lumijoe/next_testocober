@@ -17,6 +17,7 @@ export default function test2() {
                 <Card />
             </div>
             <div>
+                <h2>NEXT.js</h2>
                 <BtnCategories />
             </div>
             <div>
