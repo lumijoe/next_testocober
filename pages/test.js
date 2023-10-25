@@ -8,15 +8,15 @@ import Layout from '../components/Layout'
 import BtnMore from '../components/Button/BtnMore'
 import BtnCategories from '../components/Button/BtnCategories'
 import Card from '../components/Card'
+import WorksItem from '../components/WorksItem'
 
 
 export default function test () {
     return (
         <div>
-            <Header />
-            <Hero />
-            <Footer />
             <Layout>
+                <h1>test</h1>
+                <Hero />
                 <div>
                     <h2>Layout children</h2>
                     <BtnMore />
@@ -24,6 +24,12 @@ export default function test () {
                 <Card />
                 <div>
                     <BtnCategories />
+                </div>
+                <div>
+                    <WorksItem />
+                    <WorksItem />
+                    <WorksItem />
+                    <WorksItem />
                 </div>
             </Layout>
         </div>
