@@ -10,9 +10,9 @@ import WorksItem from '@/components/WorksItem';
 
 export default function test2() {
     return (
-        <div>
+        <div className='relative'>
             <Header2 />
-            <Hero className="mt-0.8px" />
+            <Hero />
             <div>
                 <Card />
             </div>

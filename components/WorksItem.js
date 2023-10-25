@@ -10,14 +10,15 @@ export default function WorksItem() {
             <div className='max-w-md mx-auto bg-white rounded-sm shadow-md overflow-hidden md:max-w-2xl'>
                 <div className='md:flex'>
                     <div className='md:shrink-0'>
-                        <Image
-                            className='h-60 w-full object-cover md:h-full md:w-48'
-                            src="/image01.jpg"
-                            alt="Hero img"
-                            width={300}
-                            height={300}
-                            priority
-                        />  
+                        <div style={{ position: "relative", height: "30vh" }}>
+                            <Image
+                                className='h-60 w-full object-cover md:h-full md:w-48'
+                                src="/image01.jpg"
+                                alt="Hero img"
+                                fill style={{ objectFit: "cover" }}
+                                priority
+                            />  
+                        </div>
                     </div>
                     <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>#Next.js #React #Firebase #Tailwindcss</div>

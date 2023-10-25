@@ -18,9 +18,9 @@ export default function Hero() {
     const scrollWidth = content.offsetWidth - container.offsetWidth;
 
     gsap.to(content, {
-      x: -500,
-      duration: 5, // アニメーションの完了までの時間
-      repeat: -1, // 無限に繰り返す
+      x: -800,        // アニメーション速度
+      duration: 5,    // アニメーションの完了までの時間
+      repeat: -1,     // 無限に繰り返す
       ease: "linear", // 線形のアニメーション
     });
   }, []);
@@ -28,35 +28,99 @@ export default function Hero() {
   return (
     <div>
       <h1 className='bg-sky-700'>HERO AREA TOP</h1>
-    <div
-      ref={containerRef}
-      className="overflow-hidden"
-      style={{ width: "100vw", height: "100vw" }}
-    >
-      <div ref={contentRef} className="flex">
-        <Image
-          src="/image01.jpg"
-          alt="Image"
-          width={600}
-          height={400}
-          priority
-        />
-        <Image
-          src="/image01.jpg"
-          alt="Image"
-          width={600}
-          height={400}
-          priority
-        />
-        <Image
-          src="/image01.jpg"
-          alt="Image"
-          width={600}
-          height={400}
-          priority
-        />
+      <div
+        ref={containerRef}
+        className="overflow-hidden relative"
+        style={{ width: "100vw", height: "100vh" }}
+      >
+        <div ref={contentRef} className="flex relative">
+          <Image
+            src="/img01.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img02.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/image03.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img04.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img05.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img06.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img01.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img02.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/image03.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img04.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img05.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img06.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+        </div>
+        <div className='absolute inset-0 bg-black opacity-70' />
       </div>
-    </div>
     </div>
   );
 }
