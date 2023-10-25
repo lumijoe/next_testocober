@@ -113,7 +113,7 @@ export default function Hero() {
         </div>
 
         {/* component/Heroのoverlay */}
-        <div className='absolute inset-0 bg-gray-950 opacity-50' />
+        <div className='absolute inset-0 bg-gray-950 opacity-80' />
         
         {/* overlay上のHeroTitle */}
         <div>
