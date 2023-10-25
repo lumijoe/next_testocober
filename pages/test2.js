@@ -2,10 +2,10 @@
 
 import React from 'react';
 import Header2 from '../components/Header2';
-import Hero from '../components/Hero';
 import Card from '../components/Card';
 import BtnCategories from '@/components/Button/BtnCategories';
 import WorksItem from '@/components/WorksItem';
+import Hero from '@/components/Hero';
 
 
 export default function test2() {

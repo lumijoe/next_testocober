@@ -120,6 +120,10 @@ export default function Hero() {
           />
         </div>
         <div className='absolute inset-0 bg-black opacity-70' />
+        <div className='absolute relative inset-0'>
+          <p className='absolute text-white text-8xl -left-1/2 rotate-90'>PORTFOLIO</p>
+        </div>
+
       </div>
     </div>
   );

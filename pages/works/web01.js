@@ -10,7 +10,7 @@ export default function Web01() {
             <Header2 />
             <div style={{ position: "relative", height: "30vh" }}>
                 <Image
-                    className='h-60 w-full object-cover md:h-full md:w-48'
+                    className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
                     src="/image01.jpg"
                     alt="Hero img"
                     fill style={{ objectFit: "cover" }}
