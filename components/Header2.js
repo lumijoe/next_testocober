@@ -1,6 +1,7 @@
 // components/Header2.js
 
 import React from 'react';
+import Gallery from '../components/Gallery';
 
 export default function Header2() {
     return(
@@ -21,6 +22,7 @@ export default function Header2() {
                         <h1>Works</h1>
                     </div>
                 </div>
+                <Gallery />
             </header>
         </div>
     )
