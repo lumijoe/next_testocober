@@ -6,6 +6,7 @@ import Image from 'next/image'                   // Imageを使用する時に�
 import { Inter } from 'next/font/google'         // font
 import styles from '@/styles/Home.module.css'    // css
 import Link from 'next/link'                     // link
+import Btn from '../components/Button/Btn'
 
 // コンポーネントのimport
 import Layout from '../components/Layout'        // Layout
@@ -21,31 +22,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>10月総合課題</code>
-          </p>
-          <p className='text-3xl font-bold underline'>Tailwind test</p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
+      <main>
+          <Btn><Link href="/test2">テストページ２に遷移</Link></Btn>
+          <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
+          
 
         <div className={styles.center}>
           <Image
@@ -57,13 +37,6 @@ export default function Home() {
             priority
           />
         </div>
-
-        <div>
-          <Link href="/test">
-             テストページに遷移 →
-          </Link>
-        </div>
-
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

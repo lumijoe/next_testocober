@@ -6,7 +6,8 @@ import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 
-export default function HorizontalScroll() {
+
+export default function Hero() {
   const containerRef = useRef(null);
   const contentRef = useRef(null);
 
@@ -17,20 +18,22 @@ export default function HorizontalScroll() {
     const scrollWidth = content.offsetWidth - container.offsetWidth;
 
     gsap.to(content, {
-      x: -scrollWidth,
-      duration: 20, // アニメーションの完了までの時間
+      x: -500,
+      duration: 5, // アニメーションの完了までの時間
       repeat: -1, // 無限に繰り返す
       ease: "linear", // 線形のアニメーション
     });
   }, []);
 
   return (
+    <div>
+      <h1 className='bg-sky-700'>HERO AREA TOP</h1>
     <div
       ref={containerRef}
-      className="overflow-x-auto"
-      style={{ width: "100%", height: "400px" }}
+      className="overflow-hidden"
+      style={{ width: "100vw", height: "100vw" }}
     >
-      <div ref={contentRef} className="flex space-x-4">
+      <div ref={contentRef} className="flex">
         <Image
           src="/image01.jpg"
           alt="Image"
@@ -53,6 +56,7 @@ export default function HorizontalScroll() {
           priority
         />
       </div>
+    </div>
     </div>
   );
 }
