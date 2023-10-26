@@ -20,7 +20,6 @@ export default function test2() {
             <div>
                 <h2>NEXT.js</h2>
                 <BtnCategories />
-                <HeroScrollLine />
             </div>
             <div>
                 <WorksItem />

@@ -156,8 +156,7 @@ export default function Hero() {
               <li>Firebase</li>
             </ul>
         </div>
-        <div>
-          
+        <div className='absolute' style={{ left: "90vw", top: "70vh"}} >
           <HeroScrollLine />
         </div>
       </div>

@@ -30,7 +30,6 @@ export default function ScrollText() {
           y: '-160px', // 上からスタート
         },
         {
-          x: '100%', 
           y: '100vh',// 右までアニメーション
           duration: 5, // アニメーションの時間
           backgroundColor: 'white', // 赤色に設定
@@ -42,7 +41,7 @@ export default function ScrollText() {
 
   return (
     <div ref={textRef}>
-      <span className='text-white'>scrolllorem scrollloremscrollloremscrollloremscrolllorem</span>
+      <span className='text-white rotate-90 align-top font-thin italic text-1xl'>scroll</span>
       <div ref={lineRef}></div>
     </div>
   );
