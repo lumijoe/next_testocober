@@ -21,8 +21,8 @@ export default function  HeroTitleSkills() {
     gsap.to(textElements, {
       opacity: 1, // 最終的に不透明度を1に設定
       y: 0, // 移動を元に戻す
-      duration: 0.5,
-      stagger: 1,
+      duration: 0.1,
+      stagger: 0.5,
       ease: 'power3.inOut',
     });
 
