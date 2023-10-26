@@ -125,7 +125,7 @@ export default function Hero() {
             <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PORTFOLIO</p>
             
             {/* subtitle skills, myjob */}
-            <div className='absolute' style={{ left: "50%", top: "0vh" }}>
+            <div className='absolute' style={{ left: "25%", top: "-52px" }}>
               <HeroTitleSkills2 />
             </div>
 
