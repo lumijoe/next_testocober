@@ -28,18 +28,18 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='static relative'>
+    <div className='static relative' style={{ height: `calc(100vh - 52px)` }} >
       <div
         ref={containerRef}
         className="overflow-hidden relative"
-        style={{ width: "100vw", height: "100vh" }}
+        style={{ width: "100vw", height: "100%" }}
       >
-        <div ref={contentRef} className="flex relative">
+        <div ref={contentRef} className="flex">
           <Image
             src="/img01.jpg"
             alt="Image"
             width={600}
-            height={400}
+            style=""height={400}
             priority
           />
           <Image
@@ -115,24 +115,29 @@ export default function Hero() {
         </div>
 
         {/* component/HeroのoverlayとTitle */}
-        <div className='absolute inset-0 bg-gray-950 opacity-80'>
-          
-        </div>
+        <div className='absolute inset-0 bg-gray-950 opacity-80' />
         
+        
+          <p className="absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline" >PORT</p>
+        
+
+
+
+
         {/* overlayより上層 */}
         <div>
-            {/* maintitle PORTFOLIO */}
-            <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PORTFOLIO</p>
-            
-            {/* subtitle skills, myjob */}
-            <div className='absolute' style={{ left: "25%", top: "-52px" }}>
-              <HeroTitleSkills2 />
-            </div>
+          {/* maintitle PORTFOLIO */}
+          <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PO</p>
+          
+          {/* subtitle skills, myjob */}
+          <div className='absolute' style={{ left: "25%", top: "-52px" }}>
+            <HeroTitleSkills2 />
+          </div>
 
-            {/* scroll */}
-            <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
-              <HeroScrollLine />
-            </div>
+          {/* scroll */}
+          <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
+            <HeroScrollLine />
+          </div>
         </div>
       </div>
     </div>

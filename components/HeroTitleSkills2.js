@@ -7,7 +7,7 @@ import HeroSkillsB from '../components/Hero/HeroSkillsB';
 
 export default function HeroTitleSkills2() {
   return (
-    <div className="h-screen flex flex-col">
+    <div className=" flex flex-col" style={{ height: `calc(100vh - 52px)`}}>
 
       {/* 上部エリア(Web development) */}
       <div className="flex-1 flex flex-col justify-end items-center">

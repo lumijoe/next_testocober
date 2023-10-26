@@ -1,27 +1,50 @@
 // components/Header2.js
 
-import React from 'react';
+// components/Header2.js
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image'; 
+import Navpanel from '../components/Navpanel'; // Navpanelをインポート
 
 export default function Header2() {
-    return(
-        <div>
-            <header className=' relative bg-stone-950' style={{ height: "52px" }}> 
-                 {/* グローバルナビゲーション */}
-                <div className="header-inner fixed">
-                    <button className="navmenu" type="button" tabindex="0" onfocus="toggleFocus(this)" onblur="toggleFocus(this)">
-                        <span className="navline text-white" ></span>
-                    </button>
-                    <h1 id="header--maintitle" className='text-black'>LUMI KOJO</h1>
-                </div>
-                 {/* セクション（ナビパネル) */}
-                <div id="navpanel" className="navpanel ">
-                    <div className="navpanel-inner flex flex-row justify-between">
-                        <h1 className='text-white'>Home</h1>
-                        <h1 className='text-white'>About</h1>
-                        <h1 className='text-white'>Works</h1>
-                    </div>
-                </div>
-            </header>
+    const [isNavpanelOpen, setIsNavpanelOpen] = useState(false);
+
+    const toggleNavpanel = () => {
+        setIsNavpanelOpen(!isNavpanelOpen);
+    };
+
+    return (
+        <div className='fixed bg-stone-950 flex flex-row w-screen h-14 align-middle z-50'>
+            <div className="flex-1 justify-center my-auto ml-3.5">
+                <Image
+                    src="/navbar.svg"
+                    alt="Icon"
+                    width={32}
+                    height={32}
+                    onClick={toggleNavpanel}
+                />
+            </div>
+            <div className="flex-1 justify-center m-auto">
+                <h1 className='text-white text-center italic text-2xl'>LUMI KOJO</h1>
+            </div>
+            <div className="flex-1 justify-center"></div>
+
+            <style jsx>{`
+                .navpanel {
+                    transform: translateX(100%);
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                .navpanel.open {
+                    transform: translateX(0);
+                }
+            `}</style>
+
+            {/* Navpanelを追加 */}
+            <div id="navpanel" className={`navpanel ${isNavpanelOpen ? 'open' : ''}`}>
+                <Navpanel style={{zIndex: 200}}/>
+            </div>
         </div>
-    )
+    );
 }

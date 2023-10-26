@@ -7,6 +7,7 @@ import { Inter } from 'next/font/google'         // font
 import styles from '@/styles/Home.module.css'    // css
 import Link from 'next/link'                     // link
 import Btn from '../components/Button/Btn'
+import Header2 from '../components/Header2'
 
 // コンポーネントのimport
 import Layout from '../components/Layout'        // Layout
@@ -24,6 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
+        <Header2 />
           <Btn><Link href="/test2">テストページ２に遷移</Link></Btn>
           <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
           <Btn><Link href="/test3">テストページ3に遷移</Link></Btn>
