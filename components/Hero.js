@@ -5,7 +5,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
-import HeroTitleSkills from './HeroTitleSkills';
+import HeroTitleSkills2 from '../components/HeroTitleSkills2';
 import HeroScrollLine from '../components/HeroScrollLine';
 
 
@@ -28,7 +28,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='static'>
+    <div className='static relative'>
       <div
         ref={containerRef}
         className="overflow-hidden relative"
@@ -114,52 +114,26 @@ export default function Hero() {
           />
         </div>
 
-        {/* component/Heroのoverlay */}
-        <div className='absolute inset-0 bg-gray-950 opacity-80' />
+        {/* component/HeroのoverlayとTitle */}
+        <div className='absolute inset-0 bg-gray-950 opacity-80'>
+          
+        </div>
         
-        {/* overlay上のHeroTitle */}
+        {/* overlayより上層 */}
         <div>
-          {/* main title PORTFOLIO */}
-          <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PORTFOLIO</p>
-          {/* sub title my carrrer */}
-          <div className='absolute relative top-1/2' style={{ left: "25vw", lineHeight: "2px", top: "50%"}}>
-            <p className='text-white text-4xl italic font-semibold origin-center align-baseline' >Front&nbsp;End<span className='text-white text-2xl italic font-thin origin-center align-baseline'>Web&nbsp;Engineer</span></p>
-          </div>
-       
-        {/* overlay,title,より上のskills 
-        <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "35vh" }}>
-          <p className='text-white text-2xl italic font-thin align-baseline'>
-            <ul className='text-center' ref={textRef}>
-              <li>GSAP</li>
-              <li>HTML, CSS</li>
-              <li>WordPress</li>
-              <li>XD, Figma</li>
-              <li>Photoshop</li>
-              
-             
-            </ul>
-          </p>
-        </div>
-        */}
-        <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "40vh" }}>
-          <HeroTitleSkills />
-        </div>
+            {/* maintitle PORTFOLIO */}
+            <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PORTFOLIO</p>
+            
+            {/* subtitle skills, myjob */}
+            <div className='absolute' style={{ left: "50%", top: "0vh" }}>
+              <HeroTitleSkills2 />
+            </div>
 
-        <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "65vh" }}>
-            <ul className='text-center text-white text-2xl italic font-thin align-baseline'>
-              <li>NEXT.js</li>
-              <li>React</li>
-              <li>Vercel</li>
-              <li>Git, Github</li>
-              <li>JavaScript</li>
-              <li>Tailwindcss</li>
-              <li>Firebase</li>
-            </ul>
+            {/* scroll */}
+            <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
+              <HeroScrollLine />
+            </div>
         </div>
-        <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
-          <HeroScrollLine />
-        </div>
-      </div>
       </div>
     </div>
   );
