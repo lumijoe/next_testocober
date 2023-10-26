@@ -6,6 +6,7 @@ import Card from '../components/Card';
 import BtnCategories from '@/components/Button/BtnCategories';
 import WorksItem from '@/components/WorksItem';
 import Hero from '@/components/Hero';
+import HeroScrollLine from '@/components/HeroScrollLine';
 
 
 export default function test2() {
@@ -19,6 +20,7 @@ export default function test2() {
             <div>
                 <h2>NEXT.js</h2>
                 <BtnCategories />
+                <HeroScrollLine />
             </div>
             <div>
                 <WorksItem />

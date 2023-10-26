@@ -6,6 +6,7 @@ import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 import HeroTitleSkills from '../components/HeroTitleSkills';
+import HeroScrollLine from '../components/HeroScrollLine';
 
 
 export default function Hero() {
@@ -145,7 +146,6 @@ export default function Hero() {
         </div>
 
         <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "65vh" }}>
-          
             <ul className='text-center text-white text-2xl italic font-thin align-baseline'>
               <li>NEXT.js</li>
               <li>React</li>
@@ -155,7 +155,10 @@ export default function Hero() {
               <li>Tailwindcss</li>
               <li>Firebase</li>
             </ul>
-         
+        </div>
+        <div>
+          
+          <HeroScrollLine />
         </div>
       </div>
       </div>
