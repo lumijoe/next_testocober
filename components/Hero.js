@@ -5,6 +5,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
+import HeroTitleSkills from '../components/HeroTitleSkills';
 
 
 export default function Hero() {
@@ -120,15 +121,14 @@ export default function Hero() {
           {/* main title PORTFOLIO */}
           <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PORTFOLIO</p>
           {/* sub title my carrrer */}
-          <div className='absolute relative' style={{ left: "25vw", lineHeight: "2px" }}>
+          <div className='absolute relative top-1/2' style={{ left: "25vw", lineHeight: "2px", top: "50%"}}>
             <p className='text-white text-4xl italic font-semibold origin-center align-baseline' >Front&nbsp;End<span className='text-white text-2xl italic font-thin origin-center align-baseline'>Web&nbsp;Engineer</span></p>
           </div>
        
-        
-        {/* overlay,title,より上のskills */}
+        {/* overlay,title,より上のskills 
         <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "35vh" }}>
           <p className='text-white text-2xl italic font-thin align-baseline'>
-            <ul className='text-center'>
+            <ul className='text-center' ref={textRef}>
               <li>GSAP</li>
               <li>HTML, CSS</li>
               <li>WordPress</li>
@@ -139,9 +139,14 @@ export default function Hero() {
             </ul>
           </p>
         </div>
+        */}
+        <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "40vh" }}>
+          <HeroTitleSkills />
+        </div>
+
         <div className='absolute' style={{ left: "40vw", lineHeight: "1px", bottom: "65vh" }}>
-          <p className='text-white text-2xl italic font-thin align-baseline'>
-            <ul className='text-center'>
+          
+            <ul className='text-center text-white text-2xl italic font-thin align-baseline'>
               <li>NEXT.js</li>
               <li>React</li>
               <li>Vercel</li>
@@ -150,7 +155,7 @@ export default function Hero() {
               <li>Tailwindcss</li>
               <li>Firebase</li>
             </ul>
-          </p>
+         
         </div>
       </div>
       </div>
