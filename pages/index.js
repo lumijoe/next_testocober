@@ -26,6 +26,7 @@ export default function Home() {
       <main>
           <Btn><Link href="/test2">テストページ２に遷移</Link></Btn>
           <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
+          <Btn><Link href="/test3">テストページ3に遷移</Link></Btn>
           
 
         <div className={styles.center}>

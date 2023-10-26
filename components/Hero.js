@@ -5,7 +5,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
-import HeroTitleSkills from '../components/HeroTitleSkills';
+import HeroTitleSkills from './HeroTitleSkills';
 import HeroScrollLine from '../components/HeroScrollLine';
 
 

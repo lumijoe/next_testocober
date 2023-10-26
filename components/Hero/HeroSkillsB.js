@@ -1,4 +1,4 @@
-// components/HeroTitleSkills.js
+// components/Hero/HeroSkillsB.js
 
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
@@ -32,9 +32,11 @@ export default function  HeroTitleSkills() {
     <div className='text-white text-2xl italic font-thin'>
         <ul className='text-center' ref={textRef}>
           <li>GSAP</li>
+          <li>Tailwindcss</li>
           <li>HTML, CSS</li>
           <li>WordPress</li>
-          <li>XD, Figma</li>
+          <li>XD</li>
+          <li>Figma</li>
           <li>Photoshop</li>
         </ul>
     </div>

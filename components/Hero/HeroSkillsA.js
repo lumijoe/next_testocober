@@ -1,4 +1,4 @@
-// components/HeroTitleSkills.js
+// components/Hero/HeroSkillsA.js
 
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
@@ -16,7 +16,7 @@ export default function  HeroTitleSkills() {
       duration: 0.5,
       stagger: 1, // 要素ごとに遅延させる
       ease: 'power3.inOut', // イージング
-    });
+    }).reverse();
 
     gsap.to(textElements, {
       opacity: 1, // 最終的に不透明度を1に設定
@@ -24,18 +24,19 @@ export default function  HeroTitleSkills() {
       duration: 0.1,
       stagger: 0.5,
       ease: 'power3.inOut',
-    });
+    }).reverse();
 
   }, []);
 
   return (
     <div className='text-white text-2xl italic font-thin'>
         <ul className='text-center' ref={textRef}>
-          <li>GSAP</li>
-          <li>HTML, CSS</li>
-          <li>WordPress</li>
-          <li>XD, Figma</li>
-          <li>Photoshop</li>
+        <li>NEXT.js</li>
+        <li>React</li>
+        <li>Firebase</li>
+        <li>Vercel</li>
+        <li>Git, Github</li>
+        <li>JavaScript</li>
         </ul>
     </div>
   );
