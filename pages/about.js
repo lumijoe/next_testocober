@@ -22,7 +22,7 @@ export default function About() {
                 />  
             </div>
              {/* Works =====================================================*/}
-            <div className='mt-[52px]' id="works"> 
+            <div className='mt-[52px]'> 
                 <div className={styles.center} >
                     <h2 className="text-8xl text-black italic">About</h2>
                 </div>
