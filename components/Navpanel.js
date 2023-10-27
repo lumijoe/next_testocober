@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 
 export default function Navpanel() {
+    // エリアへ遷移する＃は変数で扱う（エスケープコードが効かない為）
     const worksarea = `/#works`;
     
     return (
@@ -19,21 +20,25 @@ export default function Navpanel() {
                             <Link href="/about">About</Link></li>
                         <li className='text-5xl text-white italic mb-4'><Link href={worksarea}>Works</Link></li>
                         <li className='flex justify-center mt-3'>
-                            <Image
-                                src="/githubwhite.svg"
-                                alt="Icon"
-                                width={32}
-                                height={32}
-                            />
+                            <a href="https://github.com/lumijoe" target="_blank">
+                                <Image
+                                    src="/githubwhite.svg"
+                                    alt="Icon"
+                                    width={32}
+                                    height={32}
+                                />
+                            </a>
                         </li>
                         <li className='text-[12px] text-white italic  -mt-[4px]'>Github</li>
                         <li className='flex justify-center mt-3'>
-                        <Image
-                            src="/vercelwhite.svg"
-                            alt="Icon"
-                            width={32}
-                            height={32}
-                        />  
+                            <a href="https://vercel.com/lumijoes-projects" target="_blank">
+                                <Image
+                                    src="/vercelwhite.svg"
+                                    alt="Icon"
+                                    width={32}
+                                    height={32}
+                                />
+                            </a>
                         </li>
                         <li className='text-[12px] text-white italic  -mt-[4px]'>Vercel</li>
                     </ul>
