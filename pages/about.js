@@ -31,18 +31,8 @@ export default function About() {
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
-                
                 <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
+                <p>loretypesampleoremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
