@@ -30,6 +30,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## XDワイヤーフレーム(初期構想)
 <img width="548" alt="スクリーンショット 2023-10-27 14 05 35" src="https://github.com/lumijoe/next_testocober/assets/118164717/63fc195a-cfe5-4c65-b4d1-79d68ad2b819">
 
+## Original Favicon
+- デザイン時代にデザインしたファビコンを使用
+- Lumi が　Design にはまっている様子を表している
+- 自身の構築や設計や解決好きな特徴を表現し、自身を表現している
+![favicon](https://github.com/lumijoe/next_testocober/assets/118164717/0d69128c-faaf-40de-b18a-a836247457fa)
 
 
   
