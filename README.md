@@ -23,7 +23,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## 技術選定3： Why GSAP
 - jQueryやgetElementなどの書き方が必要なく、JSX上で実現可能で時短が可能
 - 以前から気になっていたため
-- 特にStatic site では、アニメーションがあることでサイト滞在時間を少しでも増やすことができ、適度なものはUXを向上させると感じているため
+- 特にStatic site では、アニメーションがあることでサイト滞在時間を少しでも増やすことができ、適度なものはUX向上を期待できるため
 
 ## その他の仕様や考慮事項
 - 自動翻訳機能をオフにするmetaタグ
