@@ -12,25 +12,26 @@ export default function About() {
     return (
         <div>
             <Header2 />
-            <div style={{ position: "relative", height: "40vh" }}>
-                <Image
-                    className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  
-            </div>
-             {/* Works =====================================================*/}
-            <div className='mt-[52px]'> 
-                <div className={styles.center} >
-                    <h2 className="text-8xl text-black italic">About</h2>
+            <div>
+                <div style={{ position: "relative", height: "40vh" }}>
+                    <Image
+                        className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
+                        src="/imgwork.jpg"
+                        alt="Work img"
+                        fill style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
+                        priority
+                    />  
                 </div>
+                <div className='absolute inset-0 bg-gray-950 opacity-70' style={{ height: "40vh" }}/>
+            </div>
 
+            <div className='mt-[52px]'> 
+            
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
+                
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
@@ -57,3 +58,21 @@ export default function About() {
         </div>
     )
 }
+
+/* export default function About() {
+    const backgroundImageStyle = {
+        backgroundImage: `url('/imgwork.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        position: 'relative',
+        height: '40vh',
+    };
+
+    return (
+        <div>
+            <Header2 />
+            <div style={backgroundImageStyle}>
+                <div className="absolute inset-0 bg-gray-950 opacity-70" style={{ height: "40vh" }} />
+            </div>
+            <div className='mt-[52px]'>*/
