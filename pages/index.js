@@ -1,16 +1,16 @@
 // pages/index.js(Homeページ)
 
-// 設定コンポーネント
-import React from 'react'                        // Reactを使用する時に必要
-import Head from 'next/head'                     // Headを使用する時に必要
-import Image from 'next/image'                   // Imageを使用する時に必要
-import { Inter } from 'next/font/google'         // font
-import styles from '@/styles/Home.module.css'    // css
-import Link from 'next/link'                     // link
-
-// 要素コンポーネント
+// デフォルト設定コンポーネント
+import React from 'react'                       
+import Head from 'next/head'                     
+import Image from 'next/image'                   
+import { Inter } from 'next/font/google'         
+import styles from '@/styles/Home.module.css'    
+import Link from 'next/link'                     
+// カスタム要素コンポーネント
 import Btn from '../components/Button/Btn'
-import Layout from '../components/Layout'      // Layout
+import Layout from '../components/Layout'   // Header,Layout{child}main,Footer
+import Hero from '../components/Hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,7 +28,12 @@ export default function Home() {
 
     {/* <Header,main,Footer><Layout{child}main detail> =================== */}
       <Layout>
-        <div>
+        <div> {/* <Layout{children}> */}
+
+          {/* Hero =================================================== */}
+          <Hero />
+
+
 
           {/* 遷移ボタン =================================================== */}
           <div>

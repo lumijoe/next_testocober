@@ -117,28 +117,20 @@ export default function Hero() {
         {/* component/HeroのoverlayとTitle */}
         <div className='absolute inset-0 bg-gray-950 opacity-80' />
         
+          {/* main title */}
+          <p className="absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline" style={{ left: "-125px" }} >PORTFOLIO</p>
         
-          <p className="absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline" >PORT</p>
-        
-
-
-
-
-        {/* overlayより上層 */}
-        <div>
-          {/* maintitle PORTFOLIO */}
-          <p className='absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline' style={{ left: "-125px" }} >PO</p>
+          <div>
+            {/* subtitle skills, myjob */}
+            <div className='absolute' style={{ left: "25%", top: "-52px" }}>
+              <HeroTitleSkills2 />
+            </div>
+            {/* scroll */}
+            <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
+              <HeroScrollLine />
+            </div>
+          </div>
           
-          {/* subtitle skills, myjob */}
-          <div className='absolute' style={{ left: "25%", top: "-52px" }}>
-            <HeroTitleSkills2 />
-          </div>
-
-          {/* scroll */}
-          <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
-            <HeroScrollLine />
-          </div>
-        </div>
       </div>
     </div>
   );
