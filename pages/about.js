@@ -1,4 +1,4 @@
-//pages/works/web01.js(works01の詳細ページ)
+//pages/about.js(about詳細ページ)
 
 import React from 'react';
 import Header2 from '../components/Header2';
@@ -6,8 +6,9 @@ import Image from 'next/image';
 import Footer from '../components/Footer';
 import Btn from '../components/Button/Btn';
 import Link from 'next/link';
+import styles from '@/styles/Home.module.css' 
 
-export default function Web01() {
+export default function About() {
     return (
         <div>
             <Header2 />
@@ -20,32 +21,38 @@ export default function Web01() {
                     priority
                 />  
             </div>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <p>loremloremloremloremlorem</p>
-            <div>
-                <Btn><Link href="/test2">テストページ２に遷移</Link></Btn>
-                <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
-                <Btn><Link href="/test3">テストページ3に遷移</Link></Btn>
-            </div>
+             {/* Works =====================================================*/}
+            <div className='mt-[52px]' id="works"> 
+                <div className={styles.center} >
+                    <h2 className="text-8xl text-black italic">About</h2>
+                </div>
 
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <p>loremloremloremloremlorem</p>
+                <div>
+                    <Btn><Link href="/test2">テストページ２に遷移</Link></Btn>
+                    <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
+                    <Btn><Link href="/test3">テストページ3に遷移</Link></Btn>
+                </div>
+            </div>
             <Footer />
         </div>
     )
