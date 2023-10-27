@@ -1,4 +1,4 @@
-// components/navpanel.js
+// components/Navpanel.js
 
 import React from 'react';
 import Image from 'next/image';
@@ -37,11 +37,3 @@ export default function Navpanel() {
         </div>
     )
 }
-
-{/* <Image
-                    className='h-5 w-full object-cover md:h-full md:w-12'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  */} 
