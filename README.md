@@ -29,7 +29,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - キーボードでのアクセシビリティへの配慮
 - Photoshopや圧縮サイトを活用しできるだけ画質はそのままに画像データサイズだけを落とし、読み込み速度やビジュアル感情などのUX、サーバー負荷に配慮
 
-## XDワイヤーフレーム
+## XDワイヤーフレーム(初期)
+
+<img width="502" alt="スクリーンショット 2023-10-27 14 00 24" src="https://github.com/lumijoe/next_testocober/assets/118164717/906719da-534a-4365-b0aa-dac0b9a51a84">
 
 
   
