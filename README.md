@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## XDワイヤーフレーム(初期構想)
+<img width="548" alt="スクリーンショット 2023-10-27 14 05 35" src="https://github.com/lumijoe/next_testocober/assets/118164717/63fc195a-cfe5-4c65-b4d1-79d68ad2b819">
+
 ## NEXT.js, GSAP, Tailwindcss /　Static site
 - 要件：　JSXの書き方をより深め実践的なアプリの実現、実務で活かせるような技術仕様であること
 - 仕様考慮：　制作系か開発系かで、制作系を選択（JSXの量をこなして特性を把握するため、CSSやGSAPの相性を把握するため）
@@ -27,10 +30,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - キーボードでのアクセシビリティへの配慮
 - Photoshopや圧縮サイトを活用しできるだけ画質はそのままに画像データサイズだけを落とし、読み込み速度やビジュアル感情などのUX、サーバー負荷に配慮
 
-## XDワイヤーフレーム(初期構想)
-<img width="548" alt="スクリーンショット 2023-10-27 14 05 35" src="https://github.com/lumijoe/next_testocober/assets/118164717/63fc195a-cfe5-4c65-b4d1-79d68ad2b819">
-
-## Original Favicon
+## Original Favicon　を使用
 - デザイン時代にデザインしたファビコンを使用
 - Lumi が　Design にはまっている様子を表している
 - 自身の構築や設計や解決好きな特徴を表現し、自身を表現している
