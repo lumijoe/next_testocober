@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## XDワイヤーフレーム(初期構想)
+## XDデザイン(初期構想)
 <img width="548" alt="スクリーンショット 2023-10-27 14 05 35" src="https://github.com/lumijoe/next_testocober/assets/118164717/63fc195a-cfe5-4c65-b4d1-79d68ad2b819">
 
 ## NEXT.js, GSAP, Tailwindcss /　Static site
@@ -23,7 +23,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## 技術選定3： Why GSAP
 - jQueryやgetElementなどの書き方が必要なく、JSX上で実現可能で時短が可能
 - 以前から気になっていたため
-- 特にStatic site では、アニメーションがあることでサイト滞在時間を少しでも増やすことができ、適度なものはUXを向上させると感じているため
+- 特にStatic site では、アニメーションがあることでサイト滞在時間を少しでも増やすことができ、適度なものはUX向上を期待できるため
 
 ## その他の仕様や考慮事項
 - 自動翻訳機能をオフにするmetaタグ
@@ -33,7 +33,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Original Favicon　を使用
 - グラフィックデザイナーからWebにキャリア転向する際にデザインしたロゴ
 - Web空間でもこれまでのデザイン経験や知識を忘れず活かすことを表現
-- Lumi が　Design（設計という根本的な意味） にはまっている様子を表現
+- Lumi(自身の名前)が　Design（設計という根本的な意味） にはまっている様子を表現
 - 自身の構築や設計や解決好きな特徴、自身そのものを表現
 
 ![favicon](https://github.com/lumijoe/next_testocober/assets/118164717/0d69128c-faaf-40de-b18a-a836247457fa)
