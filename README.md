@@ -1,5 +1,28 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## NEXT.js, GSAP, Tailwindcssを使用した　Static site（目的：NEXT.js実践制作物）
+
+- 要件：　JSXの書き方をより深め実践的なアプリの実現、実務で活かせるような技術仕様であること
+- 仕様考慮：　制作系か開発系かで、制作系を選択（JSXの量をこなして特性を把握するため、CSSやGSAPの相性を把握するため）
+  
+## Why Next.js　- Static site
+
+- HTML,CSS,JSですでに制作しているPORTFOLIOをモダンな技術でアップデートしたかったため
+- SPAのStatic siteの制作でJSXの書き方に慣れたかったため
+- PORTFOLIOのXDワイヤーフレームやディレクトリなどすでに構想済みのものがあり活用したかったため
+- VercelとGithubの利用量を増やして業務や趣味で活かしたいと思っていたため
+- 開発にも興味があり、まずは制作でJSX構文に慣れておきたかったため
+
+## Why Tailwindcss
+- 生産コスト削減のためクラス命名が必要なBootstrapなどよりも時短が可能
+- VSCode拡張機能Tailwind Documentationで、エディター上でスタイル検索が可能であり視覚的説明が充実していて時短が可能
+- 特にカラーや余白の設定が豊富で、詳細にカスタムすることも可能、Static site制作において作品の差別化を図りたかったため
+- globalやHomeのあらかじめ設定されているCSSとの競合など簡単に解消できた
+
+## Why GSAP
+- jQueryやgetElementなどの書き方が必要なく、JSX上で実現可能で時短が可能
+- 
+  
 ## Getting Started
 
 First, run the development server:
