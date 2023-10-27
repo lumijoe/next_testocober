@@ -34,7 +34,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - グラフィックデザイナーからWebにキャリア転向する際にデザインしたロゴ
 - Web空間でもこれまでのデザイン経験や知識を忘れず活かすことを表現
 - Lumi が　Design（設計という根本的な意味） にはまっている様子を表現
-- 自身の構築や設計や解決好きな特徴を表現し、自身を表現している
+- 自身の構築や設計や解決好きな特徴、自身そのものを表現
 ![favicon](https://github.com/lumijoe/next_testocober/assets/118164717/0d69128c-faaf-40de-b18a-a836247457fa)
 
   
