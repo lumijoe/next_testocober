@@ -1,12 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## NEXT.js, GSAP, Tailwindcss /　Static site
-
 - 要件：　JSXの書き方をより深め実践的なアプリの実現、実務で活かせるような技術仕様であること
 - 仕様考慮：　制作系か開発系かで、制作系を選択（JSXの量をこなして特性を把握するため、CSSやGSAPの相性を把握するため）
   
 ## 技術選定1： Why Next.js　, Static site
-
 - HTML,CSS,JSですでに制作しているPORTFOLIOをモダンな技術でアップデートしたかったため
 - SPAのStatic siteの制作でJSXの書き方に慣れたかったため
 - PORTFOLIOのXDワイヤーフレームやディレクトリなどすでに構想済みのものがあり活用したかったため
@@ -30,8 +28,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Photoshopや圧縮サイトを活用しできるだけ画質はそのままに画像データサイズだけを落とし、読み込み速度やビジュアル感情などのUX、サーバー負荷に配慮
 
 ## XDワイヤーフレーム(初期)
+<img width="548" alt="スクリーンショット 2023-10-27 14 05 35" src="https://github.com/lumijoe/next_testocober/assets/118164717/63fc195a-cfe5-4c65-b4d1-79d68ad2b819">
 
-<img width="502" alt="スクリーンショット 2023-10-27 14 00 24" src="https://github.com/lumijoe/next_testocober/assets/118164717/906719da-534a-4365-b0aa-dac0b9a51a84">
 
 
   
