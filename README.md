@@ -1,11 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## NEXT.js, GSAP, Tailwindcssを使用した　Static site（目的：NEXT.js実践制作物）
+## NEXT.js, GSAP, Tailwindcss /　Static site
 
 - 要件：　JSXの書き方をより深め実践的なアプリの実現、実務で活かせるような技術仕様であること
 - 仕様考慮：　制作系か開発系かで、制作系を選択（JSXの量をこなして特性を把握するため、CSSやGSAPの相性を把握するため）
   
-## Why Next.js　- Static site
+## 技術選定1： Why Next.js　, Static site
 
 - HTML,CSS,JSですでに制作しているPORTFOLIOをモダンな技術でアップデートしたかったため
 - SPAのStatic siteの制作でJSXの書き方に慣れたかったため
@@ -13,15 +13,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - VercelとGithubの利用量を増やして業務や趣味で活かしたいと思っていたため
 - 開発にも興味があり、まずは制作でJSX構文に慣れておきたかったため
 
-## Why Tailwindcss
+## 技術選定2： Why Tailwindcss
 - 生産コスト削減のためクラス命名が必要なBootstrapなどよりも時短が可能
 - VSCode拡張機能Tailwind Documentationで、エディター上でスタイル検索が可能であり視覚的説明が充実していて時短が可能
 - 特にカラーや余白の設定が豊富で、詳細にカスタムすることも可能、Static site制作において作品の差別化を図りたかったため
 - globalやHomeのあらかじめ設定されているCSSとの競合など簡単に解消できた
 
-## Why GSAP
+## 技術選定3： Why GSAP
 - jQueryやgetElementなどの書き方が必要なく、JSX上で実現可能で時短が可能
-- 
+- 以前から気になっていたため
+- 特にStatic site では、アニメーションがあることでサイト滞在時間を少しでも増やすことができ、適度なものはUXを向上させると感じているため
+
+## その他の仕様や考慮事項
+- 自動翻訳機能をオフにするmetaタグ
+- キーボードでのアクセシビリティへの配慮
+- Photoshopや圧縮サイトを活用しできるだけ画質はそのままに画像データサイズだけを落とし、読み込み速度やビジュアル感情などのUX、サーバー負荷に配慮
+
+## XDワイヤーフレーム
+
+
   
 ## Getting Started
 
