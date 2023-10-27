@@ -6,6 +6,8 @@ import Link from 'next/link';
 
 
 export default function Navpanel() {
+    const worksarea = `/#works`;
+    
     return (
         <div className='bg-black h-screen opacity-90 w-[97vw] '>
             <div id="navpanel" className="navpanel">
@@ -15,7 +17,7 @@ export default function Navpanel() {
                             <Link href="/">Home</Link></li>
                         <li className='text-5xl text-white italic mb-4'>
                             <Link href="/about">About</Link></li>
-                        <li className='text-5xl text-white italic mb-4'>Works</li>
+                        <li className='text-5xl text-white italic mb-4'><Link href={worksarea}>Works</Link></li>
                         <li className='flex justify-center mt-3'>
                             <Image
                                 src="/githubwhite.svg"

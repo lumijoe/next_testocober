@@ -43,132 +43,134 @@ export default function Home() {
           </div>
           
           {/* Works =====================================================*/}
-          <div className={styles.center}>
-            <h2 className='text-8xl text-black italic'>Works</h2>
-          </div>
-          {/* ギャラリー */}
-          <div className={styles.grid}>
+          <div className='mt-[52px]' id="works"> 
+            <div className={styles.center} >
+              <h2 className="text-8xl text-black italic">Works</h2>
+            </div>
+            {/* ギャラリー */}
+            <div className={styles.grid}>
 
 
-            {/* web01 _____________________________ */}
-            <a
-              href="/works/web01"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div style={{ position: "relative", height: "20vh" }}>
-                <Image
-                    className='h-5 w-full object-cover md:h-full md:w-12'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  
-              </div>
-              <h2>
-                Docs <span>-&gt;</span>
-              </h2>
-              <p>
-                Find in-depth information about Next.js features and&nbsp;API.
-              </p>
-            </a>
+              {/* web01 _____________________________ */}
+              <a
+                href="/works/web01"
+                className={styles.card}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div style={{ position: "relative", height: "20vh" }}>
+                  <Image
+                      className='h-5 w-full object-cover md:h-full md:w-12'
+                      src="/image01.jpg"
+                      alt="Hero img"
+                      fill style={{ objectFit: "cover" }}
+                      priority
+                  />  
+                </div>
+                <h2>
+                  Docs <span>-&gt;</span>
+                </h2>
+                <p>
+                  Find in-depth information about Next.js features and&nbsp;API.
+                </p>
+              </a>
 
-            {/* web01 _____________________________ */}
-            <a
-              href="/works/web01"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div style={{ position: "relative", height: "20vh" }}>
-                <Image
-                    className='h-5 w-full object-cover md:h-full md:w-12'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  
-              </div>
-              <h2>
-                Docs <span>-&gt;</span>
-              </h2>
-              <p>
-                Find in-depth information about Next.js features and&nbsp;API.
-              </p>
-            </a>
+              {/* web01 _____________________________ */}
+              <a
+                href="/works/web01"
+                className={styles.card}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div style={{ position: "relative", height: "20vh" }}>
+                  <Image
+                      className='h-5 w-full object-cover md:h-full md:w-12'
+                      src="/image01.jpg"
+                      alt="Hero img"
+                      fill style={{ objectFit: "cover" }}
+                      priority
+                  />  
+                </div>
+                <h2>
+                  Docs <span>-&gt;</span>
+                </h2>
+                <p>
+                  Find in-depth information about Next.js features and&nbsp;API.
+                </p>
+              </a>
 
-            {/* web01 _____________________________ */}
-            <a
-              href="/works/web01"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div style={{ position: "relative", height: "20vh" }}>
-                <Image
-                    className='h-5 w-full object-cover md:h-full md:w-12'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  
-              </div>
-              <h2>
-                Docs <span>-&gt;</span>
-              </h2>
-              <p>
-                Find in-depth information about Next.js features and&nbsp;API.
-              </p>
-            </a>
+              {/* web01 _____________________________ */}
+              <a
+                href="/works/web01"
+                className={styles.card}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div style={{ position: "relative", height: "20vh" }}>
+                  <Image
+                      className='h-5 w-full object-cover md:h-full md:w-12'
+                      src="/image01.jpg"
+                      alt="Hero img"
+                      fill style={{ objectFit: "cover" }}
+                      priority
+                  />  
+                </div>
+                <h2>
+                  Docs <span>-&gt;</span>
+                </h2>
+                <p>
+                  Find in-depth information about Next.js features and&nbsp;API.
+                </p>
+              </a>
 
-            {/* web01 _____________________________ */}
-            <a
-              href="/works/web01"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div style={{ position: "relative", height: "20vh" }}>
-                <Image
-                    className='h-5 w-full object-cover md:h-full md:w-12'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  
-              </div>
-              <h2>
-                Docs <span>-&gt;</span>
-              </h2>
-              <p>
-                Find in-depth information about Next.js features and&nbsp;API.
-              </p>
-            </a>
+              {/* web01 _____________________________ */}
+              <a
+                href="/works/web01"
+                className={styles.card}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div style={{ position: "relative", height: "20vh" }}>
+                  <Image
+                      className='h-5 w-full object-cover md:h-full md:w-12'
+                      src="/image01.jpg"
+                      alt="Hero img"
+                      fill style={{ objectFit: "cover" }}
+                      priority
+                  />  
+                </div>
+                <h2>
+                  Docs <span>-&gt;</span>
+                </h2>
+                <p>
+                  Find in-depth information about Next.js features and&nbsp;API.
+                </p>
+              </a>
 
-            {/* web01 _____________________________ */}
-            <a
-              href="/works/web01"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div style={{ position: "relative", height: "20vh" }}>
-                <Image
-                    className='h-5 w-full object-cover md:h-full md:w-12'
-                    src="/image01.jpg"
-                    alt="Hero img"
-                    fill style={{ objectFit: "cover" }}
-                    priority
-                />  
-              </div>
-              <h2>
-                Docs <span>-&gt;</span>
-              </h2>
-              <p>
-                Find in-depth information about Next.js features and&nbsp;API. 
-              </p>
-            </a>
+              {/* web01 _____________________________ */}
+              <a
+                href="/works/web01"
+                className={styles.card}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div style={{ position: "relative", height: "20vh" }}>
+                  <Image
+                      className='h-5 w-full object-cover md:h-full md:w-12'
+                      src="/image01.jpg"
+                      alt="Hero img"
+                      fill style={{ objectFit: "cover" }}
+                      priority
+                  />  
+                </div>
+                <h2>
+                  Docs <span>-&gt;</span>
+                </h2>
+                <p>
+                  Find in-depth information about Next.js features and&nbsp;API. 
+                </p>
+              </a>
+            </div>
           </div>
           {/* Works ここまで =================================================*/}
 
