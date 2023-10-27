@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - 仕様考慮：　制作系か開発系かで、制作系を選択（JSXの量をこなして特性を把握するため、CSSやGSAPの相性を把握するため）
   
 ## 技術選定1： Why Next.js　, Static site
-- HTML,CSS,JSですでに制作しているPORTFOLIOをモダンな技術でアップデートしたかったため
+- HTML,CSS,JSですでに制作していたPORTFOLIOをモダンな技術でアップデートしたかったため　（http://design63.html.xdomain.jp/）
 - SPAのStatic siteの制作でJSXの書き方に慣れたかったため
 - PORTFOLIOのXDワイヤーフレームやディレクトリなどすでに構想済みのものがあり活用したかったため
 - VercelとGithubの利用量を増やして業務や趣味で活かしたいと思っていたため
