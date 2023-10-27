@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function Navpanel() {
@@ -10,8 +11,10 @@ export default function Navpanel() {
             <div id="navpanel" className="navpanel">
                 <div className='text-white text-2xl italic font-thin pl-[3vw] pb-[50vw] pt-[calc(50vw-52px)]'>
                     <ul className='text-center'>
-                        <li className='text-5xl text-white italic mb-4'>Home</li>
-                        <li className='text-5xl text-white italic mb-4'>About</li>
+                        <li className='text-5xl text-white italic mb-4'>
+                            <Link href="/">Home</Link></li>
+                        <li className='text-5xl text-white italic mb-4'>
+                            <Link href="/about">About</Link></li>
                         <li className='text-5xl text-white italic mb-4'>Works</li>
                         <li className='flex justify-center mt-3'>
                             <Image
