@@ -3,12 +3,18 @@
 import React from 'react';
 import Header2 from '../components/Header2';
 import HeroTitleSkills2 from '../components/HeroTitleSkills2';
+import Footer from '../components/Footer';
+import Navpanel from '@/components/Navpanel';
 
 export default function Test3() {
     return (
-        <div className='relative'>
+        <div>
         <Header2 className=" fixed"/>
-        <HeroTitleSkills2 />
+        <div>
+        <HeroTitleSkills2 className="" />
+        <Navpanel className="" />
+        </div>
+        <p>LLLoremloremlorem</p>
         <p>loremloremlorem</p>
         <p>loremloremlorem</p>
         <p>loremloremlorem</p>
@@ -21,6 +27,30 @@ export default function Test3() {
         <p>loremloremlorem</p>
         <p>loremloremlorem</p>
         <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <p>loremloremlorem</p>
+        <Footer />
         </div>
     )
 }

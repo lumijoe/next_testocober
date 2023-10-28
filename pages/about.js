@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Btn from '../components/Button/Btn';
 import Link from 'next/link';
 import styles from '@/styles/Home.module.css' 
+import imgwork from '../public/imgwork.jpg';
 
 export default function About() {
     return (
@@ -16,13 +17,14 @@ export default function About() {
                 <div style={{ position: "relative", height: "40vh" }}>
                     <Image
                         className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
-                        src="/imgwork.jpg"
+                        src={imgwork}
                         alt="Work img"
-                        fill style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
+                        fill={true}
+                        style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
                         priority
                     />  
                 </div>
-                <div className='absolute inset-0 bg-gray-950 opacity-70' style={{ height: "40vh" }}/>
+                <div className='absolute inset-0 bg-gray-950 opacity-60' style={{ height: "40vh" }}/>
             </div>
 
             <div className='mt-[52px]'> 
