@@ -1,11 +1,9 @@
 // pages/works/web01.js(works詳細ページ)
 
 import React from 'react';
-import Header2 from '../components/Header2';
+import Header2 from '../../components/Header2';
 import Image from 'next/image';
-import Footer from '../components/Footer';
-import Btn from '../components/Button/Btn';
-import Link from 'next/link';
+import Footer from '../../components/Footer';
 
 export default function Web01() {
     return (
