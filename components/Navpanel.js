@@ -17,7 +17,7 @@ export default function Navpanel() {
                         <li className='text-5xl text-white italic mb-4'>
                             <Link href="/">Home</Link></li>
                         <li className='text-5xl text-white italic mb-4'>
-                            <Link href="/about">About</Link></li>
+                            <Link href="/test4">About</Link></li>
                         <li className='text-5xl text-white italic mb-4'><Link href={worksarea}>Works</Link></li>
                         <li className='flex justify-center mt-3'>
                             <a href="https://github.com/lumijoe" target="_blank">
