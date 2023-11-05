@@ -34,7 +34,7 @@ export default function Test4() {
                     <li><p className="text-white text-sm">2021年 グラフィックからWeb制作へ転向</p></li>
                     <li><p className="text-white text-sm">2018年 産官新店舗ディレクション / ブランディング</p></li>
                     <li><p className="text-white text-sm">2016年 自治体インハウスデザイン / ディレクション</p></li>
-                    <li><p className="text-white text-sm">2015年 店舗・ブース内装 / 地域フラフィックデザイン </p></li>
+                    <li><p className="text-white text-sm">2015年 店舗・ブース内装 / 地域グラフィックデザイン </p></li>
                     <li><p className="text-white text-sm">2010年 企業オウンドメディアブログ担当</p></li>
                     <li><p className="text-white text-sm">1997年 短期大学卒(英米語 / Touch typing)</p></li>
                     <li><p className="text-white text-sm">1976年生まれ</p></li>
