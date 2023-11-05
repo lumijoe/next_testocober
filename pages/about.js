@@ -60,11 +60,4 @@ export default function About() {
         position: 'relative',
         height: '40vh',
     };
-
-    return (
-        <div>
-            <Header2 />
-            <div style={backgroundImageStyle}>
-                <div className="absolute inset-0 bg-gray-950 opacity-70" style={{ height: "40vh" }} />
-            </div>
-            <div className='mt-[52px]'>*/
+*/
