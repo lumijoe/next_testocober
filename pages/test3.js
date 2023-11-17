@@ -9,10 +9,10 @@ import Navpanel from '@/components/Navpanel';
 export default function Test3() {
     return (
         <div>
-        <Header2 className=" fixed"/>
+        <Header2 />
         <div>
-        <HeroTitleSkills2 className="" />
-        <Navpanel className="" />
+        <HeroTitleSkills2 />
+        <Navpanel />
         </div>
         <p>LLLoremloremlorem</p>
         <p>loremloremlorem</p>
