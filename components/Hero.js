@@ -126,11 +126,11 @@ export default function Hero() {
               <HeroTitleSkills2 />
             </div>
             {/* scroll */}
-            <div className='absolute' style={{ left: "90vw", top: "60vh"}} >
+            <div className='absolute' style={{ right: "30px", top: "50vh"}} >
               <HeroScrollLine />
             </div>
           </div>
-          
+
       </div>
     </div>
   );

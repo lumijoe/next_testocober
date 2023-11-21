@@ -20,6 +20,8 @@ export default function ScrollText() {
     lineElement.style.height = '0.7px';
     lineElement.style.backgroundColor = 'white';
     lineElement.style.transform = "rotate(90deg)";
+    lineElement.style.position = "absolute";
+    lineElement.style.right = "-62px";
 
     // GSAPアニメーション設定
     if (typeof window !== 'undefined') {
@@ -27,12 +29,12 @@ export default function ScrollText() {
       gsap.fromTo(
         lineElement,
         {
-          y: '-160px', // 上からスタート
+          y: '-80px',  // line from
         },
         {
-          y: '100vh',// 右までアニメーション
-          duration: 5, // アニメーションの時間
-          backgroundColor: 'white', // 赤色に設定
+          y: '100vh',  // line to
+          duration: 4, // アニメーションの時間
+          backgroundColor: 'white',
           ease: 'cubic-bezier(0.42, 0, 0.2, 1)',  // イージング設定
         }
       );
