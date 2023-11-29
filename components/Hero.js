@@ -1,6 +1,5 @@
 // components/Hero.js(Heroコンポーネント)
-
-// components/Hero.js (Heroコンポーネント)
+// ５パーツ（1：背景自動スクロール画像、2：opacity要素、3：左メインタイトル、4：中央サブタイトル、5：右誘導要素）
 
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
@@ -34,6 +33,7 @@ export default function Hero() {
         className="overflow-hidden relative"
         style={{ width: "100vw", height: "100%" }}
       >
+        {/* 1：背景自動スクロール画像 */}
         <div ref={contentRef} className="flex">
           <Image
             src="/img01.jpg"
@@ -114,18 +114,18 @@ export default function Hero() {
           />
         </div>
 
-        {/* component/HeroのoverlayとTitle */}
+        {/* 2：全体へのoverlayとTitle等 */}
         <div className='absolute inset-0 bg-gray-950 opacity-80' />
         
-          {/* main title */}
+          {/* 3：左メインタイトル：PORTFOLIO */}
           <p className="absolute text-white text-8xl italic font-semibold origin-center rotate-90 align-baseline" style={{ left: "-125px" }} >PORTFOLIO</p>
         
           <div>
-            {/* subtitle skills, myjob */}
+            {/* ４：中央サブタイトル：エンジニア、技術スタック*/}
             <div className='absolute' style={{ left: "25%", top: "-52px" }}>
               <HeroTitleSkills2 />
             </div>
-            {/* scroll */}
+            {/* 5：右コンテンツ誘導：スクロール表示、ラインアニメーション */}
             <div className='absolute' style={{ right: "30px", top: "50vh"}} >
               <HeroScrollLine />
             </div>
