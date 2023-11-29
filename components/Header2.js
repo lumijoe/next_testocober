@@ -30,9 +30,10 @@ export default function Header2() {
                 <div className="flex-1 my-auto pr-3.5 justify-center"></div>
             </div>
 
+            {/* Navpanelの出現方法の設定（左から右、速さ） */}
             <style jsx>{`
                 .navpanel {
-                    transform: translateX(100%);
+                    transform: translateX(-100%);
                     transition: transform 0.3s ease-in-out;
                 }
 
@@ -41,9 +42,9 @@ export default function Header2() {
                 }
             `}</style>
 
-            {/* Navpanelを追加 */}
+            {/* Navpanelコンポーネント */}
             <div id="navpanel" className={`navpanel ${isNavpanelOpen ? 'open' : ''}`}>
-                <Navpanel className='z-200'/>
+                <Navpanel />
             </div>
         </div>
     );
