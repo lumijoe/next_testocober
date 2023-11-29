@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 
 export default function Navpanel() {
-    // エリアへ遷移する＃は変数で扱う（エスケープコードが効かない為）
+    // バグエラー回避策：worksareaへ遷移させる＃の代わりの変数を定義（エスケープコード無効・#記述不可）
     const worksarea = `/#works`;
     
     return (
