@@ -6,11 +6,15 @@ import Navpanel from '../components/Navpanel'; // Navpanelをインポート
 
 export default function Header2() {
     const [isNavpanelOpen, setIsNavpanelOpen] = useState(false);
-
+    // クリックされるごとに表示非表示を繰り返すトグル設定
     const toggleNavpanel = () => {
         setIsNavpanelOpen(!isNavpanelOpen);
     };
-    
+    // リンクをクリックされたら必ず非表示にする設定
+    const closeNavpanel = () => {
+        setIsNavpanelOpen(false);
+    };
+
     return (
         <div className='fixed z-50 h-14' >
             <div className="flex flex-row w-screen h-14 bg-black align-middle z-500">
@@ -43,7 +47,7 @@ export default function Header2() {
 
             {/* Navpanelコンポーネント */}
             <div id="navpanel" className={`navpanel ${isNavpanelOpen ? 'open' : ''}`}>
-                <Navpanel />
+                <Navpanel closeNavpanel={closeNavpanel} />
             </div>
         </div>
     );

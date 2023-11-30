@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-export default function Navpanel() {
+export default function Navpanel({ closeNavpanel }) {
     // バグエラー回避策：worksareaへ遷移させる＃の代わりの変数を定義（エスケープコード無効・#記述不可）
     const worksarea = `/#works`;
     
@@ -17,15 +17,15 @@ export default function Navpanel() {
                         
                         {/* Home */}
                         <li className='text-5xl text-white italic mb-4'>
-                            <Link href="/">Home</Link></li>
+                            <Link href="/" onClick={closeNavpanel}>Home</Link></li>
                         
                         {/* About */}
                         <li className='text-5xl text-white italic mb-4'>
-                            <Link href="/test4">About</Link></li>
+                            <Link href="/test4" onClick={closeNavpanel}>About</Link></li>
                         
                         {/* Works */}
                         <li className='text-5xl text-white italic mb-4'>
-                            <Link href={worksarea}>Works</Link></li>
+                            <Link href={worksarea} onClick={closeNavpanel}>Works</Link></li>
                         
                         {/* GitHub */}
                         <li className='flex justify-center mt-3'>
