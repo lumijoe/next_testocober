@@ -1,7 +1,6 @@
 // components/Header2.js
 
-import React, { useState } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image'; 
 import Navpanel from '../components/Navpanel'; // Navpanelをインポート
 
@@ -11,7 +10,7 @@ export default function Header2() {
     const toggleNavpanel = () => {
         setIsNavpanelOpen(!isNavpanelOpen);
     };
-
+    
     return (
         <div className='fixed z-50 h-14' >
             <div className="flex flex-row w-screen h-14 bg-black align-middle z-500">
