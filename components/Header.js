@@ -43,7 +43,7 @@ export default function Header2() {
 
             {/* Navpanelを追加 */}
             <div id="navpanel" className={`navpanel ${isNavpanelOpen ? 'open' : ''}`}>
-                <Navpanel className='z-200'/>
+                <Navpanel />
             </div>
         </div>
     );
