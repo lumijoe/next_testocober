@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image'; 
-import Navpanel from '../components/Navpanel'; // Navpanelをインポート
+import Navpanel from '../components/Navpanel';
 
 export default function Header2() {
     const [isNavpanelOpen, setIsNavpanelOpen] = useState(false);
