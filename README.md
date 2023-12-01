@@ -39,6 +39,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![favicon](https://github.com/lumijoe/next_testocober/assets/118164717/0d69128c-faaf-40de-b18a-a836247457fa)
 
+## icon(svg, png)
+- https://feathericons.com/ 
+- ハンバーガーメニュー（align-left→navbar.svg, x→closenavbar.svg）
+
   
 ## Getting Started
 
