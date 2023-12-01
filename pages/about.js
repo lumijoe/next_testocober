@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Footer from '../components/Footer';
 import Btn from '../components/Button/Btn';
 import Link from 'next/link';
-import styles from '@/styles/Home.module.css' 
+import styles from '../styles/Home.module.css' 
 import imgwork from '../public/imgwork.jpg';
 
 export default function About() {
@@ -34,7 +34,6 @@ export default function About() {
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
-                <p>loretypesampleoremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>

@@ -39,7 +39,7 @@ export default function Hero() {
             src="/img01.jpg"
             alt="Image"
             width={600}
-            style=""height={400}
+            height={400}
             priority
           />
           <Image

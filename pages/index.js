@@ -61,7 +61,7 @@ export default function Home() {
                 <div style={{ position: "relative", height: "20vh" }}>
                   <Image
                       className='h-5 w-full object-cover md:h-full md:w-12'
-                      src="/image01.jpg"
+                      src="/work03.gif"
                       alt="Hero img"
                       fill style={{ objectFit: "cover" }}
                       priority
