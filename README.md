@@ -41,7 +41,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## icon(svg, png)
 - https://feathericons.com/ 
-- ハンバーガーメニュー（align-left→navbar.svg, x→closenavbar.svg）
+- ハンバーガーメニュー（align-left→navbar.svg, x→navbarclose.svg）
 
   
 ## Getting Started
