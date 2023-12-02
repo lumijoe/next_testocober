@@ -5,8 +5,8 @@ import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import BtnMore from '../components/Button/BtnMore'
 import BtnCategories from '../components/Button/BtnCategories'
-import Card2 from '../components/Card'
-import WorksItem from '../components/WorksItem'
+import Card2 from '../components/Card2';
+import WorksItem from '../components/WorksItem';
 
 
 export default function test () {

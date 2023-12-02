@@ -1,6 +1,7 @@
 // components/Card2.js(Cardコンポーネント)
 import React from 'react';
 import Image from 'next/image'
+import Btn from '../components/Button/Btn' 
 
 export default function Card2() {
     return (
@@ -14,6 +15,16 @@ export default function Card2() {
                     Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
                     suspendisse.
                     </p>
+                    <Image 
+                    src="/work03.gif"
+                    alt="Image"
+                    width={395.5}
+                    height={227}
+                    priority
+                    />
+                    <Btn>more</Btn>
+
+
                 </div>
                 <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
                         <div className="flex items-center gap-x-6">
@@ -25,11 +36,20 @@ export default function Card2() {
                         height={600}
                         priority
                         />
-                        
                         </div>
                 </ul>
                 </div>
             </div>
+            <div>
+                <Image 
+                src="/work03.gif"
+                alt="Image"
+                width={395.5}
+                height={227}
+                priority
+                />
+            </div>
+
         </div>
     )
 }
