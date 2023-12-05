@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Header2 from '../components/Header2';
-import HeroTitleSkills2 from '../components/HeroTitleSkills2';
+import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import Navpanel from '@/components/Navpanel';
 import Image from 'next/image';
@@ -11,7 +11,7 @@ export default function Test3() {
     return (
         <div>
         <Header2 />
-        <HeroTitleSkills2 />
+        <Hero />
         <br />
         <Image 
         src="/work03.gif"
