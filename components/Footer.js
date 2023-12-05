@@ -15,12 +15,12 @@ export default function Footer() {
                     <span className="border-t-[0.5px] border-gray-200 block w-[88vw] mx-auto"></span>
                     <FooterSkills />
                     <FooterCopy />
-                    <a href='#'className='absolute bottom-[42px] right-[20px]'>
+                    <a href='#'className='absolute bottom-[80px] right-[20px]'>
                         <Image 
                             src="/totop.svg"
                             alt="Icon"
-                            width={48}
-                            height={48}
+                            width={60}
+                            height={60}
                         />
                     </a>
                 </div>
