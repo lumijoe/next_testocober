@@ -19,7 +19,7 @@ export default function Hero() {
     const scrollWidth = content.offsetWidth - container.offsetWidth;
 
     gsap.to(content, {
-      x: -1500,        // アニメーション速度
+      x: -500,        // アニメーション速度
       duration: 10,    // アニメーションの完了までの時間
       repeat: -1,     // 無限に繰り返す
       ease: "linear", // 線形のアニメーション
@@ -122,7 +122,7 @@ export default function Hero() {
         
           <div>
             {/* ４：中央サブタイトル：エンジニア、技術スタック*/}
-            <div className='absolute' style={{ left: "25%", top: "-52px" }}>
+            <div className='absolute mx-auto' style={{ left: "25%", right: "25%", top: "-52px" }}>
               <HeroTitleSkills2 />
             </div>
             {/* 5：右コンテンツ誘導：スクロール表示、ラインアニメーション */}
