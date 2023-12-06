@@ -18,6 +18,20 @@ export default function Test3() {
                 height={227}
                 priority
                 />
+                <Image 
+                src="/7.1m_gifcompresser.gif"
+                alt="Image"
+                width={395.5}
+                height={227}
+                priority
+                />
+                <Image 
+                src="7.6m_iloveimg.gif"
+                alt="Image"
+                width={395.5}
+                height={227}
+                priority
+                />
                 <p>loremloremlorem</p>
                 <p>loremloremlorem</p>
                 <p>loremloremlorem</p>
