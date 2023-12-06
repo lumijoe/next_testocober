@@ -126,11 +126,10 @@ export default function Hero() {
               <HeroTitleSkills2 />
             </div>
             {/* 5：右コンテンツ誘導：スクロール表示、ラインアニメーション */}
-            <div className='absolute' style={{ right: "30px", top: "50vh"}} >
+            <div className='absolute' style={{ right: "5%", bottom: "0px"}} >
               <HeroScrollLine />
             </div>
           </div>
-
       </div>
     </div>
   );
