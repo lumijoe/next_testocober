@@ -32,7 +32,7 @@ module.exports = {
         }
       },
       animation: {
-        lineFlow: 'lineFlow 6s infinite',
+        lineFlow: 'lineFlow 8s infinite',
     },
   },
 },
