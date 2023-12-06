@@ -10,8 +10,31 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        lineFlow: {
+          '0%': {
+            bottom: '100%',
+            height: '0%',
+          },
+          '20%': {
+            bottom: '0%',
+            height: '100%',
+          },
+          '40%': {
+            bottom: '0%',
+            height: '0%',
+          },
+          '100%': {
+            bottom: '0%',
+            height: '0%',
+          },
+        }
+      },
+      animation: {
+        lineFlow: 'lineFlow 6s infinite',
+    },
   },
+},
   plugins: [],
-}
-
+};
