@@ -19,7 +19,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - VSCode拡張機能Tailwind Documentationで、エディター上でスタイル検索が可能であり視覚的説明が充実していて時短が可能（command + control + t）
 - 特にカラーや余白の設定が豊富で、詳細にカスタムすることも可能、Static site制作において作品の差別化を図りたかったため
 - globalやHomeのあらかじめ設定されているCSSとの競合など簡単に解消できた
-- 
+- GSAPで実現が難しいものはconfig.jsで@keyframesカスタムで実現
 
 ## 技術選定3： Why GSAP
 - jQueryやgetElementなどの書き方が必要なく、JSX上で実現可能で時短が可能
@@ -43,6 +43,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - https://feathericons.com/ 
 - ハンバーガーメニュー（align-left→navbar.svg, x→navbarclose.svg）
 
+## 開発中のテストコードを整理するためのadjNotUseフォルダの作成
+- HeroTitleSkills2.js to HeroSkillsTitle.js （1205:Hero.jsで集約）
   
 ## Getting Started
 
