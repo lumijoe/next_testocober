@@ -18,7 +18,6 @@ export default function Test3() {
                 height={227}
                 priority
                 />
-                
                 <p>loremloremlorem</p>
                 <p>loremloremlorem</p>
                 <p>loremloremlorem</p>
