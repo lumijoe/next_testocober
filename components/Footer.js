@@ -12,7 +12,7 @@ export default function Footer() {
             <footer>
                 <div>
                     <FooterNav />
-                    <span className="border-t-[0.5px] border-gray-200 block w-[88vw] mx-auto"></span>
+                    <span className="border-t-[0.5px] border-[dimgray] block w-[88vw] mx-auto"></span>
                     <FooterSkills />
                     <FooterCopy />
                     <a href='#'className='absolute bottom-[80px] right-[20px]'>
