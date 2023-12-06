@@ -4,7 +4,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
-import HeroTitleSkills2 from '../components/HeroTitleSkills2';
+import HeroSkillsTitle from '../components/Hero/HeroSkillsTitle';
 import HeroScrollLine from '../components/HeroScrollLine';
 
 
@@ -123,7 +123,7 @@ export default function Hero() {
           <div>
             {/* ４：中央サブタイトル：エンジニア、技術スタック*/}
             <div className='absolute mx-auto' style={{ left: "25%", right: "25%", top: "-52px" }}>
-              <HeroTitleSkills2 />
+              <HeroSkillsTitle />
             </div>
             {/* 5：右コンテンツ誘導：スクロール表示、ラインアニメーション */}
             <div className='absolute' style={{ right: "5%", bottom: "0px"}} >
