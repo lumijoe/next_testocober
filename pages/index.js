@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 // pages/index.js(Homeページ)
 
 // デフォルト設定コンポーネント
@@ -55,7 +56,6 @@ export default function Home() {
               <a
                 href="/works/web01"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div style={{ position: "relative", height: "20vh" }}>
@@ -79,7 +79,6 @@ export default function Home() {
               <a
                 href="/works/web01"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div style={{ position: "relative", height: "20vh" }}>
@@ -103,7 +102,6 @@ export default function Home() {
               <a
                 href="/works/web01"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div style={{ position: "relative", height: "20vh" }}>
@@ -127,7 +125,6 @@ export default function Home() {
               <a
                 href="/works/web01"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div style={{ position: "relative", height: "20vh" }}>
@@ -151,7 +148,6 @@ export default function Home() {
               <a
                 href="/works/web01"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div style={{ position: "relative", height: "20vh" }}>
