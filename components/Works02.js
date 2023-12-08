@@ -18,7 +18,7 @@ export default function Works02 () {
                 />
                 <BtnCategories />
                 <Image 
-                    src="/img06.jpg"
+                    src="/work03.gif"
                     alt="Image"
                     width={395.5}
                     height={227}
