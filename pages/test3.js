@@ -1,5 +1,4 @@
 // pages/test3.js
-// CommonImgTmbを使用していないtest３(使用のtest5との比較)
 
 import React from 'react';
 import Layout from '../components/Layout';

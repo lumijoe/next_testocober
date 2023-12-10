@@ -1,4 +1,4 @@
-// components/WorksBox.js
+// components/WorksBox2.js
 
 import React from 'react';
 import Works01 from './Works01';
@@ -6,7 +6,7 @@ import Works02 from './Works02';
 import Works03 from './Works03';
 import Works04 from './Works04';
 
-export default function WorksBox() {
+export default function WorksBox2() {
     return (
         <div>
             <h1 className='text-5xl italic text-center mt-20 mb-20'>WORKS</h1>

@@ -9,25 +9,25 @@ import Image from 'next/image';
 
 export default function Works08 () {
     return (
-       <>
-        <WorksTemp>
-            <Btn className="bg-gray-600">ECサイト</Btn>
-            <h1>キャッチコピー</h1>
-            <Image
-                src="/toright.svg"
-                alt="Icon"
-                width={52}
-                height={52}
-            />
-            <BtnCategories />
-            <CommonImgTmb 
-            src="/img02.jpg"
-            alt="Image"
-            width={395.5}
-            height={227}
-            priority
-            />
-        </WorksTemp>
-       </> 
+       <div>
+            <WorksTemp>
+                <Btn className="bg-gray-600">ECサイト</Btn>
+                <h1>キャッチコピー</h1>
+                <Image
+                    src="/toright.svg"
+                    alt="Icon"
+                    width={52}
+                    height={52}
+                />
+                <BtnCategories />
+                <CommonImgTmb 
+                src="/img02.jpg"
+                alt="Image"
+                width={395.5}
+                height={227}
+                priority
+                />
+            </WorksTemp>
+       </div> 
     ) 
 }
