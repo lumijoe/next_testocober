@@ -1,55 +1,17 @@
 // pages/test5.js
 
 import React from 'react';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
+import Hero from '../components/Hero';
+import WorksBox from '../components/WorksBox';
 
 export default function Test5() {
     return (
-        <div>
-            <Header />
-            <p className='mt-[52px]'>test5のページ</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
-            <p>lorem</p>
+        <div className='bg-white'>
+            <Layout>
+                <Hero />
+                <WorksBox />
+            </Layout>
         </div>
     )
 }

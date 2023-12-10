@@ -1,3 +1,5 @@
+// components/Works02.js
+
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
 import Btn from '../components/Button/Btn';
@@ -18,7 +20,7 @@ export default function Works02 () {
                 />
                 <BtnCategories />
                 <Image 
-                    src="/work03.gif"
+                    src="/img04.jpg"
                     alt="Image"
                     width={395.5}
                     height={227}

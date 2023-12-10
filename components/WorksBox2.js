@@ -1,10 +1,10 @@
 // components/WorksBox.js
 
 import React from 'react';
-import Works05 from './Works05';
-import Works06 from './Works06';
-import Works07 from './Works07';
-import Works08 from './Works08';
+import Works01 from './Works01';
+import Works02 from './Works02';
+import Works03 from './Works03';
+import Works04 from './Works04';
 
 export default function WorksBox() {
     return (
@@ -15,11 +15,11 @@ export default function WorksBox() {
 意識しながら実装しています。
 行動心理を活用して
 ペルソナとサービスの双方のアイデンティティを
-マッチさせるべく実装に向き合っています。テストworks05-08</p>
-            <Works05 />
-            <Works06 />
-            <Works07 />
-            <Works08/>
+マッチさせるべく実装に向き合っています。テストworks01-04</p>
+            <Works01 />
+            <Works02 />
+            <Works03 />
+            <Works04/>
         </div>
     ) 
 }

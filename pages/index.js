@@ -38,9 +38,9 @@ export default function Home() {
 
           {/* 遷移ボタン =================================================== */}
           <div>
-            <Btn><Link href="/test2">テストページtwoに遷移</Link></Btn>
-            <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
-            <Btn><Link href="/test3">テストページ3に遷移</Link></Btn>
+            <Btn className="bg-amber-500"><Link href="/test">テスト1に遷移</Link></Btn>
+            <Btn className="bg-teal-600"><Link href="/test3">テスト3に遷移</Link></Btn>
+            <Btn className="bg-red-500"><Link href="/test5">テスト5に遷移</Link></Btn>
           </div>
           
           {/* Works =====================================================*/}
@@ -61,7 +61,7 @@ export default function Home() {
                 <div style={{ position: "relative", height: "20vh" }}>
                   <Image
                       className='h-5 w-full object-cover md:h-full md:w-12'
-                      src="/work03.gif"
+                      src="/img04.jpg"
                       alt="Hero img"
                       fill style={{ objectFit: "cover" }}
                       priority
