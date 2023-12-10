@@ -1,4 +1,5 @@
 // components/Works05.js
+// パターン：ブラウザ、右
 
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
@@ -27,13 +28,14 @@ export default function Works05 () {
                                 alt="Icon"
                                 width={72}
                                 height={72}
+                                style={{ paddingTop: "25px" }}
                             />
                         </Link>
                     </div>
                 </div>
                         
                 <div className='flex flex-row ml-8 h-auto'>
-                    <div className='flex flex-col items-center'>
+                    <div className='flex flex-col items-center py-auto'>
                         <BtnSkillBlack>Next.js</BtnSkillBlack>
                         <BtnSkillBlack>Node.js</BtnSkillBlack>
                         <BtnSkillBlack>React</BtnSkillBlack>

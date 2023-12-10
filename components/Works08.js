@@ -28,6 +28,7 @@ export default function Works08 () {
                                 alt="Icon"
                                 width={72}
                                 height={72}
+                                style={{ paddingTop: "25px" }}
                             />
                         </Link>
                     </div>
