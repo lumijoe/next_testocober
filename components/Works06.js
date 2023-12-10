@@ -12,7 +12,7 @@ export default function Works06 () {
     return (
        <div>
             <WorksTemp>
-                <Btn className="bg-indigo-500">2023:リハビリアプリ</Btn>
+                <Btn className="bg-red-400">2023:リハビリアプリ</Btn>
                 <div className='flex-row mb-8'>
                     <div className='flex'>
                         <div className='w-[275px] pr-8'>

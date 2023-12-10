@@ -3,7 +3,7 @@ import CommonImgTmb from '../components/Works/CommonImgTmb';
 
 export default function WorksTemp({ children }) {
     return (
-        <div>
+        <div className='w-full'>
         {children}
         <CommonImgTmb />
         <div className='bg-black w-full h-[15px] mt-8'></div>

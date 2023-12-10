@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function CommonImgTmb ({ src, alt, width, height }) {
+export default function CommonImgTmb ({ src, alt, width, height, style }) {
     // Worksエリアでサムネに使用する画像の共通設定
   return (
     <Image
@@ -11,6 +11,7 @@ export default function CommonImgTmb ({ src, alt, width, height }) {
       alt={alt}
       width={width}
       height={height}
+      style={style}
       priority
     />
   );
