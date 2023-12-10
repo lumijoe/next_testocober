@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export default function Works07 () {
     return (
-       <div>
+       <>
             <WorksTemp>
                 <Btn className="bg-yellow-500">ECサイト</Btn>
                 <h1>キャッチコピー</h1>
@@ -28,6 +28,6 @@ export default function Works07 () {
                 priority
                 />
             </WorksTemp>
-       </div> 
+       </> 
     ) 
 }
