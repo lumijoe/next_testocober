@@ -13,7 +13,7 @@ export default function Works05 () {
     return (
        <div>
             <WorksTemp>
-                <div className='pl-8'>
+                <div className='pl-10'>
                     <Btn className="bg-emerald-600"><span className='text-[18px] tracking-[3px]'>2023:EC</span>サイト</Btn>
                     <div className='flex flex-row mb-8'>
                         <div className='w-[250px] pr-2'>
