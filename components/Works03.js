@@ -3,7 +3,7 @@
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
 import Btn from '../components/Button/Btn';
-import BtnCategories from './Button/BtnCategories';
+import BtnCategories from './Button/BtnSkillBlack';
 import Image from 'next/image';
 
 export default function Works03 () {

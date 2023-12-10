@@ -5,6 +5,8 @@ import FooterSkills from './Footer/FooterSkills';
 import FooterNav from './Footer/FooterNav';
 import FooterCopy from './Footer/FooterCopy';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 export default function Footer() {
     return (
@@ -15,14 +17,14 @@ export default function Footer() {
                     <span className="border-t-[0.5px] border-[dimgray] block w-[88vw] mx-auto"></span>
                     <FooterSkills />
                     <FooterCopy />
-                    <a href='#'className='absolute bottom-[80px] right-[20px]'>
+                    <Link href='#'className='absolute bottom-[80px] right-[20px]'>
                         <Image 
                             src="/totop.svg"
                             alt="Icon"
                             width={60}
                             height={60}
                         />
-                    </a>
+                    </Link>
                 </div>
             </footer>
         </div>

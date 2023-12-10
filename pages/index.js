@@ -38,9 +38,9 @@ export default function Home() {
 
           {/* 遷移ボタン =================================================== */}
           <div>
-            <Btn className="bg-amber-500"><Link href="/test">テスト1に遷移</Link></Btn>
-            <Btn className="bg-teal-600"><Link href="/test3">テスト3に遷移</Link></Btn>
-            <Btn className="bg-red-500"><Link href="/test5">テスト5に遷移</Link></Btn>
+            <Btn><Link href="/test">テスト1に遷移</Link></Btn>
+            <Btn><Link href="/test3">テスト3に遷移</Link></Btn>
+            <Btn><Link href="/test5">テスト5に遷移</Link></Btn>
           </div>
           
           {/* Works =====================================================*/}
@@ -53,7 +53,7 @@ export default function Home() {
 
 
               {/* web01 _____________________________ */}
-              <a
+              <Link
                 href="/works/web01"
                 className={styles.card}
                 rel="noopener noreferrer"
@@ -73,10 +73,10 @@ export default function Home() {
                 <p>
                   Find in-depth information about Next.js features and&nbsp;API.
                 </p>
-              </a>
+              </Link>
 
               {/* web01 _____________________________ */}
-              <a
+              <Link
                 href="/works/web01"
                 className={styles.card}
                 rel="noopener noreferrer"
@@ -96,10 +96,10 @@ export default function Home() {
                 <p>
                   Find in-depth information about Next.js features and&nbsp;API.
                 </p>
-              </a>
+              </Link>
 
               {/* web01 _____________________________ */}
-              <a
+              <Link
                 href="/works/web01"
                 className={styles.card}
                 rel="noopener noreferrer"
@@ -119,10 +119,10 @@ export default function Home() {
                 <p>
                   Find in-depth information about Next.js features and&nbsp;API.
                 </p>
-              </a>
+              </Link>
 
               {/* web01 _____________________________ */}
-              <a
+              <Link
                 href="/works/web01"
                 className={styles.card}
                 rel="noopener noreferrer"
@@ -142,10 +142,10 @@ export default function Home() {
                 <p>
                   Find in-depth information about Next.js features and&nbsp;API.
                 </p>
-              </a>
+              </Link>
 
               {/* web01 _____________________________ */}
-              <a
+              <Link
                 href="/works/web01"
                 className={styles.card}
                 rel="noopener noreferrer"
@@ -165,7 +165,7 @@ export default function Home() {
                 <p>
                   Find in-depth information about Next.js features and&nbsp;API. 
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
           {/* Works ここまで =================================================*/}
