@@ -11,7 +11,7 @@ export default function Works07 () {
     return (
        <div>
             <WorksTemp>
-                <Btn className="bg-emerald-600">ECサイト</Btn>
+                <Btn className="bg-yellow-500">ECサイト</Btn>
                 <h1>キャッチコピー</h1>
                 <Image
                     src="/toright.svg"
@@ -23,8 +23,8 @@ export default function Works07 () {
                 <CommonImgTmb 
                 src="/img02.jpg"
                 alt="Image"
-                width={197.5}
-                height={113.5}
+                width={395.5}
+                height={227}
                 priority
                 />
             </WorksTemp>

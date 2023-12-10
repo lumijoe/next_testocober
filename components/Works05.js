@@ -23,8 +23,8 @@ export default function Works05 () {
                 <CommonImgTmb 
                 src="/img04.jpg"
                 alt="Image"
-                width={197.5}
-                height={113.5}
+                width={395.5}
+                height={227}
                 priority
                 />
             </WorksTemp>
