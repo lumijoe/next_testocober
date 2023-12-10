@@ -24,8 +24,8 @@ export default function Works06 () {
                             <Image
                                 src="/toright.svg"
                                 alt="Icon"
-                                width={52}
-                                height={52}
+                                width={72}
+                                height={72}
                             />
                         </Link>
                     </div>

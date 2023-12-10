@@ -12,11 +12,11 @@ export default function Works05 () {
     return (
        <div>
             <WorksTemp>
-                <Btn className="bg-emerald-600">2023:ECサイト</Btn>
+                <Btn className="bg-emerald-600 ">2023:ECサイト</Btn>
                 <div className='flex-row mb-8'>
                     <div className='flex'>
                         <div className='w-[275px] pr-8'>
-                            <h2 className='font-bold text-1xl'>エシカル体験のために</h2>
+                            <h2 className='font-semibold text-1xl'>エシカル体験のために</h2>
                             <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>警備経験は私のデザインのルーツです。<br/>Web空間での課題解決を念頭に、
                             <br/>クリエイティブと実用性のバランスを調整しながら
                             より良いUIやUXの実現に向き合っています。</p>
@@ -25,8 +25,8 @@ export default function Works05 () {
                             <Image
                                 src="/toright.svg"
                                 alt="Icon"
-                                width={52}
-                                height={52}
+                                width={72}
+                                height={72}
                             />
                         </Link>
                     </div>
