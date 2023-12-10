@@ -42,7 +42,7 @@ export default function Works05 () {
                         <BtnSkillBlack>Express</BtnSkillBlack>
                         etc...
                     </div>
-                    <div className='ml-[-15px] overflow-hidden'>
+                    <div className='ml-[15px] overflow-hidden'>
                         <CommonImgTmb 
                         src="/work04.png"
                         alt="Image"
