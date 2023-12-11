@@ -37,7 +37,7 @@ export default function Works07 () {
                         </div>
                     </div>
 
-                    <div className='flex flex-row h-auto justify-center '>
+                    <div className='flex flex-row h-auto justify-center ss:flex-col-reverse'>
                         <div className='  overflow-visible'>
                             <CommonImgTmb 
                             src="/img07tmb.png"
@@ -48,7 +48,7 @@ export default function Works07 () {
                             style={{ maxWidth: 'none', marginBottom: '-38px' }}
                             />
                         </div>
-                        <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] z-20'>
+                        <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] ss:pt-0 z-20'>
                             <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
                         </div>
