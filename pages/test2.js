@@ -14,7 +14,7 @@ export default function Test2() {
         <div className='text-white'>
             <Layout>
                 <Hero />
-                <div className='bg-black'>
+                <div className='bg-[#232323]'>
                 <WorksBox2 />
                 </div>
             </Layout>

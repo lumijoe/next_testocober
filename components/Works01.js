@@ -13,8 +13,9 @@ export default function Works01 () {
     return (
        <div>
             <WorksTemp>
-                <div className='flex justify-center'>
-                    <BtnLike className="bg-black border-[white]"><span className='text-[18px] text-white tracking-[3px]'>2023:EC</span>サイト</BtnLike>
+                <h1 className='inline-block text-8xl text-white italic font-thin pl-8 mt-8 '>2023</h1>
+                <div className='flex justify-center mt-[-100px]'>
+                    <BtnLike className="b border-[white]"><span className='text-[18px] text-white tracking-[3px]'>EC</span>サイト</BtnLike>
                 </div>
 
                 <div className='flex flex-col sm:flex-row justify-center'>
