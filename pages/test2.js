@@ -1,32 +1,24 @@
 // pages/test2.js
 
+// CommonImgTmbを使用したサイトtest5(使用していないtest3との比較)
+
+
+
 import React from 'react';
-import Header2 from '../components/Header2';
-import Card from '../components/Card';
-import BtnCategories from '@/components/Button/BtnLikeSkillBlack';
-import WorksItem from '@/components/WorksItem';
-import Hero from '@/components/Hero';
-import HeroScrollLine from '@/components/HeroScrollLine';
+import Layout from '../components/Layout';
+import Hero from '../components/Hero';
+import WorksBox2 from '../components/WorksBox2';
 
-
-export default function test2() {
+export default function Test2() {
     return (
-        <div className='relative'>
-            <Header2 />
-            <Hero />
-            <div>
-                <Card />
-            </div>
-            <div>
-                <h2>NEXT.js</h2>
-                <BtnCategories />
-            </div>
-            <div>
-                <WorksItem />
-                <WorksItem />
-                <WorksItem />
-                <WorksItem />
-            </div>
+        <div className='text-white'>
+            <Layout>
+                <Hero />
+                <div className='bg-black'>
+                <WorksBox2 />
+                </div>
+            </Layout>
+            
         </div>
     )
 }
