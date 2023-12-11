@@ -38,7 +38,7 @@ export default function Home() {
 
           {/* 遷移ボタン =================================================== */}
           <div>
-            <Btn><Link href="/test">テスト1に遷移</Link></Btn>
+            <Btn><Link href="/test2">テスト2に遷移</Link></Btn>
             <Btn><Link href="/test3">テスト3に遷移</Link></Btn>
             <Btn><Link href="/test5">テスト5に遷移</Link></Btn>
           </div>

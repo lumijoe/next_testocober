@@ -1,4 +1,4 @@
-// components/Works01.js
+// components/Works10.js
 // パターン：ブラウザ、右
 
 import React from 'react';
@@ -8,15 +8,15 @@ import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Works01 () {
+export default function Works10 () {
     return (
        <div>
             <WorksTemp>
                 <div className='flex flex-col sm:flex-row justify-center'>  
                     <div className='flex flex-row h-[346px]'>
-                        <div className=' overflow-hidden'>
+                        <div className='overflow-hidden justify-self-center'>
                             <CommonImgTmb 
-                            src="/img01.jpg"
+                            src="/img02.jpg"
                             alt="Image"
                             width={500}
                             height={346}
@@ -26,14 +26,13 @@ export default function Works01 () {
                             />
                         </div>
                         <div className='flex flex-col items-center py-auto ml-[-50px] pr-4 z-10 '>
-                            <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                            <BtnLikeSkillBlack>Node.js</BtnLikeSkillBlack>
-                            <BtnLikeSkillBlack>React</BtnLikeSkillBlack>
-                            <BtnLikeSkillBlack>Express</BtnLikeSkillBlack>
-                            etc...
+                            <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
+                            <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
+                            <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
+                            <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack>
                             <Link href='/about'>
                                 <Image
-                                    src="/toright.svg"
+                                    src="/torightWhite.svg"
                                     alt="Icon"
                                     width={72}
                                     height={72}
@@ -42,7 +41,7 @@ export default function Works01 () {
                             </Link>
                         </div>
                     </div>
-                    <h1 className='inline-block text-8xl text-white italic font-thin pl-8 mt-[-50px]'>01<span className='text-white text-sm'>コーポレートサイト / Cafe du Mode / 2022.12</span></h1>
+                    <h1 className='inline-block text-8xl text-white italic font-thin pl-8 mt-[-50px]'>06<span className='text-white text-sm'>パンフレット / 自治体 / 2016.6</span></h1>
                 </div>
             </WorksTemp>
        </div> 
