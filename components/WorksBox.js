@@ -2,6 +2,8 @@
 
 import React from 'react';
 import Works05 from './Works05';
+import Works03 from './Works03';
+import Works02 from './Works02';
 import Works04 from './Works04';
 import Works06 from './Works06';
 import Works07 from './Works07';
@@ -20,6 +22,9 @@ export default function WorksBox() {
             <Works05 />
             <Works06 />
             <Works07 />
+            <Works02 />
+            <Works03 />
+            <Works04 />
             <Works08/>
         </div>
     ) 
