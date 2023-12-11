@@ -4,7 +4,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import BtnMore from '../components/Button/BtnMore'
-import BtnCategories from '../components/Button/BtnSkillBlack'
+import BtnCategories from '../components/Button/BtnLikeSkillBlack'
 import Card2 from '../components/Card2';
 import WorksItem from '../components/WorksItem';
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
 import Btn from '../components/Button/Btn';
-import BtnSkillBlack from './Button/BtnSkillBlack';
+import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -36,10 +36,10 @@ export default function Works08 () {
                 <div className='flex-row'>
                     <div className='flex'>
                         <div className='flex flex-col items-center h-full'>
-                            <BtnSkillBlack>Illustrator</BtnSkillBlack>
-                            <BtnSkillBlack>Photoshop</BtnSkillBlack>
-                            <BtnSkillBlack>Excel</BtnSkillBlack>
-                            <BtnSkillBlack>PowerPoint</BtnSkillBlack>
+                            <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
+                            <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
+                            <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack>
+                            <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
                             etc...
                         </div>
                         <CommonImgTmb 

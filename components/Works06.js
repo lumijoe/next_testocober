@@ -4,7 +4,7 @@
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
 import Btn from '../components/Button/Btn';
-import BtnSkillBlack from './Button/BtnSkillBlack';
+import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -44,8 +44,8 @@ export default function Works06 () {
                         />
                     </div>
                     <div className='flex flex-col items-center h-full ml-[-20px]'>
-                        <BtnSkillBlack>Glide</BtnSkillBlack>
-                        <BtnSkillBlack>Glide Sheet</BtnSkillBlack>
+                        <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>Glide Sheet</BtnLikeSkillBlack>
                     </div>
                 </div>
             </WorksTemp>
