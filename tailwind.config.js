@@ -33,8 +33,11 @@ module.exports = {
       },
       animation: {
         lineFlow: 'lineFlow 8s infinite',
+      },
+      screens: {
+        'ss': {'max': '399px'},
+      },
     },
   },
-},
   plugins: [],
 };

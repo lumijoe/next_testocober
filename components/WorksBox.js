@@ -18,7 +18,6 @@ export default function WorksBox() {
 ペルソナとサービスの双方のアイデンティティを
 マッチさせるべく実装に向き合っています。テストworks05-08</p>
             <Works05 />
-            <Works04 />
             <Works06 />
             <Works07 />
             <Works08/>

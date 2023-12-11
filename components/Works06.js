@@ -33,7 +33,11 @@ export default function Works06 () {
                 </div>
 
                  <div className='flex flex-row mr-8 h-auto'>
-                    <div className=' ml-4 overflow-visible'>
+                    <div className='flex flex-col items-center pt-12 z-50'>
+                        <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
+                    </div>
+                    <div className='overflow-visible'>
                         <CommonImgTmb 
                         src="/img07tmb.png"
                         alt="Image"
@@ -43,10 +47,7 @@ export default function Works06 () {
                         style={{ maxWidth: 'none', marginBottom: '-38px' }}
                         />
                     </div>
-                    <div className='flex flex-col items-center pt-12 pr-8 z-50'>
-                        <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
-                        <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
-                    </div>
+                    
                 </div>
             </WorksTemp>
        </div> 

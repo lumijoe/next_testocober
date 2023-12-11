@@ -18,10 +18,10 @@ export default function Works07 () {
                 <BtnLike className="bg-amber-400"><span className='text-[18px] tracking-[3px]'>2023:</span>リハビリアプリ</BtnLike>
                 </div>
 
-                <div className='flex flex-col sm:flex-row'>
-                    <div className='pl-8 pr-2'> 
+                <div className='flex flex-col sm:flex-row justify-center'>
+                    <div className='flex justify-center'> 
                         <div className='flex flex-row mb-8'>
-                            <div className='w-[250px] pr-8'>
+                            <div className='w-[250px]'>
                                 <h2 className='font-bold text-1xl'>レジリエンス向上のために</h2>
                                 <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>リハビリ通院をサポート。<br/>通院公共機関や天気情報をはじめ、主治医と共有したい症状メモ機能を搭載。アプリ１つで簡単に管理でき、リハビリに集中してもらう環境を整えるアプリです。</p>
                             </div>
@@ -37,8 +37,8 @@ export default function Works07 () {
                         </div>
                     </div>
 
-                    <div className='flex flex-row mr-8 h-auto'>
-                        <div className=' ml-4 overflow-visible'>
+                    <div className='flex flex-row h-auto justify-center '>
+                        <div className='  overflow-visible'>
                             <CommonImgTmb 
                             src="/img07tmb.png"
                             alt="Image"
@@ -48,12 +48,12 @@ export default function Works07 () {
                             style={{ maxWidth: 'none', marginBottom: '-38px' }}
                             />
                         </div>
-                        <div className='flex flex-col items-center pt-12 pr-8 z-50'>
+                        <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] z-50'>
                             <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
                         </div>
                     </div>
-            </div>
+                </div>
             </WorksTemp>
        </div> 
     ) 
