@@ -2,7 +2,7 @@
 
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
-import Btn from '../components/Button/Btn';
+import BtnLike from '../components/Button/BtnLike';
 import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
@@ -12,7 +12,7 @@ export default function Works08 () {
     return (
        <div>
             <WorksTemp>
-                <Btn className="bg-slate-500">2014-2021:デザイン</Btn>
+                <BtnLike className="bg-slate-500">2014-2021:デザイン</BtnLike>
                 <div className='flex-row mb-8'>
                     <div className='flex'>
                         <div className='w-[275px] pr-8'>

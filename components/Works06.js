@@ -3,7 +3,7 @@
 
 import React from 'react';
 import WorksTemp from '../components/WorksTemp';
-import Btn from '../components/Button/Btn';
+import BtnLike from '../components/Button/BtnLike';
 import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
@@ -14,7 +14,7 @@ export default function Works06 () {
        <div>
             <WorksTemp>
                 <div className='pl-8'>
-                    <Btn className="bg-red-400"><span className='text-[18px] tracking-[3px]'>2023:</span>リハビリアプリ</Btn>
+                    <BtnLike className="bg-red-400"><span className='text-[18px] tracking-[3px]'>2023:</span>リハビリアプリ</BtnLike>
                     <div className='flex flex-row mb-8'>
                         <div className='w-[250px] pr-8'>
                             <h2 className='font-bold text-1xl'>レジリエンス向上のために</h2>
