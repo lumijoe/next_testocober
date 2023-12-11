@@ -28,7 +28,7 @@ export default function Header2() {
                     />
                 </div>
                 <div className="flex justify-center m-auto">
-                    <h1 className='text-white text-center italic text-2xl'>LUMI KOJO</h1>
+                    <h1 className='text-white text-center italic text-2xl translate-no'>LUMI KOJO</h1>
                 </div>
                 <div className="flex-1 my-auto pr-3.5 justify-center"></div>
             </div>

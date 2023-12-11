@@ -18,7 +18,7 @@ export default function Works08 () {
                     <BtnLike className="bg-gray-400"><span className='text-[18px] tracking-[3px]'>2014-2021:</span>デザイン</BtnLike>
                 </div>
 
-                <div className='flex flex-col sm:flex-row justify-center'>
+                <div className='flex flex-col sm:flex-row justify-center mb-[-32px]'>
                     <div className='flex justify-center'> 
                         <div className='flex flex-row mb-8'>
                             <div className='w-[250px]'>
@@ -29,8 +29,8 @@ export default function Works08 () {
                                 <Image
                                     src="/toright.svg"
                                     alt="Icon"
-                                    width={72}
-                                    height={72}
+                                    width={52}
+                                    height={52}
                                     style={{ paddingTop: "25px" }}
                                 />
                             </Link>
@@ -38,7 +38,7 @@ export default function Works08 () {
                     </div>
 
                     <div className='flex flex-col-reverse h-auto justify-center'>
-                        <div className='flex flex-row overflow-x-scroll'>
+                        <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto'>
                             <div className='flex flex-col justify-center relative'>
                                 <p className='self-center'>Graphic</p>
                                 <CommonImgTmb 
@@ -51,15 +51,15 @@ export default function Works08 () {
                                 />
                                 <Link href='/about'>
                                     <Image
-                                        src="/toright.svg"
+                                        src="/torightWhite.svg"
                                         alt="Icon"
-                                        width={72}
-                                        height={72}
-                                        style={{ paddingTop: "25px", position: "absolute", top: "50%" }}
+                                        width={52}
+                                        height={52}
+                                        style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                     />
                                 </Link>
                             </div>
-                            <div className='flex flex-col justify-center'>
+                            <div className='flex flex-col justify-center relative'>
                                 <p className='self-center'>Graphic</p>
                                 <CommonImgTmb 
                                 src="/img02.jpg"
@@ -69,8 +69,17 @@ export default function Works08 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
+                                <Link href='/about'>
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ paddingTop: "25px", position: "absolute", top: "50%", hover: "bg-indigo-500" }}
+                                    />
+                                </Link>
                             </div>
-                            <div className='flex flex-col justify-center'>
+                            <div className='flex flex-col justify-center relative'>
                                 <p className='self-center'>Graphic</p>
                                 <CommonImgTmb 
                                 src="/img02.jpg"
@@ -80,8 +89,17 @@ export default function Works08 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
+                                <Link href='/about'>
+                                    <Image
+                                            src="/torightWhite.svg"
+                                            alt="Icon"
+                                            width={52}
+                                            height={52}
+                                            style={{ paddingTop: "25px", position: "absolute", top: "50%", hover: "bg-indigo-500" }}
+                                        />
+                                </Link>
                             </div>
-                            <div className='flex flex-col justify-center'>
+                            <div className='flex flex-col justify-center relative'>
                                 <p className='self-center'>Graphic</p>
                                 <CommonImgTmb 
                                 src="/img02.jpg"
@@ -91,8 +109,17 @@ export default function Works08 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
+                                <Link href='/about'>
+                                    <Image
+                                            src="/torightWhite.svg"
+                                            alt="Icon"
+                                            width={52}
+                                            height={52}
+                                            style={{ paddingTop: "25px", position: "absolute", top: "50%", hover: "bg-indigo-500" }}
+                                        />
+                                </Link>
                             </div>
-                            <div className='flex flex-col justify-center'>
+                            <div className='flex flex-col justify-center relative'>
                                 <p className='self-center'>Graphic</p>
                                 <CommonImgTmb 
                                 src="/img02.jpg"
@@ -102,9 +129,18 @@ export default function Works08 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
-                            </div>
+                                <Link href='/about'>
+                                    <Image
+                                            src="/torightWhite.svg"
+                                            alt="Icon"
+                                            width={52}
+                                            height={52}
+                                            style={{ paddingTop: "25px", position: "absolute", top: "50%", hover: "bg-indigo-500" }}
+                                        />
+                                </Link>
+                            </div> 
                         </div>
-                        <div className='flex flex-col items-center'>
+                        <div className='flex flex-col items-center mb-8'>
                             <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
