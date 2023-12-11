@@ -48,7 +48,7 @@ export default function Works07 () {
                             style={{ maxWidth: 'none', marginBottom: '-38px' }}
                             />
                         </div>
-                        <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] z-50'>
+                        <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] z-20'>
                             <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
                         </div>
