@@ -13,12 +13,12 @@ export default function Works06 () {
     return (
        <div>
             <WorksTemp>
-                <div className='pl-8'>
+                <div className='pl-8 pr-2'>
                     <BtnLike className="bg-red-400"><span className='text-[18px] tracking-[3px]'>2023:</span>リハビリアプリ</BtnLike>
                     <div className='flex flex-row mb-8'>
                         <div className='w-[250px] pr-8'>
                             <h2 className='font-bold text-1xl'>レジリエンス向上のために</h2>
-                            <p className='break-all mt-2 text-[12px] leading-7 text-[#696969] font-thin tracking-wider'>リハビリ通院をサポート。<br/>通院公共機関や天気情報をはじめ、主治医と共有したい症状メモ機能を搭載。アプリ１つで簡単に管理でき、リハビリに集中してもらう環境を整えるアプリです。</p>
+                            <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>リハビリ通院をサポート。<br/>通院公共機関や天気情報をはじめ、主治医と共有したい症状メモ機能を搭載。アプリ１つで簡単に管理でき、リハビリに集中してもらう環境を整えるアプリです。</p>
                         </div>
                         <Link href='/about'>
                             <Image
@@ -33,7 +33,7 @@ export default function Works06 () {
                 </div>
 
                  <div className='flex flex-row mr-8 h-auto'>
-                    <div className=' ml-6 overflow-x-visible overflow-y-visible'>
+                    <div className=' ml-4 overflow-visible'>
                         <CommonImgTmb 
                         src="/img07tmb.png"
                         alt="Image"
@@ -43,9 +43,9 @@ export default function Works06 () {
                         style={{ maxWidth: 'none', marginBottom: '-38px' }}
                         />
                     </div>
-                    <div className='flex flex-col items-center h-full ml-[-20px]'>
+                    <div className='flex flex-col items-center pt-12 pr-8 z-50'>
                         <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
-                        <BtnLikeSkillBlack>Glide Sheet</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
                     </div>
                 </div>
             </WorksTemp>

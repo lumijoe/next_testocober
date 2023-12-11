@@ -18,7 +18,7 @@ export default function Works05 () {
                     <div className='flex flex-row mb-8'>
                         <div className='w-[250px] pr-2'>
                             <h2 className='font-semibold text-1xl'>エシカル体験のために</h2>
-                            <p className='break-all mt-2 text-[12px] leading-7 text-[#696969] font-thin tracking-wider'>警備経験は私のデザインのルーツです。<br/>Web空間での課題解決を念頭に、
+                            <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>警備経験は私のデザインのルーツです。<br/>Web空間での課題解決を念頭に、
                             <br/>クリエイティブと実用性のバランスを調整しながら
                             より良いUIやUXの実現に向き合っています。</p>
                         </div>

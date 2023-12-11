@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Works05 from './Works05';
+import Works04 from './Works04';
 import Works06 from './Works06';
 import Works07 from './Works07';
 import Works08 from './Works08';
@@ -17,6 +18,7 @@ export default function WorksBox() {
 ペルソナとサービスの双方のアイデンティティを
 マッチさせるべく実装に向き合っています。テストworks05-08</p>
             <Works05 />
+            <Works04 />
             <Works06 />
             <Works07 />
             <Works08/>
