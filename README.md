@@ -21,7 +21,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - globalやHomeのあらかじめ設定されているCSSとの競合など簡単に解消できた
 - GSAPで実現が難しいものはconfig.jsで@keyframesカスタムで実現
 - ブレークポイント機能
-    - デフォルト設定：640px以上のsmなど
+    - デフォルト設定：sm: 640px, md: 768px, lg: 1024px, xl: 1280px, 2xl: 1536px
     - カスタム追加設定：tailwind.config.jsで400px未満のssを設定済み
 
 ## 技術選定3： Why GSAP
@@ -33,6 +33,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - 自動翻訳機能をオフにするmetaタグ
 - キーボードでのアクセシビリティへの配慮
 - Photoshopや圧縮サイトを活用しできるだけ画質はそのままに画像データサイズだけを落とし、読み込み速度やビジュアル感情などのUX、サーバー負荷に配慮
+- npm install split-text (スプリットテキストの使用可能)
+- npm install styled-components（hoverなど動的CSSをコンポーネントで使用可能）
+ 
 
 ## Original Favicon　を使用
 - グラフィックデザイナーからWebにキャリア転向する際にデザインしたロゴ

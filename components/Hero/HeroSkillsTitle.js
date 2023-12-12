@@ -17,7 +17,7 @@ export default function HeroSkillsTitle() {
       {/* 中央エリア(myjob) */}
       <div className="flex">
         <div className="w-full text-center">
-            <p className='text-white text-4xl italic font-semibold' >Front&nbsp;End<span className='text-white text-2xl italic font-thin'>Web&nbsp;Engineer</span></p>
+            <p className='text-white text-4xl italic font-semibold lg:text-8xl' >Front&nbsp;End<span className='text-white text-2xl italic font-thin lg:text-6xl'>Web&nbsp;Engineer</span></p>
         </div>
       </div>
 

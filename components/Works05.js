@@ -26,15 +26,7 @@ export default function Works05 () {
                                 <br/>クリエイティブと実用性のバランスを調整しながら
                                 より良いUIやUXの実現に向き合っています。</p>
                             </div>
-                            <Link href='/about'>
-                                <Image
-                                    src="/toright.svg"
-                                    alt="Icon"
-                                    width={72}
-                                    height={72}
-                                    style={{ paddingTop: "25px" }}
-                                />
-                            </Link>
+                            
                         </div>
                     </div>
                       
@@ -47,6 +39,7 @@ export default function Works05 () {
                             etc...
                         </div>
                         <div className='ml-[15px] overflow-hidden'>
+                        <Link href='/about'>
                             <CommonImgTmb 
                             src="/work04.png"
                             alt="Image"
@@ -56,6 +49,7 @@ export default function Works05 () {
                             priority
                             style={{ maxWidth: 'none', paddingLeft: '-20px' }}
                             />
+                        </Link>
                         </div>
                     </div>
                 </div>

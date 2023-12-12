@@ -27,7 +27,7 @@ export default function HeroTitleSkills() {
     }, []);
 
     return (
-    <div className='text-white text-2xl italic font-thin'>
+    <div className='text-white text-2xl italic font-thin lg:text-5xl lg:tracking-wider'>
         <ul className='text-center' ref={textRef}>
         <li>NEXT.js</li>
         <li>React</li>
