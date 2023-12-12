@@ -13,10 +13,10 @@ export default function About() {
     return (
         <div>
             <Header2 />
-            <div>
+            <div className='relative'>
                 <div style={{ position: "relative", height: "40vh" }}>
                     <Image
-                        className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
+                        className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down fixed'
                         src={imgwork}
                         alt="Work img"
                         fill={true}
@@ -25,6 +25,7 @@ export default function About() {
                     />  
                 </div>
                 <div className='absolute inset-0 bg-gray-950 opacity-60' style={{ height: "40vh" }}/>
+                
             </div>
 
             <div className='mt-[52px]'> 

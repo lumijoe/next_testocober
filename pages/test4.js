@@ -9,10 +9,13 @@ import Footer from '../components/Footer';
 export default function Test4() {
     return (
         <div>
-            
+            <Header2 />
+            <div className='relative'>
+
+            </div>
 
             {/* ２番目：一時固定画像 */}
-            <div className="bg-black  w-full h-60  fixed mt-20 z-10 items-center justify-center" >
+            <div className="bg-black  w-full h-[40vh]  fixed z-10 items-center justify-center" >
                 <Image
                     className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
                     src={imgwork}
@@ -22,10 +25,10 @@ export default function Test4() {
                     priority
                 />  
             </div>
-            <div className='absolute inset-0 bg-gray-950 opacity-60 z-20' style={{ height: "40vh" }}/>
+            <div className='fixed inset-0 bg-gray-950 opacity-60 z-20' style={{ height: "40vh" }}/>
 
             {/* ３番目：一部：テキスト部分 */}
-            <div className="w-full h-80 absolute z-30 mt-80 py-8 flex flex-col justify-center items-center">
+            <div className="w-full h-80 absolute z-30 mt-[40vh] py-8 flex flex-col justify-center items-center">
                 <ul>
                     <li><p className="text-white text-sm">Lumi Kojo</p></li>
                     <li><p className="text-white text-sm italic">Front End Web Engineer</p></li>
@@ -41,12 +44,12 @@ export default function Test4() {
                 </ul>
             </div>
 
-            {/* ヘッダー */}
+            {/* ヘッダー
             <header className="bg-black h-20 w-full flex flex-row fixed top-0 items-center z-50">
                 <p className="text-white flex-1 text-light pl-3">header</p>
                 <p className="text-white flex-1 text-center" >header</p>
                 <p className="text-white flex-1 text-right pr-3">header</p>
-            </header>
+            </header> */}
 
 
 
