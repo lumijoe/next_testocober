@@ -57,7 +57,7 @@ export default function Hero() {
             priority
           />
           <Image
-            src="/img04.jpg"
+            src="/work04.png"
             alt="Image"
             width={600}
             height={400}
@@ -92,7 +92,7 @@ export default function Hero() {
             priority
           />
           <Image
-            src="/img04.jpg"
+            src="/work04.png"
             alt="Image"
             width={600}
             height={400}
