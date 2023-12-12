@@ -229,3 +229,8 @@
       transform: rotate(0deg);
     }
   }
+
+  .btnhover:hover {
+    transform: scale(1.1);
+  }
+  
