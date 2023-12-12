@@ -37,10 +37,9 @@ export default function Home() {
 
 
           {/* 遷移ボタン =================================================== */}
-          <div>
-            <Btn><Link href="/test2">テスト2に遷移</Link></Btn>
-            <Btn><Link href="/test3">テスト3に遷移</Link></Btn>
-            <Btn><Link href="/test5">テスト5に遷移</Link></Btn>
+          <div className='flex justify-center'>
+            <Btn className="bg-slate-600"><Link href="/test2">テスト<span className='text-2xl'>2</span>へ</Link></Btn>
+            <Btn className="bg-yellow-600"><Link href="/test5">テスト<span className='text-2xl'>5</span>へ</Link></Btn>
           </div>
           
           {/* Works =====================================================*/}
@@ -49,6 +48,7 @@ export default function Home() {
               <h2 className="text-8xl text-black italic">Works</h2>
             </div>
             {/* ギャラリー */}
+            <div className='flex justify-center'>
             <div className={styles.grid}>
 
 
@@ -166,6 +166,7 @@ export default function Home() {
                   Find in-depth information about Next.js features and&nbsp;API. 
                 </p>
               </Link>
+              </div>
             </div>
           </div>
           {/* Works ここまで =================================================*/}

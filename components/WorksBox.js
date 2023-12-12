@@ -13,13 +13,9 @@ import Works08 from './Works08';
 export default function WorksBox() {
     return (
         <div>
-            <h1 className='text-5xl italic text-center mt-20 mb-20'>WORKS</h1>
-            <h2 className='text-[20px] text-center m-10'>楽しさを設計で実現する</h2>
-            <p className='inline-block break-all pl-[10%] pr-[10%] h-auto mb-40'>クリエイティブと実用性のバランスを
-意識しながら実装しています。
-行動心理を活用して
-ペルソナとサービスの双方のアイデンティティを
-マッチさせるべく実装に向き合っています。テストworks05-08</p>
+            <h1 className='md:text-8xl text-6xl italic text-center pt-40 mb-20'>Design, Creative Development</h1>
+            <h2 className='text-[20px] text-center italic tracking-widest mb-20'>For ongoing resolution</h2>
+            <p className='inline-block break-all pl-[10%] pr-[10%] h-auto mb-40'></p>
             <Works05 />
             <Works06 />
             <Works07 />
