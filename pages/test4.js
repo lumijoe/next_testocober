@@ -30,17 +30,16 @@ export default function Test4() {
             {/* ３番目：一部：テキスト部分 */}
             <div className="w-full h-80 absolute z-30 mt-[40vh] py-8 flex flex-col justify-center items-center">
                 <ul>
-                    <li className='mb-2'><p className="text-white text-sm">Lumi Kojo</p></li>
-                    <li className='mb-2'><p className="text-white text-sm italic">Front End Web Engineer</p></li>
-                    <li className='mb-2'><p className="text-white text-sm">2022年以降  Webアプリ開発、フロントエンドまわり
-                    </p></li>
-                    <li className='mb-2'><p className="text-white text-sm">2021年 グラフィックからWeb制作へ転向</p></li>
-                    <li className='mb-2'><p className="text-white text-sm">2018年 産官新店舗ディレクション / ブランディング</p></li>
-                    <li className='mb-2'><p className="text-white text-sm">2016年 自治体インハウスデザイン / ディレクション</p></li>
-                    <li className='mb-2'><p className="text-white text-sm">2015年 店舗・ブース内装 / 地域グラフィックデザイン </p></li>
-                    <li className='mb-2'><p className="text-white text-sm">2010年 企業オウンドメディアブログ担当</p></li>
-                    <li className='mb-2'><p className="text-white text-sm">1997年 短期大学卒(英米語 / Touch typing)</p></li>
-                    <li className='mb-2'><p className="text-white text-sm">1976年生まれ</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-4xl">Lumi Kojo</p></li>
+                    <li className='mb-2'><p className="text-white text-sm italic md:text-2xl">Front End Web Engineer</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>2022</span>年 フロンドエンド制作と開発</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>2021</span>年 <spna class="text-xl thin">Web</spna>へ転向</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>2018</span>年 ディレクション( 産官新店舗 )</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>2016</span>年 ディレクション / グラフィック制作(自治体)</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>2015</span>年 クリエイティブ制作(店舗・グラフィック)</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>2010</span>年 オウンドメディア編集担当</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>1997</span>年 短期大学卒(英米語 / Touch typing)</p></li>
+                    <li className='mb-2'><p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl'>1976</span>年生まれ</p></li>
                 </ul>
             </div>
 
