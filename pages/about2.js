@@ -6,7 +6,7 @@ import imgwork from '../public/imgwork.jpg';
 import Image from 'next/image';
 import Footer from '../components/Footer';
  
-export default function Test4() {
+export default function about2() {
     return (
         <div>
             <Header2 />
@@ -38,36 +38,36 @@ export default function Test4() {
             <div className="w-full h-80 absolute z-30 mt-[40vh] py-8 flex flex-col justify-center items-center">
            
                 <ul>
-                    <li className='mb-2'>
+                    <li className='mb-1'>
                         <p className="text-white text-6xl md:text-4xl italic font-semibold">ABOUT</p></li>
-                    <li className='mb-2'>
-                        <p className="text-white text-sm md:text-2xl italic">小城ルミ</p></li>
-                    <li className='mb-2'>
-                        <p className="text-white text-sm italic md:text-2xl">Front End Web Engineer</p></li>
-                    <li className='mb-2'>
+                    <li className='mb-1'>
+                        <p className="text-white text-base md:text-2xl italic">小城ルミ&nbsp;<span>Front End Web Engineer</span></p></li>
+                    <li className='mb-1'>
+                        <p className="text-white text-sm italic md:text-2xl"></p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wide'>
-                            2022</span>年 フロンドエンド制作と開発</p></li>
-                    <li className='mb-2'>
+                            2022</span>年&nbsp;&nbsp;フロンドエンド制作開発</p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2021</span>年 <span class="text-xl thin">Web</span>へ転向</p></li>
-                    <li className='mb-2'>
+                            2021</span>年&nbsp;&nbsp;<span class="text-xl font-thin">Web</span>空間へ転向</p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2018</span>年 ディレクション( 産官新店舗 )</p></li>
-                    <li className='mb-2'>
+                            2018</span>年&nbsp;&nbsp;ディレクション - <span className="text-[10px]">産官新店舗</span></p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2016</span>年 ディレクション / グラフィック制作(自治体)</p></li>
-                    <li className='mb-2'>
+                            2016</span>年&nbsp;&nbsp;ディレクション / グラフィック制作 - <span className="text-[10px]">自治体他</span></p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2015</span>年 クリエイティブ制作(店舗・グラフィック)</p></li>
-                    <li className='mb-2'>
+                            2015</span>年&nbsp;&nbsp;クリエイティブ制作（店舗・グラフィック）</p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2010</span>年 オウンドメディア編集担当</p></li>
-                    <li className='mb-2'>
+                            2010</span>年&nbsp;&nbsp;オウンドメディア編集担当</p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            1997</span>年 短期大学卒(英米語 / Touch typing)</p></li>
-                    <li className='mb-2'>
+                            1997</span>年&nbsp;&nbsp;短期大学卒（英米語 / Touch typing）</p></li>
+                    <li className='mb-1'>
                         <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            1976</span>年生まれ</p></li>
+                            1976</span>年&nbsp;&nbsp;生まれ</p></li>
                 </ul>
             </div>
 
