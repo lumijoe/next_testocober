@@ -13,8 +13,8 @@ import Works08 from './Works08';
 export default function WorksBox() {
     return (
         <div>
-            <h1 className='md:text-8xl text-6xl italic text-center pt-40 mb-20'>Design, Creative Development</h1>
-            <h2 className='text-[20px] text-center italic tracking-widest mb-20'>For ongoing resolution</h2>
+            <h1 className='md:text-8xl text-6xl italic text-center pt-40 mb-20'>Design, Direction, Creative Development</h1>
+            <h2 className='text-[20px] text-center italic tracking-widest mb-20'>視覚技術と言語技術で<br/>解決を開発する。</h2>
             <p className='inline-block break-all pl-[10%] pr-[10%] h-auto mb-40'></p>
             <Works05 />
             <Works06 />

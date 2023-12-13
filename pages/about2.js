@@ -1,4 +1,4 @@
-// pages/test4.js
+// pages/about2.js
 
 import React from 'react';
 import Header2 from '../components/Header2';
@@ -39,7 +39,9 @@ export default function Test4() {
            
                 <ul>
                     <li className='mb-2'>
-                        <p className="text-white text-6xl md:text-4xl">Lumi Kojo</p></li>
+                        <p className="text-white text-6xl md:text-4xl italic font-semibold">ABOUT</p></li>
+                    <li className='mb-2'>
+                        <p className="text-white text-sm md:text-2xl italic">小城ルミ</p></li>
                     <li className='mb-2'>
                         <p className="text-white text-sm italic md:text-2xl">Front End Web Engineer</p></li>
                     <li className='mb-2'>
