@@ -30,17 +30,17 @@ export default function Test4() {
             {/* ３番目：一部：テキスト部分 */}
             <div className="w-full h-80 absolute z-30 mt-[40vh] py-8 flex flex-col justify-center items-center">
                 <ul>
-                    <li><p className="text-white text-sm">Lumi Kojo</p></li>
-                    <li><p className="text-white text-sm italic">Front End Web Engineer</p></li>
-                    <li><p className="text-white text-sm">2022年以降  Webアプリ開発、フロントエンドまわり
+                    <li className='mb-2'><p className="text-white text-sm">Lumi Kojo</p></li>
+                    <li className='mb-2'><p className="text-white text-sm italic">Front End Web Engineer</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">2022年以降  Webアプリ開発、フロントエンドまわり
                     </p></li>
-                    <li><p className="text-white text-sm">2021年 グラフィックからWeb制作へ転向</p></li>
-                    <li><p className="text-white text-sm">2018年 産官新店舗ディレクション / ブランディング</p></li>
-                    <li><p className="text-white text-sm">2016年 自治体インハウスデザイン / ディレクション</p></li>
-                    <li><p className="text-white text-sm">2015年 店舗・ブース内装 / 地域グラフィックデザイン </p></li>
-                    <li><p className="text-white text-sm">2010年 企業オウンドメディアブログ担当</p></li>
-                    <li><p className="text-white text-sm">1997年 短期大学卒(英米語 / Touch typing)</p></li>
-                    <li><p className="text-white text-sm">1976年生まれ</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">2021年 グラフィックからWeb制作へ転向</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">2018年 産官新店舗ディレクション / ブランディング</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">2016年 自治体インハウスデザイン / ディレクション</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">2015年 店舗・ブース内装 / 地域グラフィックデザイン </p></li>
+                    <li className='mb-2'><p className="text-white text-sm">2010年 企業オウンドメディアブログ担当</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">1997年 短期大学卒(英米語 / Touch typing)</p></li>
+                    <li className='mb-2'><p className="text-white text-sm">1976年生まれ</p></li>
                 </ul>
             </div>
 
@@ -54,14 +54,14 @@ export default function Test4() {
 
 
             {/* ３番目のためのh80x2 (見えていないが削除するとレイアウトがバグる) */}
-            <div className="bg-gray-600  w-80 absolute h-80"></div>
-            <div className="bg-pink-600 w-80 h-80"></div>
+            <div className="bg-gray-600  w-90 absolute h-80"></div>
+            <div className="bg-[#232323] w-80 h-80"></div>
 
             {/* 3番目一部の背景部分 */}
-            <div className="bg-green-700 w-80 h-80"></div>
+            <div className="bg-[#232323] w-90 h-80"></div>
 
             {/* ４番目の背景とテキスト */}
-            <div className="bg-indigo-300 h-80 w-80 absolute z-30" style={{ height: "800px"}}>
+            <div className="bg-indigo-300 h-auto w-80 absolute z-30" style={{ height: "800px"}}>
                 <ul>
                     <li>yellow z-30</li>
                     <li>list1</li>
