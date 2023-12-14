@@ -38,7 +38,7 @@ export default function about2() {
                         <p className="text-white text-base md:text-3xl italic">小城ルミ&nbsp;<span></span></p></li>
 
                     <JobTimeLine year='2022' content='フロントエンド制作開発' />
-                    <JobTimeLine year='2021' content='Webへ転向'/>
+                    <JobTimeLine year='2021' content={<><span className='text-xl thin'>Web</span>へ転向</>} />
                     <JobTimeLine year='2018' content='店舗戦略ディレクション' detail='産官開発'/>
                     <JobTimeLine year='2016' content='ディレクション、グラフィック制作' detail='自治体'/>
                     <JobTimeLine year='2015' content='店舗内装、グラフィック制作' detail="地域"/>
