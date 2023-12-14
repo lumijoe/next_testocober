@@ -8,7 +8,7 @@ import Works04 from './Works04';
 import Works06 from './Works06';
 import Works07 from './Works07';
 import Works08 from './Works08';
-import styles from '../styles/test.module.css';
+import styles from '../styles/Footer.module.css';
 
 
 

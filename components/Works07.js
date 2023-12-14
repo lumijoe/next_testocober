@@ -50,7 +50,6 @@ export default function Works07 () {
                         </div>
                         <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] ss:pt-0 z-20'>
                             <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
-                            <BtnLikeSkillBlack>GlideTables</BtnLikeSkillBlack>
                         </div>
                     </div>
                 </div>
