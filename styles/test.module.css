@@ -1,6 +1,6 @@
 /* styles/test.module.css */
 .section1 {
-    background-color: #232323;
+    background: linear-gradient(to right, #3b82f6, #d53f8c);
     color: #000;
     padding: 50px 0 100px;
     position: relative;

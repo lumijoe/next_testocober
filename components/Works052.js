@@ -11,8 +11,8 @@ import Link from 'next/link';
 
 export default function Works052 () {
     return (
-       <div className={` ${styles.section2}`}>
-       {/* <div className='bg-gradient-to-r from-blue-500  to-pink-500'> */}
+    //    <div className={` ${styles.section2}`}>
+        <div className={`bg-gradient-to-r from-blue-500 to-pink-500 ${styles.borderdesign} `}>
             <WorksTemp>
                 <div className='flex text-black justify-center'>
                     <BtnLike ><span className='text-3xl  text-black tracking-[3px]'>2023:ECサイト</span></BtnLike>
