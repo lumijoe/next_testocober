@@ -12,9 +12,18 @@ export default function JobTimeLine ({ year, content, detail }) {
                         {year}</span>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     {content}
-                    {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'>-</span>&nbsp;&nbsp;<span className='text-[12px] text-[#bbbbbb]'>{detail}</span></> : null}    
+                    {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'></span><span className='text-[12px] text-[#bbbbbb]'>{detail}</span></> : null}    
                 </p>
             </li>
+            {/* <li className='mb-1'>
+                <p className='text-white text-sm md:text-2xl'>
+                    <span className='text-base md:text-3xl tracking-wider text-[#bbbbbb]'>
+                        {year}</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    {content}
+                    {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'>-</span>&nbsp;&nbsp;<span className='text-[12px] text-[#bbbbbb]'>{detail}</span></> : null}    
+                </p>
+            </li> */}
         </>
     )
 };

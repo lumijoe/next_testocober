@@ -9,7 +9,7 @@ import JobTimeLine from '../components/About/JobTimeLine';
  
 export default function about2() {
     return (
-        <div>
+        <div className='bg-[#4c7498]'>
             {/* １：ヘッダー */}
             <Header2 />
 
@@ -59,12 +59,9 @@ export default function about2() {
 
 
             {/* ３番目のためのh80x2 (見えていないが削除するとレイアウトがバグる) */}
-            <div className="bg-gray-600  w-90 absolute h-80"></div>
-
-            <div className="bg-[#232323] w-80 h-80"></div>
-
+           
             {/* 3番目一部の背景部分 */}
-            <div className="bg-[#232323] w-90 h-[420px]"></div>
+            <div className="bg-[#232323] w-[70%] h-[100vh]"></div>
 
             {/* ４番目の背景とテキスト */}
             <div className=" h-auto w-80 absolute z-30" style={{ height: "800px"}}>
@@ -78,7 +75,7 @@ export default function about2() {
             </div>
 
             {/* 4番目のためのh80(見えていないが削除するとレイアウトがバグる) */}
-            <div className="bg-pink-600 h-80" style={{ height: "800px"}}>
+            <div className="bg-pink-600 mt-[420px] h-80" style={{ height: "800px"}}>
                 <ul>
                     <li>FIRST list1</li>
                     <li>list1</li>
