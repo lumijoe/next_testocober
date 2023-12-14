@@ -3,24 +3,19 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
-import BtnMore from '../components/Button/BtnMore'
-import BtnCategories from '../components/Button/BtnLikeSkillBlack'
-import Card2 from '../components/Card2';
-import WorksItem from '../components/WorksItem';
-
+import WorksBox2 from '../components/WorksBox2'
+import styles from '../styles/test.module.css';
 
 export default function test () {
     return (
         <div>
             <Layout>
                 <Hero />
-                <Card2 />
                 <div>
-                    <WorksItem />
-                    <WorksItem />
-                    <WorksItem />
+                    <div className={` ${styles.section1}`}></div>
+                <WorksBox2 />
                 </div>
-            </Layout>
-        </div>
+        </Layout>
+      </div>
     )
 }

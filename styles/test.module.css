@@ -1,0 +1,22 @@
+/* styles/test.module.css */
+.section1 {
+    background-color: #232323;
+    color: #000;
+    padding: 50px 0 100px;
+    position: relative;
+}
+.section2 {
+    background-color: #1cb4d3;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.section1::before {
+    border-color: transparent #1cb4d3 transparent transparent;
+    border-style: solid;
+    border-width: 50px 100vw 0 0;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+}
