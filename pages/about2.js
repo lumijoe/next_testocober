@@ -63,7 +63,7 @@ export default function about2() {
             <div className="bg-[#232323] w-80 h-80"></div>
 
             {/* 3番目一部の背景部分 */}
-            <div className="bg-[#232323] w-90 h-80"></div>
+            <div className="bg-[#232323] w-90 h-[420px]"></div>
 
             {/* ４番目の背景とテキスト */}
             <div className=" h-auto w-80 absolute z-30" style={{ height: "800px"}}>
