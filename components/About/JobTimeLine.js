@@ -8,9 +8,9 @@ export default function JobTimeLine ({ year, content, detail }) {
         <>
             <li className='mb-1'>
                 <p className='text-white text-sm md:text-2xl'>
-                    <span className='text-base md:text-3xl tracking-wider'>
+                    <span className='text-base md:text-3xl tracking-wider italic text-thin'>
                         {year}</span>
-                    年&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     {content}
                     {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'>-</span>&nbsp;&nbsp;<span className='text-[12px] text-[#bbbbbb]'>{detail}</span></> : null}    
                 </p>

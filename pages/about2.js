@@ -15,17 +15,18 @@ export default function about2() {
 
             {/* ２：固定画像（background-image） */}
             <div>
-                <div className="bg-black  w-full h-[40vh]  fixed z-10 items-center justify-center" >
+                <div className="w-full z-10 h-[40vh] fixed items-center justify-center background" >
                     <Image
-                        className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
+                        className='h-[40vh] w-full object-contain md:h-full md:w-48 hover:object-scale-down'
                         src={imgwork}
                         alt="Work img"
                         fill={true}
-                        style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
+                        // style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
+                        style={{ objectFit: "cover" }}
                         priority
                     /> 
                 </div>
-                <div className='fixed inset-0 bg-gray-950 opacity-60 z-20' style={{ height: "40vh" }}/>
+                <div className='fixed inset-0 bg-gray-950 opacity-60 z-20 h-[40vh]'/>
             </div>
             
             {/* ３番目：一部：テキスト部分 */}
@@ -33,7 +34,7 @@ export default function about2() {
            
                 <ul>
                     <li className='mb-1'>
-                        <p className="text-white text-6xl md:text-4xl italic font-semibold">ABOUT</p></li>
+                        <p className="text-white text-6xl md:text-4xl italic font-semibold">About</p></li>
                     <li className='mb-1'>
                         <p className="text-white text-base md:text-3xl italic">小城ルミ&nbsp;<span></span></p></li>
 
