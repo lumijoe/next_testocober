@@ -14,11 +14,11 @@ import styles from '../styles/Footer.module.css';
 
 export default function WorksBox() {
     return (
-        <div id='works' className={styles.section1}>
+        <div className={styles.section1}>
             <h1 className='md:text-8xl text-6xl italic text-center pt-40 mb-20'>Design, Direction, Creative Development</h1>
-            <h2 className='text-[20px] text-center italic tracking-widest mb-60'>解決を開発するために<br/>視覚技術と言語技術を駆使する。</h2>
-            <p className='mb-8 text-6xl md:text-4xl italic font-semibold text-center'>WORKS</p>
-            <span className='text-4xl thin text-center w-[10%] h-[1px] bg-pink-600 inline-block ml-[45%] mr-[45%] rotate-[-70deg]'></span>
+            <h2 className='text-[20px] text-center italic tracking-widest mt-60'>解決を開発するために<br/>視覚技術と言語技術を駆使する。</h2>
+            <p  id='works' className='mb-8 pt-40 text-6xl md:text-4xl italic font-semibold text-center'>Works</p>
+            <span className='text-4xl thin text-center w-[6%] h-[1px] bg-pink-600 inline-block ml-[47%] mr-[47%] rotate-[-70deg] overflow-hidden'></span>
             <Works05 />
             <Works06 />
             <Works07 />
