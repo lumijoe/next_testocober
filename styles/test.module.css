@@ -1,18 +1,18 @@
 /* styles/test.module.css */
 .section1 {
-    background: linear-gradient(to right, #3b82f6, #d53f8c);
+    background: #ffffff;
     color: #000;
     padding: 50px 0 100px;
     position: relative;
 }
 .section2 {
-    background-color: #1cb4d3;
+    background-color: red;
     color: #fff;
     padding: 50px 0;
 }
 
 .section1::before {
-    border-color: transparent #1cb4d3 transparent transparent;
+    border-color: transparent #000000 transparent transparent;
     border-style: solid;
     border-width: 50px 100vw 0 0;
     bottom: 0;

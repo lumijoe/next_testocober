@@ -149,6 +149,7 @@ export default function Works08 () {
                         </div>
                     </div>
                 </div>
+                <div className='bg-white w-full h-[15px] mt-8 z-40'></div>
             </WorksTemp>
        </div> 
     ) 

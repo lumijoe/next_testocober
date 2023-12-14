@@ -3,7 +3,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
-import WorksBox2 from '../components/WorksBox2'
+
 import styles from '../styles/test.module.css';
 
 export default function test () {
@@ -12,8 +12,8 @@ export default function test () {
             <Layout>
                 <Hero />
                 <div>
-                    <div className={` ${styles.section1}`}></div>
-                <WorksBox2 />
+                    {/* <div className={` ${styles.section1}`}></div> */}
+                
                 </div>
         </Layout>
       </div>

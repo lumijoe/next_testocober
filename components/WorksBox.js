@@ -8,12 +8,13 @@ import Works04 from './Works04';
 import Works06 from './Works06';
 import Works07 from './Works07';
 import Works08 from './Works08';
+import styles from '../styles/test.module.css';
 
 
 
 export default function WorksBox() {
     return (
-        <div id='works'>
+        <div id='works' className={styles.section1}>
             <h1 className='md:text-8xl text-6xl italic text-center pt-40 mb-20'>Design, Direction, Creative Development</h1>
             <h2 className='text-[20px] text-center italic tracking-widest mb-60'>解決を開発するために<br/>視覚技術と言語技術を駆使する。</h2>
             <p className='mb-8 text-6xl md:text-4xl italic font-semibold text-center'>WORKS</p>

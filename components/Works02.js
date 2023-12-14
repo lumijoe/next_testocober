@@ -59,6 +59,7 @@ export default function Works02 () {
                         </div>
                     </div>
                 </div>
+                <div className='bg-black w-full h-[15px] mt-8 z-40'></div>
             </WorksTemp>
        </div> 
     ) 
