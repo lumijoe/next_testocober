@@ -5,69 +5,46 @@ import Header2 from '../components/Header2';
 import imgwork from '../public/imgwork.jpg';
 import Image from 'next/image';
 import Footer from '../components/Footer';
+import JobTimeLine from '../components/About/JobTimeLine';
  
 export default function about2() {
     return (
         <div>
+            {/* １：ヘッダー */}
             <Header2 />
-        
-            <div className='relative'>
-            
-            </div>
 
-
-            {/* ２番目：一時固定画像 */}
-            <div className="bg-black  w-full h-[40vh]  fixed z-10 items-center justify-center" >
-                <Image
-                    className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
-                    src={imgwork}
-                    alt="Work img"
-                    fill={true}
-                    style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
-                    priority
-                />
-               
+            {/* ２：固定画像（background-image） */}
+            <div>
+                <div className="bg-black  w-full h-[40vh]  fixed z-10 items-center justify-center" >
+                    <Image
+                        className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down'
+                        src={imgwork}
+                        alt="Work img"
+                        fill={true}
+                        style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
+                        priority
+                    /> 
+                </div>
+                <div className='fixed inset-0 bg-gray-950 opacity-60 z-20' style={{ height: "40vh" }}/>
             </div>
             
-            
-            
-            <div className='fixed inset-0 bg-gray-950 opacity-60 z-20' style={{ height: "40vh" }}/>
-            
-
             {/* ３番目：一部：テキスト部分 */}
-            <div className="w-full h-80 absolute z-30 mt-[40vh] py-8 flex flex-col justify-center items-center">
+            <div className="w-full h-80 absolute z-30 mt-[40vh] pt-[120px] py-8 flex flex-col justify-center items-center">
            
                 <ul>
                     <li className='mb-1'>
                         <p className="text-white text-6xl md:text-4xl italic font-semibold">ABOUT</p></li>
                     <li className='mb-1'>
-                        <p className="text-white text-base md:text-2xl italic">小城ルミ&nbsp;<span>Front End Web Engineer</span></p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm italic md:text-2xl"></p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wide'>
-                            2022</span>年&nbsp;&nbsp;フロンドエンド制作開発</p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2021</span>年&nbsp;&nbsp;<span class="text-xl font-thin">Web</span>空間へ転向</p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2018</span>年&nbsp;&nbsp;ディレクション - <span className="text-[10px]">産官新店舗</span></p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2016</span>年&nbsp;&nbsp;ディレクション / グラフィック制作 - <span className="text-[10px]">自治体他</span></p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2015</span>年&nbsp;&nbsp;クリエイティブ制作（店舗・グラフィック）</p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            2010</span>年&nbsp;&nbsp;オウンドメディア編集担当</p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            1997</span>年&nbsp;&nbsp;短期大学卒（英米語 / Touch typing）</p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-sm md:text-2xl"><span className='text-base md:text-3xl tracking-wider'>
-                            1976</span>年&nbsp;&nbsp;生まれ</p></li>
+                        <p className="text-white text-base md:text-3xl italic">小城ルミ&nbsp;<span></span></p></li>
+
+                    <JobTimeLine year='2022' content='フロントエンド制作開発' />
+                    <JobTimeLine year='2021' content='Webへ転向'/>
+                    <JobTimeLine year='2018' content='店舗戦略ディレクション' detail='産官開発'/>
+                    <JobTimeLine year='2016' content='ディレクション、グラフィック制作' detail='自治体'/>
+                    <JobTimeLine year='2015' content='店舗内装、グラフィック制作' detail="地域"/>
+                    <JobTimeLine year='2010' content='企業オウンドメディア編集担当'/>
+                    <JobTimeLine year='1997' content='短期大学卒' detail='英米語、Touch typing'/>
+                    <JobTimeLine year='1976' content='生まれ'/>
                 </ul>
             </div>
 
@@ -89,7 +66,7 @@ export default function about2() {
             <div className="bg-[#232323] w-90 h-80"></div>
 
             {/* ４番目の背景とテキスト */}
-            <div className="bg-indigo-300 h-auto w-80 absolute z-30" style={{ height: "800px"}}>
+            <div className=" h-auto w-80 absolute z-30" style={{ height: "800px"}}>
                 <ul>
                     <li>yellow z-30</li>
                     <li>list1</li>
