@@ -10,8 +10,8 @@ import CommonImgTmb from './CommonImgTmb';
 
 
 
-export default function CommonWorksTempMobile(
-    { categoryColor, categoryColorFont, year, category, purpose, description, children, linkUrlToJump, linkUrlImg, teckStack }) {
+export default function CommonWorksTempDesktop(
+    { categoryColor, categoryColorFont, year, category, purpose, description, children, linkUrlToJump, linkUrlImg, teckStack0, teckStack1, teckStack2, teckStack3, }) {
         
         
     return (
@@ -23,8 +23,8 @@ export default function CommonWorksTempMobile(
             <div className='flex flex-col sm:flex-row justify-center'>
                 <div className='flex justify-center'> 
                     <div className='flex flex-row mb-8'>
-                        <div className='w-[250px]'>
-                            <h2 className={`text-[18px] tracking-[3px] ${categoryColorFont}`}>2021</h2>
+                        <div className='w-[250px] pr-2'>
+                            <h2 className={`text-[18px] tracking-[3px] ${categoryColorFont}`}>{year}</h2>
                             <h3 className={`font-bold text-1xl ${categoryColorFont}`}>{purpose}</h3>
                             <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>
                                 {description}
@@ -36,23 +36,27 @@ export default function CommonWorksTempMobile(
                     </div>
                 </div>
 
-                <div className='flex flex-row h-auto justify-center ss:flex-col-reverse'>
-                    <div className='  overflow-visible'>
+                <div className='flex flex-row ml-8 h-auto z-20'>
+                    <div className='flex flex-col items-center py-auto'> 
+                        <BtnLikeSkillBlack>{teckStack0}</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>{teckStack1}</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>{teckStack2}</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>{teckStack3}</BtnLikeSkillBlack>
+                        etc...
+                    </div>
+                    <div className='ml-[15px] overflow-hidden'>
                         <CommonImgTmb 
-                            src={linkUrlImg}
-                            alt="Image"
-                            width={262}
-                            height={237}
-                            priority
-                            style={{ maxWidth: 'none', marginBottom:'-38px' }}                            
-                        />
+                        src={linkUrlImg}
+                        alt="Image"
+                        width={380}
+                        height={346}
+                        layout='responsive'
+                        priority
+                        style={{ maxWidth: 'none', paddingLeft:'-20px' }}                            
+                        />    
                     </div>
-                    <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] ss:pt-0 z-20'>
-                        <BtnLikeSkillBlack>{teckStack}</BtnLikeSkillBlack>
-                    </div>
-                </div>
+                </div>  
             </div>
-
             <div className='bg-black w-full h-[15px] mt-8 z-40'></div>
 
             {children}

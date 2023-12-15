@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Works05 from './Works05';
+import Works01 from './Works01';
 import Works10 from './Works10';
 import Works03 from './Works03';
 import Works02 from './Works02';
@@ -21,6 +22,7 @@ export default function WorksBox() {
             <p  id='works' className='mb-8 pt-40 text-6xl md:text-4xl italic font-semibold text-center'>Works</p>
             <span className='text-4xl thin text-center w-[6%] h-[1px] bg-pink-600 inline-block ml-[47%] mr-[47%] rotate-[-70deg] overflow-hidden'></span>
             <Works05 />
+            <Works01 />
             <Works06 />
             <Works10 />
             <Works10 />

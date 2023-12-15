@@ -24,7 +24,7 @@ export default function CommonWorksTempMobile(
                 <div className='flex justify-center'> 
                     <div className='flex flex-row mb-8'>
                         <div className='w-[250px]'>
-                            <h2 className={`text-[18px] tracking-[3px] ${categoryColorFont}`}>2021</h2>
+                            <h2 className={`text-[18px] tracking-[3px] ${categoryColorFont}`}>{year}</h2>
                             <h3 className={`font-bold text-1xl ${categoryColorFont}`}>{purpose}</h3>
                             <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>
                                 {description}

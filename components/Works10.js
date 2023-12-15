@@ -1,4 +1,5 @@
 // components/Works/Works10.js
+// モバイルアプリ：リハビリアプリ
 
 import React from 'react';
 import CommonWorksTempMobile from './Works/CommonWorksTempMobile';
