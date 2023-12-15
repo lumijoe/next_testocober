@@ -5,7 +5,7 @@ import Header2 from '../components/Header2';
 import imgwork from '../public/imgwork.jpg';
 import Image from 'next/image';
 import Footer from '../components/Footer';
-import JobTimeLine from '../components/About/JobTimeLine';
+import JobTimeLineBox from '../components/About/JobTimeLineBox';
  
 export default function about2() {
     return (
@@ -15,9 +15,9 @@ export default function about2() {
 
             {/* ２：固定画像（background-image） */}
             <div>
-                <div className="w-full z-10 h-[40vh] fixed items-center justify-center background" >
+                <div className="w-full z-10 h-[40%] fixed items-center justify-center background" >
                     <Image
-                        className='h-[40vh] w-full object-contain md:h-full md:w-48 hover:object-scale-down'
+                        className='h-[40%] w-full object-contain md:h-full md:w-48 hover:object-scale-down'
                         src={imgwork}
                         alt="Work img"
                         fill={true}
@@ -26,13 +26,23 @@ export default function about2() {
                         priority
                     /> 
                 </div>
-                <div className='fixed inset-0 bg-gray-950 opacity-60 z-20 h-[40vh]'/>
+                <div className='fixed inset-0 bg-gray-950 opacity-60 z-20 h-[40%]'/>
             </div>
             
             {/* ３番目：一部：テキスト部分 */}
             <div className="w-full h-80 absolute z-30 mt-[40vh] pt-[120px] py-8 flex flex-col justify-center items-center">
-           
-                <ul>
+                <div>
+                    <h1 className="text-white text-6xl md:text-4xl italic font-semibold ">About</h1>
+                    <p className="text-white text-base md:text-3xl italic text-center">小城ルミ</p>
+                </div>
+                <JobTimeLineBox /> 
+            </div>
+                
+                
+                
+                
+                
+                {/* <ul>
                     <li className='mb-1'>
                         <p className="text-white text-6xl md:text-4xl italic font-semibold">About</p></li>
                     <li className='mb-1'>
@@ -46,15 +56,9 @@ export default function about2() {
                     <JobTimeLine year='2010' content='企業オウンドメディア編集担当'/>
                     <JobTimeLine year='1997' content='短期大学卒' detail='英米語、タイピング、グローバル応用'/>
                     <JobTimeLine year='1976' content='生まれ'/>
-                </ul>
-            </div>
+                </ul> */}
 
-            {/* ヘッダー
-            <header className="bg-black h-20 w-full flex flex-row fixed top-0 items-center z-50">
-                <p className="text-white flex-1 text-light pl-3">header</p>
-                <p className="text-white flex-1 text-center" >header</p>
-                <p className="text-white flex-1 text-right pr-3">header</p>
-            </header> */}
+            
 
 
 
