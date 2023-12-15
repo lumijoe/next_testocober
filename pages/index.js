@@ -28,10 +28,8 @@ export default function Home() {
       {/* <main> ======================================================= */}
       <div className='bg-white'>
         <Layout>
-        <div className={`z-100 ${styles.section1}`}></div>
           <Hero />
           <WorksBox />
-         
         </Layout>
       </div>
     </div>
