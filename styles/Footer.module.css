@@ -16,3 +16,19 @@
     height: 0;
     position: absolute;
 }
+.section2 {
+    background:transparent;
+    padding: -50px 0 100px;
+    position: relative;
+}
+
+.section2::before {
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border-width: 50px 100vw 0 0;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    z-index:30
+}

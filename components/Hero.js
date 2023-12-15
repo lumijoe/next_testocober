@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { gsap } from 'gsap';
 import HeroSkillsTitle from '../components/Hero/HeroSkillsTitle';
 import HeroScrollLine from '../components/HeroScrollLine';
+import styles from '../styles/Footer.module.css';
 
 
 export default function Hero() {
@@ -27,7 +28,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='static relative' style={{ height: `calc(100vh - 52px)` }} >
+    <div className={` static relative ${styles.section2} `} style={{ height: `calc(100vh - 52px)` }} >
       <div
         ref={containerRef}
         className="overflow-hidden relative"
