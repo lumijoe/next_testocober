@@ -40,10 +40,13 @@
   }
   
   .grid {
-    display: grid;
+    /* display: grid; */
+    display: flex;
+    flex-direction: row;
     grid-template-columns: repeat(4, minmax(25%, auto));
     max-width: var(--max-width);
     width: 100%;
+    height: auto;
   }
   
   .card {
@@ -54,6 +57,7 @@
     transition: background 200ms, border 400ms;
     background: rgba(var(--card-rgb), 0.1);
     margin: 0.5rem;
+    width: 300px;
   }
   
   .card span {
