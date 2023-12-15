@@ -1,5 +1,5 @@
-// components/Works/CommonWorksTempMobile.js
-// モバイルイメージ
+// components/Works/CommonWorksTempDesktop.js
+// デスクトップイメージ
 
 import React from 'react';
 import Link from 'next/link';
