@@ -19,7 +19,7 @@ export default function Works3 () {
              description={<>リハビリ通院をサポート。<br/>通院公共機関や天気情報をはじめ、主治医と共有したい症状メモ機能を搭載。アプリ１つで簡単に管理でき、リハビリに集中してもらう環境を整えるアプリです。</>}
              linkUrlToJump='/about'
              linkUrlImg='/img07tmb.png'
-             teckStack='Glide'
+             teckStack0='Glide'
             />
         </div>
     )

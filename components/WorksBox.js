@@ -6,8 +6,6 @@ import Works01 from './Works01';
 import Works10 from './Works10';
 import Works03 from './Works03';
 import Works11 from './Works11';
-import Works04 from './Works04';
-import Works06 from './Works06';
 import Works08 from './Works08';
 import styles from '../styles/Footer.module.css';
 
@@ -22,7 +20,6 @@ export default function WorksBox() {
             <span className='text-4xl thin text-center w-[6%] h-[1px] bg-pink-600 inline-block ml-[47%] mr-[47%] rotate-[-70deg] overflow-hidden'></span>
             <Works02 />
             <Works01 />
-            
             <Works10 />
             <Works11 />
             <Works03 />

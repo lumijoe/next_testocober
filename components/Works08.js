@@ -15,7 +15,7 @@ export default function Works08 () {
        <div>
             <WorksTemp>
                 <div className='flex justify-center'>
-                    <BtnLike className="bg-gray-400"><span className='text-[18px] tracking-[3px]'>2014-2021:</span>デザイン</BtnLike>
+                    <BtnLike className="bg-gray-400 rounded-bl-2xl"><span className='text-[18px] tracking-[3px]'>2014-2021:</span>デザイン</BtnLike>
                 </div>
 
                 <div className='flex flex-col sm:flex-col justify-center w-[100vw]'>
