@@ -1,14 +1,13 @@
 // components/WorksBox.js
 
 import React from 'react';
-import Works05 from './Works05';
+import Works02 from './Works02';
 import Works01 from './Works01';
 import Works10 from './Works10';
 import Works03 from './Works03';
-import Works02 from './Works02';
+import Works11 from './Works11';
 import Works04 from './Works04';
 import Works06 from './Works06';
-import Works07 from '../notUseFiles/Works07';
 import Works08 from './Works08';
 import styles from '../styles/Footer.module.css';
 
@@ -21,14 +20,12 @@ export default function WorksBox() {
             <h2 className='text-[20px] text-center italic tracking-widest mt-60'>解決を開発するために<br/>視覚技術と言語技術を駆使する。</h2>
             <p  id='works' className='mb-8 pt-40 text-6xl md:text-4xl italic font-semibold text-center'>Works</p>
             <span className='text-4xl thin text-center w-[6%] h-[1px] bg-pink-600 inline-block ml-[47%] mr-[47%] rotate-[-70deg] overflow-hidden'></span>
-            <Works05 />
-            <Works01 />
-            <Works06 />
-            <Works10 />
-            <Works10 />
             <Works02 />
+            <Works01 />
+            
+            <Works10 />
+            <Works11 />
             <Works03 />
-            <Works04 />
             <Works08/>
         </div>
     ) 

@@ -11,7 +11,7 @@ export default function Works3 () {
     return(
         <div>
             <CommonWorksTempMobile
-             categoryColor='bg-blue-500'
+             categoryColor='bg-slate-400'
              categoryColorFont='text-blue-500'
              year='2021'
              category='リハビリアプリ'

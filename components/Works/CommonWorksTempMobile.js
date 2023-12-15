@@ -11,7 +11,7 @@ import CommonImgTmb from './CommonImgTmb';
 
 
 export default function CommonWorksTempMobile(
-    { categoryColor, categoryColorFont, year, category, purpose, description, children, linkUrlToJump, linkUrlImg, teckStack }) {
+    { categoryColor, year, category, purpose, description, children, linkUrlToJump, linkUrlImg, teckStack0, teckStack1, teckStack2, teckStack3 }) {
         
         
     return (
@@ -24,8 +24,8 @@ export default function CommonWorksTempMobile(
                 <div className='flex justify-center'> 
                     <div className='flex flex-row mb-8'>
                         <div className='w-[250px]'>
-                            <h2 className={`text-[18px] tracking-[3px] ${categoryColorFont}`}>{year}</h2>
-                            <h3 className={`font-bold text-1xl ${categoryColorFont}`}>{purpose}</h3>
+                            <h2 className={`text-[18px] tracking-[3px] text-black`}>{year}</h2>
+                            <h3 className={`font-bold text-1xl text-black`}>{purpose}</h3>
                             <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>
                                 {description}
                             </p>
@@ -48,7 +48,8 @@ export default function CommonWorksTempMobile(
                         />
                     </div>
                     <div className='flex flex-col items-center pt-[20%]  ss:ml-[-80px] ss:pt-0 z-20'>
-                        <BtnLikeSkillBlack>{teckStack}</BtnLikeSkillBlack>
+                        <BtnLikeSkillBlack>{teckStack0}</BtnLikeSkillBlack>
+                        
                     </div>
                 </div>
             </div>

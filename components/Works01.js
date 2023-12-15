@@ -9,7 +9,6 @@ export default function Works01 () {
         <div>
             <CommonWorksTempDesktop
              categoryColor='bg-red-400'
-             categoryColorFont='text-red-400'
              year='2023'
              category='コーポレートサイト'
              purpose='ライフスタイルを支えるために'
