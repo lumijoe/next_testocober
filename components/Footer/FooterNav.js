@@ -13,7 +13,7 @@ export default function FooterNav () {
                 
                 {/* Home */}
                 <li className='text-[30px] text-white italic mb-4'>
-                    <Link href="/about3">Home</Link></li>
+                    <Link href="/">Home</Link></li>
                 
                 {/* About */}
                 <li className='text-[30px] text-white italic mb-4'>

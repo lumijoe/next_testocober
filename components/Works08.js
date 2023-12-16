@@ -9,6 +9,7 @@ import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
+import BtnLikeTitleWhite from './Button/BtnLikeTitleWhite';
 
 export default function Works08 () {
     return (
@@ -24,7 +25,7 @@ export default function Works08 () {
                             <div className='w-[250px]'>
                                 <h2 className={`text-[18px] tracking-[3px] text-black`}>2014-2021</h2>
                                 <h3 className='font-bold text-1xl'>コミニティデザインのために</h3>
-                                <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>産官学民領域で総合計画に基づいたディレクションや制作を担当。<br/>フィールドワークを通じて情報収集し中長期プロジェクトに参画するなど、幅広く担当した一例です。</p>
+                                <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。<br/>フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程も種類も幅広く担当した事例です。</p>
                             </div> 
                         </div>
                         <div className='flex flex-col items-center mb-8'>
@@ -39,8 +40,8 @@ export default function Works08 () {
                 
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto'>
-                        <div className='flex flex-col justify-center relative'>
-                        <p className='self-center text-xl py-5'>Graphic</p>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                        <BtnLikeTitleWhite className='self-center text-xl h-10 '>Graphic<span className='text-[10px]'>事業推進パンフレット</span></BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -60,7 +61,8 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
-                        <div className='flex flex-col justify-center relative'>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                            <BtnLikeTitleWhite className='self-center text-xl '>Design<span className='text-[10px]'>ロゴ・販促物</span></BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img06.jpg"
                             alt="Image"
@@ -78,9 +80,10 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            <p className='self-center text-xl py-5'>Direction</p>
+                            
                         </div>
-                        <div className='flex flex-col justify-center relative'>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                            <BtnLikeTitleWhite className='self-center text-xl '>Contents<span className='text-[10px]'>新規事業骨子案</span></BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img05.jpg"
                             alt="Image"
@@ -98,9 +101,10 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            <p className='self-center text-xl py-5'>Contents</p>
+                            
                         </div>
-                        <div className='flex flex-col justify-center relative'>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                            <BtnLikeTitleWhite className='self-center text-xl '>Direction<span className='text-[10px]'>観光協会店舗内装</span></BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -118,9 +122,10 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            <p className='self-center text-xl py-5'>Direction</p>
+                            
                         </div>
-                        <div className='flex flex-col justify-center relative'>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                            <BtnLikeTitleWhite className='self-center text-xl '>Space<span className='text-[10px]'>ギフトショーブース内装</span></BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -138,9 +143,10 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            <p className='self-center text-xl py-5'>Space</p>
+                            
                         </div>
-                        <div className='flex flex-col justify-center relative'>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                            <BtnLikeTitleWhite className='self-center text-xl '>Direction<span className='text-[10px]'>蔦屋書店新店舗</span></BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -158,9 +164,12 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            <p className='self-center text-xl py-5'>Graphic</p>
+                            
                         </div>
-                        <div className='flex flex-col justify-center relative'>
+                        <div className='flex flex-col justify-center relative mb-8'>
+                        
+                            <BtnLikeTitleWhite className='self-center text-xl '>Direction<span className='text-[10px]'>蔦屋書店新店舗</span></BtnLikeTitleWhite>
+                        
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -175,11 +184,12 @@ export default function Works08 () {
                                     alt="Icon"
                                     width={52}
                                     height={52}
-                                    style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
+                                    style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "8%" }}
                                 />
                             </Link>
-                            <p className='self-center text-xl py-5'>Graphic</p>
+                            
                         </div>
+                        
                     </div>
                 </div>
                 <div className='bg-white w-full h-[15px] mt-8 z-40'></div>
