@@ -28,7 +28,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className={` static relative ${styles.section2} `} style={{ height: `calc(100vh - 52px)` }} >
+    // static relativeを、relativeに修正↓（1217）
+    <div className={` relative ${styles.section2} `} style={{ height: `calc(100vh - 52px)` }} >
       <div
         ref={containerRef}
         className="overflow-hidden relative"
