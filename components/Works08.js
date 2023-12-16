@@ -38,7 +38,7 @@ export default function Works08 () {
                 
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto'>
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         <BtnLikeTitleWhite className='text-[10px]'>グラフィック / パンフレットほか</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
@@ -59,7 +59,7 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         <BtnLikeTitleWhite className='text-[10px]'>グラフィック / ロゴほか</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img06.jpg"
@@ -80,7 +80,7 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         <BtnLikeTitleWhite className='text-[10px]'>ストラテジック / 土地活用事業</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img05.jpg"
@@ -100,7 +100,7 @@ export default function Works08 () {
                                 />
                             </Link>
                         </div>
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         <BtnLikeTitleWhite className='text-[10px]'>ストラテジック / 産官開発事業</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
@@ -121,7 +121,7 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                             <BtnLikeTitleWhite className='text-[10px]'>スペース / ギフトショーブース内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
@@ -143,7 +143,7 @@ export default function Works08 () {
                             
                         </div>
 
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                             <BtnLikeTitleWhite className='text-[10px]'>スペース / 駅中店舗内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
@@ -166,7 +166,7 @@ export default function Works08 () {
                         </div>
                         
                     
-                        <div className='flex flex-col justify-center relative mb-8'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         
                         <BtnLikeTitleWhite className='text-[10px]'>スペース / 社会実験</BtnLikeTitleWhite>
                             <CommonImgTmb 
