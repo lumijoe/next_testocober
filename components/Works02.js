@@ -10,6 +10,7 @@ export default function Works02 () {
             <CommonWorksTempDesktop
              categoryColor='bg-emerald-600'
              year='2023'
+             client='Self Production'
              category={<><span className='text-[18px] tracking-[3px]'>EC</span>サイト</>} 
              purpose='エシカル体験のために'
              description={<>警備経験は私のデザインのルーツです。<br/>Web空間での課題解決を念頭に、
@@ -30,6 +31,7 @@ export default function Works02 () {
 categoryColor
 categoryColorFont
 year
+client
 category
 purpose
 description, 

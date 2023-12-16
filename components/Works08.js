@@ -16,24 +16,22 @@ export default function Works08 () {
        <div>
             <WorksTemp>
                 <div className='flex justify-center'>
-                    <BtnLike className="bg-gray-400 rounded-bl-2xl">地域デザイン</BtnLike>
+                    <BtnLike className="bg-gray-400 rounded-bl-2xl">クリエイティブデザイン</BtnLike>
                 </div>
 
                 <div className='flex flex-col sm:flex-col justify-center w-[100vw]'>
                     <div className='flex flex-row justify-center'> 
                         <div className='flex flex-col mb-8'>
                             <div className='w-[250px]'>
-                                <h2 className={`text-[18px] tracking-[3px] text-black`}>2014-2021</h2>
                                 <h3 className='font-bold text-1xl'>コミニティデザインのために</h3>
-                                <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。<br/>フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程も種類も幅広く担当した事例です。</p>
+                                <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。<br/>フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程も種類も幅広く担当した事例です。<br/>-2014-2021 / <span className='text-[10px]'>産官学民</span></p>
                             </div> 
                         </div>
-                        <div className='flex flex-col items-center mb-8'>
+                        <div className='flex flex-col items-center ml-8 mb-8'>
                             <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
                             <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack>
-                            etc...
                         </div>
                     </div>  
                 </div>
@@ -41,7 +39,7 @@ export default function Works08 () {
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto'>
                         <div className='flex flex-col justify-center relative mb-8'>
-                        <BtnLikeTitleWhite className='self-center text-xl h-10 '>Graphic<span className='text-[10px]'>事業推進パンフレット</span></BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-[10px]'>グラフィック / パンフレットほか</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -62,7 +60,7 @@ export default function Works08 () {
                             
                         </div>
                         <div className='flex flex-col justify-center relative mb-8'>
-                            <BtnLikeTitleWhite className='self-center text-xl '>Design<span className='text-[10px]'>ロゴ・販促物</span></BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-[10px]'>グラフィック / ロゴほか</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img06.jpg"
                             alt="Image"
@@ -83,7 +81,7 @@ export default function Works08 () {
                             
                         </div>
                         <div className='flex flex-col justify-center relative mb-8'>
-                            <BtnLikeTitleWhite className='self-center text-xl '>Contents<span className='text-[10px]'>新規事業骨子案</span></BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-[10px]'>ストラテジック / 土地活用事業</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img05.jpg"
                             alt="Image"
@@ -101,10 +99,9 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            
                         </div>
                         <div className='flex flex-col justify-center relative mb-8'>
-                            <BtnLikeTitleWhite className='self-center text-xl '>Direction<span className='text-[10px]'>観光協会店舗内装</span></BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-[10px]'>ストラテジック / 産官開発事業</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -125,7 +122,7 @@ export default function Works08 () {
                             
                         </div>
                         <div className='flex flex-col justify-center relative mb-8'>
-                            <BtnLikeTitleWhite className='self-center text-xl '>Space<span className='text-[10px]'>ギフトショーブース内装</span></BtnLikeTitleWhite>
+                            <BtnLikeTitleWhite className='text-[10px]'>スペース / ギフトショーブース内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -145,8 +142,9 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
+
                         <div className='flex flex-col justify-center relative mb-8'>
-                            <BtnLikeTitleWhite className='self-center text-xl '>Direction<span className='text-[10px]'>蔦屋書店新店舗</span></BtnLikeTitleWhite>
+                            <BtnLikeTitleWhite className='text-[10px]'>スペース / 駅中店舗内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -166,10 +164,11 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
+                        
+                    
                         <div className='flex flex-col justify-center relative mb-8'>
                         
-                            <BtnLikeTitleWhite className='self-center text-xl '>Direction<span className='text-[10px]'>蔦屋書店新店舗</span></BtnLikeTitleWhite>
-                        
+                        <BtnLikeTitleWhite className='text-[10px]'>スペース / 社会実験</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"

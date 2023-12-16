@@ -10,6 +10,7 @@ export default function Works11 () {
             <CommonWorksTempMobile
              categoryColor='bg-blue-500'
              year='2022'
+             client='Self Production'
              category='通勤収支管理アプリ'
              purpose='支出を習慣化するために'
              description={<>小さい支出から管理を習慣づけるために<br/>通院公共機関や天気情報をはじめ、主治医と共有したい症状メモ機能を搭載。アプリ１つで簡単に管理でき、リハビリに集中してもらう環境を整えるアプリです。</>}
@@ -25,6 +26,7 @@ export default function Works11 () {
 categoryColor
 categoryColorFont
 year
+client
 category
 purpose
 description, 

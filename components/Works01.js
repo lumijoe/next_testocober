@@ -10,6 +10,7 @@ export default function Works01 () {
             <CommonWorksTempDesktop
              categoryColor='bg-red-400'
              year='2023'
+             client='Self Production'
              category='コーポレートサイト'
              purpose='ライフスタイルを支えるために'
              description={<>警備経験は私のデザインのルーツです。<br/>Web空間での課題解決を念頭に、
@@ -30,6 +31,7 @@ export default function Works01 () {
 categoryColor
 categoryColorFont
 year
+client
 category
 purpose
 description, 

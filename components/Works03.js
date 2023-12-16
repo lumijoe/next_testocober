@@ -14,6 +14,7 @@ export default function Works3 () {
              categoryColor='bg-slate-400'
              categoryColorFont='text-blue-500'
              year='2021'
+             client='Self Production'
              category='リハビリアプリ'
              purpose='レジリエンス向上のために'
              description={<>リハビリ通院をサポート。<br/>通院公共機関や天気情報をはじめ、主治医と共有したい症状メモ機能を搭載。アプリ１つで簡単に管理でき、リハビリに集中してもらう環境を整えるアプリです。</>}
@@ -29,6 +30,7 @@ export default function Works3 () {
 categoryColor
 categoryColorFont
 year
+client
 category
 purpose
 description, 
