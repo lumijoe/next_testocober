@@ -43,8 +43,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
@@ -64,8 +64,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img06.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
@@ -85,8 +85,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img05.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
@@ -105,8 +105,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
@@ -126,8 +126,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
@@ -148,8 +148,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
@@ -172,8 +172,8 @@ export default function Works08 () {
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
-                            width={262}
-                            height={237}
+                            width={360}
+                            height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
