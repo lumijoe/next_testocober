@@ -37,14 +37,14 @@ export default function FooterNav () {
 
                 {/* Vercel */}
                 <li className='flex justify-center mt-8'>
-                    <a href="https://vercel.com/lumijoes-projects" target="_blank">
+                    <Link href="https://vercel.com/lumijoes-projects" target="_blank">
                         <Image
                             src="/vercelwhite.svg"
                             alt="Icon"
                             width={24}
                             height={24}
                         />
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>
