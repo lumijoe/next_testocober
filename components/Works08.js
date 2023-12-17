@@ -61,7 +61,7 @@ export default function Works08 () {
                             
                         </div>
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
-                        <BtnLikeTitleWhite className='text-[12px]'>グラフィック / ロゴほか</BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-sm'>グラフィック / ロゴほか</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img06.jpg"
                             alt="Image"
@@ -82,15 +82,16 @@ export default function Works08 () {
                             
                         </div>
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
-                        <BtnLikeTitleWhite className='text-[12px]'>ストラテジック / 土地活用事業</BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-sm'>ストラテジック / 土地活用事業</BtnLikeTitleWhite>
                             <CommonImgTmb 
-                            src="/img05.jpg"
+                            src="/workStrategy01.jpg"
                             alt="Image"
                             width={360}
                             height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
+                            <AttentionWorkDesignImg />
                             <Link href='/about'>
                                 <Image
                                     src="/torightWhite.svg"
@@ -124,7 +125,7 @@ export default function Works08 () {
                             
                         </div>
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
-                            <BtnLikeTitleWhite className='text-[12px]'>スペース / ギフトショーブース内装</BtnLikeTitleWhite>
+                            <BtnLikeTitleWhite className='text-sm'>スペース / ギフトショーブース内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -146,7 +147,7 @@ export default function Works08 () {
                         </div>
 
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
-                            <BtnLikeTitleWhite className='text-[12px]'>スペース / 駅中店舗内装</BtnLikeTitleWhite>
+                            <BtnLikeTitleWhite className='text-sm'>スペース / 駅中店舗内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
@@ -170,7 +171,7 @@ export default function Works08 () {
                     
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         
-                        <BtnLikeTitleWhite className='text-[12px]'>スペース / 社会実験</BtnLikeTitleWhite>
+                        <BtnLikeTitleWhite className='text-sm'>スペース / 社会実験</BtnLikeTitleWhite>
                             <CommonImgTmb 
                             src="/img02.jpg"
                             alt="Image"
