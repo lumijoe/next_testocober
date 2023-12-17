@@ -29,7 +29,7 @@ export default function Web01() {
                         style={{ maxWidth: 'none', paddingLeft:'-20px' }}                            
                     />    
                 </div>
-                <div className='flex flex-col absolute top-[calc(56px+5%)] right-[-3%]'>
+                <div className='flex flex-col absolute top-[calc(56px+5%)] right-[-3%] overflow-hidden'>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
