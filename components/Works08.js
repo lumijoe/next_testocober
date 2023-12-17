@@ -106,7 +106,7 @@ export default function Works08 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
                         <BtnLikeTitleWhite className='text-sm'>ストラテジック / 産官開発事業</BtnLikeTitleWhite>
                             <CommonImgTmb 
-                            src="/workDesign01.jpg"
+                            src="/workStrategy02.jpg"
                             alt="Image"
                             width={360}
                             height={320}
