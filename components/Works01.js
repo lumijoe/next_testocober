@@ -16,7 +16,7 @@ export default function Works01 () {
              description={<>警備経験は私のデザインのルーツです。<br/>Web空間での課題解決を念頭に、
              <br/>クリエイティブと実用性のバランスを調整しながら
              より良いUIやUXの実現に向き合っています。</>}
-             linkUrlToJump='/about'
+             linkUrlToJump='/web01'
              linkUrlImg='/work04.png'
              teckStack0='Next.js'
              teckStack1='Node.js'
