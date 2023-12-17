@@ -128,7 +128,7 @@ export default function Works08 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
                             <BtnLikeTitleWhite className='text-sm'>スペース / ギフトショーブース内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
-                            src="/workSpace01.jpg"
+                            src="/workSpace03.jpg"
                             alt="Image"
                             width={360}
                             height={320}
