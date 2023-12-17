@@ -136,7 +136,6 @@ export default function Works08 () {
                             priority
                             style={{ maxWidth: 'none' }}
                             />
-                            <AttentionWorkDesignBefore />
                             <Link href='/about'>
                                 <Image
                                     src="/torightWhite.svg"
