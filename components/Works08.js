@@ -125,16 +125,18 @@ export default function Works08 () {
                             </Link>
                             
                         </div>
+
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
                             <BtnLikeTitleWhite className='text-sm'>スペース / ギフトショーブース内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
-                            src="/workSpace03.jpg"
+                            src="/workSpace01.jpg"
                             alt="Image"
                             width={360}
                             height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
+                            <AttentionWorkDesignBefore />
                             <Link href='/about'>
                                 <Image
                                     src="/torightWhite.svg"
@@ -144,9 +146,8 @@ export default function Works08 () {
                                     style={{ paddingTop: "25px", position: "absolute", top: "50%", left: "5%" }}
                                 />
                             </Link>
-                            
                         </div>
-
+                        
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
                             <BtnLikeTitleWhite className='text-sm'>スペース / 駅中店舗内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
