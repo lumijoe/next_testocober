@@ -11,6 +11,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import BtnLikeTitleWhite from './Button/BtnLikeTitleWhite';
 import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
+import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
 
 export default function Works08 () {
     return (
@@ -149,13 +150,14 @@ export default function Works08 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-3'>
                             <BtnLikeTitleWhite className='text-sm'>スペース / 駅中店舗内装</BtnLikeTitleWhite>
                             <CommonImgTmb 
-                            src="/img02.jpg"
+                            src="/workSpace02.jpg"
                             alt="Image"
                             width={360}
                             height={320}
                             priority
                             style={{ maxWidth: 'none' }}
                             />
+                            <AttentionWorkDesignBefore />
                             <Link href='/about'>
                                 <Image
                                     src="/torightWhite.svg"
