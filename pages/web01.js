@@ -8,6 +8,7 @@ import BtnLikeSKillWhite from '@/components/Button/BtnLikeSkillWhite';
 import CommonImgTmb from '@/components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Btn from '../components/Button/Btn';
+import styles from '../styles/Footer.module.css';
 
 export default function Web01() {
     return (
@@ -111,19 +112,18 @@ export default function Web01() {
                 </div>
             </div>
             <div className='w-full flex items-center justify-center'>
-                <Btn className='bg-black text-white w-[60vw] italic text-ml mb-12'>Works Top
+                <Btn className='bg-black text-white w-[60vw] italic text-ml'>Works Top
                     <Link href="/" className='pl-8'>
                         <Image
                             src="/toright.svg"
                             alt="Icon"
                             width={40}
                             height={40}
-                            
                         />
                     </Link>
                 </Btn>
             </div>
-
+            <div className={styles.section1}></div>
             <Footer />
         </div>
     )
