@@ -12,9 +12,9 @@ import styles from '../styles/Footer.module.css';
 
 export default function Web01() {
     return (
-        <div>
+        <div className='overflow-y-hidden'>
             <Header2 />
-            <div className='relateive'>
+            <div className=' h-auto'>
                 <div className='bg-black w-full h-[30vh]'/>
                 <div className='bg-gray-50 w-full h-[4vh]'/>
                 <p className='text-white text-[12px] absolute top-[calc(56px)]'>lorem?</p>
@@ -29,7 +29,7 @@ export default function Web01() {
                         style={{ maxWidth: 'none', paddingLeft:'-20px' }}                            
                     />    
                 </div>
-                <div className='flex flex-col absolute top-[calc(56px+5%)] right-[-3%] overflow-hidden'>
+                <div className='flex flex-col absolute h-auto top-[calc(56px+5%)] right-[3%]'>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
