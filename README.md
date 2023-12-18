@@ -49,6 +49,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - https://feathericons.com/ 
 - ハンバーガーメニュー（align-left→navbar.svg, x→navbarclose.svg）
 
+## font(Google Fonts / 'Alumni Sans', sans-serif)
+- basic,italic
+    - 100 Thin, italic
+    - 200 ExtraLight, italic
+    - 300 Light, italic
+    - 400 Regular, italic
+    - 500 Medium, italic
+    - 600 SemiBold, italic
+    - 700 Bold, italic
+    - 800 ExtraBold, null
+
 ## 開発中のテストコードを整理するためのadjNotUseフォルダの作成
 - HeroTitleSkills2.js to HeroSkillsTitle.js （1205:Hero.jsで集約）
   

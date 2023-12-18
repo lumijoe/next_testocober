@@ -58,8 +58,8 @@ export default function Web01() {
 
             <div className='w-full h-auto flex flex-col items-center justify-center py-[60px]'>
                 <div className='w-[60vw] mb-8'>
-                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>地域課題解決と<br/>アイデンティティ醸成のバランス</h3>
-                    <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>
+                    <h3 className={`font-medium text-1xl text-black leading-8 tracking-wider`}>地域課題解決と<br/>アイデンティティ醸成のバランス</h3>
+                    <p className='font-extralight break-all mt-4 text-[14px] leading-6 text-black tracking-wider'>
                     関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。最低何行〜最高何行の決め。Webサイトを制作させていただきました。英語と日本語の文字サイズのバランスなど。loremlorem</p>
                 </div>
                 <div className='mx-9'>
