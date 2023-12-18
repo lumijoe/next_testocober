@@ -75,9 +75,9 @@ export default function Web01() {
             </div>
             <div className='bg-white w-full h-auto flex flex-col items-center justify-center py-[60px]'>
                 <div className='w-[60vw] mb-12'>
-                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>波のうねりと、山脈。</h3>
+                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>町中の景色に<br/>統一したデザインを展開</h3>
                     <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>
-                        関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。最低作させてい字サイ。</p>
+                        関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。最低作させてい字サイ。編集中です。</p>
                 </div>
                 <div className='mx-9'>
                     <CommonImgTmb
@@ -94,6 +94,22 @@ export default function Web01() {
                         width={310}
                         height={400}
                     />
+                    <p className='text-[10px] tracking-wider pt-3 pb-12'>のぼりA</p>
+                    <br/>
+                    <CommonImgTmb
+                        src='/img06.jpg'
+                        alt='Image'
+                        width={310}
+                        height={400}
+                    />
+                    <p className='text-[10px] tracking-wider pt-3 pb-12'>のぼりB：２自治体共通</p>
+                    <br/>
+                    <CommonImgTmb
+                        src='/img06.jpg'
+                        alt='Image'
+                        width={310}
+                        height={400}
+                    />
                     <p className='text-[10px] tracking-wider pt-3 pb-12'>販売用Tシャツロゴ</p>
                 </div>
                 <br/>
@@ -101,25 +117,57 @@ export default function Web01() {
             
 
             <div className='w-full h-auto flex flex-col items-center justify-center py-[60px] bg-[#f2f2f2]'>
-                <div className='w-[60vw] mb-8'>
-                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>地域課題解決と<br/>アイデンティティ醸成のバランス</h3>
-                    <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>
-                    関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。最低何行〜最高何行の決め。Webサイトを制作させていただきました。英語と日本語の文字サイズのバランスなど。loremlorem</p>
+                <div className='w-[50vw] mb-8'>
+                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>山のうねりと、山脈。<br/>景色とリンクさせる。</h3>
+                    <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>・町の自然豊かな景色<br/>・町民の温かさや情熱<br/>・幅広い年代層への訴求トーン</p>
                 </div>
-                <div className='mx-9'>
+                <div className='w-[50vw] h-auto'>
                     <CommonImgTmb
-                        src='/img01.jpg'
+                        src='/web01font.jpg'
                         alt='Image'
-                        width={310}
-                        height={233}
+                        width={200}
+                        height={130}
                     />
+                    <p className='text-[14px] tracking-wider pt-3 pb-1'>font name this area</p>
                     <br/>
-                    <CommonImgTmb
-                        src='/img01.jpg'
-                        alt='Image'
-                        width={310}
-                        height={233}
-                    />
+                    <div className='flex flex-row mr-0  w-[80vw] h-auto overflow-x-scroll overflow-auto'>
+                        <div>
+                            <div className='w-[80px] h-[130px] bg-slate-600 mb-3'/>
+                            <p className='text-[12px]  '>HEX<br/>#00test</p>
+                            <p className='text-[12px] '>RGB<br/>0 0 0</p>
+                            <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
+                            <p className='text-[10px]  '>自治体の堅実さ</p>
+                        </div>
+                        <div>
+                            <div className='w-[80px] h-[130px] bg-pink-300 mb-3'/>
+                            <p className='text-[12px]  '>HEX<br/>#00test</p>
+                            <p className='text-[12px] '>RGB<br/>0 0 0</p>
+                            <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
+                            <p className='text-[10px]  '>自治体の堅実さ</p>
+                        </div>
+                        <div>
+                            <div className='w-[80px] h-[130px] bg-blue-300 mb-3'/>
+                            <p className='text-[12px]  '>HEX<br/>#00test</p>
+                            <p className='text-[12px] '>RGB<br/>0 0 0</p>
+                            <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
+                            <p className='text-[10px]  '>自治体の堅実さ</p>
+                        </div>
+                        <div>
+                            <div className='w-[80px] h-[130px] bg-green-600 mb-3'/>
+                            <p className='text-[12px]  '>HEX<br/>#00test</p>
+                            <p className='text-[12px] '>RGB<br/>0 0 0</p>
+                            <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
+                            <p className='text-[10px]  '>自治体の堅実さ</p>
+                        </div>
+                        <div>
+                            <div className='w-[80px] h-[130px] bg-gray-400 mb-3'/>
+                            <p className='text-[12px]  '>HEX<br/>#00test</p>
+                            <p className='text-[12px] '>RGB<br/>0 0 0</p>
+                            <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
+                            <p className='text-[10px]  '>自治体の堅実さ</p>
+                        </div>
+                    
+                    </div>
                 </div>
             </div>
 
@@ -141,43 +189,37 @@ export default function Web01() {
                             height={400}
                         />
                         <br/>
-                        
+                        <CommonImgTmb
+                            src='/img01.jpg'
+                            alt='Image'
+                            width={310}
+                            height={400}
+                        />
                     </div>
             </div>
 
-
+            <div className={`${styles.section1} pb-[]`}></div>
             <div className='bg-emerald-600 w-full h-auto flex flex-col items-center justify-center py-[60px]'>
                 <div className='w-[60vw] mb-12'>
                 </div>
-                <div className='mx-1 flex flex-row gap-2 mt-[-240px]'>
-                        <CommonImgTmb
-                            src='/web0101.png'
-                            alt='Image'
-                            width={100}
-                            height={300}
+                <div className='flex flex-col items-center'>
+                    <CommonImgTmb
+                        src='/web01end.png'
+                        alt='Image'
+                        width={300}
+                        height={300}
+                    />
+                    <Btn className='bg-black w-[40vw] italic text-ml'>サイトを見る
+                    <Link href="http://design63.html.xdomain.jp/" className='pl-8'>
+                        <Image
+                            src="/toright.svg"
+                            alt="Icon"
+                            width={40}
+                            height={40}
                         />
-                        <br/>
-                        <CommonImgTmb
-                            src='/web0102.png'
-                            alt='Image'
-                            width={100}
-                            height={300}
-                        />
-                        <br/>
-                        <CommonImgTmb
-                            src='/web0103.png'
-                            alt='Image'
-                            width={100}
-                            height={300}
-                        />
-                        <br/>
-                        <CommonImgTmb
-                            src='/web0104.png'
-                            alt='Image'
-                            width={100}
-                            height={300}
-                        />
-                    </div>
+                    </Link>
+                </Btn>
+                </div>
             </div>
 
 
@@ -185,7 +227,7 @@ export default function Web01() {
 
             {/* フッター手前コンテンツ */}
 
-            <div className='w-full flex items-center justify-center'>
+            <div className='w-full flex items-center justify-center mt-[60px]'>
                 <Btn className='bg-black text-white w-[60vw] italic text-ml'>Works Top
                     <Link href="/" className='pl-8'>
                         <Image
