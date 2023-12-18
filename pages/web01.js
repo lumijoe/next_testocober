@@ -57,7 +57,7 @@ export default function Web01() {
             {/* 内容  */}
 
             <div className='w-full h-auto flex flex-col items-center justify-center py-[60px]'>
-                <div className='w-[60vw] mb-8'>
+                <div className='w-[80vw] mb-8'>
                     <h3 className={`text-[18px] font-bold text-black leading-8 tracking-wider`}>地域課題解決と<br/>アイデンティティ醸成のバランス</h3>
                     <p className={`break-all mt-4 text-[14px] leading-6 text-black tracking-wider`}>
                     関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。編集中。Webサイトを制作させていただきました。英語と日本語の文字サイズのバランス、タイトルと内容など。</p>
@@ -79,7 +79,7 @@ export default function Web01() {
                 </div>
             </div>
             <div className='bg-white w-full h-auto flex flex-col items-center justify-center py-[60px]'>
-                <div className='w-[60vw] mb-12'>
+                <div className='w-[80vw] mb-12'>
                     <h3 className={`font-bold text-[18px] text-black leading-8 tracking-wider`}>デザインガイドの使用を<br/>決裁資料に盛り込む。</h3>
                     <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>
                         デザインに詳しい職員がいなかったため、手を挙げたことが始まりでした。<br/><br/>同一プロジェクト内で使用する複数の制作物の視覚的一致は優先事項として考慮されていない状況を打破するべく、専門用語を省いて決裁資料で視覚的に作成。町内外に制作物を展開し事業認知に成功。<br/><br/>これまでの周知とは手法もデザインの質も違うぞという改革への期待感や、部署内外にデザインの有効的な活用を周知する事にも貢献しました。</p>
