@@ -58,9 +58,9 @@ export default function Web01() {
 
             <div className='w-full h-auto flex flex-col items-center justify-center py-[60px]'>
                 <div className='w-[60vw] mb-8'>
-                    <h3 className={`font-medium text-1xl text-black leading-8 tracking-wider`}>地域課題解決と<br/>アイデンティティ醸成のバランス</h3>
-                    <p className='font-extralight break-all mt-4 text-[14px] leading-6 text-black tracking-wider'>
-                    関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。最低何行〜最高何行の決め。Webサイトを制作させていただきました。英語と日本語の文字サイズのバランスなど。loremlorem</p>
+                    <h3 className={`text-[18px] font-bold text-black leading-8 tracking-wider`}>地域課題解決と<br/>アイデンティティ醸成のバランス</h3>
+                    <p className={`break-all mt-4 text-[14px] leading-6 text-black tracking-wider`}>
+                    関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。編集中。Webサイトを制作させていただきました。英語と日本語の文字サイズのバランス、タイトルと内容など。</p>
                 </div>
                 <div className='mx-9'>
                     <CommonImgTmb
@@ -80,9 +80,9 @@ export default function Web01() {
             </div>
             <div className='bg-white w-full h-auto flex flex-col items-center justify-center py-[60px]'>
                 <div className='w-[60vw] mb-12'>
-                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>町中の景色に<br/>統一したデザインを展開</h3>
+                    <h3 className={`font-bold text-[18px] text-black leading-8 tracking-wider`}>デザインガイドの使用を<br/>決裁資料に盛り込む。</h3>
                     <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>
-                        関係する文章の入れ込み、テキスト文章編集校正のボリューム量など見極める。最低作させてい字サイ。編集中です。</p>
+                        デザインに詳しい職員がいなかったため、手を挙げたことが始まりでした。<br/><br/>同一プロジェクト内で使用する複数の制作物の視覚的一致は優先事項として考慮されていない状況を打破するべく、専門用語を省いて決裁資料で視覚的に作成。町内外に制作物を展開し事業認知に成功。<br/><br/>これまでの周知とは手法もデザインの質も違うぞという改革への期待感や、部署内外にデザインの有効的な活用を周知する事にも貢献しました。</p>
                 </div>
                 <div className='mx-9'>
                     <CommonImgTmb
@@ -123,8 +123,8 @@ export default function Web01() {
 
             <div className='w-full h-auto flex flex-col items-center justify-center py-[60px] bg-[#f2f2f2]'>
                 <div className='w-[50vw] mb-8'>
-                    <h3 className={`font-bold text-1xl text-black leading-8 tracking-wider`}>山のうねりと、山脈。<br/>景色とリンクさせる。</h3>
-                    <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>・町の自然豊かな景色<br/>・町民の温かさや情熱<br/>・幅広い年代層への訴求トーン</p>
+                    <h3 className={`font-bold text-[18px] text-black leading-8 tracking-wider`}>山脈や、波のうねり、<br/>会話や人の温かみを表現。</h3>
+                    <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>弧を描くような風景や情熱とリンクさせるため、直線的や機械的でない書体として、手書き風で動きのある「font name」を採用。<br/><br/>幅広い年代層への訴求と賑やかさの推進を目的とするため、単色やシンプルな色構成は採用せず、複数色構成でも目に優しい彩度を抑えたトーンで展開しています。</p>
                 </div>
                 <div className='w-[50vw] h-auto'>
                     <CommonImgTmb
