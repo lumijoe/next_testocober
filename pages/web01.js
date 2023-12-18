@@ -15,15 +15,15 @@ export default function Web01() {
         <div className='overflow-y-hidden'>
             <Header2 />
             <div className=' h-auto'>
-                <div className='bg-black w-full h-[30vh]'/>
-                <div className='bg-gray-50 w-full h-[4vh]'/>
+                <div className='bg-black w-full h-[290px]'/>
+                <div className={` ${styles.gradworkdetail} w-full h-[50px]`}/>
                 <p className='text-white text-[12px] absolute top-[calc(56px)]'>lorem?</p>
-                <div className='absolute top-[9vh] w-full justify-center flex'>
+                <div className='absolute top-[150px] w-full justify-center flex'>
                     <CommonImgTmb 
                         src='/work04.png'
                         alt="Image"
-                        width={380}
-                        height={346}
+                        width={300}
+                        height={200}
                         layout='responsive'
                         priority
                         style={{ maxWidth: 'none', paddingLeft:'-20px' }}                            
@@ -61,15 +61,15 @@ export default function Web01() {
                     <CommonImgTmb
                         src='/img01.jpg'
                         alt='Image'
-                        width={500}
-                        height={400}
+                        width={310}
+                        height={233}
                     />
                     <br/>
                     <CommonImgTmb
                         src='/img01.jpg'
                         alt='Image'
-                        width={500}
-                        height={500}
+                        width={310}
+                        height={233}
                     />
                 </div>
             </div>
