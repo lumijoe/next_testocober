@@ -12,13 +12,13 @@ import styles from '../styles/Footer.module.css';
 
 export default function Web01() {
     return (
-        <div className='overflow-y-hidden'>
+        <div>
             <Header2 />
             <div className=' h-auto'>
                 <div className='bg-black w-full h-[330px]'/>
                 <div className={` ${styles.gradworkdetail} w-full h-[45px]`}/>
                 <p className='text-white text-[12px] absolute top-[calc(56px)] italic text-center'>Web Site : 2023</p>
-                <div className='absolute top-[188px] w-full justify-center flex'>
+                <div className='absolute top-[175px] w-full justify-center flex'>
                     <CommonImgTmb 
                         src='/work04.png'
                         alt="Image"
@@ -29,23 +29,33 @@ export default function Web01() {
                         style={{ maxWidth: 'none', paddingLeft:'-20px' }}                            
                     />    
                 </div>
-                <div className='flex flex-col absolute h-auto top-[calc(56px+5%)] right-[3%]'>
+                {/* <div className='flex flex-col absolute h-auto top-[calc(56px+5%)] right-[3%]'>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
-                </div>
+                </div> */}
             </div>
 
             <div className='bg-[#f2f2f2] w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
                 <div className='w-[80vw] '>
-                    <p>ECサイト / 個人制作</p>
+                    <p style={{ overflowWrap: 'break-word' }}>ECサイト / 個人制作</p>
                     <Link href='http://design63.html.xdomain.jp/'>http://design63.html.xdomain.jp/</Link>
                     <p>ログイン認証機能 / Top / カート機能 / ブログ / 事業内容
                         プライバシーポリシー / SPA / API / データベースなど
                         シンプルな画像と透明感ある画像を採用し
                         海やエシカルが好きな顧客のUXを高め、シンプルさにリンク
                         したUIを構築しています。</p>
+                    <div className='flex flex-row gap-3 w-[80vw] '>
+                    <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
+                    <BtnLikeSKillWhite>JavaScript</BtnLikeSKillWhite>
+                    <BtnLikeSKillWhite>React</BtnLikeSKillWhite>
+                    <BtnLikeSKillWhite>Next.js</BtnLikeSKillWhite>
+                    <BtnLikeSKillWhite>Firebase</BtnLikeSKillWhite>
+                    <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
+                    <BtnLikeSKillWhite>Next.js</BtnLikeSKillWhite>
+                    
+                </div>
                 </div>     
             </div>
 
@@ -130,43 +140,42 @@ export default function Web01() {
                     />
                     <p className='text-[14px] tracking-wider pt-3 pb-1'>font name this area</p>
                     <br/>
-                    <div className='flex flex-row mr-0  w-[80vw] h-auto overflow-x-scroll overflow-auto'>
+                    <div className='flex flex-row mr-0  w-[80vw] h-auto overflow-x-scroll overflow-auto '>
                         <div>
-                            <div className='w-[80px] h-[130px] bg-slate-600 mb-3'/>
+                            <div className='w-[100px] h-[140px] bg-slate-600 mb-3'/>
                             <p className='text-[12px]  '>HEX<br/>#00test</p>
                             <p className='text-[12px] '>RGB<br/>0 0 0</p>
                             <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
                             <p className='text-[10px]  '>自治体の堅実さ</p>
                         </div>
                         <div>
-                            <div className='w-[80px] h-[130px] bg-pink-300 mb-3'/>
+                        <div className='w-[100px] h-[140px] bg-pink-300 mb-3'/>
                             <p className='text-[12px]  '>HEX<br/>#00test</p>
                             <p className='text-[12px] '>RGB<br/>0 0 0</p>
                             <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
                             <p className='text-[10px]  '>自治体の堅実さ</p>
                         </div>
                         <div>
-                            <div className='w-[80px] h-[130px] bg-blue-300 mb-3'/>
+                        <div className='w-[100px] h-[140px] bg-blue-300 mb-3'/>
                             <p className='text-[12px]  '>HEX<br/>#00test</p>
                             <p className='text-[12px] '>RGB<br/>0 0 0</p>
                             <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
                             <p className='text-[10px]  '>自治体の堅実さ</p>
                         </div>
                         <div>
-                            <div className='w-[80px] h-[130px] bg-green-600 mb-3'/>
+                        <div className='w-[100px] h-[140px] bg-green-600 mb-3'/>
                             <p className='text-[12px]  '>HEX<br/>#00test</p>
                             <p className='text-[12px] '>RGB<br/>0 0 0</p>
                             <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
                             <p className='text-[10px]  '>自治体の堅実さ</p>
                         </div>
                         <div>
-                            <div className='w-[80px] h-[130px] bg-gray-400 mb-3'/>
+                        <div className='w-[100px] h-[140px] bg-gray-400 mb-3'/>
                             <p className='text-[12px]  '>HEX<br/>#00test</p>
                             <p className='text-[12px] '>RGB<br/>0 0 0</p>
                             <p className='text-[12px]  '>CMYK<br/>160 163 164 100</p>
                             <p className='text-[10px]  '>自治体の堅実さ</p>
                         </div>
-                    
                     </div>
                 </div>
             </div>
