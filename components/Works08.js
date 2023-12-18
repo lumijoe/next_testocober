@@ -26,7 +26,7 @@ export default function Works08 () {
                         <div className='flex flex-col mb-8'>
                             <div className='w-[250px]'>
                                 <h3 className='font-bold text-1xl'>コミニティデザインのために</h3>
-                                <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。<br/>フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程も種類も幅広く担当した事例です。<br/>-2014-2021 / <span className='text-[10px]'>産官学民</span></p>
+                                <p className='break-all mt-2 text-[12px] leading-6 text-[#696969] font-thin tracking-wider'>産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。<br/>フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程や種類を幅広く担当した事例です。<br/>-2014-2021 / <span className='text-[10px]'>産官学民</span></p>
                             </div> 
                         </div>
                         <div className='flex flex-col items-center ml-8 mb-8'>
