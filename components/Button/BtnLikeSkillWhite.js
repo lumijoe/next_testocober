@@ -1,6 +1,6 @@
 // components/Button/BtnLikeSKillWhite.js
 
-import Reacr from 'react';
+import React from 'react';
 
 export default function BtnLikeSKillWhite({ children }) {
     return(

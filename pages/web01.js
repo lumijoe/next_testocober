@@ -29,12 +29,7 @@ export default function Web01() {
                         style={{ maxWidth: 'none', paddingLeft:'-20px' }}                            
                     />    
                 </div>
-                {/* <div className='flex flex-col absolute h-auto top-[calc(56px+5%)] right-[3%]'>
-                    <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
-                    <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
-                    <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
-                    <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
-                </div> */}
+                
             </div>
 
             <div className='bg-[#f2f2f2] w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
