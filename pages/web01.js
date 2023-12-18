@@ -38,7 +38,7 @@ export default function Web01() {
             </div>
 
             <div className='bg-[#f2f2f2] w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
-                <div className='w-[80vw] '>
+                <div className='w-[80vw]'>
                     <p style={{ overflowWrap: 'break-word' }}>ECサイト / 個人制作</p>
                     <Link href='http://design63.html.xdomain.jp/'>http://design63.html.xdomain.jp/</Link>
                     <p>ログイン認証機能 / Top / カート機能 / ブログ / 事業内容
@@ -46,7 +46,7 @@ export default function Web01() {
                         シンプルな画像と透明感ある画像を採用し
                         海やエシカルが好きな顧客のUXを高め、シンプルさにリンク
                         したUIを構築しています。</p>
-                    <div className='flex flex-row gap-3 w-[80vw] '>
+                    <div className='flex flex-row gap-3 w-[80vw] flex-wrap'>
                     <BtnLikeSKillWhite>Node.js</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>JavaScript</BtnLikeSKillWhite>
                     <BtnLikeSKillWhite>React</BtnLikeSKillWhite>
