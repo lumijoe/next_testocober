@@ -17,7 +17,7 @@ export default function Works02 () {
              <br/>クリエイティブと実用性のバランスを調整しながら
              より良いUIやUXの実現に向き合っています。</>}
              linkUrlToJump='/web01'
-             linkUrlImg='/work04.png'
+             linkUrlImg='/workWeb01.png'
              teckStack0='Next.js'
              teckStack1='Node.js'
              teckStack2='React'

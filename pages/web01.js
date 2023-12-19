@@ -20,7 +20,7 @@ export default function Web01() {
                 <p className='text-white text-[12px] absolute top-[calc(56px)] italic text-center'>Web Site : 2023</p>
                 <div className='absolute top-[175px] w-full justify-center flex'>
                     <CommonImgTmb 
-                        src='/work04.png'
+                        src='/workWeb01.png'
                         alt="Image"
                         width={320}
                         height={200}
@@ -34,8 +34,8 @@ export default function Web01() {
 
             <div className='bg-[#f2f2f2] w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
                 <div className='w-[80vw]'>
-                    <p style={{ overflowWrap: 'break-word' }}>ECサイト / 個人制作</p>
-                    <Link href='http://design63.html.xdomain.jp/'>http://design63.html.xdomain.jp/</Link>
+                    <p style={{ overflowWrap: 'break-word' }}>コーポレートサイト / 個人制作</p>
+                    <Link href='http://designguys.wp.xdomain.jp/'>http://designguys.wp.xdomain.jp/</Link>
                     <p>ログイン認証機能 / Top / カート機能 / ブログ / 事業内容
                         プライバシーポリシー / SPA / API / データベースなど
                         シンプルな画像と透明感ある画像を採用し
@@ -78,12 +78,13 @@ export default function Web01() {
                     />
                 </div>
             </div>
+            {/* AboutページのHistory説明文で使用する */}
             <div className='bg-white w-full h-auto flex flex-col items-center justify-center py-[60px]'>
                 <div className='w-[80vw] mb-12'>
                     <h3 className={`font-bold text-[18px] text-black leading-8 tracking-wider`}>制作環境が整ってなくても<br/>戦略と巻き込み力で駆け抜ける</h3>
                     <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>
                    複数の制作物のデザインを統一させる事でプロジェクトをブランディング化する施策として、スタイルガイドの推進を企画した事が始まりです。これまでは外部デザイナーに丸投げが定石で、デザインに一貫性がないため利用者にとって情報収集し難い事が課題でした。<br/><br/>インハウスの存在やデザインの重要性が広まっていない町舎でデザイン推進をすることは改革領域でしたが、デザインの力を利用して町の魅力を周知するチャンスと捉え、まずは制作環境作りから着手しました。<br/><br/>専門用語を省きメリットデメリットのビジュアル比較を盛り込んだ決裁資料の作成や、決裁者や共感くださる町民の方々や職員から得たアドバイスなどをデザインに反映して巻き込むなど、協力者の分母数と活動周知を広げていく事に注力。<br/><br/>制作環境を整えた上で、本題であるガイドラインの作成、一貫性ある制作物への制作へと取り組んでいったため、出来上がりの喜びやデザインの重要性をたくさんの方々と共有する事ができ、以降は部署横断でデザイン制作に従事することとなり、複数のプロジェクトで利用者にとって情報収集しやすいデザインを提供する事ができました。</p>
-                   {/* <br/><br/>この取り組みが好評で部署内外で噂となり、以降は事務業務と並行して自治体インハウス的デザイン業務に従事するという、マルチタスクの嵐を駆け抜けることになりますが、貴重な経験をさせて頂き今でも活かせているので本当に感謝しています。</p> */}
+                   
                 </div>
                 <div className='mx-9'>
                     <CommonImgTmb
@@ -214,16 +215,18 @@ export default function Web01() {
                         width={300}
                         height={300}
                     />
-                    <Btn className='bg-black w-[40vw] italic text-ml'>サイトを見る
-                    <Link href="http://design63.html.xdomain.jp/" className='pl-8'>
+                    
+                    <Link href="http://designguys.wp.xdomain.jp/" className='pl-8'>
+                        <Btn className='bg-black w-[40vw] italic text-ml'>サイトを見る
                         <Image
                             src="/toright.svg"
                             alt="Icon"
                             width={40}
                             height={40}
                         />
+                        </Btn>
                     </Link>
-                </Btn>
+                
                 </div>
             </div>
 
