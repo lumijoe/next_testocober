@@ -123,7 +123,7 @@ export default function Web01() {
             
 
             <div className='w-full h-auto flex flex-col items-center justify-center py-[60px] bg-[#f2f2f2]'>
-                <div className='w-[50vw] mb-8'>
+                <div className='w-[80vw] mb-8'>
                     <h3 className={`font-bold text-[18px] text-black leading-8 tracking-wider`}>山脈や、波のうねり、<br/>会話や人の温かみを表現。</h3>
                     <p className='break-all mt-4 text-[14px] leading-6 text-black  font-thin tracking-wider'>弧を描くような風景や情熱とリンクさせるため、直線的や機械的でない書体として、手書き風で動きのある「font name」を採用。<br/><br/>幅広い年代層への訴求と賑やかさの推進を目的とするため、単色やシンプルな色構成は採用せず、複数色構成でも目に優しい彩度を抑えたトーンで展開しています。</p>
                 </div>
