@@ -8,7 +8,7 @@ export default function FooterNav () {
     // バグエラー回避策：worksareaへ遷移させる＃の代わりの変数を定義（エスケープコード無効・#記述不可）
     const worksarea = `/#works`;
     return (
-        <div className='text-white italic pb-[40px]'>
+        <div className='text-white italic pb-[40px] font-thin'>
             <ul className='text-center'>
                 
                 {/* Home */}

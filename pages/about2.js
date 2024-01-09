@@ -29,7 +29,10 @@ export default function about2() {
                     /> 
                 </div>
                 <div className='fixed inset-0 bg-gray-950 opacity-60 z-20 h-[40%]'/>
+                
             </div>
+
+            <div className='bg-red-300 w-full h-[200px]'>222</div>
             
             {/* ３番目：一部：テキスト部分 */}
             <div className="w-full absolute z-30 mt-[40vh] pt-[120px] py-8 flex flex-col justify-center items-center">
@@ -67,7 +70,7 @@ export default function about2() {
             {/* ３番目のためのh80x2 (見えていないが削除するとレイアウトがバグる) */}
            
             {/* 3番目一部の背景部分 */}
-            <div className="bg-white w-[70%] h-[100vh]"></div>
+            <div className="bg-red-100 w-[70%] h-[100vh]"></div>
 
             {/* ４番目の背景とテキスト */}
             <div className=" h-auto w-80 absolute z-30" style={{ height: "800px"}}>

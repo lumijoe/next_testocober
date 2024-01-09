@@ -10,8 +10,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <div className='bg-black pt-[40px] pb-[40px] relative'>
-            <footer>
+        <footer className='bg-black pt-[40px] pb-[40px] relative'>
                 <div>
                     <FooterNav />
                     <span className="border-t-[0.5px] border-[dimgray] block w-[88vw] mx-auto"></span>
@@ -26,7 +25,6 @@ export default function Footer() {
                         />
                     </Link>
                 </div>
-            </footer>
-        </div>
+        </footer>
     )
 }
