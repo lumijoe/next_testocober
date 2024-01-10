@@ -7,7 +7,7 @@ export default function JobTimeLineBox () {
     return (
         <div>
             <JobTimeLine year='2022' content='フロントエンド制作開発' />
-            <JobTimeLine year='2021' content={<><span className='text-xl thin'>Web</span>へ転向</>} />
+            <JobTimeLine year='2021' content={<><span className='text-[18px] thin'>Web</span>へ転向</>} />
             <JobTimeLine year='2018' content='店舗戦略ディレクション' detail='産官開発'/>
             <JobTimeLine year='2016' content='ディレクション、グラフィック制作' detail='官インハウス'/>
             <JobTimeLine year='2014' content='企画、空間、グラフィック制作' detail="産官学民"/>

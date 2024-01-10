@@ -7,7 +7,7 @@ export default function JobTimeLine ({ year, content, detail }) {
     return (
         <>
             <div className='mb-1'>
-                <p className='text-white text-sm md:text-2xl'>
+                <p className='text-white text-[12px] md:text-2xl'>
                     <span className='text-base md:text-3xl tracking-wider text-[#bbbbbb]'>
                         {year}</span>
                     &nbsp;&nbsp;&nbsp;&nbsp;
