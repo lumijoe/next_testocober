@@ -7,6 +7,7 @@ import Works10 from './Works10';
 import Works03 from './Works03';
 import Works11 from './Works11';
 import Works08 from './Works08';
+import Works09 from './Works09';
 import styles from '../styles/Footer.module.css';
 
 export default function WorksBox() {
@@ -24,6 +25,8 @@ export default function WorksBox() {
             <Works11 />
             <Works03 />
             <Works08/>
+            <Works09/>
+            
         </div>
     ) 
 }
