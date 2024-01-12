@@ -1,30 +1,16 @@
 /* styles/Footer.module.css */
 /* コンポーネント使用はindex.jp */
+
+/* 下：背景グレー：淡い */
 .section1 {
   background: #f7f7f7;
   color: #000;
   padding: 50px 0 100px;
   position: relative;
 }
-
+/* 上：背景グレー：濃い */
 .section1::before {
-  border-color: transparent #000000 transparent transparent;
-  border-style: solid;
-  border-width: 50px 100vw 0 0;
-  bottom: 0;
-  content: "";
-  height: 0;
-  position: absolute;
-}
-.section3 {
-  background: #f7f7f7;
-  color: #000;
-  padding: 50px 0 100px;
-  position: relative;
-}
-
-.section3::before {
-  border-color: transparent #b88888 transparent transparent;
+  border-color: transparent #e3e3e3 transparent transparent;
   border-style: solid;
   border-width: 50px 100vw 0 0;
   bottom: 0;
@@ -40,7 +26,7 @@
 }
 
 .section2::before {
-  border-color: transparent #f7f7f7 transparent transparent;
+  border-color: transparent #fff transparent transparent;
   border-style: solid;
   border-width: 50px 100vw 0 0;
   bottom: 0;
@@ -48,6 +34,23 @@
   height: 0;
   position: absolute;
   z-index: 30;
+}
+
+.section3 {
+  background: #f7f7f7;
+  color: #000;
+  padding: 50px 0 100px;
+  position: relative;
+}
+
+.section3::before {
+  border-color: transparent #000 transparent transparent;
+  border-style: solid;
+  border-width: 50px 100vw 0 0;
+  bottom: 0;
+  content: "";
+  height: 0;
+  position: absolute;
 }
 
 .gradworkdetail {
@@ -62,4 +65,18 @@
 .fontAlumni500 {
   font-family: "Alumni Sans", sans-serif;
   font-weight: 500;
+}
+
+.redline::before {
+  content: "";
+  display: block;
+  border-left: 1px solid #e60010;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  left: 0px;
+  transform: translateY(-50%) skew(-15deg);
+  transform-origin: bottom;
+  width: 0;
 }
