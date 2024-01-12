@@ -37,6 +37,9 @@ module.exports = {
       screens: {
         'ss': {'max': '399px'},
       },
+      // fontFamily: {
+      //   custom: ['Alumni Sans', '游ゴシック', 'Arial', 'sans-serif'],
+      // },
     },
   },
   plugins: [],

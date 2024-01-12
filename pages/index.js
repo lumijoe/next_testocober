@@ -4,14 +4,14 @@
 // デフォルト設定コンポーネント
 import React from 'react'                       
 import Head from 'next/head'                                       
-import { Inter } from 'next/font/google'         
+// import { Inter } from 'next/font/google'         
 import styles from '@/styles/Home.module.css'                         
 // カスタム要素コンポーネント
 import Layout from '../components/Layout' // Header2,Layout{child}main,Footer
 import Hero from '../components/Hero'
 import WorksBox from '../components/WorksBox'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
