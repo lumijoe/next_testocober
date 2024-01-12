@@ -12,7 +12,7 @@ export default function WorksTempWebSite({ categoryTitleRotate, categoryTitleNum
                 </h2>
             </div>
             <div className='w-full justify-center'>
-                <p className='w-[60%] m-auto'>{categoryText}</p>
+                <p className='w-[50%] m-auto text-[12px] text-[#6c6c6c] tracking-wider font-extralight'>{categoryText}</p>
                 {children}
                 
                 <CommonImgTmb />
