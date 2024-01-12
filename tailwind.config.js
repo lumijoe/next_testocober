@@ -36,6 +36,7 @@ module.exports = {
       },
       screens: {
         'ss': {'max': '399px'},
+        'smMax639': {'max': '639px'}, // 640未満の時
       },
       // fontFamily: {
       //   custom: ['Alumni Sans', '游ゴシック', 'Arial', 'sans-serif'],

@@ -16,6 +16,23 @@
   height: 0;
   position: absolute;
 }
+.section3 {
+  background: #f7f7f7;
+  color: #000;
+  padding: 50px 0 100px;
+  position: relative;
+}
+
+.section3::before {
+  border-color: transparent #b88888 transparent transparent;
+  border-style: solid;
+  border-width: 50px 100vw 0 0;
+  bottom: 0;
+  content: "";
+  height: 0;
+  position: absolute;
+}
+
 .section2 {
   background: transparent;
   padding: -50px 0 100px;

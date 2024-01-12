@@ -4,7 +4,7 @@
 
 import React from 'react';
 import WorksTempWebSite from '../components/WorksTempWebSite';
-import BtnLike from '../components/Button/BtnLike';
+import styles from '../styles/Footer.module.css';
 import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
@@ -16,7 +16,13 @@ import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
 
 export default function Works09 () {
     return (
-       <div>
+       <div className="relative">
+            
+        {/* bodyの上に装飾 */}
+        <div className={`absolute ${styles.section1} top-[415px] relative`}></div>
+        <div className='bg-[#e3e3e3] w-full h-[380px] bottom-[0px] absolute'></div>
+
+
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
@@ -26,8 +32,8 @@ export default function Works09 () {
                 -2014-2021 / 産官学民'
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto'>
-                        <div className='flex flex-col justify-center relative mb-8 mr-3'>
+                    <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
+                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -323,8 +329,12 @@ export default function Works09 () {
                         </div>
                     </div>
                 </div>
-                <div className='bg-white w-full h-[15px] mt-8 z-40'></div>
+                <div className="absolute">
+                    <div className={` ${styles.section1} `}></div>
+                    <div className='bg-red-200 w-full h-[380px]'></div>
+                </div>
             </WorksTempWebSite>
-       </div> 
+       </div>
+   
     ) 
 }
