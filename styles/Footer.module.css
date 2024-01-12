@@ -80,3 +80,19 @@
   transform-origin: bottom;
   width: 0;
 }
+.redlineRow::before {
+  content: "";
+  display: block;
+  border-left: 1px solid #e60010;
+  height: 24px;
+  position: absolute;
+
+  /* transform: translateY(-50%); */
+  left: 0px;
+  transform-origin: left;
+  width: 0;
+}
+.redlineRow {
+  left: 0;
+  transform-origin: left;
+}
