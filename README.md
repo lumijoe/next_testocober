@@ -24,9 +24,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - 特にカラーや余白の設定が豊富で、詳細にカスタムすることも可能、Static site 制作において作品の差別化を図りたかったため
 - global や Home のあらかじめ設定されている CSS との競合など簡単に解消できた
 - GSAP で実現が難しいものは config.js で@keyframes カスタムで実現
-- ブレークポイント機能
+- **ブレークポイント機能**
   - デフォルト設定：sm: 640px 以上, md: 768px, lg: 1024px, xl: 1280px, 2xl: 1536px
-  - カスタム追加設定：tailwind.config.js で 400px 未満の ss を設定済み、640 未満の smMax639px も追加
+  - カスタム追加設定：tailwind.config.js で 339 以下の ss を設定済み、639 以下の smMax639px も追加
 
 ## 技術選定 3： Why GSAP
 

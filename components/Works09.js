@@ -19,8 +19,8 @@ export default function Works09 () {
        <div className="relative">
             
         {/* bodyの上に装飾 */}
-        <div className={`absolute ${styles.section1} top-[639px] relative`}></div>
-        <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute'></div>
+        <div className={`absolute ${styles.section1} top-[590px] smMax552:top-[625px] smMax453:top-[660px] smMax401:top-[697px] smMax351:opacity-0  relative`}></div>
+        <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute '></div>
 
 
             <WorksTempWebSite
@@ -30,6 +30,7 @@ export default function Works09 () {
                 categoryText='コミニティデザイン：産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。
                 フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程や種類を幅広く担当した事例です。
                 -2014-2021 / 産官学民'
+                
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
@@ -220,11 +221,9 @@ export default function Works09 () {
                         
                     </div>
                 </div>
-                <div className="absolute">
-                    <div className={` ${styles.section1} `}></div>
-                    <div className='bg-red-200 w-full h-[380px]'></div>
-                </div>
+                
             </WorksTempWebSite>
+            
        </div>
    
     ) 
