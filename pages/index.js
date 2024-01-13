@@ -10,6 +10,7 @@ import styles from '@/styles/Home.module.css'
 import Layout from '../components/Layout' // Header2,Layout{child}main,Footer
 import Hero from '../components/Hero'
 import WorksBox from '../components/WorksBox'
+import WorksCopy from '..//components/WorksCopy'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,7 @@ export default function Home() {
       <div className='bg-[#F7F7F7]'>
         <Layout>
           <Hero />
+          <WorksCopy />
           <WorksBox />
         </Layout>
       </div>

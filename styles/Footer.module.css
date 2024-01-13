@@ -1,14 +1,14 @@
 /* styles/Footer.module.css */
 /* コンポーネント使用はindex.jp */
 
-/* 下：背景グレー：淡い */
+/* 下レイヤー：背景グレー：淡い */
 .section1 {
   background: #f7f7f7;
   color: #000;
   padding: 50px 0 100px;
   position: relative;
 }
-/* 上：背景グレー：濃い */
+/* 上レイヤー：背景グレー：濃い */
 .section1::before {
   border-color: transparent #e3e3e3 transparent transparent;
   border-style: solid;
@@ -24,7 +24,6 @@
   padding: -50px 0 100px;
   position: relative;
 }
-
 .section2::before {
   border-color: transparent #fff transparent transparent;
   border-style: solid;
@@ -36,14 +35,31 @@
   z-index: 30;
 }
 
+/* レイヤー同レベル：white */
 .section3 {
+  background: #fff;
+  color: #000;
+  padding: 50px 0 100px;
+  position: relative;
+}
+.section3::before {
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 50px 100vw 0 0;
+  bottom: 0;
+  content: "";
+  height: 0;
+  position: absolute;
+}
+
+/* レイヤー同レベル：f7f7f7 */
+.section4 {
   background: #f7f7f7;
   color: #000;
   padding: 50px 0 100px;
   position: relative;
 }
-
-.section3::before {
+.section4::before {
   border-color: transparent #000 transparent transparent;
   border-style: solid;
   border-width: 50px 100vw 0 0;

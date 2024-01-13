@@ -1,4 +1,4 @@
-// components/Works08.js
+// components/Works09.js
 // パターン：デザイン、中央スクロール
 // ブレークポイントsm:640px
 
@@ -30,7 +30,7 @@ export default function Works09 () {
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
-                categoryTitleName='ウェブサイト / ウェブアプリ'
+                categoryTitleName='ウェブサイト / アプリ'
                 categoryText='コミニティデザイン：産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。
                 フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程や種類を幅広く担当した事例です。
                 -2014-2021 / 産官学民'
