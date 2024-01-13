@@ -18,7 +18,6 @@ export default function WorksBox() {
             <Works09/>   
             <Works09/>   
             <Works09/>   
-            <Works09/>   
                 
         
             
