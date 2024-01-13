@@ -36,11 +36,14 @@ module.exports = {
       },
       screens: {
         'ss': {'max': '399px'},       // 399以下
+        'smMax695': {'max': '695px'}, // 695以下
         'smMax639': {'max': '639px'}, // 639以下
         'smMax552': {'max': '552px'}, // 552以下
+        'smMax567': {'max': '567px'}, // 567以下
         'smMax453': {'max': '453px'}, // 453以下
         'smMax401': {'max': '401px'}, // 401以下
         'smMax351': {'max': '351px'}, // 351以下
+        'smMin553': {'min': '553px'}, // 553以上
       },
       // fontFamily: {
       //   custom: ['Alumni Sans', '游ゴシック', 'Arial', 'sans-serif'],
