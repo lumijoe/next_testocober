@@ -21,9 +21,9 @@ export default function Works09 () {
         {/* bodyの上に装飾 */}
         <div className={`absolute ${styles.section1} smMin553:opacity-0 smMax552:opacity-0 smMax453:top-[660px] smMax401:top-[697px] smMax351:opacity-0  relative`}></div>
         {/* <div className={`absolute ${styles.section1} top-[590px] smMax695:top-[605px] smMax567:top-[640px] smMax552:top-[625px] smMax453:top-[660px] smMax401:top-[697px] smMax351:opacity-0  relative`}></div> */}
-        <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute '>
+        {/* <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute '>
              <div className='bg-[#e3e3e3] w-full h-[280px] absolute top-[-50px]' style={{ transform: 'skewY(-4deg)' }}></div> 
-        </div>
+        </div> */}
         <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute '></div>
 
 
