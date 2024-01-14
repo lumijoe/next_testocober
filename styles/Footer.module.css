@@ -89,6 +89,9 @@
 .gradworkdetail {
   background-image: linear-gradient(to top, #ffffff 1%, #adacac 100%);
 }
+.gradworkbg {
+  background-image: linear-gradient(to right, #ffffff 1%, #e3e3e3 100%);
+}
 
 .fontAlumni100 {
   font-family: "Alumni Sans", sans-serif;

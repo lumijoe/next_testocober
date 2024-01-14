@@ -1,41 +1,39 @@
-// pages/works/web02.js
+// pages/works/design03.js
 
 import React from 'react';
 import Header2 from '../components/Header2';
 import Link from 'next/link';
 import Footer from '../components/Footer';
 import BtnLikeSKillWhite from '@/components/Button/BtnLikeSkillWhite';
-import CommonImgTmb from '@/components/Works/CommonImgTmb';
+import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Btn from '../components/Button/Btn';
 import styles from '../styles/Footer.module.css';
 
-export default function Web02() {
+export default function design03() {
     return (
         <div>
             <Header2 />
             <div className=' h-[330px] pt-[52px] flex justifyーcenter'>
-            <div className={` ${styles.gradworkbg} w-full h-[330px] justify-center`}>
-           
-                    </div>   
-                
-                <p className='text-black text-[12px] absolute top-[calc(56px)] italic text-center'>Web Site : 2023</p>
+             
+            <div className={` ${styles.gradworkbg} w-full h-[330px] justify-center`}></div>
+               
                 <div className='absolute  w-full justify-center flex pt-[45px]'>
                     <CommonImgTmb 
-                        src='/img02.jpg'
+                        src='/workStrategy01.jpg'
                         alt="Image"
                         width={320}
                         height={200}
                         layout='responsive'
                         priority
-                        style={{ maxWidth: 'none', paddingLeft:'-20px' }}
+                        style={{ maxWidth: 'none', paddingLeft:'-20px', boxShadow: '10px 5px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden' }}
                                                
                     />    
                 </div>
                 
             </div>
 
-            <div className='bg-[#f2f2f2] w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
+            <div className='bg-white w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
                 <div className='w-[80vw]'>
                     <p style={{ overflowWrap: 'break-word' }}>コーポレートサイト / 個人制作</p>
                     <Link href='http://designguys.wp.xdomain.jp/'>http://designguys.wp.xdomain.jp/</Link>

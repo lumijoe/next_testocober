@@ -64,7 +64,7 @@ export default function Works09 () {
                                 
                                 </div>
                             </div>
-                            <Link href='/about'>
+                            <Link href='/web02'>
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
