@@ -9,7 +9,7 @@ import Link from 'next/link';
 import styles from '../styles/Footer.module.css' 
 import imgwork from '../public/imgwork.jpg';
 import BtnLikeSkillBlack from '../components/Button/BtnLikeSkillBlack';
-
+import BtnLikeSkillWhiteNormal from '../components/Button/BtnLikeSKillWhiteNormal';
 import JobTimeLineBox from '../components/About/JobTimeLineBox';
 import JobText from '../components/About/JobText';
 
@@ -47,7 +47,7 @@ export default function About() {
             {/* テキストとスキル */}
             <div className='px-3.5'>
                 <JobText />
-                <div class="relative bg-pink-300 w-full h-[auto] justify-center mb-20  " id='skills'>
+                <div class="relative  w-full h-[auto] justify-center mb-20  " id='skills'>
                     <h1 className={`text-[40px] md:text-[60px] italic font-medium text-center pt-[132px] w-full `}>Skills</h1>
                     <div className="flex flex-col w-[85%] text-left bg-white m-auto">
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>開発言語</p>
@@ -101,18 +101,34 @@ export default function About() {
                             <li><BtnLikeSkillBlack>XD</BtnLikeSkillBlack></li>
                         </ul>
                     </div>
+                </div>   
+            </div>
+            <div className="bg-black w-full h-auto py-20 mx-auto">
+                <div className={`text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] italic font-medium text-white top-[132px] text-center w-full pb-10 `}>Strong Theme</div>
+                <div className="flex mx-auto justify-center">
+                <ul className="flex flex-wrap gap-6 text-[16px] w-[50%] justify-center">
+                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" >自治体</BtnLikeSkillWhiteNormal>
+                    </li>
+                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[4px]" >social</BtnLikeSkillWhiteNormal>
+                    </li>
+                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>lifestyle</BtnLikeSkillWhiteNormal>
+                    </li>
+                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>アイデンティティ</BtnLikeSkillWhiteNormal>
+                    </li>
+                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>ブランディング</BtnLikeSkillWhiteNormal>
+                    </li>  
+                </ul>
                 </div>
-                <div className="bg-black w-full h-[500px] pt-20">
-                    <p className="text-white">test</p>
+            </div>
 
-                </div>
-
-
-                <div >
+            <div >
                     <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'><Btn className="bg-indigo-600 w-full "><b>Linkedin</b>で詳細を見る</Btn></Link>
                 </div>
-                
-            </div>
             <div className={ `${styles.section5}` }></div>
             <Footer />
         </div>
