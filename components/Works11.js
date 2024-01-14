@@ -12,8 +12,7 @@ import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
 
 export default function Works11 () {
-    const urlWorksDesign01 = "https://online.updf.com/index/share/ja-JP?shareId=7edec820-6121-476b-a8dd-57dbd8f71d6d";
-
+    
     return (
        <div className="relative">
             
@@ -62,7 +61,7 @@ export default function Works11 () {
                                 
                                 </div>
                             </div>
-                            <a href={urlWorksDesign01} target="_blank">
+                            <Link href="/design01">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -70,15 +69,15 @@ export default function Works11 () {
                                         height={52}
                                         style={{ position: "absolute", top: "85%", left: "88%" }}
                                     />
-                            </a> 
+                            </Link> 
                         </div>
                         
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>パンフレットほか</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ロゴリデザインほか</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
-                                src="/img02.jpg"
+                                src="/img06.jpg"
                                 alt="Image"
                                 width={290}
                                 height={196}
@@ -92,14 +91,15 @@ export default function Works11 () {
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
                                     {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
                                     {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
                                 </div>
                                 
                                 </div>
                             </div>
-                            <Link href='/design01'>
+                            <Link href='/design02'>
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"

@@ -1,4 +1,4 @@
-// pages/works/design01.js
+// pages/works/design02.js
 
 import React from 'react';
 import Header2 from '../components/Header2';
