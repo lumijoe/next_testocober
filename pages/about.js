@@ -10,6 +10,8 @@ import styles from '../styles/Footer.module.css'
 import imgwork from '../public/imgwork.jpg';
 
 export default function About() {
+    const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi-5a0873262";
+
     return (
         <div>
             <Header2 />
@@ -25,10 +27,10 @@ export default function About() {
                     />  
                 </div>
                 <div className='absolute inset-0 bg-gray-950 opacity-60' style={{ height: "40vh" }}/>
-                
             </div>
 
-            <div className='mt-[52px]'> 
+
+            <div className='mt-[52px] pl-3.5'> 
             
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
@@ -40,10 +42,12 @@ export default function About() {
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
+
                 <div>
-                    <Btn><Link href="/test2">テストページ２に遷移</Link></Btn>
-                    <Btn><Link href="/test">テストページ１に遷移</Link></Btn>
-                    <Btn><Link href="/test3">テストページ3に遷移</Link></Btn>
+                    <Btn className="bg-indigo-600 w-full ">
+                        <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'>Linkedinで詳細を見る</Link>
+                    </Btn>
+                    
                 </div>
             </div>
             <div className={ `${styles.section5}` }></div>

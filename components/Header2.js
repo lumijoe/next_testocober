@@ -17,8 +17,8 @@ export default function Header2() {
 
     return (
         <div className='fixed z-50 h-14 ' >
-            <div className="flex flex-row w-screen h-14 bg-black align-middle z-500">
-                <div className="flex-1 justify-center my-auto pl-3.5">
+            <div className="flex flex-row w-screen h-14 bg-black align-middle z-500 px-3.5">
+                <div className="flex-1 justify-center my-auto ">
                     <Image
                         src={isNavpanelOpen ? "/navbarclose.svg" : "/navbar.svg"}
                         alt="Icon"
@@ -30,7 +30,7 @@ export default function Header2() {
                 <div className="flex justify-center m-auto">
                     <h1 className='text-white text-center italic text-2xl translate-no'>LUMI KOJO</h1>
                 </div>
-                <div className="flex-1 my-auto pr-3.5 justify-center"></div>
+                <div className="flex-1 my-auto  justify-center"></div>
             </div>
 
             {/* Navpanelの出現方法の設定（左から右、速さ） */}

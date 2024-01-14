@@ -17,7 +17,7 @@ export default function FooterNav () {
                 
                 {/* About */}
                 <li className='text-[30px] text-white italic mb-4'>
-                    <Link href="/about2" >About</Link></li>
+                    <Link href="/about" >About</Link></li>
                 
                 {/* Works */}
                 <li className='text-[30px] text-white italic mb-4'>
