@@ -21,7 +21,7 @@ export default function Navpanel({ closeNavpanel }) {
                         
                         {/* About */}
                         <li className='text-5xl text-white italic mb-4'>
-                            <Link href="/about2" onClick={closeNavpanel}>About</Link></li>
+                            <Link href="/about" onClick={closeNavpanel}>About</Link></li>
                         
                         {/* Works */}
                         <li className='text-5xl text-white italic mb-4'>

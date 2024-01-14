@@ -101,7 +101,7 @@ export default function about2() {
                     <li>list1</li>
                     <li>LAST list1</li>
                 </ul>
-                <div className={ `${styles.section3}` }></div>
+                <div className={ `${styles.section4}` }></div>
                 <Footer />
             </div>
             </div>

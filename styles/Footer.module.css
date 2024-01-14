@@ -52,7 +52,7 @@
   position: absolute;
 }
 
-/* レイヤー同レベル：f7f7f7 */
+/* レイヤー同レベル：f7f7f7の下に黒 */
 .section4 {
   background: #f7f7f7;
   color: #000;
@@ -60,6 +60,23 @@
   position: relative;
 }
 .section4::before {
+  border-color: transparent #000 transparent transparent;
+  border-style: solid;
+  border-width: 50px 100vw 0 0;
+  bottom: 0;
+  content: "";
+  height: 0;
+  position: absolute;
+}
+
+/* レイヤー同レベル：白の下に黒 */
+.section5 {
+  background: #fff;
+  color: #000;
+  padding: 50px 0 100px;
+  position: relative;
+}
+.section5::before {
   border-color: transparent #000 transparent transparent;
   border-style: solid;
   border-width: 50px 100vw 0 0;
