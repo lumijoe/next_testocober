@@ -1,4 +1,4 @@
-// pages/works/design04.js
+// pages/works/Design04.js
 
 import React from 'react';
 import Header2 from '../components/Header2';
@@ -10,7 +10,7 @@ import Image from 'next/image';
 import Btn from '../components/Button/Btn';
 import styles from '../styles/Footer.module.css';
 
-export default function design04() {
+export default function Design04() {
     return (
         <div>
             <Header2 />

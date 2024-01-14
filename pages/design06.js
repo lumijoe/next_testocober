@@ -1,4 +1,4 @@
-// pages/works/Design03.js
+// pages/works/Design06.js
 
 import React from 'react';
 import Header2 from '../components/Header2';
@@ -10,17 +10,17 @@ import Image from 'next/image';
 import Btn from '../components/Button/Btn';
 import styles from '../styles/Footer.module.css';
 
-export default function Design03() {
+export default function Design06() {
     return (
         <div>
             <Header2 />
             <div className=' h-[330px] pt-[52px] flex justifyーcenter'>
-             
+            
             <div className={` ${styles.gradworkbg} w-full h-[330px] justify-center`}></div>
                
                 <div className='absolute  w-full justify-center flex pt-[45px]'>
                     <CommonImgTmb 
-                        src='/workStrategy01.jpg'
+                        src='/workSpace02.jpg'
                         alt="Image"
                         width={320}
                         height={200}

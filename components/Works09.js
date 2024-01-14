@@ -37,7 +37,7 @@ export default function Works09 () {
                 
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
+                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
 

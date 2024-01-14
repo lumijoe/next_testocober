@@ -50,9 +50,6 @@ export default function About() {
                     <h1 className={`text-[40px] md:text-[60px] italic font-medium text-center pt-[132px] ${styles.redline} w-full `}>Skills</h1>
                 </div>
 
-                
-                
-
                 <div >
                     <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'><Btn className="bg-indigo-600 w-full "><b>Linkedin</b>で詳細を見る</Btn></Link>
                 </div>
