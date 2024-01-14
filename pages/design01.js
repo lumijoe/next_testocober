@@ -31,35 +31,35 @@ export default function Design01() {
                     style={{ paddingBottom: "40px" }}
                 />
                 <Image
-                    src="/design01_01.jpg"
+                    src="/design01_02.jpg"
                     alt="jpg資料"
                     width={800}
                     height={800}
                     style={{ paddingBottom: "40px" }}
                 />
                 <Image
-                    src="/design01_01.jpg"
+                    src="/design01_03.jpg"
                     alt="jpg資料"
                     width={800}
                     height={800}
                     style={{ paddingBottom: "40px" }}
                 />
                 <Image
-                    src="/design01_01.jpg"
+                    src="/design01_04.jpg"
                     alt="jpg資料"
                     width={800}
                     height={800}
                     style={{ paddingBottom: "40px" }}
                 />
                 <Image
-                    src="/design01_01.jpg"
+                    src="/design01_05.jpg"
                     alt="jpg資料"
                     width={800}
                     height={800}
                     style={{ paddingBottom: "40px" }}
                 />
                 <Image
-                    src="/design01_01.jpg"
+                    src="/design01_06.jpg"
                     alt="jpg資料"
                     width={800}
                     height={800}
