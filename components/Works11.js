@@ -62,7 +62,7 @@ export default function Works11 () {
                                 
                                 </div>
                             </div>
-                            <a href={urlWorksDesign01}>
+                            <a href={urlWorksDesign01} target="_blank">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
