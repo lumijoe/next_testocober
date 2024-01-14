@@ -16,7 +16,7 @@ export default function Header2() {
     };
 
     return (
-        <div className='fixed z-50 h-14 ' >
+        <div className='fixed z-50 h-14 bg-black w-full' >
             <div className="flex flex-row w-full h-14 bg-black align-middle z-500 px-3.5">
                 <div className="flex-1 justify-center my-auto ">
                     <Image

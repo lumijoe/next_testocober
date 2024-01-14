@@ -13,6 +13,7 @@ import JobTimeLineBox from '@/components/About/JobTimeLineBox';
 import JobText from '@/components/About/JobText';
 
 
+
 export default function About() {
     const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi";
 
@@ -45,15 +46,15 @@ export default function About() {
             {/* テキスト */}
             <div className='px-3.5'>
                 <JobText />
+                <div class="relative bg-pink-300 w-full h-[500px]" id='skills'>
+                    <h1 className={`text-[40px] md:text-[60px] italic font-medium text-center pt-[132px] ${styles.redline} w-full `}>Skills</h1>
+                </div>
+
+                
                 
 
                 <div >
-
-
                     <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'><Btn className="bg-indigo-600 w-full "><b>Linkedin</b>で詳細を見る</Btn></Link>
-                    
-              
-                    
                 </div>
                 
             </div>
@@ -63,13 +64,3 @@ export default function About() {
     )
 }
 
-/* export default function About() {
-    const backgroundImageStyle = {
-        backgroundImage: `url('/imgwork.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
-        position: 'relative',
-        height: '40vh',
-    };
-*/

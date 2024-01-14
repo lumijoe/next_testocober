@@ -3,13 +3,13 @@ import React from 'react';
 export default function JobText() {
     return(
         <div className="py-20">
-            <div className="pb-16">
+            <div className="pb-10">
                 <h1 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}className='text-[16px] tracking-wider leading-[24px] w-[50%] m-auto pb-[16px]'>2014年から2020年まで</h1>
                 <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[50%] m-auto  '>
                 自治体や地域で地域課題の解決策としてデザインやディレクションに従事。自治体では事務職員でありながら自ら手を挙げインハウスデザイナーとしてのポジションを獲得し、部署横断で多様なプロジェクトに従事。<br/><span className="text-indigo-500 text-[12px] text-thin">#部署横断&nbsp;&nbsp;#環境整備&nbsp;&nbsp;#デザインの重要性の周知</span>
                 </p>
             </div>
-            <div className="pb-16">
+            <div className="pb-10">
                 <h1 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}className='text-[16px] tracking-wider leading-[24px] w-[50%] m-auto pb-[16px]'>デザイン領域の拡大</h1>
                 <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[50%] m-auto  '>
                 2016年に休耕地対策である土地活用事業の戦略企画に従事。2018年には産官開発事業のコンセプトやブランディング戦略のメインディレクションとして新店舗の立ち上げに従事。<br/><span className="text-indigo-500 text-[12px] text-thin">#戦略ディレクション&nbsp;&nbsp;#アイデンティティ&ブランディング&nbsp;&nbsp;#地域課題</span><br/>
@@ -22,6 +22,5 @@ export default function JobText() {
                 </p>
             </div>
         </div>
-        
     ) 
 }

@@ -56,7 +56,7 @@ export default function Works09 () {
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
+                                    <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
                                     {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
                                     {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
