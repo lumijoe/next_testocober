@@ -36,7 +36,7 @@ export default function Works11 () {
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>パンフレットほか</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
@@ -54,14 +54,13 @@ export default function Works11 () {
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
-                                    {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
-                                    {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
+                                    <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack>
                                 </div>
                                 
                                 </div>
                             </div>
-                            <Link href='/about'>
+                            <Link href='https://online.updf.com/index/share/ja-JP?shareId=7edec820-6121-476b-a8dd-57dbd8f71d6d'>
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
