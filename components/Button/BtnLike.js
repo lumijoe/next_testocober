@@ -8,7 +8,7 @@ export default function BtnLike ({ children, className }) {
     const buttonLikeClass = `rounded-full text-white px-auto py-[23px] w-[280px]   text-[16px] h-[50px] border ${className}`
 
     return (
-        <div className='mb-8 py-8 mt-12'>
+        <div className='my-12 py-8 '>
             <span type="button" className={`flex items-center justify-center ${buttonLikeClass}`}>{children}</span>
         </div>
     )
