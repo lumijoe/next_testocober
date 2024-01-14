@@ -7,12 +7,12 @@ export default function JobTimeLine ({ year, content, detail }) {
     return (
         <>
             <div className='mb-1 font-"Noto Sans JP"'>
-                <p className='text-white text-[14px] tracking-wider'>
+                <p className='text-white text-[14px] ss:text-[12px] tracking-wider'>
                     <span className='tracking-wider text-[18px] text-[#bbbbbb]'>
-                        {year}<span className='text-[14px]'>年</span></span>
+                        {year}<span className='text-[14px] ss:text-[12px]'>年</span></span>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     {content}
-                    {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'></span><span className='text-[12px] text-[#bbbbbb]'>{detail}</span></> : null}    
+                    {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'></span><span className='text-[12px] ss:text-[10px] text-[#bbbbbb]'>{detail}</span></> : null}    
                 </p>
             </div>
         </>

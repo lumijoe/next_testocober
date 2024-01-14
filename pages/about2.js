@@ -32,14 +32,14 @@ export default function about2() {
                 
             </div>
 
-            <div className='bg-red-300 w-full h-[200px]'>222</div>
-            <div className='bg-black h-[40%] w-full mt-[109px] fixed'></div>
+            
+            <div className='bg-black h-[40%] w-full mt-[80%] fixed'></div>
             
             {/* ３番目：一部：テキスト部分：mt-[100px]でlevel0 */}
             <div className="w-full absolute z-30 mt-[130px] mb-[30px] flex flex-col justify-center items-center">
                 <div>
                     <h1 className="text-white text-[40px] md:text-[60px] italic font-semibold">About</h1>
-                    <p className="text-white text-base md:text-3xl italic text-center">小城ルミ</p>
+                    
                 </div>
                 <JobTimeLineBox /> 
                 
@@ -49,22 +49,7 @@ export default function about2() {
                 
                 
                 
-                {/* <ul>
-                    <li className='mb-1'>
-                        <p className="text-white text-6xl md:text-4xl italic font-semibold">About</p></li>
-                    <li className='mb-1'>
-                        <p className="text-white text-base md:text-3xl italic">小城ルミ&nbsp;<span></span></p></li>
-
-                    <JobTimeLine year='2022' content='フロントエンド制作開発' />
-                    <JobTimeLine year='2021' content={<><span className='text-xl thin'>Web</span>へ転向</>} />
-                    <JobTimeLine year='2018' content='店舗戦略ディレクション' detail='産官開発'/>
-                    <JobTimeLine year='2016' content='ディレクション、グラフィック制作' detail='官インハウス'/>
-                    <JobTimeLine year='2015' content='企画、店舗内装、グラフィック制作' detail="産官学民"/>
-                    <JobTimeLine year='2010' content='企業オウンドメディア編集担当'/>
-                    <JobTimeLine year='1997' content='短期大学卒' detail='英米語、タイピング、グローバル応用'/>
-                    <JobTimeLine year='1976' content='生まれ'/>
-                </ul> */}
-
+               
             
 
 
