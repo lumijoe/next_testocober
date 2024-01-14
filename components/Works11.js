@@ -12,7 +12,7 @@ import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
 
 export default function Works11 () {
-    const urlWorksDesign01 = "https://online.updf.com/index/share/ja-JP?shareId=7edec820-6121-476b-a8dd-57dbd8f71d6d"
+    const urlWorksDesign01 = "https://online.updf.com/index/share/ja-JP?shareId=7edec820-6121-476b-a8dd-57dbd8f71d6d";
 
     return (
        <div className="relative">
