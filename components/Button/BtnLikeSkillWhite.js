@@ -1,5 +1,4 @@
 // components/Button/BtnLikeSKillWhite.js
-
 import React from 'react';
 
 export default function BtnLikeSKillWhite({ children }) {

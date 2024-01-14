@@ -9,7 +9,6 @@ import Link from 'next/link';
 import styles from '../styles/Footer.module.css' 
 import imgwork from '../public/imgwork.jpg';
 import BtnLikeSkillBlack from '../components/Button/BtnLikeSkillBlack';
-import BtnLikeSkillWhiteNormal from '../components/Button/BtnLikeSKillWhiteNormal';
 import JobTimeLineBox from '../components/About/JobTimeLineBox';
 import JobText from '../components/About/JobText';
 
@@ -54,7 +53,7 @@ export default function About() {
                     <div className="flex flex-col w-[70%] text-left bg-white m-auto mt-20">
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>開発言語</p>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
-                            <li><BtnLikeSkillBlack>JavaScript</BtnLikeSkillBlack></li>
+                            <li className=""><BtnLikeSkillBlack>JavaScript</BtnLikeSkillBlack></li>
                         </ul>
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>フレームワーク / ライブラリ</p>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
@@ -103,10 +102,9 @@ export default function About() {
                             <li><BtnLikeSkillBlack>XD</BtnLikeSkillBlack></li>
                         </ul>
                     </div>
-
                     <div className="mt-20 pb-10">
-                        <h1 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}className='text-[16px] tracking-wider leading-[32px] w-[70%] m-auto pb-[16px]'>キャリアブレイクの経験が<br/>今のデザインとコードを作っている</h1>
-                        <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[70%] m-auto  '>
+                        <p style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }} className='text-[16px] tracking-wider leading-[32px] w-[70%] m-auto pb-[16px]'>キャリアブレイクの経験</p>
+                        <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[70%] m-auto'>
                         出産育児やキャリア移行期には、社会実験参画やフリーランス事業、言語キャッチアップなどデザインやコードへの行動を継続。コロナを期にブレイクを終了し、キャリアを再構築中。</p>
                         <div >
                             <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]'><Btn className="bg-indigo-600 w-[85%] mx-auto "><b>Linkedin</b>で詳細を見る</Btn></Link>
@@ -119,23 +117,13 @@ export default function About() {
             <div className="bg-black w-full h-auto py-20 mx-auto">
                 <div className={`text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] italic font-medium text-white top-[132px] text-center w-full pb-10 `}>Strong Theme</div>
                 <div className="flex mx-auto justify-center">
-                <ul className="flex flex-wrap gap-6 text-[16px] w-[50%] justify-center">
-                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" >産官学民</BtnLikeSkillWhiteNormal>
-                    </li>
-                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>lifestyle</BtnLikeSkillWhiteNormal>
-                    </li>
-                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>社会課題</BtnLikeSkillWhiteNormal>
-                    </li>
-                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>アイデンティティ</BtnLikeSkillWhiteNormal>
-                    </li>
-                    <li style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                        <BtnLikeSkillWhiteNormal className="border border-solid border-white bg-black py-[6px]" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>行動心理</BtnLikeSkillWhiteNormal>
-                    </li>  
-                </ul>
+                    <ul className="flex flex-wrap gap-6 text-[16px] w-[50%] justify-center">
+                        <li style={{ fontStyle: "Noto Sans JP" }} className="text-white">#産官学民</li>
+                        <li style={{ fontStyle: "Noto Sans JP" }} className="text-white">#社会課題</li>
+                        <li style={{ fontStyle: "Noto Sans JP" }} className="text-white">#ライフスタイル</li>
+                        <li style={{ fontStyle: "Noto Sans JP" }} className="text-white" >#アイデンティティ</li>
+                        <li style={{ fontStyle: "Noto Sans JP" }} className="text-white">#行動心理</li>
+                    </ul>
                 </div>
             </div>
 

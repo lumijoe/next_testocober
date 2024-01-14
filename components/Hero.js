@@ -36,9 +36,9 @@ export default function Hero() {
         style={{ width: "100vw", height: "100%" }}
       >
         {/* 1：背景自動スクロール画像 */}
-        <div ref={contentRef} className="flex h-auto">
+        <div ref={contentRef} className="flex">
           <Image
-            src="/web0103.png"
+            src="/img01.jpg"
             alt="Image"
             width={600}
             height={400}
