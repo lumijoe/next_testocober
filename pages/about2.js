@@ -33,12 +33,12 @@ export default function about2() {
             </div>
 
             <div className='bg-red-300 w-full h-[200px]'>222</div>
-            <div className='bg-black h-[355px] w-full mt-[109px] fixed'></div>
+            <div className='bg-black h-[40%] w-full mt-[109px] fixed'></div>
             
             {/* ３番目：一部：テキスト部分：mt-[100px]でlevel0 */}
             <div className="w-full absolute z-30 mt-[130px] mb-[30px] flex flex-col justify-center items-center">
                 <div>
-                    <h1 className="text-white text-3xl md:text-4xl italic font-thin ">About</h1>
+                    <h1 className="text-white text-[40px] md:text-[60px] italic font-semibold">About</h1>
                     <p className="text-white text-base md:text-3xl italic text-center">小城ルミ</p>
                 </div>
                 <JobTimeLineBox /> 

@@ -6,10 +6,10 @@ export default function JobTimeLine ({ year, content, detail }) {
     // detailがnullの場合の処理も設定
     return (
         <>
-            <div className='mb-1'>
-                <p className='text-white text-[12px] md:text-2xl'>
-                    <span className='text-base md:text-3xl tracking-wider text-[#bbbbbb]'>
-                        {year}</span>
+            <div className='mb-1 font-"Noto Sans JP"'>
+                <p className='text-white text-[14px] tracking-wider'>
+                    <span className='tracking-wider text-[18px] text-[#bbbbbb]'>
+                        {year}<span className='text-[14px]'>年</span></span>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     {content}
                     {detail ? <>&nbsp;&nbsp;<span className='text-[#bbbbbb]'></span><span className='text-[12px] text-[#bbbbbb]'>{detail}</span></> : null}    

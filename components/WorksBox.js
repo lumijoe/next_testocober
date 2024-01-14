@@ -15,7 +15,7 @@ export default function WorksBox() {
             <h2 className='text-[20px] text-center font-200 tracking-widest mt-20 leading-[40px]'>解決を開発するために<br/>視覚技術と言語技術を駆使する</h2> */}
         
             <div className='relative' >
-            <h1 className={`mt-[80px] items-center text-[40px] md:text-[60px] italic font-medium text-center relative ${styles.redline} `} >WORKS</h1>
+            <h1 className={`mt-[80px] items-center text-[40px] md:text-[60px] italic font-medium text-center relative ${styles.redline} `} >Works</h1>
             </div>
             <Works09/>   
             <Works10/>   
