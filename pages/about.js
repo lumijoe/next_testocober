@@ -9,8 +9,8 @@ import Link from 'next/link';
 import styles from '../styles/Footer.module.css' 
 import imgwork from '../public/imgwork.jpg';
 
-import JobTimeLineBox from '@/components/About/JobTimeLineBox';
-import JobText from '@/components/About/JobText';
+import JobTimeLineBox from '../components/About/JobTimeLineBox';
+import JobText from '../components/About/JobText';
 
 
 
