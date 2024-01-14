@@ -62,7 +62,7 @@ export default function Works11 () {
                                 
                                 </div>
                             </div>
-                            <Link href={urlWorksDesign01}>
+                            <a href={urlWorksDesign01}>
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -70,7 +70,7 @@ export default function Works11 () {
                                         height={52}
                                         style={{ position: "absolute", top: "85%", left: "88%" }}
                                     />
-                            </Link> 
+                            </a> 
                         </div>
                         
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
