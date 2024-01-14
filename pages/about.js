@@ -10,7 +10,7 @@ import styles from '../styles/Footer.module.css'
 import imgwork from '../public/imgwork.jpg';
 
 export default function About() {
-    const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi-5a0873262";
+    const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi";
 
     return (
         <div>
@@ -30,7 +30,7 @@ export default function About() {
             </div>
 
 
-            <div className='mt-[52px] pl-3.5'> 
+            <div className='mt-[52px] px-3.5'> 
             
                 <p>loremloremloremloremlorem</p>
                 <p>loremloremloremloremlorem</p>
@@ -45,13 +45,16 @@ export default function About() {
 
                 <div>
                     <Btn className="bg-indigo-600 w-full ">
-                        <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'>Linkedinで詳細を見る</Link>
+                        <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'><b>Linkedin</b>で詳細を見る</Link>
                     </Btn>
+                    <div class="badge-base LI-profile-badge" data-locale="ja_JP" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="kojo-lumi" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://jp.linkedin.com/in/kojo-lumi?trk=profile-badge">Kojo Lumi</a></div>
+              
                     
                 </div>
             </div>
             <div className={ `${styles.section5}` }></div>
             <Footer />
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
         </div>
     )
 }
