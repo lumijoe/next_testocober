@@ -74,7 +74,7 @@ export default function Works11 () {
                         </div>
                         
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>パンフレットほか</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
@@ -99,7 +99,7 @@ export default function Works11 () {
                                 
                                 </div>
                             </div>
-                            <Link href='/about'>
+                            <a href='https://drive.google.com/file/d/1RtYC_Q_Y6kYJ9gE9xJcjIeQTetVx-yw_/view?usp=sharing' target="_blank">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -107,7 +107,7 @@ export default function Works11 () {
                                         height={52}
                                         style={{ position: "absolute", top: "85%", left: "88%" }}
                                     />
-                            </Link> 
+                            </a> 
                         </div>
                         
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
