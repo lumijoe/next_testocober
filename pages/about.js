@@ -12,6 +12,7 @@ import imgwork from '../public/imgwork.jpg';
 import JobTimeLineBox from '@/components/About/JobTimeLineBox';
 import JobText from '@/components/About/JobText';
 
+
 export default function About() {
     const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi";
 
@@ -44,7 +45,7 @@ export default function About() {
             {/* テキスト */}
             <div className='px-3.5'>
                 <JobText />
-                <SkillsList />
+                
 
                 <div >
 
