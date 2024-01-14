@@ -5,7 +5,7 @@ import JobTimeLine from '../About/JobTimeLine';
 
 export default function JobTimeLineBox () {
     return (
-        <div className='pt-[30px] ss:mx-[5%]'>
+        <div className=' ss:mx-[5%]'>
             <p className='text-white tracking-wider' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>小城 ルミ<br/>Designer & Engineer</p>
             <br/>
             <JobTimeLine year='2022' content='フロントエンドまわり' detail='/ インターン' />

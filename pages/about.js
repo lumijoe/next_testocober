@@ -9,13 +9,16 @@ import Link from 'next/link';
 import styles from '../styles/Footer.module.css' 
 import imgwork from '../public/imgwork.jpg';
 
+import JobTimeLineBox from '@/components/About/JobTimeLineBox';
+import JobText from '@/components/About/JobText';
+
 export default function About() {
     const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi";
 
     return (
         <div>
             <Header2 />
-            <div className='relative'>
+            <div className='relative '>
                 <div style={{ position: "relative", height: "40vh" }}>
                     <Image
                         className='h-60 w-full object-contain md:h-full md:w-48 hover:object-scale-down fixed'
@@ -25,36 +28,36 @@ export default function About() {
                         style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
                         priority
                     />  
+                   
                 </div>
+                
                 <div className='absolute inset-0 bg-gray-950 opacity-60' style={{ height: "40vh" }}/>
+                <div className={`text-[40px] md:text-[60px] italic font-medium absolute text-white top-[132px] text-center ${styles.redline} w-full `}>About</div>
+                
             </div>
 
+            {/* キャリアリスト */}
+            <div className=' bg-black px-3.5 py-20 h-auto justify-center items-center w-full flex '>
+                <JobTimeLineBox />
+            </div>
 
-            <div className='mt-[52px] px-3.5'> 
-            
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
-                <p>loremloremloremloremlorem</p>
+            {/* テキスト */}
+            <div className='px-3.5'>
+                <JobText />
+                <SkillsList />
 
-                <div>
-                    <Btn className="bg-indigo-600 w-full ">
-                        <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'><b>Linkedin</b>で詳細を見る</Link>
-                    </Btn>
-                    <div class="badge-base LI-profile-badge" data-locale="ja_JP" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="kojo-lumi" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://jp.linkedin.com/in/kojo-lumi?trk=profile-badge">Kojo Lumi</a></div>
+                <div >
+
+
+                    <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px]'><Btn className="bg-indigo-600 w-full "><b>Linkedin</b>で詳細を見る</Btn></Link>
+                    
               
                     
                 </div>
+                
             </div>
             <div className={ `${styles.section5}` }></div>
             <Footer />
-            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
         </div>
     )
 }

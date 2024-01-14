@@ -17,7 +17,7 @@ export default function Header2() {
 
     return (
         <div className='fixed z-50 h-14 ' >
-            <div className="flex flex-row w-screen h-14 bg-black align-middle z-500 px-3.5">
+            <div className="flex flex-row w-full h-14 bg-black align-middle z-500 px-3.5">
                 <div className="flex-1 justify-center my-auto ">
                     <Image
                         src={isNavpanelOpen ? "/navbarclose.svg" : "/navbar.svg"}

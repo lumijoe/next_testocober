@@ -40,7 +40,7 @@ export default function Navpanel({ closeNavpanel }) {
                         </li>
                         <li className='text-[12px] text-white italic  -mt-[4px]'>Github</li>
 
-                        {/* Vercel */}
+                        Vercel
                         <li className='flex justify-center mt-3'>
                             <a href="https://vercel.com/lumijoes-projects" target="_blank">
                                 <Image
