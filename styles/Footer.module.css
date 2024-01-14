@@ -121,7 +121,7 @@
   position: absolute;
 
   /* transform: translateY(-50%); */
-  left: 0px;
+  left: -20px;
   transform-origin: left;
   width: 0;
 }

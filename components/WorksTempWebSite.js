@@ -6,10 +6,10 @@ export default function WorksTempWebSite({ categoryTitleRotate, categoryTitleNum
     return (
        
         <div>
-            <div>
-                <h1 className={`rotate-90 ${styles.redlineRow} ml-3.5 italic `}>{categoryTitleRotate}</h1>
-                <h2 className='text-8xl align-middle italic font-semibold'>{categoryTitleNum}
-                    <span className='text-[16px] align-middle font-medium pl-2'>{categoryTitleName}</span>
+            <div className='mx-3.5 relative'>
+                <h1 className={`rotate-90 ${styles.redlineRow} ml-3.5 italic absolute top-[45px]`}>{categoryTitleRotate}</h1>
+                <h2 className='text-7xl align-middle italic font-semibold ml-[50px]'>{categoryTitleNum}
+                    <span className='text-[18px] align-middle font-medium pl-5'>{categoryTitleName}</span>
                 </h2>
             </div>
             <div className='w-full justify-center'>
@@ -20,4 +20,4 @@ export default function WorksTempWebSite({ categoryTitleRotate, categoryTitleNum
             </div>
         </div>
     )
-}
+} 
