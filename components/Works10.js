@@ -28,9 +28,10 @@ export default function Works10 () {
                 categoryTitleRotate='LP & Banner'
                 categoryTitleNum='02'
                 categoryTitleName='LP / バナー'
-                categoryText='コミニティデザイン：産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。
-                フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程や種類を幅広く担当した事例です。
-                -2014-2021 / 産官学民'
+                categoryText='ペルソナやデータを元に、瞬間的アプローチと
+                継続的アプローチのバランスをコントロール
+                サービス体験の向上と継続を目的に
+                Photoshopで表現、Codeingも可能です。'
                 
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>

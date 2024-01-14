@@ -13,7 +13,7 @@ export default function WorksTempWebSite({ categoryTitleRotate, categoryTitleNum
                 </h2>
             </div>
             <div className='w-full justify-center'>
-                <p className='w-[50%] m-auto text-[12px] text-[#6c6c6c] tracking-wider font-300 leading-9'>{categoryText}</p>
+                <p className='w-[60%] m-auto text-[12px] text-[#6c6c6c] tracking-wider font-300 leading-9' style={{ fontFamily: "Noto Sans JP" }}>{categoryText}</p>
                 {children}
                 
                 <CommonImgTmb />
