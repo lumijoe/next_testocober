@@ -31,21 +31,21 @@ export default function Works09 () {
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
                 categoryTitleName='ウェブサイト / アプリ'
-                categoryText='コミニティデザイン：産官学民領域で総合計画等に基づいたディレクションやグラフィック制作を担当。
-                フィールドワークを通じた中長期プロジェクトの参画も含め、デザインの工程や種類を幅広く担当した事例です。
-                -2014-2021 / 産官学民'
+                categoryText='デザインからサーバーサイドまで
+                動的サイトもフルスタックに開発可能
+                XD, Next.js, Node.js, SQLite, Express など。'
                 
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
-                                src="/img02.jpg"
+                                src="/img07tmb.png"
                                 alt="Image"
-                                width={290}
+                                width={286}
                                 height={196}
                                 priority
                                 style={{ maxWidth: 'none' }}
@@ -53,18 +53,18 @@ export default function Works09 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>詳細準備中</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
                                     {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
                                     {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
                                 </div>
                                 
                                 </div>
                             </div>
-                            <Link href='/web02'>
+                            <Link href='/'>
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -75,12 +75,14 @@ export default function Works09 () {
                             </Link> 
                         </div>
                         
+                        
+                        
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
-                                src="/img02.jpg"
+                                src="/workWeb01.png"
                                 alt="Image"
                                 width={290}
                                 height={196}
@@ -101,7 +103,7 @@ export default function Works09 () {
                                 
                                 </div>
                             </div>
-                            <Link href='/about'>
+                            <Link href='http://designguys.wp.xdomain.jp/'>
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -111,117 +113,8 @@ export default function Works09 () {
                                     />
                             </Link> 
                         </div>
+
                         
-                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/img02.jpg"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
-                                
-
-                                <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
-                                    {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
-                                    {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
-                                </div>
-                                
-                                </div>
-                            </div>
-                            <Link href='/about'>
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "85%", left: "88%" }}
-                                    />
-                            </Link> 
-                        </div>
-                        
-                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/img02.jpg"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
-                                
-
-                                <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
-                                    {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
-                                    {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
-                                </div>
-                                
-                                </div>
-                            </div>
-                            <Link href='/about'>
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "85%", left: "88%" }}
-                                    />
-                            </Link> 
-                        </div>
-                        
-                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/img02.jpg"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
-                                
-
-                                <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
-                                    {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
-                                    {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
-                                </div>
-                                
-                                </div>
-                            </div>
-                            <Link href='/about'>
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "85%", left: "88%" }}
-                                    />
-                            </Link> 
-                        </div>
                         
                     </div>
                 </div>
