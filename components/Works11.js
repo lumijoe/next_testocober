@@ -125,7 +125,7 @@ export default function Works11 () {
 
                                 <div className='py-7 px-[30px] '>
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>1年半の調査や視察を経て<br/>町のエコシステムを計画</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>休耕地や空き家を活用する中長期計画の初期フェーズを担当。継続的活用にするべく関係各所とビジョンを共有しました。</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>町や人々のアイデンティティを継続的に活かすべく、休耕地や空き家を活用する中長期計画の初期フェーズを担当。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack><br/>
@@ -164,8 +164,8 @@ export default function Works11 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>人々のアイデンティティと暮らしを支える店舗の立ち上げ</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを継続的な地域課題解決に活かすべくディレクション。過去のボランティア活動時の人脈や情報を活かしました。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack><br/>
@@ -202,8 +202,8 @@ export default function Works11 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>コンセプトに拘った内装で事業者の大賞獲得に貢献</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>20代女性をターゲットに食品が生まれる畑から食べるまでを表現。初グラフィックも挑戦しブランドの統一感を発信しました。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>FloorPlanner</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
@@ -240,8 +240,8 @@ export default function Works11 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>2自治体の観光行動と<br/>乗船回数の継続を推進する</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>企業ブランドを発信しながらイベント体験のUX向上を考慮した編集中、顧客満足度、高い編集集テキストが入ります。</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗への入りにく佐野解消と防犯対策を兼ねるVMD提案</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>事務所と販売所の2つの機能を有効活用するための心理を活用した内装提案。地域の仕事を頂くようになった原点です。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>FloorPlanner</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
