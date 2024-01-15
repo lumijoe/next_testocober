@@ -127,8 +127,8 @@ export default function Works11 () {
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>1年半の調査や視察を経て<br/>町のエコシステムを計画</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>町や人々のアイデンティティを継続的に活かすべく、休耕地や空き家を活用する中長期計画の初期フェーズを担当。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>Excel</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack><br/>
+                                    <BtnLikeSkillBlack className={'mr-8'}>Excel</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack className={'mr-8'}>PowerPoint</BtnLikeSkillBlack>
                                     {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
                                     {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
                                 </div>
@@ -240,7 +240,7 @@ export default function Works11 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗への入りにく佐野解消と防犯対策を兼ねるVMD提案</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗への入りにくさの解消と防犯対策を兼ねるVMD提案</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>事務所と販売所の2つの機能を有効活用するための心理を活用した内装提案。地域の仕事を頂くようになった原点です。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>FloorPlanner</BtnLikeSkillBlack><br/>
