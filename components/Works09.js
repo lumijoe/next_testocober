@@ -31,10 +31,7 @@ export default function Works09 () {
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
                 categoryTitleName='ウェブサイト / アプリ'
-                categoryText='デザインからサーバーサイドまで
-                動的サイトもフルスタックに開発可能
-                XD, Next.js, Node.js, SQLite, Express など。'
-                
+                categoryText='デザインからサーバーサイドまで、動的サイトもフルスタックに開発可能。XD, Next.js, Node.js, SQLite, Express など。(24’2月末頃を目処に掲載予定)'
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
                     <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>

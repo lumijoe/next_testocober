@@ -28,10 +28,7 @@ export default function Works10 () {
                 categoryTitleRotate='LP & Banner'
                 categoryTitleNum='02'
                 categoryTitleName='ランディングページ / バナー'
-                categoryText='ペルソナやデータを元に、瞬間的アプローチと
-                継続的アプローチのバランスをコントロール
-                サービス体験の向上と継続を目的に
-                Photoshopで表現、Codeingも可能です。'
+                categoryText='ペルソナやデータを元に、瞬間的アプローチと継続的アプローチのバランスをコントロール。サービス体験の向上と継続を目的にPhotoshopなどで制作、コーディングも可能です。'
                 
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
