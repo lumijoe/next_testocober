@@ -45,7 +45,7 @@ export default function Works09 () {
                                 <CommonImgTmb 
                                 src="/img07tmb.png"
                                 alt="Image"
-                                width={286}
+                                width={265}
                                 height={196}
                                 priority
                                 style={{ maxWidth: 'none' }}
@@ -58,6 +58,8 @@ export default function Works09 () {
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
+                                    <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
                                     {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
                                     {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
                                 </div>
@@ -84,7 +86,7 @@ export default function Works09 () {
                                 <CommonImgTmb 
                                 src="/workWeb01.png"
                                 alt="Image"
-                                width={290}
+                                width={320}
                                 height={196}
                                 priority
                                 style={{ maxWidth: 'none' }}
