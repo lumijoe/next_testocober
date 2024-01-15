@@ -24,7 +24,7 @@ export default function Works11 () {
                 categoryTitleRotate='Design, Code, more'
                 categoryTitleNum='03'
                 categoryTitleName='デザイン、グラフィックほか'
-                categoryText='産官学民領域のプロジェクトで基本構想や事業計画に基づいたディレクションやグラフィック制作をインハウスなどで担当。部署横断やフィールドワークでのコミュニケーションを通じ、デザイン環境を構築していき、デザインの重要性を周知、解決のためにデザイン工程や領域を問わず幅広く担当し、課題解決へ導いた事例です。'
+                categoryText='産官学民領域のプロジェクトで基本構想や事業計画に基づいたディレクションやグラフィック制作をインハウスなどで担当。部署横断やフィールドワークでのコミュニケーションを通じ、デザイン環境を構築していき、デザインの重要性を周知しました。デザイン工程や領域を限定せず幅広く柔軟に対応、解決にフォーカスして課題解決へと導いた事例です。'
                 
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
