@@ -63,7 +63,7 @@ export default function About() {
                             <li><BtnLikeSkillBlack>Vue.js</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Express</BtnLikeSkillBlack></li>
                         </ul>
-                        <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>Css / Animation</p>
+                        <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>CSS / Animation</p>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
                             <li><BtnLikeSkillBlack>Tailwindcss</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack></li>
