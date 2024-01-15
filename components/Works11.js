@@ -47,7 +47,7 @@ export default function Works11 () {
 
                                 <div className='py-7 px-[30px] '>
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>2自治体の観光行動と<br/>乗船回数の継続を推進</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>乗船体験をパンフレットで訴求するべくヒアリングを実施、中面の関西ウォーカーのような設計が好評でした。</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>乗船体験をパンフレットで訴求するべく実施したヒアリングを参考に制作、中面が関西ウォーカーのようだ！と好評でした。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
@@ -203,7 +203,7 @@ export default function Works11 () {
 
                                 <div className='py-7 px-[30px] '>
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>コンセプトに拘った内装で事業者の大賞獲得に貢献</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>20代女性をターゲットに食品が生まれる畑から食べるまでを表現。初グラフィックも挑戦しブランドの統一感を発信しました。</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>女性をターゲットに生産から食卓までの風景を表現し、ブランドの一貫性と防犯安全対策も提供。グラフィック初挑戦でした。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>FloorPlanner</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>Illustrator</BtnLikeSkillBlack>
