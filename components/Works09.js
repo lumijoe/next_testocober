@@ -38,19 +38,19 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
 
-                            <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
+                            <div className='h-auto w-[290px] bg-white items-center  justify-center' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
                                 src="/img07tmb.png"
                                 alt="Image"
                                 width={265}
                                 height={196}
                                 priority
-                                style={{ maxWidth: 'none' }}
+                                style={{ maxWidth: 'none', paddingLeft: '30px', paddingTop: '10px' }}
                                 />
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>このサイトです</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
@@ -83,10 +83,10 @@ export default function Works09 () {
                                 <CommonImgTmb 
                                 src="/workWeb01.png"
                                 alt="Image"
-                                width={320}
-                                height={196}
+                                width={280}
+                                height={156}
                                 priority
-                                style={{ maxWidth: 'none' }}
+                                style={{ maxWidth: 'none', paddingLeft: '5px', paddingTop: '30px'  }}
                                 />
                                 
 
