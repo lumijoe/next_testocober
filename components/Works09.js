@@ -86,7 +86,7 @@ export default function Works09 () {
                                 width={280}
                                 height={156}
                                 priority
-                                style={{ maxWidth: 'none', paddingLeft: '5px', paddingTop: '30px'  }}
+                                style={{ maxWidth: 'none', paddingLeft: '3px', paddingTop: '30px' }}
                                 />
                                 
 
