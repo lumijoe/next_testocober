@@ -50,7 +50,7 @@ export default function Works09 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>このサイトです</p>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
