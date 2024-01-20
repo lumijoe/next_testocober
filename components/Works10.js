@@ -49,7 +49,7 @@ export default function Works10 () {
 
                                 <div className='py-7 px-[30px] '>
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>男女問わず場所も問わない<br/>コロナ期のペアレンツバッグ</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>多様性を掲げるバッグメーカー。マザーズバッグという名から改名して第一弾のブランディング戦略商品。詳細準備中。</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>【課題制作】多様性を掲げるバッグメーカー第一弾のブランディング戦略商品。詳細準備中。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                     <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
                                     <BtnLikeSkillBlack>PowerPoint</BtnLikeSkillBlack>
