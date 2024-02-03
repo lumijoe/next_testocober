@@ -128,7 +128,7 @@ export default function Works09 () {
 
                             <div className='h-auto w-[290px] bg-white items-center  justify-center' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
-                                src="/workWebTmb01.jpg"
+                                src="/workWebTmb01.png"
                                 alt="Image"
                                 width={290}
                                 height={196}
@@ -168,9 +168,9 @@ export default function Works09 () {
 
                             <div className='h-auto w-[291px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
-                                src="/workWebTmb01.png"
+                                src="/310233.png"
                                 alt="Image"
-                                width={291}
+                                width={290}
                                 height={196}
                                 priority
                                 style={{ maxWidth: 'none' }}
@@ -199,6 +199,48 @@ export default function Works09 () {
                                     />
                             </Link> 
                         </div>
+
+                        {/* ストラテジー01 */}
+<div className='flex flex-col justify-center relative mb-8 mr-8'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業</BtnLikeY8X12>
+
+                            <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
+                                <CommonImgTmb 
+                                src="/workStrategy01.jpg"
+                                alt="Image"
+                                width={290}
+                                height={196}
+                                priority
+                                style={{ maxWidth: 'none' }}
+                                />
+                                
+
+                                <div className='py-7 px-[30px] '>
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>1年半の調査や視察を経て<br/>町のエコシステムを計画</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>町や人々のアイデンティティを継続的に活かすべく、休耕地や空き家を活用する中長期計画の初期フェーズを担当。</p>
+                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                    <BtnLikeSkillBlack className={'mr-8'}>Excel</BtnLikeSkillBlack>
+                                    <BtnLikeSkillBlack className={'mr-8'}>PowerPoint</BtnLikeSkillBlack>
+                                    {/* <p className='text-[10px] text-black leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>有限会社Ethica / 小売業</p> */}
+                                    {/* <p className='text-[12px] text-[#6c6c6c] mt-3' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>立ち上げフェーズでの導入により、顧客対応満足度の高いUXの提供が可能に。<br/>Direction / Design / Coding</p> */}
+                                </div>
+                                
+                                </div>
+                            </div>
+                            <Link href='/design03'>
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "85%", left: "88%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+
+                        
+
 
                         
                         
