@@ -145,7 +145,6 @@ export default function Works09a () {
                                             alt="Image"
                                             width={290}
                                             height={196}
-                                            height={196}
                                             priority
                                             style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
                                         />
