@@ -131,6 +131,7 @@ export default function Works09 () {
                     width={290}
                     height={196}
                     priority
+                    style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px',  }}
                     style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
                 />
                 <CommonImgTmb 
@@ -144,7 +145,7 @@ export default function Works09 () {
                                         
                                     </div>
                                     
-                                    <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span>
+                                    {/* <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span> */}
                                     <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span>
                                     
                                 </div>
