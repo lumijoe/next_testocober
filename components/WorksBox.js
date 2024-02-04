@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Works09 from './Works09';
-import Works09a from './Works09a';
+import Works09_b from './Works09_b';
 import Works10 from './Works10';
 import Works11 from './Works11';
 import styles from '../styles/Footer.module.css';
@@ -19,7 +19,7 @@ export default function WorksBox() {
             <h1 className={`mt-[80px] items-center text-[40px] md:text-[60px] italic font-medium text-center relative `} >Works</h1>
             </div>
             <Works09/>   
-            <Works09a/>   
+            <Works09_b/>   
             <Works10/>   
             <Works11/>
             <div className='mb-[120px]'></div>      
