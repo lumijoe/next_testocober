@@ -76,45 +76,6 @@ export default function Works09 () {
                             </Link> 
                         </div>
                         */}
-
-                        {/* ポートフォリオサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px]' >
-                            {/* <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
-                                <CommonImgTmb 
-                                src="/310233_2.png"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
-                                
-                                <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中<br/><br/></p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <Link href='/'>
-                                <Image
-                                    src="/torightWhite.svg"
-                                    alt="Icon"
-                                    width={52}
-                                    height={52}
-                                    style={{ position: "absolute", top: "85%", left: "88%" }}
-                                />
-                            </Link> 
-                        </div>
                         
                         {/* ポートフォリオサイト 
                         ============================================================================================ */}
