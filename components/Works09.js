@@ -135,7 +135,7 @@ export default function Works09 () {
                                         />
                                     </div>
                                     <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span>
-                                    <span style={{ content: "", display: 'block', borderLeft: '1px solid white', height: '200px', position: 'absolute', top: '200px', right: '4%' }}></span>
+                                    <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '200px', position: 'absolute', top: '200px', right: '3.8%' }}></span>
                                     
                                 </div>
                                 
