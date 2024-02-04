@@ -39,45 +39,6 @@ export default function Works09a () {
                     <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
 
                         {/* ポートフォリオサイト 
-                        ============================================================================================ 
-                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/workWeb03.png"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
-                                
-                                <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中<br/><br/></p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <Link href='/'>
-                                <Image
-                                    src="/torightWhite.svg"
-                                    alt="Icon"
-                                    width={52}
-                                    height={52}
-                                    style={{ position: "absolute", top: "85%", left: "88%" }}
-                                />
-                            </Link> 
-                        </div>
-                        */}
-                        
-                        {/* ポートフォリオサイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
@@ -116,7 +77,7 @@ export default function Works09a () {
                             </Link> 
                         </div>
                         
-                        {/* ポートフォリオサイト 
+                        {/* コーポレートサイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
@@ -125,28 +86,24 @@ export default function Works09a () {
                             {/* <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
                                 <div className="h-[246.95px] pt-[31px] w-auto flex justify-center">
                                     <div className="h-[233px] w-[100%] bg-white" style={{ borderRadius: '4px 4px 0px 0px' }}>
-                                    <CommonImgTmb 
-                    src="/workWeb02.gif"
-                    alt="Image"
-                    width={290}
-                    height={196}
-                    priority
-                    style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
-                />
-                <CommonImgTmb 
-                    src="/310264_2.png"
-                    alt="Image"
-                    width={290}
-                    height={196}
-                    priority
-                    style={{ maxWidth: 'none', objectFit: 'contain', paddingTop: '61px', zIndex: '20', position: 'absolute', top: '39px' }}
-                />
-                                        
+                                        <CommonImgTmb 
+                                            src="/workWeb02.gif"
+                                            alt="Image"
+                                            width={290}
+                                            height={196}
+                                            priority
+                                            style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
+                                        />
+                                        <CommonImgTmb 
+                                            src="/310264_2.png"
+                                            alt="Image"
+                                            width={290}
+                                            height={196}
+                                            priority
+                                            style={{ maxWidth: 'none', objectFit: 'contain', paddingTop: '61px', zIndex: '20', position: 'absolute', top: '39px' }}
+                                        />    
                                     </div>
-                                    
-                                    {/* <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span> */}
-                                    <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span>
-                                    
+                                    <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span>  
                                 </div>
                                 
                                 <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
@@ -170,47 +127,6 @@ export default function Works09a () {
                                 />
                             </Link> 
                         </div>
-
-                        {/* ポートフォリオサイト 
-                        ============================================================================================ 
-                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
-                            <div className='h-auto w-[290px] bg-white items-center  justify-center' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/img07tmb.png"
-                                alt="Image"
-                                width={265}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none', paddingLeft: '30px', paddingTop: '10px' }}
-                                />
-                                
-                                <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-
-                                </div>
-                                
-                                </div>
-                            </div>
-                            <Link href='/'>
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "85%", left: "88%" }}
-                                    />
-                            </Link> 
-                        </div>
-                        */}
-                        
-
                     </div>
                 </div>
             {/* ここまで作品　============================================================================== */}
