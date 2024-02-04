@@ -107,7 +107,7 @@ export default function About() {
                         <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[70%] m-auto'>
                         出産育児やキャリア移行期には、社会実験参画やフリーランス事業、言語キャッチアップなどデザインやコードへの行動を継続。コロナを期にブレイクを終了し、キャリアを再構築中。</p>
                         <div >
-                            <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]'><Btn className="bg-indigo-600 w-[85%] mx-auto "><b>Linkedin</b>で詳細を見る</Btn></Link>
+                            <Link href={urlLinkedin} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]'><Btn className="bg-indigo-600 w-[70%] max-w-[500px] mx-auto "><b>Linkedin</b>で詳細を見る</Btn></Link>
                         </div>
                     </div>
 
