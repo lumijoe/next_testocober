@@ -35,26 +35,34 @@ export default function Works09a () {
 
             {/* ここから作品　============================================================================== */}
 
-                <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
+
+
+
+
+
+
+
+
+
+                <div className='flex flex-col-reverse h-auto justify-center pl-[5%] pr-[5%]'>
+                    <div className='flex flex-row'>
 
                         {/* ポートフォリオサイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
 
-                            <div className='h-auto w-[290px]' >
-                            {/* <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
-                                <CommonImgTmb 
-                                src="/310233_3.png"
+
+                            <div className='h-auto w-[383px]' style={{ background: 'linear-gradient(to left, #dfdfdf, #FFFFFF)', boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)' }} >
+                            <CommonImgTmb 
+                                src="/383478.png"
                                 alt="Image"
-                                width={290}
-                                height={196}
+                                width={383}
+                                height={478}
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
-                                
-                                <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                <div className='py-7 px-[30px]' style={{ borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative', background: 'linear-gradient(to left, #dfdfdf, #FFFFFF)' }} >
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中<br/><br/><br/></p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
@@ -64,6 +72,52 @@ export default function Works09a () {
                                         <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
                                     </div>
                                 </div>
+                            
+                                
+                                
+                                
+                            </div>
+
+                            <Link href='/'>
+                                <Image
+                                    src="/torightWhite.svg"
+                                    alt="Icon"
+                                    width={52}
+                                    height={52}
+                                    style={{ position: "absolute", top: "85%", left: "88%" }}
+                                />
+                            </Link> 
+                        </div>
+                        
+                        {/* ポートフォリオサイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
+
+
+                            <div className='h-auto w-[383px]' style={{ background: 'linear-gradient(to left, #dfdfdf, #FFFFFF)', boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px 4px 0px 0px' }} >
+                            <CommonImgTmb 
+                                src="/383478_1.png"
+                                alt="Image"
+                                width={383}
+                                height={478}
+                                priority
+                                style={{ maxWidth: 'none', borderRadius: '4px 4px 0px 0px'}}
+                                />
+                                <div className='py-7 px-[30px]' style={{ borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative', background: 'white' }} >
+                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
+                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中<br/><br/><br/></p>
+                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
+                                        <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
+                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
+                                        <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                                
                             </div>
 
                             <Link href='/'>
@@ -90,6 +144,7 @@ export default function Works09a () {
                                             src="/workWeb02.gif"
                                             alt="Image"
                                             width={290}
+                                            height={196}
                                             height={196}
                                             priority
                                             style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
