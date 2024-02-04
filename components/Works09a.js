@@ -16,7 +16,7 @@ import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
 
 
 // 01ウェブサイト / アプリ
-export default function Works09 () {
+export default function Works09a () {
     return (
        <div className="relative">    
         {/* bodyの上に装飾 */}
