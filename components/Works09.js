@@ -125,15 +125,25 @@ export default function Works09 () {
                             {/* <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
                                 <div className="h-[246.95px] pt-[31px] w-auto flex justify-center">
                                     <div className="h-[233px] w-[100%] bg-white" style={{ borderRadius: '4px 4px 0px 0px' }}>
-                                        <CommonImgTmb 
-                                        src="/workWeb02.gif"
-                                        alt="Image"
-                                        width={290}
-                                        height={196}
-                                        priority
-                                        style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
-                                        />
+                                    <CommonImgTmb 
+                    src="/workWeb02.gif"
+                    alt="Image"
+                    width={290}
+                    height={196}
+                    priority
+                    style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
+                />
+                <CommonImgTmb 
+                    src="/310264_2.png"
+                    alt="Image"
+                    width={290}
+                    height={196}
+                    priority
+                    style={{ maxWidth: 'none', objectFit: 'contain', paddingTop: '61px', zIndex: '500', position: 'absolute', top: '39px' }}
+                />
+                                        
                                     </div>
+                                    
                                     <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span>
                                     <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span>
                                     
