@@ -143,10 +143,9 @@ export default function Works09 () {
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>【課題制作】企業ブランドを発信しながらイベント体験のUX向上と、ブログ管理の脱属人化を目指す。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
+                                        <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack><br/>
                                         <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
+                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
                                     </div>
                                 </div>
                             </div>
