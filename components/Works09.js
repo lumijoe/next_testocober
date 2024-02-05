@@ -25,7 +25,7 @@ export default function Works09 () {
         {/* <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute '>
              <div className='bg-[#e3e3e3] w-full h-[280px] absolute top-[-50px]' style={{ transform: 'skewY(-4deg)' }}></div> 
         </div> */}
-        <div className='bg-[#e3e3e3] w-full h-[400px] bottom-[-35px] absolute '></div>
+        <div className='bg-[#e3e3e3] w-full h-[450px] bottom-[-35px] absolute '></div>
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
@@ -80,237 +80,90 @@ export default function Works09 () {
                         {/* ポートフォリオサイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px]' >
-                            {/* <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
-                                <CommonImgTmb 
-                                src="/310233_3.png"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
-                                
-                                <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中<br/><br/><br/></p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                現ポートフォリオサイト
+                            </BtnLikeY8X12>
                             <Link href='/'>
-                                <Image
-                                    src="/torightWhite.svg"
-                                    alt="Icon"
-                                    width={52}
-                                    height={52}
-                                    style={{ position: "absolute", top: "85%", left: "88%" }}
-                                />
-                            </Link> 
-                        </div>
-                        
-                        {/* ポートフォリオサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[383px]' >
-                            
-                            {/* <div className='h-auto w-[383px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
-            
-                                <CommonImgTmb 
-                                src="/383478_1.png"
-                                alt="Image"
-                                width={383}
-                                height={478}
-                                priority
-                                style={{ maxWidth: 'none',  boxShadow: '0px 3px 6px rgba(0, 0, 0, 0, 0.1)', borderRadius: '8px 8px 0px 0px' }}
-                                />
-                                
-                                <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 8px 8px', overflow: 'hidden', position: 'relative' }} >
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中<br/><br/><br/></p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <Link href='/'>
-                                <Image
-                                    src="/torightWhite.svg"
-                                    alt="Icon"
-                                    width={52}
-                                    height={52}
-                                    style={{ position: "absolute", top: "85%", left: "88%" }}
-                                />
-                            </Link> 
-                        </div>
-                        
-                        {/* コーポレートサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[383px]' >
-                                <div className=" w-auto flex justify-center">
-                                    <div className=" w-[100%] bg-white" style={{ borderRadius: '4px 4px 0px 0px' }}>
+                                <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                    src="/workWeb02.gif"
-                    alt="Image"
-                    width={383}
-                    height={478}
-                    priority
-                    style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
-                />
-                {/* <CommonImgTmb 
-                    src="/310264_2.png"
-                    alt="Image"
-                    width={383}
-                    height={478}
-                    priority
-                    style={{ maxWidth: 'none', objectFit: 'contain', paddingTop: '61px', zIndex: '20', position: 'absolute', top: '39px' }}
-                /> */}
-                                        
-                                    </div>
-                                    
-                                    {/* <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span> */}
-                                    <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span>
-                                    
-                                </div>
-                                
-                                <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>【課題制作】企業ブランドを発信しながらイベント体験のUX向上と、ブログ管理の脱属人化を目指す。</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <Link href='http://designguys.wp.xdomain.jp/'>
-                                <Image
-                                    src="/torightWhite.svg"
-                                    alt="Icon"
-                                    width={52}
-                                    height={52}
-                                    style={{ position: "absolute", top: "85%", left: "88%" }}
-                                />
-                            </Link> 
-                        </div>
-                        {/* コーポレートサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
-
-                            <div className='h-auto w-[290px]' >
-                            {/* <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}> */}
-                                <div className="h-[246.95px] pt-[31px] w-auto flex justify-center">
-                                    <div className="h-[233px] w-[100%] bg-white" style={{ borderRadius: '4px 4px 0px 0px' }}>
-                                    <CommonImgTmb 
-                    src="/workWeb02.gif"
-                    alt="Image"
-                    width={290}
-                    height={196}
-                    priority
-                    style={{ maxWidth: 'none', objectFit: 'contain', paddingLeft: '4%', paddingRight: '4%', paddingTop: '61px' }}
-                />
-                <CommonImgTmb 
-                    src="/310264_2.png"
-                    alt="Image"
-                    width={290}
-                    height={196}
-                    priority
-                    style={{ maxWidth: 'none', objectFit: 'contain', paddingTop: '61px', zIndex: '20', position: 'absolute', top: '39px' }}
-                />
-                                        
-                                    </div>
-                                    
-                                    {/* <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span> */}
-                                    <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span>
-                                    
-                                </div>
-                                
-                                <div className='py-7 px-[30px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>店舗初期のUX向上と<br/>管理課題をCMSで解決</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>【課題制作】企業ブランドを発信しながらイベント体験のUX向上と、ブログ管理の脱属人化を目指す。</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                        <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                        <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <Link href='http://designguys.wp.xdomain.jp/'>
-                                <Image
-                                    src="/torightWhite.svg"
-                                    alt="Icon"
-                                    width={52}
-                                    height={52}
-                                    style={{ position: "absolute", top: "85%", left: "88%" }}
-                                />
-                            </Link> 
-                        </div>
-
-                        {/* ポートフォリオサイト 
-                        ============================================================================================ 
-                        <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ポートフォリオサイト</BtnLikeY8X12>
-                            <div className='h-auto w-[290px] bg-white items-center  justify-center' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/img07tmb.png"
-                                alt="Image"
-                                width={265}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none', paddingLeft: '30px', paddingTop: '10px' }}
-                                />
-                                
-                                <div className='py-7 px-[30px] '>
-                                    <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>開発中<br/>こちらのサイトです</p>
-                                    <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>詳細準備中</p>
-                                    <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                    <BtnLikeSkillBlack>XD</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                    <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack><br/>
-                                    <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-
-                                </div>
-                                
-                                </div>
-                            </div>
-                            <Link href='/'>
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "85%", left: "88%" }}
+                                    src="/310264_3.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
                                     />
-                            </Link> 
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            個人制作<br/>Next.jsをVercelでデプロイ
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2023/10-<br/>Web design / Branding design / Planning / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>GSAP</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Tailwindcss</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
-                        */}
                         
-
+                        {/* ポートフォリオサイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
+                            <Link href='/'>
+                                <div className='h-auto w-[400px]' >
+                                    <CommonImgTmb 
+                                    src="/310264.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <CommonImgTmb 
+                                    src="/310264_5.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none', position: 'absolute', zIndex: 30, top: '101px' }}
+                                    />
+                                   
+                                    <CommonImgTmb 
+                                    src="/workWeb02.gif"
+                                    alt="Image"
+                                    width={356}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none', position: 'absolute', zIndex: 20, top: '236px', left: '10px' }}
+                                    />
+                                    
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>課題制作(架空案件)<br/>小売業CMS「サスティナブル提案」</p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>2022/12-2023/01<br/>Web design / Branding design / Planning / CMS / Deploy</p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                             
+                                    {/* <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span> */}
+                                    {/* <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span> */}
+             
                     </div>
                 </div>
             {/* ここまで作品　============================================================================== */}
-
-            </WorksTempWebSite>
-            
+            </WorksTempWebSite> 
        </div>
    
     ) 

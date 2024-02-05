@@ -19,7 +19,6 @@ export default function WorksBox() {
             <h1 className={`mt-[80px] items-center text-[40px] md:text-[60px] italic font-medium text-center relative `} >Works</h1>
             </div>
             <Works09/>   
-            <Works09_b/>   
             <Works10/>   
             <Works11/>
             <div className='mb-[120px]'></div>      
