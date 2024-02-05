@@ -113,7 +113,7 @@ export default function Works09 () {
                             </Link>
                         </div>
                         
-                        {/* ポートフォリオサイト 
+                        {/* コーポレートサイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
@@ -156,9 +156,9 @@ export default function Works09 () {
                                 </div>
                             </Link>
                         </div>
-                        {/* ポートフォリオサイト 
+                        {/* コーポレートサイト 
                         ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                        {/* <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
                             <Link href='/'>
                                 <div className='h-auto w-[400px]' >
@@ -199,7 +199,7 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
-                        </div>
+                        </div> */}
                              
                                     {/* <span style={{ content: "", display: 'block', borderLeft: '1px solid #e60010', height: '24px', position: 'absolute' }}></span> */}
                                     {/* <span style={{ content: "", display: 'block', borderLeft: '1.5px solid white', height: '233px', position: 'absolute', top: '180px', right: '4%' }}></span> */}
