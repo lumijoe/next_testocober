@@ -9,7 +9,7 @@ export default function BtnLikeY8X12 ({ children, className }) {
 
     return (
         <div className='mb-5 mt-12 flex justify-center'>
-            <span type="button" className={`flex items-center justify-center ${buttonLikeY8X12Class}`}>{children}</span>
+            <span type="button" className={`flex items-center justify-center ${buttonLikeY8X12Class}`} style={{ fontFamily: 'Noto Sans JP' }}>{children}</span>
         </div>
     )
 }
