@@ -146,6 +146,105 @@ export default function Works09 () {
                             </Link>
                         </div>
                         
+                        {/* アプリ 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                通勤用ミニ家計簿アプリ
+                            </BtnLikeY8X12>
+                            <Link href='http://design63.html.xdomain.jp'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/310264_0.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            家族案件<br/>猫と一緒に支出管理「CashNyan(キャッシュニャン)」
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2022/01-<br/>Web design / Planning / Develop / Coding / Deploy 
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        
+                        {/* アプリ 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                リハビリサポートアプリ
+                            </BtnLikeY8X12>
+                            <Link href='http://design63.html.xdomain.jp'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/310264_0.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            家族案件<br/>通院に必要な天気や交通情報など「Re:BORN(リボーン)」
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2022/11-2022/12<br/>Web design / Planning / Develop / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vue.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vuetify</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        
+                        {/* アプリ 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                Todoアプリ
+                            </BtnLikeY8X12>
+                            <Link href='http://design63.html.xdomain.jp'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/310264_0.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            個人制作<br/>旅行や家事準備をシンプルに管理
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2023/01-<br/>Web design / Planning / Develop / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Vue.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vuetify</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Render.com</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        
                         {/* コーポレートサイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
@@ -189,6 +288,70 @@ export default function Works09 () {
                                 </div>
                             </Link>
                         </div>
+                        {/* アプリ 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                Todoアプリ
+                            </BtnLikeY8X12>
+                            <Link href='http://design63.html.xdomain.jp'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/310264_0.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            個人制作<br/>旅行や家事準備をシンプルに管理
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2023/01-<br/>Web design / Planning / Develop / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Vue.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vuetify</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Render.com</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        {/* ECサイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                ECサイト
+                            </BtnLikeY8X12>
+                            <Link href='http://design63.html.xdomain.jp'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/310264_0.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            個人制作(架空案件)<br/>初期設計中です
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2023/02-<br/>Web design / Planning / Develop / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Vue.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>選定中</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        
                         {/* コーポレートサイト 
                         ============================================================================================ */}
                         {/* <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
