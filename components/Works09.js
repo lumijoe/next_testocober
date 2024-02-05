@@ -9,9 +9,9 @@ import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
-import BtnLikeTitleWhite from './Button/BtnLikeTitleWhite';
-import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
-import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
+// import BtnLikeTitleWhite from './Button/BtnLikeTitleWhite';
+// import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
+// import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
 
 
