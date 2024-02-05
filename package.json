@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-scroll-area": "^1.0.5",
     "gsap": "^3.12.2",
     "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
+    "react-id-swiper": "^4.0.0",
     "sharp": "^0.32.6",
-    "split-text": "^1.0.0"
+    "split-text": "^1.0.0",
+    "swiper": "^11.0.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

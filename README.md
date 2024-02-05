@@ -30,9 +30,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## 技術選定 3： Why GSAP
 
-- jQuery や getElement などの書き方が必要なく、JSX 上で実現可能で時短が可能
+- jQuery や getElement が必要なく、JSX で実現可能により時短が可能
 - 以前から気になっていたため
 - 特に Static site では、アニメーションがあることでサイト滞在時間を少しでも増やすことができ、適度なものは UX 向上を期待できるため
+
+## 技術選定 4： Why Swiper
+
+- JSX 構文で利用できるスクロール代わり
 
 ## その他の仕様や考慮事項
 

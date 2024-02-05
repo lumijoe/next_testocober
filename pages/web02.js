@@ -14,25 +14,22 @@ export default function Web02() {
     return (
         <div>
             <Header2 />
-            <div className=' h-[330px] pt-[52px] flex justifyーcenter'>
-            <div className={` ${styles.gradworkbg} w-full h-[330px] justify-center`}>
-           
-                    </div>   
-                
-                <p className='text-black text-[12px] absolute top-[calc(56px)] italic text-center'>Web Site : 2023</p>
-                <div className='absolute  w-full justify-center flex pt-[45px]'>
-                    <CommonImgTmb 
-                        src='/img02.jpg'
-                        alt="Image"
-                        width={320}
-                        height={200}
-                        layout='responsive'
-                        priority
-                        style={{ maxWidth: 'none', paddingLeft:'-20px' }}
-                                               
-                    />    
+            <div className=' h-[500px] pt-[52px] flex justifyーcenter'>
+                <div className={` ${styles.gradworkbg} w-full h-[500px] justify-center`} >   
+                    <div className='w-full justify-center flex flex-col items-center'>
+                        <CommonImgTmb 
+                            src='/img02.jpg'
+                            alt="Image"
+                            width={500}
+                            height={200}
+                            layout='responsive'
+                            priority
+                            style={{ maxWidth: 'none' }}
+                                                
+                        />
+                        {/* <p className='text-black text-[12px]  italic text-center'>Web Site : 2023</p>  */}
+                    </div>
                 </div>
-                
             </div>
 
             <div className='bg-[#f2f2f2] w-full h-[40vh] flex flex-col items-center justify-center mb-8'>
