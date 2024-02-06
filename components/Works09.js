@@ -164,7 +164,7 @@ export default function Works09 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            家族案件<br/>Node.jsでサーバーサイド構築し Render.comでデプロイ
+                                            家族案件<br/>Node.jsでサーバーサイドを構築しRender.comでデプロイ
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2022/01-開発中<br/>Web design / Planning / Develop / Coding / Deploy 
