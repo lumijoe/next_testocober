@@ -152,10 +152,10 @@ export default function Works09 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 通勤用ミニ家計簿アプリ
                             </BtnLikeY8X12>
-                            <Link href='https://test-december.vercel.app/'>
+                            <Link href='https://cashnyan-prototypever-3-2.onrender.com'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                                    src="/310264_0.png"
+                                    src="/310264_10.png"
                                     alt="Image"
                                     width={400}
                                     height={264}
@@ -164,15 +164,18 @@ export default function Works09 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            家族案件<br/>猫と一緒に支出管理「CashNyan(キャッシュニャン)」
+                                            家族案件<br/>Node.jsでサーバーサイド構築し Render.comでデプロイ
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2022/01-<br/>Web design / Planning / Develop / Coding / Deploy 
+                                            2022/01-開発中<br/>Web design / Planning / Develop / Coding / Deploy 
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Glide</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Express</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Node.js</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Render.com</BtnLikeSkillBlack>
+                                            
                                         </div>
                                     </div>
                                 </div>
