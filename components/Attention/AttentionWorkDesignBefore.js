@@ -7,7 +7,7 @@ export default function AttentionWorkDesignBefore() {
 
     return(
         <>
-            <p className='text-[10px] absolute text-gray-300 bg-[#232323] bg-opacity-40 top-[84%] left-[15%] px-1'>{formattedAttentionWorkDesignBefore}</p>
+            <p className='text-[8px] text-gray-400 px-1 absolute top-[90%] left-[11.5%]'>{formattedAttentionWorkDesignBefore}</p>
         </>
     )
 }

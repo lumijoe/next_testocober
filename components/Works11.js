@@ -9,6 +9,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
 import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
+import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
 
 export default function Works11 () {
     
@@ -239,14 +240,17 @@ export default function Works11 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 駅中店舗内装リニューアル</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
-                                src="/workSpace02.jpg"
-                                alt="Image"
-                                width={290}
-                                height={196}
-                                priority
-                                style={{ maxWidth: 'none' }}
-                                />
+                                <div className="relative">
+                                    <AttentionWorkDesignBefore />
+                                    <CommonImgTmb 
+                                    src="/workSpace02.jpg"
+                                    alt="Image"
+                                    width={290}
+                                    height={196}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                </div>
                                 
 
                                 <div className='py-7 px-[30px] '>
