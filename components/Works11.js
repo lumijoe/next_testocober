@@ -7,7 +7,8 @@ import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
 import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
-import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
+import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
+import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 
 export default function Works11 () {
     
