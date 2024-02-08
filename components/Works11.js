@@ -8,7 +8,6 @@ import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
-import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 
 export default function Works11 () {
     
@@ -114,7 +113,7 @@ export default function Works11 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                            <AttentionWorkDesignImg />     
+                            
                             <CommonImgTmb 
                                 src="/workStrategy01.jpg"
                                 alt="Image"
