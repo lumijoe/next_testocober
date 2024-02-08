@@ -114,7 +114,8 @@ export default function Works11 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                            
+                                <div className="relative">
+                                <AttentionWorkDesignImg />
                             <CommonImgTmb 
                                 src="/workStrategy01.jpg"
                                 alt="Image"
@@ -123,11 +124,12 @@ export default function Works11 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
-                                   
+                                
+                                </div>
                                 
 
                                 <div className='py-7 px-[30px] '>
-                                    <AttentionWorkDesignImg />
+                                    
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>1年半の調査や視察を経て<br/>町のエコシステムを計画</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>町や人々のアイデンティティを継続的に活かすべく、休耕地や空き家を活用する中長期計画の初期フェーズを担当。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
