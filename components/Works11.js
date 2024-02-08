@@ -8,6 +8,7 @@ import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
+import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 
 export default function Works11 () {
     
@@ -126,6 +127,7 @@ export default function Works11 () {
                                 
 
                                 <div className='py-7 px-[30px] '>
+                                    <AttentionWorkDesignImg />
                                     <p className='text-[16px] font-bold tracking-wider leading-[24px] pb-7' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>1年半の調査や視察を経て<br/>町のエコシステムを計画</p>
                                     <p className='text-[12px] text-[#6c6c6c] leading-[24px]' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>町や人々のアイデンティティを継続的に活かすべく、休耕地や空き家を活用する中長期計画の初期フェーズを担当。</p>
                                     <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
