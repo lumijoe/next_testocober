@@ -114,7 +114,8 @@ export default function Works11 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
+                            <AttentionWorkDesignImg />     
+                            <CommonImgTmb 
                                 src="/workStrategy01.jpg"
                                 alt="Image"
                                 width={290}
@@ -122,7 +123,7 @@ export default function Works11 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
-                                <AttentionWorkDesignImg />    
+                                   
                                 
 
                                 <div className='py-7 px-[30px] '>
