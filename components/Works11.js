@@ -155,7 +155,9 @@ export default function Works11 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 産官開発事業</BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
-                                <CommonImgTmb 
+                                
+                            <AttentionWorkDesignImg />
+                            <CommonImgTmb 
                                 src="/workStrategy02.jpg"
                                 alt="Image"
                                 width={290}
