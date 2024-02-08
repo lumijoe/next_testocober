@@ -122,6 +122,7 @@ export default function Works11 () {
                                 priority
                                 style={{ maxWidth: 'none' }}
                                 />
+                                <AttentionWorkDesignImg />    
                                 
 
                                 <div className='py-7 px-[30px] '>
