@@ -130,7 +130,7 @@ export default function Works09_b () {
 
 <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl">
   <div className="md:flex">
-    <div className="md:shrink-0 md:bg-blue-400">
+    <div className="md:shrink-0 md:bg-white">
       <Image className="h-48 w-full object-cover md:h-full md:w-[40vw]" src="/310264_10.png" alt="Modern building architecture"
         width={500}
         height={800}
