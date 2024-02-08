@@ -7,7 +7,8 @@ export default function AttentionWorkDesignImg() {
 
     return(
         <>
-            <p className='text-[10px] absolute text-gray-300 top-[84%] left-[15%] px-1'>{formattedAttentionWorkDesignImg}</p>
+            // <p className='text-[10px] absolute text-gray-300 top-[84%] left-[15%] px-1'>{formattedAttentionWorkDesignImg}</p>
+        　　<p className='text-[10px] text-gray-300 px-1'>{formattedAttentionWorkDesignImg}</p>
         </>
     )
 }
