@@ -120,7 +120,7 @@ export default function Works11 () {
                                 width={290}
                                 height={196}
                                 priority
-                                style={{ maxWidth: 'none', psition: 'relative' }}
+                                style={{ maxWidth: 'none' }}
                                 />
                                 <AttentionWorkDesignImg />    
                                 
