@@ -5,6 +5,7 @@ import React from 'react';
 import Works09 from './Works09';
 import Works10 from './Works10';
 import Works11 from './Works11';
+import Works09_b from './Works09_b';
 import styles from '../styles/Footer.module.css';
 
 export default function WorksBox() {
@@ -21,6 +22,7 @@ export default function WorksBox() {
             <Works09/>   
             <Works10/>   
             <Works11/>
+            <Works09_b/>
             <div className='mb-[120px]'></div>      
         </div>
     ) 
