@@ -30,7 +30,7 @@ export default function Works11 () {
                 
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
+                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[50px]'>
 
                         {/* グラフィック01 */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>

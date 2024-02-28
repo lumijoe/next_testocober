@@ -31,7 +31,7 @@ export default function Works10 () {
                 categoryText='ペルソナやデータを元に、瞬間的アプローチと継続的アプローチのバランスをコントロール。サービス体験の向上と継続を目的にPhotoshopなどで制作、コーディングも可能です。'  
             >
                 <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[calc(50%-145px)]'>
+                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto smMax639:transform smMax639:translate-x-[50px]'>
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max' style={{ fontFamily: "Noto Sans JP" }}>ランディングページ資料表紙</BtnLikeY8X12>
 
