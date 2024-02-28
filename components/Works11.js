@@ -25,7 +25,7 @@ export default function Works11 () {
             <WorksTempWebSite
                 categoryTitleRotate='Design & Graphic, more'
                 categoryTitleNum='03'
-                categoryTitleName='バナー / デザイン / グラフィック ほか'
+                categoryTitleName='デザイン / グラフィック ほか'
                 categoryText='産官学民領域のプロジェクトで基本構想や事業計画に基づいたディレクションやグラフィック制作をインハウスなどで担当。部署横断やフィールドワークでのコミュニケーションを通じ、デザイン環境を構築していき、デザインの重要性を周知しました。デザイン工程や領域を限定せず幅広く柔軟に対応、解決にフォーカスして課題解決へと導いた事例です。'
                 
             >
