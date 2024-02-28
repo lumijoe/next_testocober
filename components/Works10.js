@@ -34,6 +34,9 @@ export default function Works10 () {
                     <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto 
                     smMax639:transform smMax639:translate-x-[50px]
                     sm:transform sm:translate-x-[50px] '>
+
+                        
+                        {/* ランディングページ表紙資料バナー */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max' style={{ fontFamily: "Noto Sans JP" }}>ランディングページ資料表紙</BtnLikeY8X12>
 

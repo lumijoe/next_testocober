@@ -6,6 +6,8 @@ import Works09 from './Works09';
 import Works10 from './Works10';
 import Works11 from './Works11';
 import Works09_b from './Works09_b';
+import Works09_a from './Works09_a';
+import Works10_a from './Works10_a';
 import styles from '../styles/Footer.module.css';
 
 export default function WorksBox() {
@@ -21,8 +23,11 @@ export default function WorksBox() {
             </div>
             <Works09/>   
             <Works10/>   
+            {/* <Works09_a/>
+            <Works10_a/> */}
             <Works11/>
             <Works09_b/>
+            
             <div className='mb-[120px]'></div>      
         </div>
     ) 
