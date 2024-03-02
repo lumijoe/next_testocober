@@ -72,6 +72,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   - 700 Bold, italic
   - 800 ExtraBold, null
 
+## Icon, Fonts 　などを使用するためのファイルへの記述
+
+- styles/globals.css 　ファイルに記述
+
 ## 開発中のテストコードを整理するための adjNotUse フォルダの作成
 
 - HeroTitleSkills2.js to HeroSkillsTitle.js （1205:Hero.js で集約）
