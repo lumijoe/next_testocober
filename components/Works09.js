@@ -30,7 +30,7 @@ export default function Works09 () {
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
                 categoryTitleName='ウェブサイト / アプリ'
-                categoryText='デザインからサーバーサイドまで、動的サイトもフルスタックに開発可能。XD, Next.js, Node.js, SQLite, Express など。(24’2月末頃を目処に掲載予定)'
+                categoryText='デザインからサーバーサイドまで、動的サイトもフルスタックに開発可能。XD, Next.js, Node.js, SQLite, Express など。'
             > 
 
             {/* ここから作品　============================================================================== */}
@@ -120,7 +120,7 @@ export default function Works09 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 旧ポートフォリオサイト
                             </BtnLikeY8X12>
-                            <Link href='http://design63.html.xdomain.jp'>
+                            <Link href='https://lumijoe.github.io/xf_test01/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
                                     src="/310264_8.png"
