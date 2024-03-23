@@ -40,7 +40,6 @@ export default function About() {
 
             {/* キャリアリスト */}
             <div className=' bg-black px-3.5 py-20 h-auto justify-center items-center w-full flex '>
-
                 <JobTimeLineBox />
             </div>
 

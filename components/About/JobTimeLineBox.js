@@ -8,7 +8,8 @@ export default function JobTimeLineBox () {
         <div className=' ss:mx-[5%]'>
             <p className='text-white tracking-wider' style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>小城 ルミ<br/>Designer & Engineer</p>
             <br/>
-            <JobTimeLine year='2022' content='フロントエンドまわり' detail='/ インターン' />
+            <JobTimeLine year='2024' content='フロントエンドまわり、ディレクション' detail='/ 広告会社WEB担当'/>
+            <JobTimeLine year='2023' content='フロントエンドまわり' detail='/ インターン'/>
             <JobTimeLine year='2021' content={<><span className=' thin' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>WEB</span>転向キャチアップ</>} />
             <JobTimeLine year='2018' content='店舗開発戦略ディレクション' detail='/ 産官'/>
             <JobTimeLine year='2016' content='ディレクション、グラフィック' detail='/ 官インハウス'/>
