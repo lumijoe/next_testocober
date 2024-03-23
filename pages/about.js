@@ -64,12 +64,16 @@ export default function About() {
                         </ul>
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>CSS / Animation</p>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
+                            <li><BtnLikeSkillBlack>FLOCSS</BtnLikeSkillBlack></li>
+                            <li><BtnLikeSkillBlack>SASS</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Tailwindcss</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>GSAP</BtnLikeSkillBlack></li>
                         </ul>
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>バージョン管理 / CI/CD</p>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
+                            <li><BtnLikeSkillBlack>Sourcetree</BtnLikeSkillBlack></li>
+                            <li><BtnLikeSkillBlack>Bitbucket</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Git</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Github</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack></li>
