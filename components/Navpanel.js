@@ -15,7 +15,7 @@ export default function Navpanel({ closeNavpanel }) {
             <div id="navpanel" className="navpanel">
                 <div className='text-white text-2xl italic font-thin pl-[-3vw] pt-[52px]'>
                 {/* <div className='text-white text-2xl italic font-thin pl-[3vw] pb-[50vw] pt-[calc(50vw-52px)]'> */}
-                    <ul className='text-center'>
+                    <ul className='text-center panelul'>
                         
                         {/* Home */}
                         <li className='text-5xl text-white italic mb-4'>

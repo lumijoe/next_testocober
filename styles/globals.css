@@ -121,3 +121,7 @@ a {
 .bg-defaultblack {
   background: #232323;
 }
+
+.panelul {
+  padding-left:3vw;
+}
