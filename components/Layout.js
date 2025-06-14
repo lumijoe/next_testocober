@@ -10,6 +10,8 @@ export default function Layout ({ children }) {
             <Header2 />
             <main className='pt-[52px]'>{ children }</main>
             <Footer />
+            
+
         </div>
     )
 }
