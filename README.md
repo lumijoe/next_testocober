@@ -1,3 +1,11 @@
+起動：
+node_modulesが必要：npm install
+npm install で起動準備完了
+npm run devで起動
+http://localhost:3000
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## XD デザインカンプ(初期構想)
