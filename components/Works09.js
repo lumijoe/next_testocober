@@ -29,7 +29,7 @@ export default function Works09 () {
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01'
-                categoryTitleName='ウェブサイト / アプリ'
+                categoryTitleName='ウェブサイト / アプリ(2025年7月31日より一部メンテナンス中につき接続できません)'
                 categoryText='デザインからサーバーサイドまで、動的サイトもフルスタックに開発可能。XD, Next.js, Node.js, SQLite, Express など。'
             > 
 
