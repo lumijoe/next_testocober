@@ -18,7 +18,8 @@ http://localhost:3000
  - Node.jsの22vをPackage.jsonに明示的に記述する
  - Next.jsを15vにアップデートする
  - ローカルでビルドとテスト実行
-
+ブランチ
+- ```git checkout -b upd/node22next15react1831```
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
