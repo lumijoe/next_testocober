@@ -1,30 +1,43 @@
 // components/Hero/HeroSkillsA.js
-
-import React, { useEffect, useRef } from 'react';
+import React, { useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 export default function HeroTitleSkills() {
     const textRef = useRef(null);
 
-    useEffect(() => {
-        const textElements = gsap.utils.toArray(textRef.current.querySelectorAll('li'));
+   useLayoutEffect(() => {
+    const textElements = gsap.utils.toArray(textRef.current.querySelectorAll('li'));
 
-        // アニメーションの設定
-        gsap.from(textElements.reverse(), {
-            opacity: 0, // 最初は不透明度を0に設定
-            y: 20, // 上方向に20px移動
+    // 初期状態を明示的に設定
+    gsap.set(textElements, { opacity: 0, y: 20 });
+
+    gsap.fromTo(textElements.reverse(), 
+        // from の状態
+        {
+            opacity: 0,
+            y: 20,
+        },
+        // to の状態  
+        {
+            opacity: 1,
+            y: 0,
             duration: 0.5,
-            stagger: 0.8, // 要素ごとに遅延させる
-            ease: 'power3.inOut', // イージング
-        });
+            stagger: 0.8,
+            ease: 'power3.inOut',
+        }
+    );
+    
+    // 1フレーム遅延で追加のアニメーション
+    requestAnimationFrame(() => {
         gsap.to(textElements, {
-            opacity: 1, // 最終的に不透明度を1に設定
-            y: 0, // 移動を元に戻す
+            opacity: 1, // 確実に1にする
+            y: 0,
             duration: 0.1,
-            stagger: 0.1, // 要素ごとに遅延させる
+            stagger: 0.1,
             ease: 'power3.inOut',
         });
-    }, []);
+    });
+}, []);
 
     return (
     <div className='text-white text-2xl italic font-thin lg:text-5xl lg:tracking-wider'>
