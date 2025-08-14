@@ -19,7 +19,11 @@ http://localhost:3000
  - Next.jsを15vにアップデートする
  - ローカルでビルドとテスト実行
 ブランチ
-- ```git checkout -b upd/node22next15react1831```
+ - ```git checkout -b upd/node22next15react1831```
+アプローチ3段階チェック
+ - ローカルでnpm run devでチェック
+ - ブランチをpushしてVercelプレビューでチェック
+ - mainにマージして本番環境でチェック
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
