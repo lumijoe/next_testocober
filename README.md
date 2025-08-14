@@ -24,6 +24,12 @@ http://localhost:3000
  - ローカルでnpm run devでチェック
  - ブランチをpushしてVercelプレビューでチェック
  - mainにマージして本番環境でチェック
+完了報告
+ - GSAP更新も必要だった
+ - Next.js 15.4.6
+ - React/React-DOM 18.3.1
+ - gsap 3.13.0（アニメーション修正済み）
+ - Node.js 22を明示的にpackage.jsonに指定
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
