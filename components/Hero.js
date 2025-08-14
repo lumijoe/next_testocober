@@ -1,19 +1,21 @@
 // components/Hero.js(Heroコンポーネント)
 // ５パーツ（1：背景自動スクロール画像、2：opacity要素、3：左メインタイトル、4：中央サブタイトル、5：右誘導要素）
 
-import React, { useEffect, useRef } from 'react';
+import React, { useLayoutEffect, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 import HeroSkillsTitle from '../components/Hero/HeroSkillsTitle';
 import HeroScrollLine from '../components/HeroScrollLine';
 import styles from '../styles/Footer.module.css';
 
+// SSR対応のuseLayoutEffect
+const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 export default function Hero() {
   const containerRef = useRef(null);
   const contentRef = useRef(null);
 
-  useEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     const container = containerRef.current;
     const content = contentRef.current; // contentRef内のdiv要素を取得
 
