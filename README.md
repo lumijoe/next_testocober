@@ -5,6 +5,21 @@ npm run devで起動
 http://localhost:3000
 
 
+## update記録
+開始日時：
+ - 20250814:11:11
+経緯：
+ - Node.js18のサポートが20250901で終了となる
+ - Node.js22が必要となる
+ - Node.js22と現在のNext.js13の依存関係は公式サポート対象外となっている
+ - Package.jsonに明示的にNodeのversionを記述していないのでvercel頼みになっている（GithubActionsを使用していないのでまあこれでもOKであるが）
+目標：
+ - 作業前のバックアップを作成する
+ - Node.jsの22vをPackage.jsonに明示的に記述する
+ - Next.jsを15vにアップデートする
+ - ローカルでビルドとテスト実行
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
