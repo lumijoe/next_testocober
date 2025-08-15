@@ -5,6 +5,10 @@ npm run devで起動
 http://localhost:3000
 
 
+## issues, projects
+課題整理とプロジェクト進行表はissuesとProjects参考
+
+
 ## update記録
 開始日時：
  - 20250814:11:11
