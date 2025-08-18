@@ -80,6 +80,7 @@ export default function About() {
                         </ul>
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>開発環境</p>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
+                            <li><BtnLikeSkillBlack>Docker</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Vscode</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>Mac</BtnLikeSkillBlack></li>
                             <li><BtnLikeSkillBlack>MacPro</BtnLikeSkillBlack></li>
