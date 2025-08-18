@@ -45,7 +45,7 @@ export default function HeroTitleSkills() {
         <li>NEXT.js</li>
         <li>React</li>
         <li>Firebase</li>
-        <li>Vercel</li>
+        <li>Docker</li>
         <li>Git, Github</li>
         <li>JavaScript</li>
         </ul>

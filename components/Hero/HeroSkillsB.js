@@ -45,8 +45,8 @@ export default function HeroTitleSkills() {
                 <li>GSAP</li>
                 <li>Tailwindcss</li>
                 <li>HTML, CSS</li>
+                <li>Sass</li>
                 <li>WordPress</li>
-                <li>XD</li>
                 <li>Figma</li>
                 <li>Photoshop</li>
             </ul>
