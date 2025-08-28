@@ -143,8 +143,7 @@ export default function Works09 () {
                                             <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語対応</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>OR検索機能</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
                                         </div>
                                     </div>
                                 </div>
