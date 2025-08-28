@@ -14,7 +14,7 @@ export default function NewsHeadline() {
         <div className='bg-pink h-[50px] opacity-90 w-[100vw] items-center jsutify-center '>
             <div id="newsheadline" className="newsheadline">
                 <div className='text-white text-2xl italic font-thin pl-[-3vw] pt-[52px]'>
-                    <h2>NEWS Headline 01</h2>
+                    <h2 className='bggrad-pink'>NEWS Headline 01</h2>
                 </div>
             </div>
         </div>

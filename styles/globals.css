@@ -125,3 +125,21 @@ a {
 .panelul {
   padding-left: 3vw;
 }
+
+
+.bggrad-pink {
+  background: 
+        radial-gradient(ellipse 800px 400px at 20% 50%, 
+            rgba(255, 0, 128, 0.8), 
+            transparent 40%),
+        radial-gradient(ellipse 600px 300px at 80% 30%, 
+            rgba(0, 100, 255, 0.6), 
+            transparent 45%),
+        radial-gradient(ellipse 500px 250px at 90% 70%, 
+            rgba(0, 200, 255, 0.5), 
+            transparent 40%),
+        linear-gradient(90deg, 
+            rgba(255, 200, 230, 0.3) 0%, 
+            rgba(200, 200, 255, 0.3) 100%);
+    background-color: #f0f5ff;
+}
