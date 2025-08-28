@@ -141,7 +141,7 @@ export default function Works09 () {
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>プラグイン</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>多言語対応</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>OR検索機能</BtnLikeSkillBlack>
