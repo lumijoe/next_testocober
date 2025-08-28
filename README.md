@@ -118,6 +118,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - HeroTitleSkills2.js to HeroSkillsTitle.js （1205:Hero.js で集約）
 
+## WORKセクション採用ファイル
+- WebSite: Works09.js
+
 ## Getting Started
 
 First, run the development server:
