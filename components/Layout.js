@@ -8,8 +8,9 @@ import NewsHeadline from './NewsHeadline'
 export default function Layout ({ children }) {
     return (
         <div>
-            {/* <Header2 /> */}
-            <NewsHeadline />
+            <Header2 />
+            {/* headlineテスト中 */}
+            {/* <NewsHeadline /> */}
             <main className='pt-[52px]'>{ children }</main>
             <Footer />
             
