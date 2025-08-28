@@ -36,9 +36,10 @@ export default function Works09 () {
             {/* ここから作品　============================================================================== */}
 
                 <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto 
+                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto pl-[calc(50px)]'>
+                    {/* ↑<div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto 
                     smMax639:transform smMax639:translate-x-[50px]
-                    sm:transform sm:translate-x-[50px]'>
+                    sm:transform sm:translate-x-[50px]'> */}
 
                         {/* ポートフォリオサイト 
                         ============================================================================================ 

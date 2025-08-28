@@ -40,7 +40,7 @@ export default function Hero() {
         {/* 1：背景自動スクロール画像 */}
         <div ref={contentRef} className="flex">
           <Image
-            src="/img01.jpg"
+            src="/img04.png"
             alt="Image"
             width={600}
             height={400}
@@ -55,27 +55,6 @@ export default function Hero() {
           />
           <Image
             src="/img03.jpg"
-            alt="Image"
-            width={600}
-            height={400}
-            priority
-          />
-          <Image
-            src="/work04.png"
-            alt="Image"
-            width={600}
-            height={400}
-            priority
-          />
-          <Image
-            src="/img06.jpg"
-            alt="Image"
-            width={600}
-            height={400}
-            priority
-          />
-          <Image
-            src="/img01.jpg"
             alt="Image"
             width={600}
             height={400}
@@ -89,21 +68,7 @@ export default function Hero() {
             priority
           />
           <Image
-            src="/img03.jpg"
-            alt="Image"
-            width={600}
-            height={400}
-            priority
-          />
-          <Image
-            src="/work04.png"
-            alt="Image"
-            width={600}
-            height={400}
-            priority
-          />
-          <Image
-            src="/img05.jpg"
+            src="/img04.png"
             alt="Image"
             width={600}
             height={400}
@@ -111,6 +76,20 @@ export default function Hero() {
           />
           <Image
             src="/img06.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img03.jpg"
+            alt="Image"
+            width={600}
+            height={400}
+            priority
+          />
+          <Image
+            src="/img02.jpg"
             alt="Image"
             width={600}
             height={400}
