@@ -154,7 +154,7 @@ export default function Works09 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                不動産コーポレートサイト(要PWD)
+                                不動産コーポレートサイト(要PWD①)
                             </BtnLikeY8X12>
                             <Link href='https://atrail.co.jp/'>
                                 <div className='h-auto w-[400px]'>
@@ -168,7 +168,7 @@ export default function Works09 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作(要pwd)<br/>Word Pressカスタムテーマ構築
+                                            業務モックアップ制作(要PWD①)<br/>Word Pressカスタムテーマ構築
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2024<br/>Web design(ロゴ以外) / Branding design / Planning / Coding / Deploy
