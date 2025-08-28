@@ -40,7 +40,7 @@ export default function Hero() {
         {/* 1：背景自動スクロール画像 */}
         <div ref={contentRef} className="flex">
           <Image
-            src="/work04.png"
+            src="/img04.png"
             alt="Image"
             width={691}
             height={400}
