@@ -114,6 +114,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="/">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
 
                         {/* コーポレートサイト 
@@ -149,6 +158,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
 
                         {/* コーポレートサイト 
@@ -184,6 +202,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="https://atrail.co.jp/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
 
                         {/* アプリ 
@@ -218,6 +245,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="https://lumijoe.github.io/jobtime/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
 
                                 {/* コーポレートサイト 
@@ -262,6 +298,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="http://designguys.wp.xdomain.jp" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
 
                         {/* ポートフォリオサイト 
@@ -296,6 +341,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="https://lumijoe.github.io/xf_test01/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
                         
                         
