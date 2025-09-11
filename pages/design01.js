@@ -16,12 +16,12 @@ export default function Design01() {
         <div>
             <Header2 />
             <div className="bg-white pt-[132px] w-full flex flex-col text-center justify-center items-center">
-                <h1 style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>下記資料はPDFをURL化するサービスサイト<br/>「UPDF」でもご覧いただけます
+                {/* <h1 style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>下記資料はPDFをURL化するサービスサイト<br/>「UPDF」でもご覧いただけます
                 <div >
                     <a href={urlWorksDesign01} style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[16px] target="_blank" rel="noopener noreferrer"'><Btn className="bg-indigo-600 w-full "><b>UPDF</b>で資料を見る</Btn></a>
                 </div>
 
-                </h1>
+                </h1> */}
                 <Image
                     src="/design01_01.jpg"
                     alt="jpg資料"
