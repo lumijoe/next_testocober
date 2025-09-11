@@ -387,6 +387,15 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
+                            <Link href="https://cashnyan-prototypever-3-2.onrender.com" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
                         </div>
                         
                         {/* アプリ 
