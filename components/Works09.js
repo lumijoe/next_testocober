@@ -12,7 +12,8 @@ import Link from 'next/link';
 // import BtnLikeTitleWhite from './Button/BtnLikeTitleWhite';
 // import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 // import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
-import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12'
+import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
+import LabelWorkType from '../components/Label/LabelWorkType';
 
 
 // 01ウェブサイト / アプリ
@@ -85,7 +86,9 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 VPS選択サイト
+                                <LabelWorkType type="private" />
                             </BtnLikeY8X12>
+                            
                             <Link href='https://game-vps.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
@@ -129,6 +132,7 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 製造業コーポレートサイト
+                                <LabelWorkType type="work" />
                             </BtnLikeY8X12>
                             <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
                                 <div className='h-auto w-[400px]'>
@@ -145,7 +149,7 @@ export default function Works09 () {
                                             業務モックアップ制作<br/>Word Pressカスタムテーマ構築
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装中<br/>Web design / Branding design / Planning / Coding / Deploy
+                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -173,6 +177,7 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 不動産コーポレートサイト(要PWD①)
+                                <LabelWorkType type="work" />
                             </BtnLikeY8X12>
                             <Link href='https://atrail.co.jp/'>
                                 <div className='h-auto w-[400px]'>
@@ -217,6 +222,7 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 現ポートフォリオサイト
+                                <LabelWorkType type="private" />
                             </BtnLikeY8X12>
                             <Link href='/'>
                                 <div className='h-auto w-[400px]'>
@@ -262,6 +268,7 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 息子用家バイト勤務管理アプリ
+                                <LabelWorkType type="private" />
                             </BtnLikeY8X12>
                             <Link href='https://lumijoe.github.io/jobtime/'>
                                 <div className='h-auto w-[400px]'>
@@ -358,6 +365,7 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 旧ポートフォリオサイト
+                                <LabelWorkType type="private" />
                             </BtnLikeY8X12>
                             <Link href='https://lumijoe.github.io/xf_test01/'>
                                 <div className='h-auto w-[400px]'>
@@ -402,6 +410,7 @@ export default function Works09 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 通勤用ミニ家計簿アプリ
+                                <LabelWorkType type="private" />
                             </BtnLikeY8X12>
                             <Link href='https://cashnyan-prototypever-3-2.onrender.com'>
                                 <div className='h-auto w-[400px]'>
@@ -444,7 +453,7 @@ export default function Works09 () {
                         
                         {/* アプリ 
                         ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                        {/* <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 リハビリサポートアプリ
                             </BtnLikeY8X12>
@@ -473,11 +482,11 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
-                        </div>
+                        </div> */}
                         
                         {/* アプリ 
                         ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                        {/* <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 Todoアプリ
                             </BtnLikeY8X12>
@@ -507,12 +516,12 @@ export default function Works09 () {
                                 </div>
                             </Link>
                         </div>
-                        
+                         */}
                 
                         
                         {/* ECサイト 
                         ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                        {/* <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 ECサイト
                             </BtnLikeY8X12>
@@ -540,7 +549,7 @@ export default function Works09 () {
                                     </div>
                                 </div>
                             </Link>
-                        </div>
+                        </div> */}
                         
                         {/* コーポレートサイト 
                         ============================================================================================ */}

@@ -23,10 +23,7 @@ export default function WorksBox() {
             </div>
             <Works09/>   
             <Works10/>   
-            {/* <Works09_a/>
-            <Works10_a/> */}
             <Works11/>
-            <Works09_b/>
             
             <div className='mb-[120px]'></div>      
         </div>

@@ -8,6 +8,7 @@ import CommonImgTmb from '../components/Works/CommonImgTmb';
 import Image from 'next/image';
 import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
+import LabelWorkType from '../components/Label/LabelWorkType';
 import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
 
@@ -36,7 +37,9 @@ export default function Works11 () {
 
                         {/* グラフィック01 */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / パンフレットほか</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / パンフレットほか
+                                <LabelWorkType type="work" />
+                            </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
@@ -74,7 +77,9 @@ export default function Works11 () {
 
                         {/* グラフィック02 */} 
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / ロゴほか</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / ロゴほか
+                                <LabelWorkType type="work" />
+                            </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
@@ -114,7 +119,9 @@ export default function Works11 () {
 
                         {/* ストラテジー01 */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業
+                                <LabelWorkType type="work" />
+                            </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <div className="relative">
@@ -158,7 +165,9 @@ export default function Works11 () {
 
                         {/* ストラテジー02 */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 産官開発事業</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 産官開発事業
+                                <LabelWorkType type="work" />
+                            </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
 
@@ -201,7 +210,9 @@ export default function Works11 () {
 
                         {/* スペース01 */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 展示会ブース内装</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 展示会ブース内装
+                                <LabelWorkType type="work" />
+                            </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <CommonImgTmb 
@@ -239,7 +250,9 @@ export default function Works11 () {
 
                         {/* スペース02 */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 駅中店舗内装リニューアル</BtnLikeY8X12>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 駅中店舗内装リニューアル
+                                <LabelWorkType type="work" />
+                            </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
                                 <div className="relative">
