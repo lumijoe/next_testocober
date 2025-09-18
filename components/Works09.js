@@ -98,7 +98,7 @@ export default function Works09 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            プロト制作<br/>Claude+Figma+Vite+Reactでバイブコーディング
+                                            プロト制作<br/>AI+Vite+Reactでバイブコーディング
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2025/8/15<br/>Vibe Coding / AI direction / Web design / Planning / Coding / Deploy
