@@ -104,11 +104,10 @@ export default function Works09 () {
                                             2025/8/15<br/>Vibe Coding / AI direction / Web design / Planning / Coding / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Vite</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>React</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Claude Code</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vite+React</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Tailwindcss</BtnLikeSkillBlack>
                                         </div>
                                     </div>
