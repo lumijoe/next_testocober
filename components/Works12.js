@@ -41,99 +41,7 @@ export default function Works12 () {
                     sm:transform sm:translate-x-[50px]'> */}
                         
 
-                        {/* コーポレートサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                製造業リニューアルサイト
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
-                            </BtnLikeY8X12>
-                            <Link href='https://worklist-for-pf.vercel.app/'>
-                                <div className='h-auto w-[400px]'>
-                                    <CommonImgTmb 
-                                    src="/000.png"
-                                    alt="Image"
-                                    width={400}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務制作<br/>
-                                        </p>                                    
-                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div> */}
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link> 
-                        </div>
-
-                        {/* コーポレートサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                LP制作
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
-                            </BtnLikeY8X12>
-                            <Link href='https://worklist-for-pf.vercel.app/'>
-                                <div className='h-auto w-[400px]'>
-                                    <CommonImgTmb 
-                                    src="/000.png"
-                                    alt="Image"
-                                    width={400}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務制作
-                                        </p>                                    
-                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024<br/>Web design(ロゴ以外) / Branding design / Planning / Coding / Deploy
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            
-                                        </div> */}
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link> 
-                        </div>
-
-                        {/* ポートフォリオサイト 
+                        {/* サイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
@@ -153,18 +61,14 @@ export default function Works12 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務<br/>
+                                            業務デバッグ<br/>クライアント運用サイトのデバッグ
                                         </p>                                    
-                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2025<br/>Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div> */}
+                                        </div>
                                     </div>
                                 </div>
                             </Link>
@@ -179,11 +83,99 @@ export default function Works12 () {
                             </Link> 
                         </div>
 
-                        {/* ポートフォリオサイト 
+                        {/* サイト 
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                サイトリニューアル、過去記事引越、CMS開発
+                                製造業コーポレートサイトリニューアル
+                                <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
+                            </BtnLikeY8X12>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/000.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            業務制作<br />
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2024-2025<br/>要件定義 / Branding design / Planning / Wireframe / Coding Support / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Backlog</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+                        {/* サイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                一般サイトのページ追加と一部統合
+                                <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
+                            </BtnLikeY8X12>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/000.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            業務制作<br/>CMS移動
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2025<br/>Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+                        {/* サイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                コーポレートサイトリニューアル
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
@@ -201,16 +193,103 @@ export default function Works12 () {
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
                                             業務制作<br/>
                                         </p>                                    
-                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2024-2025<br/>要件定義 / Branding design / Planning / Wireframe / Coding Support / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div> */}
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+                        {/* サイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                企業サイトリニューアル、CMS開発、コンテンツ移動
+                                <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
+                            </BtnLikeY8X12>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/000.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            業務制作<br/>CMSを新たに構築し丸ごと引越し
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2025<br/>要件定義 / Branding design / Planning / Wireframe / Design / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+                        {/* サイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                LPサイト
+                                <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
+                            </BtnLikeY8X12>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/000.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            業務制作<br/>期間限定イベントのLP
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2024<br/>Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Tailwind CSS</BtnLikeSkillBlack>
+                                        </div>
                                     </div>
                                 </div>
                             </Link>
