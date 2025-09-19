@@ -47,7 +47,7 @@ export default function Works12 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 公式サイトデバッグ
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
+                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
                             <Link href='https://worklist-for-pf.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
@@ -289,6 +289,49 @@ export default function Works12 () {
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Tailwind CSS</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+                        {/* バナー
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                バナー
+                                <LabelWorkType type="work" />
+                                <LabelWorkAssign type="solo" />
+                            </BtnLikeY8X12>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/000_bn.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            業務制作<br/>デザインから実装まで担当、7例挙げています
+                                        </p>
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2021-2025<br/>要件定義 / Design / Coding
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Photohop</BtnLikeSkillBlack>
                                         </div>
                                     </div>
                                 </div>
