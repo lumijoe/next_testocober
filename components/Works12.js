@@ -52,7 +52,7 @@ export default function Works12 () {
                             <Link href='https://worklist-for-pf.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                                    src="/000.png"
+                                    src="/000_wp.png"
                                     alt="Image"
                                     width={400}
                                     height={264}
