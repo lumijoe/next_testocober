@@ -45,14 +45,14 @@ export default function Works12 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                製造業コーポレートサイト
+                                製造業リニューアルサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
-                            <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                                    src="/310264_4.png"
+                                    src="/000.png"
                                     alt="Image"
                                     width={400}
                                     height={264}
@@ -61,9 +61,9 @@ export default function Works12 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作<br/>Word Pressカスタムテーマ構築
+                                            業務制作<br/>
                                         </p>                                    
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
@@ -72,11 +72,11 @@ export default function Works12 () {
                                             <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </Link>
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -91,14 +91,14 @@ export default function Works12 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                不動産コーポレートサイト(要PWD①)
+                                LP制作
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
-                            <Link href='https://atrail.co.jp/'>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                                    src="/310264_6.png"
+                                    src="/000.png"
                                     alt="Image"
                                     width={400}
                                     height={264}
@@ -107,9 +107,9 @@ export default function Works12 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作(要PWD①)<br/>Word Pressカスタムテーマ構築
+                                            業務制作
                                         </p>                                    
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2024<br/>Web design(ロゴ以外) / Branding design / Planning / Coding / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
@@ -117,12 +117,12 @@ export default function Works12 () {
                                             <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            {/* <BtnLikeSkillBlack></BtnLikeSkillBlack> */}
-                                        </div>
+                                            
+                                        </div> */}
                                     </div>
                                 </div>
                             </Link>
-                            <Link href="https://atrail.co.jp/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -137,14 +137,14 @@ export default function Works12 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                製造業コーポレートサイト
+                                公式サイトデバッグ
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
-                            <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                                    src="/310264_4.png"
+                                    src="/000.png"
                                     alt="Image"
                                     width={400}
                                     height={264}
@@ -153,9 +153,9 @@ export default function Works12 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作<br/>Word Pressカスタムテーマ構築
+                                            業務<br/>
                                         </p>                                    
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
@@ -164,11 +164,11 @@ export default function Works12 () {
                                             <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </Link>
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -183,14 +183,14 @@ export default function Works12 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                製造業コーポレートサイト
+                                サイトリニューアル、過去記事引越、CMS開発
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
-                            <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
+                            <Link href='https://worklist-for-pf.vercel.app/'>
                                 <div className='h-auto w-[400px]'>
                                     <CommonImgTmb 
-                                    src="/310264_4.png"
+                                    src="/000.png"
                                     alt="Image"
                                     width={400}
                                     height={264}
@@ -199,9 +199,9 @@ export default function Works12 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作<br/>Word Pressカスタムテーマ構築
+                                            業務制作<br/>
                                         </p>                                    
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                        {/* <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
@@ -210,11 +210,11 @@ export default function Works12 () {
                                             <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </Link>
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://worklist-for-pf.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <Image
                                         src="/torightWhite.svg"
                                         alt="Icon"
@@ -225,97 +225,7 @@ export default function Works12 () {
                             </Link> 
                         </div>
 
-                        {/* アプリ 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                製造業コーポレートサイト
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
-                            </BtnLikeY8X12>
-                            <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
-                                <div className='h-auto w-[400px]'>
-                                    <CommonImgTmb 
-                                    src="/310264_4.png"
-                                    alt="Image"
-                                    width={400}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作<br/>Word Pressカスタムテーマ構築
-                                        </p>                                    
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link> 
-                        </div>
-
-                                {/* コーポレートサイト 
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                製造業コーポレートサイト
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
-                            </BtnLikeY8X12>
-                            <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
-                                <div className='h-auto w-[400px]'>
-                                    <CommonImgTmb 
-                                    src="/310264_4.png"
-                                    alt="Image"
-                                    width={400}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            業務モックアップ制作<br/>Word Pressカスタムテーマ構築
-                                        </p>                                    
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        
                     </div>
                 </div>
             {/* ここまで作品　============================================================================== */}
