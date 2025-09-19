@@ -2,34 +2,33 @@
 
 import React from 'react';
 
-export default function LabelWorkType ({ type, children, className }) {
+export default function LabelWorkAssign ({ type, children, className }) {
     // 業務か個人かを区別するためのラベル設定
     const labels = {
-        work: '業務',
-        private: '個人'
+        solo: '一貫担当',
+        team: 'チーム分業'
     };
     const colors = {
-          work: '#238c23',
-          private: 'blue'
+          solo: '#d24537',
+          team: '#cdbd17'
       };
 
-    const labelWorkTypeClass = `rounded-full text-white w-[55px] h-[55px] border ${className}`
+    const labelWorkAssignClass = `rounded-full text-white w-[90px] h-[25px] ${className}`
 
     return (
         <p
-         className={`${labelWorkTypeClass}`}
+         className={`${labelWorkAssignClass}`}
          style={{ 
-            fontSize: '14px',
-            fontWeight: 'bold',
+            fontSize: '12px',
             backgroundColor: colors[type],
             position: 'absolute',
-            top: '-40px',
-            left: '-10px',
+            top: '-24px',
+            left: '38px',
             border: 'none',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            letterSpacing: '0.1rem'
+            borderRadius: '3px'
          }}
         >
         {children || labels[type]}

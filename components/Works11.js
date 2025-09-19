@@ -9,6 +9,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
 import LabelWorkType from '../components/Label/LabelWorkType';
+import LabelWorkAssign from '../components/Label/LabelWorkAssign';
 import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
 
@@ -39,6 +40,7 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / パンフレットほか
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -79,6 +81,7 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / ロゴほか
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -121,6 +124,7 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -167,6 +171,7 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 産官開発事業
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -212,6 +217,7 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 展示会ブース内装
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -252,6 +258,7 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 駅中店舗内装リニューアル
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>

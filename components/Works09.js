@@ -14,6 +14,7 @@ import Link from 'next/link';
 // import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
 import LabelWorkType from '../components/Label/LabelWorkType';
+import LabelWorkAssign from '../components/Label/LabelWorkAssign';
 
 
 // 01ウェブサイト / アプリ
@@ -29,7 +30,7 @@ export default function Works09 () {
         <div className='bg-[#e3e3e3] w-full h-[450px] bottom-[-35px] absolute '></div>
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
-                categoryTitleNum='01'
+                categoryTitleNum='01 : solo'
                 categoryTitleName='ウェブサイト / アプリ'
                 categoryText='デザインから実装まで制作開発。Figma, Next.js, Word Pressなど。（2025年7月31日より一部メンテナンス中につき、接続できません）'
             > 
@@ -88,6 +89,7 @@ export default function Works09 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 製造業コーポレートサイト
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
                             <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
                                 <div className='h-auto w-[400px]'>
@@ -133,6 +135,7 @@ export default function Works09 () {
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 不動産コーポレートサイト(要PWD①)
                                 <LabelWorkType type="work" />
+                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
                             <Link href='https://atrail.co.jp/'>
                                 <div className='h-auto w-[400px]'>
