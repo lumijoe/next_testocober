@@ -103,7 +103,7 @@ export default function Works09 () {
                                     />
                                     <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
-                                            VPSモックアップ制作<br/>XServer VPS+Linux+Cocoon
+                                            VPSモックアップ制作<br/>XServer+Linux+Cocoon+Duck DNS
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
                                             2025-環境構築中<br/>Web design / Branding design / Planning / Coding / Deploy
@@ -111,8 +111,8 @@ export default function Works09 () {
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Word Press(Cocoon)</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Nginx</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Linux</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>VPS</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>VPS, Linux</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Duck DNS</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>MariaDB</BtnLikeSkillBlack>
                                         </div>
                                     </div>
