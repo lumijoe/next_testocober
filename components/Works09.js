@@ -87,6 +87,52 @@ export default function Works09 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                                Cocoonサイト
+                                <LabelWorkType type="work" />
+                                <LabelWorkAssign type="solo" />
+                            </BtnLikeY8X12>
+                            <Link href='https://lkcodetest.duckdns.org/'>
+                                <div className='h-auto w-[400px]'>
+                                    <CommonImgTmb 
+                                    src="/310264_11.png"
+                                    alt="Image"
+                                    width={400}
+                                    height={264}
+                                    priority
+                                    style={{ maxWidth: 'none' }}
+                                    />
+                                    <div className='py-5 px-[30px] h-[320px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[18px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                            VPSモックアップ制作<br/>XServer VPS+Linux+Cocoon
+                                        </p>                                    
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
+                                            2025-環境構築中<br/>Web design / Branding design / Planning / Coding / Deploy
+                                        </p>
+                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
+                                            <BtnLikeSkillBlack>Word Press(Cocoon)</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Nginx</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Linux</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>VPS</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>MariaDB</BtnLikeSkillBlack>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Link>
+                            <Link href="https://lkcodetest.duckdns.org/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src="/torightWhite.svg"
+                                        alt="Icon"
+                                        width={52}
+                                        height={52}
+                                        style={{ position: "absolute", top: "88%", left: "91%" }}
+                                    />
+                            </Link> 
+                        </div>
+
+                        {/* コーポレートサイト 
+                        ============================================================================================ */}
+                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 製造業コーポレートサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
