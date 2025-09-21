@@ -15,6 +15,7 @@ import Link from 'next/link';
 import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
 import LabelWorkType from '../components/Label/LabelWorkType';
 import LabelWorkAssign from '../components/Label/LabelWorkAssign';
+import LabelWorkAbout from '../components/Label/LabelWorkAbout';
 
 
 // 01ウェブサイト / アプリ
@@ -43,11 +44,11 @@ export default function Works09 () {
                         {/* コーポレートサイト
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                            <LabelWorkAbout className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 Cocoonサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
-                            </BtnLikeY8X12>
+                            </LabelWorkAbout>
                             <Link href='https://lkcodetest.duckdns.org/'>
                                 <div className='h-auto w-[340px]'>
                                     <CommonImgTmb
