@@ -16,6 +16,7 @@ import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
 import LabelWorkType from '../components/Label/LabelWorkType';
 import LabelWorkAssign from '../components/Label/LabelWorkAssign';
 import LabelWorkAbout from '../components/Label/LabelWorkAbout';
+import Design01 from '../pages/design01';
 
 
 // 01ウェブサイト / アプリ
@@ -59,13 +60,13 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             VPSモックアップ制作<br/>XServer+Linux+Cocoon+Duck DNS
                                         </p>
                                         <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2025-環境構築中<br/>Web design / Branding design / Planning / Coding / Deploy
+                                            <span style={{ color:'#6c6c6c' }}>2025-環境構築中</span><br/>CMS Dev. / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Word Press(Cocoon)</BtnLikeSkillBlack>
@@ -106,13 +107,13 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             業務モックアップ制作<br/>Word Pressカスタムテーマ構築
                                         </p>
-                                        <br></br>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>Web design / Branding design / Planning / Coding / Deploy
+                                            2024-実装途中<br/>CMS Dev. / Dir. / WF / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -153,12 +154,13 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             業務モックアップ制作(要PWD①)<br/>Word Pressカスタムテーマ構築
                                         </p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024<br/>Web design(ロゴ以外) / Branding design / Planning / Coding / Deploy
+                                            2024<br/>CMS Dev. / Dir. / WF / Design(ロゴ省く) / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -198,12 +200,13 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             プロト制作<br/>AI+Vite+Reactでバイブコーディング
                                         </p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2025/8/15<br/>Vibe Coding / AI direction / Web design / Planning / Coding / Deploy
+                                            2025/8/15<br/>Prompt Dir. / Design / Vibe Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
@@ -244,12 +247,13 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             家族案件<br/>JSのFullCalendarを使用し<br/>削除や追加をフロントで保存
                                         </p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2022/01-開発中<br/>Web design / Planning / Develop / Coding / Deploy
+                                            2024<br/>Dir. / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>FullCalendar</BtnLikeSkillBlack>
@@ -287,12 +291,13 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             家族案件<br/>Node.jsでサーバーサイドを構築しRender.comでデプロイ
                                         </p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2022/01-開発中<br/>Web design / Planning / Develop / Coding / Deploy
+                                            2023<br/>Dir. / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
@@ -332,15 +337,16 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             個人制作<br/>Next.jsをVercelでデプロイ
                                         </p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2023/10-<br/>Web design / Branding design / Planning / Coding / Deploy
+                                            2023/10-更新中<br/>Dir. / WF / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>XD, Figma</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
@@ -378,18 +384,19 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            個人制作<br/>HTMLをXFREEでデプロイ
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                            個人モックアップ制作<br/>HTMLをGitHub Pagesでデプロイ<br /><span style={{ fontSize: '10PX', fontWeight: 300, color: '#6c6c6c' }}>2025年XFREEから引越済</span>
                                         </p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2022/10-2022/12<br/>Web design / Branding design / Planning / Coding / Deploy
+                                            2022/12-2023/02<br/>Dir. / WF / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>HTML</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>CSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>XFREE</BtnLikeSkillBlack>
+                                            <BtnLikeSkillBlack>Github Pages</BtnLikeSkillBlack>
                                         </div>
                                     </div>
                                 </div>
@@ -435,9 +442,10 @@ export default function Works09 () {
                                     priority
                                     style={{ maxWidth: 'none', position: 'absolute', zIndex: 20, bottom: '400px', left: '10px' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>課題制作(架空案件)<br/>小売業CMS「サスティナブル提案」</p>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>2022/12-2023/01<br/>Web design / Branding design / Planning / CMS / Deploy</p>
+                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>課題制作(架空案件)<br/>小売業CMS「サスティナブル提案」</p>
+                                        <hr style={{ paddingTop: '1rem' }}></hr>
+                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>2022/12-2023/01<br/>CMS Dev. / Dir. / WF / Design / Coding</p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
                                             <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
