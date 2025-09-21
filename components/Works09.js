@@ -45,7 +45,7 @@ export default function Works09 () {
                         {/* コーポレートサイト
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
+                            <LabelWorkAbout className='text-[18px] px-[36px]'>
                                 Cocoonサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
