@@ -51,17 +51,17 @@ export default function Works09 () {
                                 <LabelWorkAssign type="solo" />
                             </LabelWorkAbout>
                             <Link href='https://lkcodetest.duckdns.org/'>
-                                <div className='h-auto w-[340px]'>
+                                <div className='h-auto w-[224px]'>
                                     <CommonImgTmb
                                     src="/310264_11.png"
                                     alt="Image"
-                                    width={340}
+                                    width={224}
                                     height={264}
                                     priority
                                     style={{ maxWidth: 'none' }}
                                     />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
+                                    <div className='py-[0.8rem] px-[0.8rem] h-[180px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
+                                        <p className='text-[14px] font-bold tracking-wider leading-[1rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             VPSモックアップ制作<br/>XServer+Linux+Cocoon+Duck DNS
                                         </p>
                                         <hr style={{ paddingTop: '1rem' }}></hr>

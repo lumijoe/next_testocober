@@ -45,11 +45,11 @@ export default function Works09 () {
                         {/* コーポレートサイト
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] px-[36px]'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 Cocoonサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
-                            </LabelWorkAbout>
+                            </BtnLikeY8X12>
                             <Link href='https://lkcodetest.duckdns.org/'>
                                 <div className='h-auto w-[340px]'>
                                     <CommonImgTmb
@@ -92,11 +92,11 @@ export default function Works09 () {
                         {/* コーポレートサイト
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 製造業コーポレートサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
-                            </LabelWorkAbout>
+                            </BtnLikeY8X12>
                             <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
                                 <div className='h-auto w-[340px]'>
                                     <CommonImgTmb
@@ -233,10 +233,10 @@ export default function Works09 () {
                         {/* アプリ
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
+                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
                                 勤務管理アプリ
                                 <LabelWorkType type="private" />
-                            </LabelWorkAbout>
+                            </BtnLikeY8X12>
                             <Link href='https://lumijoe.github.io/jobtime/'>
                                 <div className='h-auto w-[340px]'>
                                     <CommonImgTmb

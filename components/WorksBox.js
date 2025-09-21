@@ -3,11 +3,8 @@
 import React from 'react';
 
 import Works09 from './Works09';
-import Works09_a from './Works09_a';
-import Works10 from './Works10';
 import Works11 from './Works11';
 import Works12 from './Works12';
-import Works13 from './Works13';
 import styles from '../styles/Footer.module.css';
 
 export default function WorksBox() {
@@ -22,9 +19,7 @@ export default function WorksBox() {
 
             </div>
             <Works09/>
-            <Works13/>
             <Works12/> 
-            {/* <Works10/>    */}
             <Works11/>
             <div className='mb-[120px]'></div>
         </div>
