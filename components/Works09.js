@@ -60,7 +60,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[30px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'128px' }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             VPSモックアップ制作<br/>XServer+Linux+Cocoon+Duck DNS
                                         </p>
                                         <hr style={{ paddingTop: '1rem' }}></hr>
@@ -107,7 +107,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             業務モックアップ制作<br/>Word Pressカスタムテーマ構築
                                         </p>
                                         <br></br>
@@ -154,7 +154,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             業務モックアップ制作(要PWD①)<br/>Word Pressカスタムテーマ構築
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
@@ -199,7 +199,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             プロト制作<br/>AI+Vite+Reactでバイブコーディング
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
@@ -245,7 +245,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             家族案件<br/>JSのFullCalendarを使用し<br/>削除や追加をフロントで保存
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
@@ -288,7 +288,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             家族案件<br/>Node.jsでサーバーサイドを構築しRender.comでデプロイ
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
@@ -333,7 +333,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             個人制作<br/>Next.jsをVercelでデプロイ
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
@@ -379,7 +379,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
                                             個人制作<br/>HTMLをXFREEでデプロイ
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
@@ -436,7 +436,7 @@ export default function Works09 () {
                                     style={{ maxWidth: 'none', position: 'absolute', zIndex: 20, bottom: '400px', left: '10px' }}
                                     />
                                     <div className='py-5 px-[30px] h-[400px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[36px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}>課題制作(架空案件)<br/>小売業CMS「サスティナブル提案」</p>
+                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>課題制作(架空案件)<br/>小売業CMS「サスティナブル提案」</p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>2022/12-2023/01<br/>Web design / Branding design / Planning / CMS / Deploy</p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
