@@ -45,7 +45,7 @@ export default function Works09 () {
                         {/* コーポレートサイト
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
                                 Cocoonサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
@@ -92,11 +92,11 @@ export default function Works09 () {
                         {/* コーポレートサイト
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
+                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
                                 製造業コーポレートサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="solo" />
-                            </BtnLikeY8X12>
+                            </LabelWorkAbout>
                             <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
                                 <div className='h-auto w-[340px]'>
                                     <CommonImgTmb
@@ -233,10 +233,10 @@ export default function Works09 () {
                         {/* アプリ
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                息子用家バイト勤務管理アプリ
+                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
+                                勤務管理アプリ
                                 <LabelWorkType type="private" />
-                            </BtnLikeY8X12>
+                            </LabelWorkAbout>
                             <Link href='https://lumijoe.github.io/jobtime/'>
                                 <div className='h-auto w-[340px]'>
                                     <CommonImgTmb
@@ -249,7 +249,7 @@ export default function Works09 () {
                                     />
                                     <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
                                         <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            家族案件<br/>JSのFullCalendarを使用し<br/>削除や追加をフロントで保存
+                                            家族案件：息子バイト用<br/>JSのFullCalendarを使用し<br/>削除や追加をフロントで保存
                                         </p>
                                         <hr style={{ paddingTop: '1rem' }}></hr>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>

@@ -5,17 +5,22 @@ import React from 'react';
 export default function LabelWorkAbout ({ children, className }) {
     // カスタムをコンポーネントで強制使用するためのクラス設定
     
-    const LabelWorkAbout = `rounded-full text-black bg-white py-[3px] h-auto border border-black ${className}`
+    const LabelWorkAbout = `text-white py-[3px] h-auto border border-black ${className}`
 
     return (
-        <div className='mb-5 mt-12 flex justify-center'>
+        <div className='mb-5 mt-12 flex justify-center ' style={{
+                    width: '100%'
+                }}>
             <span type="button"
                 className={
                     `flex items-center justify-center ${LabelWorkAbout}`
                 }
                 style={{
                     fontFamily: 'Noto Sans JP',
-                    position: 'relative'
+                    position: 'relative',
+                    bottom: '-3.5rem',
+                    width: '100%',
+                    backgroundColor: '#232323'
                 }}
             >
                 {children}
