@@ -33,7 +33,7 @@ export default function Works14 () {
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE, LP & BANNER'
                 categoryTitleNum='02 : Web Site, LP & Banner'
-                categoryTitleName='チーム分業'
+                categoryTitleName='パスワードが必要です'
                 categoryText='モックアップ以外の公式サイト案件です。担当分野や領域、ワイヤーフレームからサイトまでご紹介しています。'
             >
 

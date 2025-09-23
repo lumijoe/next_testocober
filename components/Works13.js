@@ -33,7 +33,7 @@ export default function Works13 () {
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
                 categoryTitleNum='01 : Web Site & App'
-                categoryTitleName='一貫担当'
+                categoryTitleName='一部パスワードが必要です'
                 categoryText='デザインから実装まで制作開発。Figma, Next.js, Word Pressなど。（2025年7月31日より一部メンテナンス中につき、接続できません）'
             >
 
