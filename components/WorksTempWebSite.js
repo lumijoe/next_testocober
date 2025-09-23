@@ -8,8 +8,8 @@ export default function WorksTempWebSite({ categoryTitleRotate, categoryTitleNum
         <div>
             <div className='mx-3.5 relative'>
                 <h1 className={`rotate-90 ${styles.redlineRow} ml-3.5 italic absolute top-[45px]`}>{categoryTitleRotate}</h1>
-                <h2 className='text-7xl align-middle italic font-semibold ml-[50px]'>{categoryTitleNum}
-                    <span className='text-[18px] align-middle font-medium pl-5'>{categoryTitleName}</span>
+                <h2 className='align-middle italic font-semibold ml-[50px]' style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)' }}>{categoryTitleNum}
+                    <span className='text-[18px] align-middle font-medium pl-5' style={{ textWrap:'nowrap' }}>{categoryTitleName}</span>
                 </h2>
             </div>
             <div className='w-full justify-center'>

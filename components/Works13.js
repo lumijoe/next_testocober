@@ -5,22 +5,26 @@
 import React from 'react';
 import WorksTempWebSite from '../components/WorksTempWebSite';
 import styles from '../styles/Footer.module.css';
-import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
-import CommonImgTmb from '../components/Works/CommonImgTmb';
-import Image from 'next/image';
-import Link from 'next/link';
+import WorksCard from '../components/Works/WorksCard';
+// import BtnLikeSkillBlack from './Button/BtnLikeSkillBlack';
+// import BtnLikeSkillBlackSmall from './Button/BtnLikeSkillBlackSmall';
+// import CommonImgTmb from '../components/Works/CommonImgTmb';
+// import Image from 'next/image';
+// import Link from 'next/link';
 // import BtnLikeTitleWhite from './Button/BtnLikeTitleWhite';
 // import AttentionWorkDesignImg from '../components/Attention/AttentionWorkDesignImg';
 // import AttentionWorkDesignBefore from '../components/Attention/AttentionWorkDesignBefore';
-import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
-import LabelWorkType from '../components/Label/LabelWorkType';
-import LabelWorkAssign from '../components/Label/LabelWorkAssign';
-import LabelWorkAbout from '../components/Label/LabelWorkAbout';
-import Design01 from '../pages/design01';
+// import BtnLikeY8X12 from '../components/Button/BtnLikeY8X12';
+// import LabelWorkType from '../components/Label/LabelWorkType';
+// import LabelWorkAssign from '../components/Label/LabelWorkAssign';
+// import LabelWorkAbout from '../components/Label/LabelWorkAbout';
+// import LabelWorkTerm from '../components/Label/LabelWorkTerm';
+// import Design01 from '../pages/design01';
+// import Document from '../pages/_document';
 
 
 // 01ウェブサイト / アプリ
-export default function Works09 () {
+export default function Works13 () {
     return (
        <div className="relative">    
         {/* bodyの上に装飾 */}
@@ -28,442 +32,250 @@ export default function Works09 () {
         <div className='bg-[#e3e3e3] w-full h-[450px] bottom-[-35px] absolute '></div>
             <WorksTempWebSite
                 categoryTitleRotate='WEB SITE & APP'
-                categoryTitleNum='01 : solo'
-                categoryTitleName='ウェブサイト / アプリ'
+                categoryTitleNum='01 : Web Site & App'
+                categoryTitleName='一貫担当'
                 categoryText='デザインから実装まで制作開発。Figma, Next.js, Word Pressなど。（2025年7月31日より一部メンテナンス中につき、接続できません）'
             >
 
             {/* ここから作品　============================================================================== */}
 
                 <div className='flex flex-col-reverse h-auto justify-center'>
-                    <div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto pl-[calc(50px)] sm:transform sm:translate-x-[50px]'>
+                    <ul className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto pl-[calc(50px)] sm:transform sm:translate-x-[50px]'>
                     {/* ↑<div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto 
                     smMax639:transform smMax639:translate-x-[50px]
                     sm:transform sm:translate-x-[50px]'> */}
+                        {/* コーポレートサイト */}
+                        <WorksCard
+                            title="Cocoonサイト"
+                            assignType="solo"
+                            termLabel="一貫担当"
+                            href="https://lkcodetest.duckdns.org/"
+                            imageSrc="/310264_11.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="VPSモックアップ制作"
+                            cardHeight="250px"
+                            mainTitle={["VPS+Linux+WP-Cocoonを", "DocK DNSでhttpsへ"]}
+                            dateStatus="2025-環境構築中"
+                            roles="CMS / Coding"
+                            skills={[
+                            "Word Press(Cocoon)",
+                            "Nginx",
+                            "VPS, Linux",
+                            "Duck DNS",
+                            "MariaDB"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
+                        {/* コーポレートサイト */}
+                        <WorksCard
+                            title="製造業コーポレートサイト"
+                            assignType="solo"
+                            termLabel="一貫担当"
+                            href="https://lkcodetest.sakura.ne.jp/ind1221/"
+                            imageSrc="/310264_4.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="WPモックアップ制作"
+                            cardHeight="250px"
+                            mainTitle={["Word Pressカスタムテーマ構築"]}
+                            dateStatus="2024-実装途中"
+                            roles="CMS / Dir. / WF / Design / Coding"
+                            skills={[
+                            "Figma",
+                            "Bootstrap, SCSS",
+                            "Word Press(PHP)",
+                            "多言語/OR検索"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
+                        {/* コーポレートサイト */}
+                        <WorksCard
+                            title="不動産コーポレートサイト"
+                            assignType="solo"
+                            termLabel="一貫担当"
+                            href="https://atrail.co.jp/"
+                            imageSrc="/310264_6.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="WPモックアップ制作"
+                            cardHeight="250px"
+                            mainTitle={["Word Pressカスタムテーマ構築", "ロゴ省く"]}
+                            dateStatus="2024"
+                            roles="CMS / Dir. / WF / Design / Coding"
+                            skills={[
+                            "Figma",
+                            "Bootstrap",
+                            "SCSS",
+                            "Word Press(PHP)"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
-                        {/* コーポレートサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] px-[36px]'>
-                                Cocoonサイト
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="solo" />
-                            </LabelWorkAbout>
-                            <Link href='https://lkcodetest.duckdns.org/'>
-                                <div className='h-auto w-[224px]'>
-                                    <CommonImgTmb
-                                    src="/310264_11.png"
-                                    alt="Image"
-                                    width={224}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-[0.8rem] px-[0.8rem] h-[180px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[14px] font-bold tracking-wider leading-[1rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            VPSモックアップ制作<br/>XServer+Linux+Cocoon+Duck DNS
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            <span style={{ color:'#6c6c6c' }}>2025-環境構築中</span><br/>CMS Dev. / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Word Press(Cocoon)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Nginx</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>VPS, Linux</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Duck DNS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>MariaDB</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://lkcodetest.duckdns.org/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        {/* LPサイト */}
+                        <WorksCard
+                            title="サービス選択LPサイト"
+                            assignType="team"
+                            termLabel="一貫担当"
+                            href="https://game-vps.vercel.app/"
+                            imageSrc="/310264_7.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="プロト制作"
+                            cardHeight="250px"
+                            mainTitle={["AI+Vite+Reactで", "バイブコーディング"]}
+                            dateStatus="2025/8/15"
+                            roles="Prompt Dir. / Design / Vibe Coding"
+                            skills={[
+                            "Vercel",
+                            "Tailwindcss",
+                            "Figma",
+                            "Claude Code",
+                            "Vite+React"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
-                        {/* コーポレートサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
-                                製造業コーポレートサイト
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="solo" />
-                            </LabelWorkAbout>
-                            <Link href='https://lkcodetest.sakura.ne.jp/ind1221/'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_4.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            業務モックアップ制作<br/>Word Pressカスタムテーマ構築
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-実装途中<br/>CMS Dev. / Dir. / WF / Design / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        {/* アプリ */}
+                        <WorksCard
+                            title="バイト勤務管理アプリ"
+                            assignType="team"
+                            termLabel="一貫担当"
+                            href="https://lumijoe.github.io/jobtime/"
+                            imageSrc="/310264_1.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="家族案件"
+                            cardHeight="250px"
+                            mainTitle={["JSのFullCalendarを使用し", "削除や追加をフロントで保存"]}
+                            dateStatus="2024"
+                            roles="Dir. / Design / Coding"
+                            skills={[
+                            "FullCalendar",
+                            "Github Pages",
+                            "HTML, CSS, JS, localStorage"
+                            
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
-                        {/* コーポレートサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                不動産コーポレートサイト(要PWD①)
-                                <LabelWorkType type="work" />
-                                <LabelWorkAssign type="solo" />
-                            </BtnLikeY8X12>
-                            <Link href='https://atrail.co.jp/'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_6.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            業務モックアップ制作(要PWD①)<br/>Word Pressカスタムテーマ構築
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024<br/>CMS Dev. / Dir. / WF / Design(ロゴ省く) / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>SCSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            {/* <BtnLikeSkillBlack></BtnLikeSkillBlack> */}
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://atrail.co.jp/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        {/* アプリ */}
+                        <WorksCard
+                            title="ミニ家計簿アプリ"
+                            assignType="team"
+                            termLabel="一貫担当"
+                            href="https://cashnyan-prototypever-3-2.onrender.com"
+                            imageSrc="/310264_10.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="家族案件"
+                            cardHeight="250px"
+                            mainTitle={["Node.jsでサーバーサイドを構築", "Render.comでデプロイ"]}
+                            dateStatus="2023"
+                            roles="Dir. / Design / Coding"
+                            skills={[
+                            "Next.js",
+                            "Express",
+                            "Bootstrap",
+                            "Node.js",
+                            "Render.com"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
-                        {/* ポートフォリオサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                VPS選択サイト
-                                <LabelWorkType type="private" />
-                            </BtnLikeY8X12>
-                            <Link href='https://game-vps.vercel.app/'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_7.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            プロト制作<br/>AI+Vite+Reactでバイブコーディング
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2025/8/15<br/>Prompt Dir. / Design / Vibe Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Tailwindcss</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Claude Code</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Vite+React</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://game-vps.vercel.app/">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        {/* サイト */}
+                        <WorksCard
+                            title="現ポートフォリオサイト"
+                            assignType="team"
+                            termLabel="一貫担当"
+                            href="/"
+                            imageSrc="/310264_3.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="個人制作"
+                            cardHeight="250px"
+                            mainTitle={["Next.jsを", "Vercelでデプロイ"]}
+                            dateStatus="2023/10-更新中"
+                            roles="Dir. / Design / Coding"
+                            skills={[
+                            "Photoshop, XD, Figma",
+                            "Next.js, Vercel",
+                            "GSAP",
+                            "Tailwindcss"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
-                       
-                        {/* アプリ
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <LabelWorkAbout className='text-[18px] py-[0.7rem] px-[36px]'>
-                                勤務管理アプリ
-                                <LabelWorkType type="private" />
-                            </LabelWorkAbout>
-                            <Link href='https://lumijoe.github.io/jobtime/'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_1.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            家族案件：息子バイト用<br/>JSのFullCalendarを使用し<br/>削除や追加をフロントで保存
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024<br/>Dir. / Design / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>FullCalendar</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>HTML/CSS/JavaScript</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>localStorage</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://lumijoe.github.io/jobtime/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        {/* サイト */}
+                        <WorksCard
+                            title="旧ポートフォリオサイト"
+                            assignType="team"
+                            termLabel="一貫担当"
+                            href="https://lumijoe.github.io/xf_test01/"
+                            imageSrc="/310264_8.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="個人モックアップ制作"
+                            cardHeight="250px"
+                            mainTitle={["HTMLを", "GitHub Pagesでデプロイ"]}
+                            dateStatus="2022/12-2023/02"
+                            roles="Dir. / WF / Design / Coding"
+                            skills={[
+                            "XD",
+                            "HTML",
+                            "CSS",
+                            "Github Pages"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
 
-                        {/* アプリ
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                ミニ家計簿アプリ
-                                <LabelWorkType type="private" />
-                            </BtnLikeY8X12>
-                            <Link href='https://cashnyan-prototypever-3-2.onrender.com'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_10.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            家族案件<br/>Node.jsでサーバーサイドを構築しRender.comでデプロイ
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2023<br/>Dir. / Design / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Express</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Bootstrap</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Node.js</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Render.com</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://cashnyan-prototypever-3-2.onrender.com" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                        <WorksCard
+                            title="小売業コーポレートサイト"
+                            assignType="team"
+                            termLabel="一貫担当"
+                            href="http://designguys.wp.xdomain.jp"
+                            imageSrc="/310264.png"
+                            imageWidth={224}
+                            imageHeight={224}
 
-                         {/* ポートフォリオサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                現ポートフォリオサイト
-                                <LabelWorkType type="private" />
-                            </BtnLikeY8X12>
-                            <Link href='/'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_3.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            個人制作<br/>Next.jsをVercelでデプロイ
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2023/10-更新中<br/>Dir. / WF / Design / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>XD, Figma</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Next.js</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Vercel</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>GSAP</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Tailwindcss</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="/">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
+                            // 追加画像を配列で渡す
+                            additionalImages={[
+                            {
+                                src: "/310264_5.png",
+                                width: 224,
+                                height: 264,
+                                style: { maxWidth: 'none', position: 'absolute', zIndex: 30, bottom: '0px' }
+                            },
+                            {
+                                src: "/workWeb02.gif",
+                                width: 202,
+                                height: 264,
+                                style: { maxWidth: 'none', position: 'absolute', zIndex: 20, bottom: '0px', left: '10px' }
+                            }
+                            ]}
 
-                        {/* ポートフォリオサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                旧ポートフォリオサイト
-                                <LabelWorkType type="private" />
-                            </BtnLikeY8X12>
-                            <Link href='https://lumijoe.github.io/xf_test01/'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264_8.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>
-                                            個人モックアップ制作<br/>HTMLをGitHub Pagesでデプロイ<br /><span style={{ fontSize: '10PX', fontWeight: 300, color: '#6c6c6c' }}>2025年XFREEから引越済</span>
-                                        </p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2022/12-2023/02<br/>Dir. / WF / Design / Coding
-                                        </p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>HTML</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>CSS</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>Github Pages</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="https://lumijoe.github.io/xf_test01/" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
-
-                        {/* コーポレートサイト
-                        ============================================================================================ */}
-                        <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
-                            <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>コーポレートサイト</BtnLikeY8X12>
-                            <Link href='http://designguys.wp.xdomain.jp'>
-                                <div className='h-auto w-[340px]'>
-                                    <CommonImgTmb
-                                    src="/310264.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none' }}
-                                    />
-                                    <CommonImgTmb
-                                    src="/310264_5.png"
-                                    alt="Image"
-                                    width={340}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none', position: 'absolute', zIndex: 30, top: '101px' }}
-                                    />
-                                    <CommonImgTmb
-                                    src="/workWeb02.gif"
-                                    alt="Image"
-                                    width={320}
-                                    height={264}
-                                    priority
-                                    style={{ maxWidth: 'none', position: 'absolute', zIndex: 20, bottom: '400px', left: '10px' }}
-                                    />
-                                    <div className='py-5 px-[30px] h-[370px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '0px 0px 4px 4px', overflow: 'hidden', position: 'relative' }} >
-                                        <p className='text-[16px] font-bold tracking-wider leading-[1.8rem]' style={{ fontFamily: "Noto Sans JP", fontWeight: 500, minHeight:'100px' }}>課題制作(架空案件)<br/>小売業CMS「サスティナブル提案」</p>
-                                        <hr style={{ paddingTop: '1rem' }}></hr>
-                                        <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>2022/12-2023/01<br/>CMS Dev. / Dir. / WF / Design / Coding</p>
-                                        <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
-                                            <BtnLikeSkillBlack>Photoshop</BtnLikeSkillBlack>
-                                            <BtnLikeSkillBlack>WordPress</BtnLikeSkillBlack>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Link>
-                            <Link href="http://designguys.wp.xdomain.jp" target="_blank" rel="noopener noreferrer">
-                                    <Image
-                                        src="/torightWhite.svg"
-                                        alt="Icon"
-                                        width={52}
-                                        height={52}
-                                        style={{ position: "absolute", top: "88%", left: "91%" }}
-                                    />
-                            </Link>
-                        </div>
-                    </div>
+                            imageOverlayText="キャッチアップ制作"
+                            cardHeight="250px"
+                            mainTitle={["Word Pressテーマ", "Lightningを構築"]}
+                            dateStatus="2022/12-2023/01"
+                            roles="CMS / Dir. / WF / Design / Coding"
+                            skills={[
+                            "Photoshop",
+                            "Word Press(Lightning)"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
+                    </ul>
                 </div>
             {/* ここまで作品　============================================================================== */}
             </WorksTempWebSite>
