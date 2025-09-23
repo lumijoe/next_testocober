@@ -52,7 +52,7 @@ export default function Works14 () {
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
                             imageSrc="/000_wp.png"
-                            imageWidth={240}
+                            imageWidth={224}
                             imageHeight={224}
                             imageOverlayText="表示バグの修正"
                             cardHeight="250px"
