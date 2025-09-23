@@ -8,7 +8,7 @@ export default function LabelWorkAbout ({ children, className }) {
     const LabelWorkAbout = `rounded-full text-black bg-white py-[3px] h-auto border border-black ${className}`
 
     return (
-        <div className='mb-5 mt-12 flex justify-center'>
+        <div className='mt-12 flex justify-center'>
             <span type="button"
                 className={
                     `flex items-center justify-center ${LabelWorkAbout}`
@@ -16,6 +16,7 @@ export default function LabelWorkAbout ({ children, className }) {
                 style={{
                     fontFamily: 'Noto Sans JP',
                     position: 'relative'
+                    
                 }}
             >
                 {children}

@@ -26,8 +26,8 @@ export default function Works11 () {
 
             <WorksTempWebSite
                 categoryTitleRotate='Design & Graphic, more'
-                categoryTitleNum='03'
-                categoryTitleName='デザイン / グラフィック ほか'
+                categoryTitleNum='03 : Graphic & more'
+                categoryTitleName='グラフィック ほか'
                 categoryText='産官学民領域のプロジェクトで基本構想や事業計画に基づいたディレクションやグラフィック制作をインハウスなどで担当。部署横断やフィールドワークでのコミュニケーションを通じ、デザイン環境を構築していき、デザインの重要性を周知しました。デザイン工程や領域を限定せず幅広く柔軟に対応、解決にフォーカスして課題解決へと導いた事例です。'
                 
             >
@@ -40,7 +40,6 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / パンフレットほか
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -81,7 +80,6 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>グラフィック / ロゴほか
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -124,7 +122,6 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 土地活用事業
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -171,7 +168,6 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>ストラテジー / 産官開発事業
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -217,7 +213,6 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 展示会ブース内装
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -258,7 +253,6 @@ export default function Works11 () {
                         <div className='flex flex-col justify-center relative mb-8 mr-8'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>スペース / 駅中店舗内装リニューアル
                                 <LabelWorkType type="work" />
-                                <LabelWorkAssign type="solo" />
                             </BtnLikeY8X12>
 
                             <div className='h-auto w-[290px] bg-white' style={{ boxShadow: '0px 3px 6px rgba(0, 0, 0, 0.1)', borderRadius: '4px', overflow: 'hidden', position: 'relative' }}>
@@ -295,16 +289,11 @@ export default function Works11 () {
                                         height={52}
                                         style={{ position: "absolute", top: "85%", left: "88%" }}
                                     />
-                            </Link> 
+                            </Link>
                         </div>
-                        
-                        
                     </div>
                 </div>
-                
             </WorksTempWebSite>
-            
        </div>
-   
-    ) 
+    )
 }
