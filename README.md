@@ -9,7 +9,7 @@ http://localhost:3000
 課題整理とプロジェクト進行表はissuesとProjects参考
 
 
-## update記録
+## Node.js update記録
 開始日時：
  - 20250814:11:11
 経緯：
@@ -119,9 +119,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - HeroTitleSkills2.js to HeroSkillsTitle.js （1205:Hero.js で集約）
 
 ## WORKセクション採用ファイル(WorksBox.js)
-- WebSite: Works09.js
-- Banner:  Works10.js
-- Graphic: Works11.js
+- コンテンツの大きさをSPでも見やすいよう小さく調整（テキスト文字数、レイアウトなど）
+- WebSite: Works09.js → Works13.js
+- Banner:  Works10.js → Works14.js
+- Graphic: Works11.js → Works11.js
 - テスト中UI: Works09_b.js
 
 ## Getting Started

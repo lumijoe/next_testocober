@@ -57,7 +57,7 @@ export default function Works14 () {
                             imageOverlayText="表示バグの修正"
                             cardHeight="250px"
                             mainTitle={["顧客運用サイトの", "デバッグ"]}
-                            dateStatus="202"
+                            dateStatus="2025"
                             roles="Coding"
                             skills={[
                             "Word Press(PHP)"
