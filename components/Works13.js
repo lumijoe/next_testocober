@@ -44,7 +44,6 @@ export default function Works13 () {
                     {/* ↑<div className='flex flex-row w-[100vw] pr-[calc(50%)] overflow-x-scroll overflow-auto 
                     smMax639:transform smMax639:translate-x-[50px]
                     sm:transform sm:translate-x-[50px]'> */}
-
                         {/* コーポレートサイト */}
                         <WorksCard
                             title="Cocoonサイト"

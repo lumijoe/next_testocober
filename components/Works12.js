@@ -106,7 +106,7 @@ export default function Works12 () {
                                             業務制作<br />
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-2025<br/>要件定義 / Branding design / Planning / Wireframe / Coding Support / Deploy
+                                            2024-2025<br/>Dir. / WF / Design & Coding Support
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -152,7 +152,7 @@ export default function Works12 () {
                                             業務制作<br/>CMS移動
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2025<br/>Coding / Deploy
+                                            2025<br/>Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Word Press(PHP)</BtnLikeSkillBlack>
@@ -175,7 +175,7 @@ export default function Works12 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                コーポレートサイトリニューアル
+                                商社コーポレートサイトリニューアル
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
@@ -194,7 +194,7 @@ export default function Works12 () {
                                             業務制作<br/>
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024-2025<br/>要件定義 / Branding design / Planning / Wireframe / Coding Support / Deploy
+                                            2024-2025<br/>Dir. / WF / Design & Coding Support
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -239,7 +239,7 @@ export default function Works12 () {
                                             業務制作<br/>CMSを新たに構築し丸ごと引越し
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2025<br/>要件定義 / Branding design / Planning / Wireframe / Design / Coding / Deploy
+                                            2025<br/>CMS Dev. / Dir. / WF / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -265,7 +265,7 @@ export default function Works12 () {
                         ============================================================================================ */}
                         <div className='flex flex-col justify-center relative mb-8 mr-8 bg-opacity-100'>
                             <BtnLikeY8X12 className='text-[12px] py-[7px] px-[36px] max-w-max'>
-                                LPサイト
+                                教育機関LPサイト
                                 <LabelWorkType type="work" />
                                 <LabelWorkAssign type="team" />
                             </BtnLikeY8X12>
@@ -284,7 +284,7 @@ export default function Works12 () {
                                             業務制作<br/>期間限定イベントのLP
                                         </p>                                    
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2024<br/>Coding / Deploy
+                                            2024<br/>Design Support / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>XD</BtnLikeSkillBlack>
@@ -327,7 +327,7 @@ export default function Works12 () {
                                             業務制作<br/>デザインから実装まで担当、7例挙げています
                                         </p>
                                         <p className='text-[14px] text-[#6c6c6c] leading-[24px] pb-5' style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }}>
-                                            2021-2025<br/>要件定義 / Design / Coding
+                                            2021-2025<br/>Dir. / Design / Coding
                                         </p>
                                         <div className='flex flex-wrap-reverse mt-[12px] mb-[5px] gap-[12px]'>
                                             <BtnLikeSkillBlack>Figma</BtnLikeSkillBlack>
@@ -346,8 +346,6 @@ export default function Works12 () {
                                     />
                             </Link> 
                         </div>
-
-                        
                     </div>
                 </div>
             {/* ここまで作品　============================================================================== */}

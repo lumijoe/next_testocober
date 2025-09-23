@@ -21,8 +21,7 @@ export default function WorksBox() {
             <Works13/>
             <Works14/> 
             <Works11/>
-            
-            <div className='mb-[120px]'></div>      
+            <div className='mb-[120px]'></div>
         </div>
     ) 
 }
