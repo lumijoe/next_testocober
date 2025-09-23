@@ -15,7 +15,10 @@ export default function LabelWorkAbout ({ children, className }) {
                 }
                 style={{
                     fontFamily: 'Noto Sans JP',
-                    position: 'relative'
+                    position: 'relative',
+                    color: '#000',
+                    borderRadius: '90px',
+                    backgroundColor: 'white'
                 }}
             >
                 {children}
