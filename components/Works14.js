@@ -230,6 +230,29 @@ export default function Works14 () {
                             useSmallSkills={true}
                             marginRight="mr-4"
                         />
+
+                        {/* ワイヤーフレーム */}
+                        <WorksCard
+                            title="ワイヤーフレーム"
+                            workNum="J-09"
+                            assignType="solo"
+                            termLabel="一貫担当"
+                            href="https://worklist-for-pf.vercel.app/"
+                            imageSrc="/000_wf.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="ワイヤーフレーム"
+                            cardHeight="250px"
+                            mainTitle={["ヒアリングや要件定義を", "ワイヤーへ落とし込む"]}
+                            dateStatus="2021-2025"
+                            roles="Dir. / WF"
+                            skills={[
+                            "Photoshop",
+                            "Figma"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
                     </ul>
                 </div>
             {/* ここまで作品　============================================================================== */}
