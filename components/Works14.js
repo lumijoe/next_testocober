@@ -191,7 +191,7 @@ export default function Works14 () {
                             imageOverlayText="XDからコーディング"
                             cardHeight="250px"
                             mainTitle={["動きを多用した", "LP実装"]}
-                            dateStatus="2024"
+                            dateStatus="2025"
                             roles="Coding"
                             skills={[
                             "XD",
