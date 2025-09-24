@@ -179,6 +179,28 @@ export default function Works14 () {
                             marginRight="mr-4"
                         />
 
+                        {/* LPサイト */}
+                        <WorksCard
+                            title="企業サービスLP"
+                            assignType="solo"
+                            termLabel="チーム分業"
+                            href="https://worklist-for-pf.vercel.app/"
+                            imageSrc="/000_lp.png"
+                            imageWidth={224}
+                            imageHeight={224}
+                            imageOverlayText="XDからコーディング"
+                            cardHeight="250px"
+                            mainTitle={["動きを多用した", "LP実装"]}
+                            dateStatus="2024"
+                            roles="Coding"
+                            skills={[
+                            "XD",
+                            "Bootstrap"
+                            ]}
+                            useSmallSkills={true}
+                            marginRight="mr-4"
+                        />
+
                         {/* バナー */}
                         <WorksCard
                             title="バナー"
