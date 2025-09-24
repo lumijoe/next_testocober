@@ -42,7 +42,7 @@ import React from 'react';
         </LabelWorkAbout>
 
         {/* カード本体 */}
-        <Link href={href}>
+        <Link href={href} target="_blank" rel="noopener noreferrer">
           <div className={`h-auto w-[${imageWidth}px] relative`}>
             {assignType && <LabelWorkAssign type={assignType} />}
             {termLabel && <LabelWorkTerm>{termLabel}</LabelWorkTerm>}
