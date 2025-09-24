@@ -1,6 +1,6 @@
 // components/Works/WorksCard.js
 
-import React from 'react';
+import React, { Children } from 'react';
   import Link from 'next/link';
   import CommonImgTmb from './CommonImgTmb';
   import BtnLikeSkillBlack from '../Button/BtnLikeSkillBlack';
@@ -9,11 +9,13 @@ import React from 'react';
   import LabelWorkAssign from '../Label/LabelWorkAssign';
   import LabelWorkAbout from '../Label/LabelWorkAbout';
   import LabelWorkTerm from '../Label/LabelWorkTerm';
+  import LabelWorkNum from '../Label/LabelWorkNum';
 
   export default function WorksCard({
     // プロップス定義（既存のまま）
     title,
     workType,
+    workNum,
     assignType,
     termLabel,
     href,
@@ -38,7 +40,7 @@ import React from 'react';
         {/* ヘッダーラベル */}
         <LabelWorkAbout className='text-[12px] py-[7px] px-[36px]'>
           {title}
-          {workType && <LabelWorkType type={workType} />}
+          {workNum && <LabelWorkNum>{workNum}</LabelWorkNum>}
         </LabelWorkAbout>
 
         {/* カード本体 */}

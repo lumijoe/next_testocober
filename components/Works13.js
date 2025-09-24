@@ -47,6 +47,7 @@ export default function Works13 () {
                         {/* コーポレートサイト */}
                         <WorksCard
                             title="Cocoonサイト"
+                            workNum="J-01"
                             assignType="solo"
                             termLabel="一貫担当"
                             href="https://lkcodetest.duckdns.org/"
@@ -71,6 +72,7 @@ export default function Works13 () {
                         {/* コーポレートサイト */}
                         <WorksCard
                             title="製造業コーポレートサイト"
+                            workNum="J-02"
                             assignType="solo"
                             termLabel="一貫担当"
                             href="https://lkcodetest.sakura.ne.jp/ind1221/"
@@ -95,6 +97,7 @@ export default function Works13 () {
                         {/* コーポレートサイト */}
                         <WorksCard
                             title="不動産コーポレートサイト"
+                            workNum="J-03"
                             assignType="solo"
                             termLabel="一貫担当"
                             href="https://atrail.co.jp/"
@@ -119,6 +122,7 @@ export default function Works13 () {
                         {/* LPサイト */}
                         <WorksCard
                             title="サービス選択LPサイト"
+                            workNum="P-01"
                             assignType="team"
                             termLabel="一貫担当"
                             href="https://game-vps.vercel.app/"
@@ -144,6 +148,7 @@ export default function Works13 () {
                         {/* アプリ */}
                         <WorksCard
                             title="バイト勤務管理アプリ"
+                            workNum="P-02"
                             assignType="team"
                             termLabel="一貫担当"
                             href="https://lumijoe.github.io/jobtime/"
@@ -168,6 +173,7 @@ export default function Works13 () {
                         {/* アプリ */}
                         <WorksCard
                             title="ミニ家計簿アプリ"
+                            workNum="P-03"
                             assignType="team"
                             termLabel="一貫担当"
                             href="https://cashnyan-prototypever-3-2.onrender.com"
@@ -193,6 +199,7 @@ export default function Works13 () {
                         {/* サイト */}
                         <WorksCard
                             title="現ポートフォリオサイト"
+                            workNum="P-04"
                             assignType="team"
                             termLabel="一貫担当"
                             href="/"
@@ -217,6 +224,7 @@ export default function Works13 () {
                         {/* サイト */}
                         <WorksCard
                             title="旧ポートフォリオサイト"
+                            workNum="P-05"
                             assignType="team"
                             termLabel="一貫担当"
                             href="https://lumijoe.github.io/xf_test01/"
@@ -240,6 +248,7 @@ export default function Works13 () {
 
                         <WorksCard
                             title="小売業コーポレートサイト"
+                            workNum="P-06"
                             assignType="team"
                             termLabel="一貫担当"
                             href="http://designguys.wp.xdomain.jp"

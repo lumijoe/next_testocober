@@ -48,6 +48,7 @@ export default function Works14 () {
                         {/* サイトデバッグ */}
                         <WorksCard
                             title="稼働サイトデバッグ"
+                            workNum="J-01"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -68,6 +69,7 @@ export default function Works14 () {
                         {/* コーポレートサイトリニューアル */}
                         <WorksCard
                             title="製造業リニューアルサイト"
+                            workNum="J-02"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -92,6 +94,7 @@ export default function Works14 () {
                         {/* ページ追加と記事統合 */}
                         <WorksCard
                             title="ページ追加と記事統合"
+                            workNum="J-03"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -113,6 +116,7 @@ export default function Works14 () {
                         {/* サイトリニューアル */}
                         <WorksCard
                             title="商社リニューアルサイト"
+                            workNum="J-04"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -137,6 +141,7 @@ export default function Works14 () {
                         {/* サイトリニューアル */}
                         <WorksCard
                             title="OBOGリニューアルサイト"
+                            workNum="J-05"
                             assignType="solo"
                             termLabel="一貫担当"
                             href="https://worklist-for-pf.vercel.app/"
@@ -160,6 +165,7 @@ export default function Works14 () {
                         {/* LPサイト */}
                         <WorksCard
                             title="期間限定イベントLP"
+                            workNum="J-06"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -182,6 +188,7 @@ export default function Works14 () {
                         {/* LPサイト */}
                         <WorksCard
                             title="企業サービスLP"
+                            workNum="J-07"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -204,6 +211,7 @@ export default function Works14 () {
                         {/* バナー */}
                         <WorksCard
                             title="バナー"
+                            workNum="J-08"
                             assignType="solo"
                             termLabel="一貫担当"
                             href="https://worklist-for-pf.vercel.app/"
