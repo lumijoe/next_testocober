@@ -6,7 +6,11 @@ export default function JobText() {
             <div className="pb-10">
                 <h1 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }}className='text-[16px] tracking-wider leading-[24px] w-[70%] m-auto pb-[16px]'>2023年から2025年現在</h1>
                 <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[70%] m-auto  '>
-                広告会社では受注制作業務に従事、中小企業様のサイトリニューアルの要件定義〜ワイヤーフレーム制作〜デザインディレクション〜実装などまで担当、修正やIR更新なども従事。開発会社ではGithub, Next.js, Dockerも更に深まり、Chat GPTからCLAUDE CODEに乗り換え、本格的にVibe Codingも始める。<br/><span className="text-indigo-500 text-[12px] text-thin">#Vibe Coding&nbsp;&nbsp;#Next.js再開&nbsp;&nbsp;#デザインとコードの両軸</span>
+                広告会社では主に中小企業様のWordPressの開発制作業務に従事。<br /><br />
+                開発会社ではGithub, Next.js, Dockerも更に深め、Chat GPTからCLAUDE CODEに乗り換え、本格的にVibe Codingも始める。<br/><br/>
+                要件定義〜ワイヤーフレーム制作〜デザインディレクション〜デザインや実装など一貫担当や細かい修正、時間指定IR更新なども従事。<br/>社内Web事業の縮小によりWebに従事したく転職活動中。<br/>
+                
+                <span className="text-indigo-500 text-[12px] text-thin">#Vibe Coding&nbsp;&nbsp;#Next.js再開&nbsp;&nbsp;#デザインとコードの両軸</span>
                 </p>
             </div>
             <div className="pb-10">
