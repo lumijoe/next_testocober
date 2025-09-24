@@ -34,7 +34,7 @@ export default function Works14 () {
                 categoryTitleRotate='WEB SITE, LP & BANNER'
                 categoryTitleNum='02 : Web Site, LP & Banner'
                 categoryTitleName='パスワードが必要です'
-                categoryText='モックアップ以外の公式サイト案件です。担当分野や領域、ワイヤーフレームからサイトまでご紹介しています。'
+                categoryText='公式サイト案件です。担当分野や領域、ワイヤーフレームからサイトまでご紹介しています。'
             >
 
             {/* ここから作品　============================================================================== */}
