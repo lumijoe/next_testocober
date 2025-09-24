@@ -67,7 +67,7 @@ export default function Works14 () {
                         />
                         {/* コーポレートサイトリニューアル */}
                         <WorksCard
-                            title="製造業サイトリニューアル"
+                            title="製造業リニューアルサイト"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -112,7 +112,7 @@ export default function Works14 () {
 
                         {/* サイトリニューアル */}
                         <WorksCard
-                            title="商社サイトリニューアル"
+                            title="商社リニューアルサイト"
                             assignType="solo"
                             termLabel="チーム分業"
                             href="https://worklist-for-pf.vercel.app/"
@@ -136,7 +136,7 @@ export default function Works14 () {
 
                         {/* サイトリニューアル */}
                         <WorksCard
-                            title="OBOGサイトリニューアル"
+                            title="OBOGリニューアルサイト"
                             assignType="solo"
                             termLabel="一貫担当"
                             href="https://worklist-for-pf.vercel.app/"
