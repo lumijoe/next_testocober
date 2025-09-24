@@ -46,7 +46,7 @@ export default function Header2() {
             `}</style>
 
             {/* Navpanelコンポーネント */}
-            <div id="navpanel" className={`navpanel ${isNavpanelOpen ? 'open' : ''}`}>
+            <div id="navpanel" className={`navpanel z-[100] ${isNavpanelOpen ? 'open' : ''}`}>
                 <Navpanel closeNavpanel={closeNavpanel} />
             </div>
         </div>

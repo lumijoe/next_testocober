@@ -29,7 +29,7 @@ export default function LabelWorkAssign ({ type, children, className }) {
             justifyContent: 'center',
             alignItems: 'center',
             borderRadius: '3px',
-            zIndex:'800'
+            zIndex:'1'
          }}
         >
         {children || labels[type]}

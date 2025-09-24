@@ -21,7 +21,7 @@ export default function LabelWorkTerm ({ children, className }) {
             justifyContent: 'center',
             alignItems: 'center',
             borderRadius: '3px',
-            zIndex:'800',
+            zIndex:'1',
             fontFamily:'Noto Sans JP',
             paddingLeft:'7px',
             paddingRight:'7px'

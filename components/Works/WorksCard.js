@@ -76,7 +76,7 @@ import React from 'react';
                   width:'100%', 
                   height:'60px', 
                   background: 'linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9))',
-                  zIndex:'1000'
+                  zIndex:'1'
                 }}>
                   <p className='text-white' style={{ 
                     fontSize:'14px', 
