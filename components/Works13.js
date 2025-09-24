@@ -253,13 +253,13 @@ export default function Works13 () {
                                 src: "/310264_5.png",
                                 width: 224,
                                 height: 264,
-                                style: { maxWidth: 'none', position: 'absolute', zIndex: 30, bottom: '0px' }
+                                style: { maxWidth: 'none', position: 'absolute', zIndex: 1, bottom: '0px' }
                             },
                             {
                                 src: "/workWeb02.gif",
                                 width: 202,
                                 height: 264,
-                                style: { maxWidth: 'none', position: 'absolute', zIndex: 20, bottom: '0px', left: '10px' }
+                                style: { maxWidth: 'none', position: 'absolute', zIndex: 0, bottom: '0px', left: '10px' }
                             }
                             ]}
 
