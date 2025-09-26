@@ -43,7 +43,7 @@ export default function HeroTitleSkills() {
         <div className='text-white text-2xl italic font-thin lg:text-5xl lg:tracking-wider'>
             <ul className='text-center' ref={textRef}>
                 <li>GSAP</li>
-                <li>Tailwindcss</li>
+                <li>Bootstrap</li>
                 <li>HTML, CSS</li>
                 <li>Sass</li>
                 <li>WordPress</li>
