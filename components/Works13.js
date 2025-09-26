@@ -56,7 +56,7 @@ export default function Works13 () {
                             imageHeight={224}
                             imageOverlayText="VPSモックアップ制作"
                             cardHeight="250px"
-                            mainTitle={["VPS+Linux+WP-Cocoonを", "DocK DNSでhttpsへ"]}
+                            mainTitle={["VPS+Linux+WP-Cocoonを", "DucK DNSでhttpsへ"]}
                             dateStatus="2025-環境構築中"
                             roles="CMS / Coding"
                             skills={[
