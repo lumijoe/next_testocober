@@ -58,7 +58,7 @@ export default function Works01j02() {
                     </div>
                     
                     {/* 説明：01：テーマとプラグイン */}
-                    <div className="mt-20 pb-10 max-w-[810px] m-auto mb-20">s
+                    <div className="mt-20 pb-10 max-w-[810px] m-auto mb-20">
                         <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>プラグインACFで3種類の投稿タイプを開発、登録を効率化</h2>
                         <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
                         検索機能に対応するべくカテゴリ分けも開発、ブロックテーマでは実現できない細かいUIも実現するべくPHPでカスタムテーマとして構築。製品や投稿のUI統一性など入力作業効率的な解決だけでなく視覚的なクオリティや情報の認知性を高めました。
