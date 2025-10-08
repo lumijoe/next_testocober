@@ -101,9 +101,10 @@ export default function Works01j02() {
                             <Image
                                 src="/ex_02_allnews.png"
                                 alt="フロント、一般ニュースとIRニュースが分かれて表示されている"
-                                width={810}style={{ width: 'auto', height: 'auto' }}
+                                width={810}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
                             />
                         </div>
                     </div>
@@ -118,17 +119,19 @@ export default function Works01j02() {
                             <Image
                                 src="/ex_03_newssetting.png"
                                 alt="管理画面、お知らせ投稿フォーム構築とカテゴリ構築"
-                                width={810}style={{ width: 'auto', height: 'auto' }}
+                                width={810}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
                             />
                             <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
                             <Image
                                 src="/ex_04_newspost.png"
                                 alt="管理画面、お知らせ投稿フォームと一覧"
-                                width={810}style={{ width: 'auto', height: 'auto' }}
+                                width={810}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
                             />
                             <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>
                             特定ページの指定場所にUIとして表示させるべく実装しています。
@@ -141,9 +144,10 @@ export default function Works01j02() {
                             <Image
                                 src="/ex_05_newsui.png"
                                 alt="フロント、お知らせ表示"
-                                width={810}style={{ width: 'auto', height: 'auto' }}
+                                width={810}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
                             />
                         </div>
                     </div>
