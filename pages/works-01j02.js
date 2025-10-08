@@ -50,7 +50,7 @@ export default function Works01j02() {
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>WPモックアップ制作</p>
                         <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>Word Pressカスタムテーマ構築</p>
                         <hr className="mt-4 mb-4"></hr>
-                        <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>CMS / Dir. / WF / Design / Coding</p>
+                        <p className="text-[#6c6c6c] text-[12px] tracking-wider pb-2 pt-2" style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }}>CMS / Dir. / WF / Design / Coding</p>
                         <hr className='mt-4 mb-4'></hr>
                         <ul className="flex flex-wrap gap-3 text-[20px] pb-2">
                             <li><BtnLikeSkillBlack>多言語/OR検索</BtnLikeSkillBlack></li>
@@ -64,7 +64,7 @@ export default function Works01j02() {
                         <p style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] w-[70%] m-auto'>
                         製品登録作業や、カテゴリ分け、検索表示にも今後便利となるため、プラグインを使用しサイトのUI統一化で視覚的なクオリティやユーザーの認知性を高めたり、製品登録の簡略化を図りました。</p>
                         <div >
-                            <Link href="https://lkcodetest.sakura.ne.jp/ind1221/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]'><Btn className="bg-indigo-600 w-[70%] max-w-[500px] mx-auto"><b>サイトを見る</b></Btn></Link>
+                            <Link href="/#works" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]'><Btn className="bg-indigo-600 w-[70%] max-w-[500px] mx-auto"><b>WORKS一覧へ戻る</b></Btn></Link>
                         </div>
                     </div>
 
