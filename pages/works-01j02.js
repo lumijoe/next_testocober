@@ -135,7 +135,7 @@ export default function Works01j02() {
                             <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
                             <Image
                                 src="/ex_04_newspost.png"
-                                alt="管理画面、お知らせ投稿フォームと一覧"
+                                alt="管理画面、お知らせ投稿フォームと投稿一覧"
                                 width={810}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
@@ -159,6 +159,50 @@ export default function Works01j02() {
                             />
                         </div>
                     </div>
+                    
+                    {/* 説明：04：IRニュース */}
+                    <div className="pb-10 max-w-[810px] m-auto mb-20">
+                        <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>ACFやCPT UIの設定とフロントUI：IRニュースの場合</h2>
+                        <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
+                        投稿用フィールドフォームをカスタマイズし、ダッシュボード左に配置させて入力できるように構築しました。
+                        </div>
+                        <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
+                            <Image
+                                src="/ex_06_irnewssetting.png"
+                                alt="管理画面、IRお知らせ投稿フォーム構築とカテゴリ構築"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
+                            <Image
+                                src="/ex_07_irnewspost.png"
+                                alt="管理画面、IRお知らせ投稿フォームと投稿一覧"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>
+                            特定ページの指定場所にUIとして表示させるべく実装しています。トップページのIRニュースセクション内の一覧を見るボタンのクリックでニュース一覧ページへ遷移時は、ページとしては全てのカテゴリが表示されるページではありますが、IRカテゴリをフィルタリングした時と同じ状態のUIが表示されるよう制御し、IRニュースの一覧だけが表示されるように構築しています。
+                            <ul>
+                                <li>・（左）トップページ：IRニュースセクション（サムネイル、日付、タイトル、カテゴリのみ）</li>
+                                <li>・（中）ニュース一覧ページ：ニュースセクションとIRフィルタリングエリア（サムネイル、日付、タイトル、カテゴリのみ）</li>
+                                <li>・（右）個別詳細ページ：専用セクション（全ての要素）</li>
+                            </ul>
+                            </div>
+                            <Image
+                                src="/ex_08_irnewsui.png"
+                                alt="フロント、IRお知らせ表示"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div >
