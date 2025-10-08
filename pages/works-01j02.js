@@ -9,7 +9,6 @@ import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 import work01j02 from '../public/310264_4.png';
 import BtnLikeSkillBlack from '../components/Button/BtnLikeSkillBlack';
-import JobText from '../components/About/JobText';
 import LabelWorkAbout from '../components/Label/LabelWorkAbout';
 
 export default function Works01j02() {
@@ -33,7 +32,7 @@ export default function Works01j02() {
             
             {/* テキストとスキル */}
             <div className='px-3.5'>
-                <div class="relative  w-full h-[auto] justify-center mb-20  " id='skills'>
+                <div className="relative  w-full h-[auto] justify-center mb-20  " id='skills'>
                     <h1 className={`text-[40px] md:text-[60px] italic font-Bold text-center w-full mt-2`}>01-J-02</h1>
                     <LabelWorkAbout className='text-[12px] px-[36px]' noMarginTop>
                         製造業コーポレートサイト
@@ -62,10 +61,10 @@ export default function Works01j02() {
                         <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>プラグインACFで3種類の投稿タイプを開発、登録を効率化</h2>
                         <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
                         検索機能に対応するべくカテゴリ分けも開発、ブロックテーマでは実現できない細かいUIも実現するべくPHPでカスタムテーマとして構築。製品や投稿のUI統一性など入力作業効率的な解決だけでなく視覚的なクオリティや情報の認知性を高めました。
-                            <ul class="">
-                                <li class="">・一般ニュース投稿用</li>
-                                <li class="">・IRニュース投稿用</li>
-                                <li class="">・製品情報登録用</li>
+                            <ul>
+                                <li>・一般ニュース投稿用</li>
+                                <li>・IRニュース投稿用</li>
+                                <li>・製品情報登録用</li>
                             </ul>
                         </div>
                         <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
@@ -105,7 +104,6 @@ export default function Works01j02() {
                                 width={810}style={{ width: 'auto', height: 'auto' }}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
-                                style={{ height: 'auto' }}
                             />
                         </div>
                     </div>
@@ -123,7 +121,6 @@ export default function Works01j02() {
                                 width={810}style={{ width: 'auto', height: 'auto' }}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
-                                style={{ height: 'auto' }}
                             />
                             <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
                             <Image
@@ -132,7 +129,6 @@ export default function Works01j02() {
                                 width={810}style={{ width: 'auto', height: 'auto' }}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
-                                style={{ height: 'auto' }}
                             />
                             <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>
                             特定ページの指定場所にUIとして表示させるべく実装しています。
@@ -148,13 +144,11 @@ export default function Works01j02() {
                                 width={810}style={{ width: 'auto', height: 'auto' }}
                                 height={500}
                                 className="m-auto mt-6 w-full max-w-[810px]"
-                                style={{ height: 'auto' }}
                             />
                         </div>
                     </div>
                 </div>
             </div>
-             {/* <JobText /> */}
             <div >
                 <Link href="/#works" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]'>
                     <Btn className="bg-indigo-600 w-[70%] max-w-[500px] mx-auto">
