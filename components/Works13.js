@@ -21,6 +21,7 @@ import WorksCard from '../components/Works/WorksCard';
 // import LabelWorkTerm from '../components/Label/LabelWorkTerm';
 // import Design01 from '../pages/design01';
 // import Document from '../pages/_document';
+import Link from 'next/link';
 
 
 // 01ウェブサイト / アプリ
@@ -71,11 +72,13 @@ export default function Works13 () {
                         />
                         {/* コーポレートサイト */}
                         <WorksCard
+
                             title="製造業コーポレートサイト"
                             workNum="J-02"
                             assignType="solo"
                             termLabel="一貫担当"
-                            href="https://lkcodetest.sakura.ne.jp/ind1221/"
+                            // href="https://lkcodetest.sakura.ne.jp/ind1221/"
+                            href="/works-01j02"
                             imageSrc="/310264_4.png"
                             imageWidth={224}
                             imageHeight={224}

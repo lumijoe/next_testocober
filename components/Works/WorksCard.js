@@ -34,6 +34,7 @@ import React, { Children } from 'react';
   }) {
 
     const SkillButton = useSmallSkills ? BtnLikeSkillBlackSmall : BtnLikeSkillBlack;
+    const isExternalLink = href && (href.startsWith('http://') || href.startsWith('https://'));
 
     return (
       <li className={`flex flex-col justify-center relative mb-6 ${marginRight} bg-opacity-100`}>
@@ -44,7 +45,7 @@ import React, { Children } from 'react';
         </LabelWorkAbout>
 
         {/* カード本体 */}
-        <Link href={href} target="_blank" rel="noopener noreferrer">
+        <Link href={href} {...(isExternalLink ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
           <div className={`h-auto w-[${imageWidth}px] relative`}>
             {assignType && <LabelWorkAssign type={assignType} />}
             {termLabel && <LabelWorkTerm>{termLabel}</LabelWorkTerm>}
