@@ -177,7 +177,7 @@ export default function Works01j02() {
                             />
                             <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
                             <Image
-                                src="/ex_07_irnewspost.png"
+                                src="/ex_0_irnewspost.png"
                                 alt="管理画面、IRお知らせ投稿フォームと投稿一覧"
                                 width={810}
                                 height={500}
