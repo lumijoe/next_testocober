@@ -209,8 +209,6 @@ export default function Works01j02() {
                         <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
                         投稿用フィールドフォームをカスタマイズし、ダッシュボード左に配置させて入力できるように構築しました。カテゴリは事業分類（大、中分類）、特徴分類に分けて構築。
                         事業分類ページの中でOR検索を可能にし、必要な製品へのアクセス性を高めました。特徴分類の文字列の決め手は、特に企業が強みやブランディングとしてアピールしたい分野分類、クライアントや産業界が社会課題としている分野分類等に絞り込み、多くても6つまでと数を増やしすぎないことを徹底しました。
-                        <br />
-                        一覧ページではカテゴリ分けで対応。カテゴリはシンプルに4種類だけにし、投稿時のカテゴリ選別や検索アプローチの負荷を軽減しました。
                         <h3 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }} className='text-[14px] text-black'>事業分類に含まれるカテゴリ</h3>
                             <ul>
                                 <li>・大分類3種類（A:検査装置設備、B:工具周辺機器、C:工業炉）</li>
