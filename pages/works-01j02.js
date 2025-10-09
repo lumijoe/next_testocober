@@ -69,6 +69,14 @@ export default function Works01j02() {
                         </div>
                         <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
                             <Image
+                                src="/ex_14_phptheme.png"
+                                alt="管理画面、ディレクトリとプラグイン"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <Image
                                 src="/ex_01_thandpl.png"
                                 alt="管理画面、ディレクトリとプラグイン"
                                 width={810}
