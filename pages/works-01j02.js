@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import Btn from '../components/Button/Btn';
 import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
-import work01j02 from '../public/310264_4.png';
+import work01j02 from '../public/310264_13.webp';
 import BtnLikeSkillBlack from '../components/Button/BtnLikeSkillBlack';
 import LabelWorkAbout from '../components/Label/LabelWorkAbout';
 
@@ -24,7 +24,7 @@ export default function Works01j02() {
                         src={work01j02}
                         alt="Work img"
                         fill={true}
-                        style={{ objectFit: "cover", backgroundAttachment: 'fixed' }}
+                        style={{ objectFit: "cover", backgroundAttachment: 'fixed', paddingTop:'56px' }}
                         priority
                     />  
                 </div>
@@ -256,7 +256,7 @@ export default function Works01j02() {
                                 className="m-auto mt-6 w-full max-w-[810px]"
                                 style={{ height: 'auto' }}
                             />
-                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#d94040] text-[12px] tracking-wider leading-[24px] pt-4'>
                             絞り込み検索ではOR検索を採用しています。レスポンシブ、製品トップ、個別詳細ページなどのUIは、現在実装更新中です。そのほか一部製品ページでは機能していない箇所もあります、ご了承ください。
                             
                             <ul>
