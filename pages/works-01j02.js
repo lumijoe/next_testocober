@@ -12,6 +12,7 @@ import BtnLikeSkillBlack from '../components/Button/BtnLikeSkillBlack';
 import LabelWorkAbout from '../components/Label/LabelWorkAbout';
 
 export default function Works01j02() {
+    const urlLinkedin = "https://www.linkedin.com/in/kojo-lumi";
 
     return (
         <div>
@@ -93,11 +94,198 @@ export default function Works01j02() {
                             />
                         </div>
                     </div>
-                    <p>以降のコンテンツは現在閲覧いただけなくなっております、申し訳ありません。現在動的UIへ表示移行中のため、しばらくお待ちください</p>
                     
-                   
+                    {/* 説明：02：ニュースの出し分け */}
+                    <div className="pb-10 max-w-[810px] m-auto mb-20">
+                        <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>ACF：一般ニュースとIRニュースを表示分けし、カテゴリフィルタを構築</h2>
+                        <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
+                        中小企業様にとって埋もれさせたくないIRニュースと、活発でブランディング戦略もアピールが可能な一般のニュース、どちらも最新をトップに表示させるべく、左右に出し分けて表示。
+                        <br />
+                        一覧ページではカテゴリ分けで対応。カテゴリはシンプルに4種類だけにし、投稿時のカテゴリ選別や検索アプローチの負荷を軽減しました。
+                        <h3 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }} className='text-[14px] text-black'>一般ニュースに含まれるカテゴリ</h3>
+                            <ul>
+                                <li>・お知らせ（一般的なニュース、カテゴリが不明瞭なニュース）</li>
+                                <li >・製品情報（製品に関するニュース）</li>
+                                <li>・サステナビリティ（サステナビリティ、ESGに関するニュース）</li>
+                            </ul>
+                            <h3 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }} className='text-[14px] text-black'>IRニュースに含まれるカテゴリ</h3>
+                            <ul >
+                                <li>・IR（IR指定、適時開示情報等のニュース）</li>
+                            </ul>
+                        </div>
+                        <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
+                            <Image
+                                src="/ex_02_allnews.png"
+                                alt="フロント、一般ニュースとIRニュースが分かれて表示されている"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                        </div>
+                    </div>
                     
+                    {/* 説明：03：一般ニュース */}
+                    <div className="pb-10 max-w-[810px] m-auto mb-20">
+                        <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>ACFやCPT UIの設定とフロントUI：一般ニュースの場合</h2>
+                        <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
+                        投稿用フィールドフォームをカスタマイズし、ダッシュボード左に配置させて入力できるように構築しました。
+                        </div>
+                        <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
+                            <Image
+                                src="/ex_03_newssetting.png"
+                                alt="管理画面、お知らせ投稿フォーム構築とカテゴリ構築"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
+                            <Image
+                                src="/ex_04_newspost.png"
+                                alt="管理画面、お知らせ投稿フォームと投稿一覧"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>
+                            特定ページの指定場所にUIとして表示させるべく実装しています。
+                            <ul>
+                                <li>・（左）トップページ：ニュースセクション（サムネイル、日付、タイトル、カテゴリのみ）</li>
+                                <li>・（中）ニュース一覧ページ：ニュースセクションとフィルタリングエリア（サムネイル、日付、タイトル、カテゴリのみ）</li>
+                                <li>・（右）個別詳細ページ：専用セクション（全ての要素）</li>
+                            </ul>
+                            </div>
+                            <Image
+                                src="/ex_05_newsui.png"
+                                alt="フロント、お知らせ表示"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                        </div>
+                    </div>
                     
+                    {/* 説明：04：IRニュース */}
+                    <div className="pb-10 max-w-[810px] m-auto mb-20">
+                        <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>ACFやCPT UIの設定とフロントUI：IRニュースの場合</h2>
+                        <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
+                        投稿用フィールドフォームをカスタマイズし、ダッシュボード左に配置させて入力できるように構築しました。
+                        </div>
+                        <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
+                            <Image
+                                src="/ex_06_irnewssetting.png"
+                                alt="管理画面、IRお知らせ投稿フォーム構築とカテゴリ構築"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UI、一覧の順番を変更することでフロント側の順番を制御することも可能です。</div>
+                            <Image
+                                src="/ex_07_irnewspost.png"
+                                alt="管理画面、IRお知らせ投稿フォームと投稿一覧"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>
+                            特定ページの指定場所にUIとして表示させるべく実装しています。トップページのIRニュースセクション内の一覧を見るボタンのクリックでニュース一覧ページへ遷移時は、ページとしては全てのカテゴリが表示されるページではありますが、IRカテゴリをフィルタリングした時と同じ状態のUIが表示されるよう制御し、IRニュースの一覧だけが表示されるように構築しています。
+                            <ul>
+                                <li>・（左）トップページ：IRニュースセクション（サムネイル、日付、タイトル、カテゴリのみ）</li>
+                                <li>・（中）ニュース一覧ページ：ニュースセクションとIRフィルタリングエリア（サムネイル、日付、タイトル、カテゴリのみ）</li>
+                                <li>・（右）個別詳細ページ：専用セクション（全ての要素）</li>
+                            </ul>
+                            </div>
+                            <Image
+                                src="/ex_08_irnewsui.png"
+                                alt="フロント、IRお知らせ表示"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                        </div>
+                    </div>
+                    
+                    {/* 説明：05：製品登録 */}
+                    <div className="pb-10 max-w-[810px] m-auto mb-20">
+                        <h2 style={{ fontFamily: "Noto Sans JP", fontWeight: 500, fontSize: 'clamp(16px, 4vw, 24px)' }} className='tracking-wider leading-[32px]  m-auto pb-[16px]'>ACFやCPT UIの設定とフロントUI：製品登録の場合</h2>
+                        <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px]  m-auto'>
+                        投稿用フィールドフォームをカスタマイズし、ダッシュボード左に配置させて入力できるように構築しました。カテゴリは事業分類（大、中分類）、特徴分類に分けて構築。
+                        事業分類ページの中でOR検索を可能にし、必要な製品へのアクセス性を高めました。特徴分類の文字列の決め手は、特に企業が強みやブランディングとしてアピールしたい分野分類、クライアントや産業界が社会課題としている分野分類等に絞り込み、多くても6つまでと数を増やしすぎないことを徹底しました。
+                        <h3 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }} className='text-[14px] text-black'>事業分類に含まれるカテゴリ</h3>
+                            <ul>
+                                <li>・大分類3種類（A:検査装置設備、B:工具周辺機器、C:工業炉）</li>
+                                <li>・中分類9種類（A3種:測定設備・検査装置・測定器、B3種:光学部品・切削加工・研磨研削、C3種:バーナ・プラント・熱処理）</li>
+                            </ul>
+                            <h3 style={{ fontFamily: "Noto Sans JP", fontWeight: 500 }} className='text-[14px] text-black'>特徴分類に含まれるカテゴリ</h3>
+                            <ul >
+                                <li>・特徴分類14種類（課題6種、用途3種、材料3種、受託テストtrue/false）</li>
+                            </ul>
+                        </div>
+                        
+                        <div className="w-[100%] m-auto grid grid-cols-1 gap-1">
+                            <Image
+                                src="/ex_09_prdsetting1.png"
+                                alt="管理画面、IRお知らせ投稿フォーム構築とカテゴリ構築"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <Image
+                                src="/ex_10_prdsetting2.png"
+                                alt="管理画面、IRお知らせ投稿フォームと投稿一覧"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <Image
+                                src="/ex_11_prdsetting3.png"
+                                alt="管理画面、IRお知らせ投稿フォームと投稿一覧"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#6c6c6c] text-[12px] tracking-wider leading-[24px] pt-4'>構築したフォームの入力UIと投稿一覧。プラグインで投稿一覧の順番を制御し、フロント側のUIの並び順を決定できることを可能にしました。</div>
+                            <Image
+                                src="/ex_12_prdpost.png"
+                                alt="管理画面、IRお知らせ投稿フォームと投稿一覧"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                            <div style={{ fontFamily: "Noto Sans JP", fontWeight: 400 }} className='text-[#d94040] text-[12px] tracking-wider leading-[24px] pt-4'>
+                            絞り込み検索ではOR検索を採用しています。レスポンシブ、製品トップ、個別詳細ページなどのUIは、現在実装更新中です。そのほか一部製品ページでは機能していない箇所もあります、ご了承ください。
+                            
+                            <ul>
+                                <li>・（左）トップページ：現在実装更新中</li>
+                                <li>・（中）製品の各大分類のトップ：特定分類の製品一覧及びOR検索エリア</li>
+                                <li>・（右）個別詳細ページ：現在実装更新中</li>
+                            </ul>
+                            </div>
+                            <Image
+                                src="/ex_13_prdui.png"
+                                alt="フロント、IRお知らせ表示"
+                                width={810}
+                                height={500}
+                                className="m-auto mt-6 w-full max-w-[810px]"
+                                style={{ height: 'auto' }}
+                            />
+                             <Link href="https://lkcodetest.sakura.ne.jp/ind1221/products/category-b" style={{ fontFamily: "Noto Sans JP", fontWeight: 300 }} className='text-[20px]' target="_blank" rel="noopener noreferrer">
+                                <Btn className="bg-yellow-600 w-[70%] max-w-[500px] mx-auto">
+                                    <b>OR検索を体験する</b>
+                                </Btn>
+                            </Link>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -128,4 +316,3 @@ export default function Works01j02() {
         </div>
     )
 }
-
