@@ -21,3 +21,6 @@ Node.js: v22.17.0
 - eslint-config-next: 13.5.6
 - postcss: ^8.4.31
 - tailwindcss: ^3.3.3
+
+## VPSサイト休止中
+- 2025/10/29〜
