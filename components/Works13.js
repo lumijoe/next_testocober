@@ -46,7 +46,8 @@ export default function Works13 () {
                     smMax639:transform smMax639:translate-x-[50px]
                     sm:transform sm:translate-x-[50px]'> */}
                         {/* コーポレートサイト */}
-                        <WorksCard
+                        {/* VPS XServer */}
+                        {/* <WorksCard
                             title="Cocoonサイト"
                             workNum="J-01"
                             assignType="solo"
@@ -69,7 +70,7 @@ export default function Works13 () {
                             ]}
                             useSmallSkills={true}
                             marginRight="mr-4"
-                        />
+                        /> */}
                         {/* コーポレートサイト */}
                         <WorksCard
 
